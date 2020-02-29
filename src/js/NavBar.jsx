@@ -16,12 +16,12 @@ const Example = (props) => {
 
   return (
       <Navbar color="dark" dark expand="md">
-        <NavbarBrand href="/">Ivós Játék</NavbarBrand>
+        <NavbarBrand href="/#">Ivós Játék</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/">Játék</NavLink>
+              <NavLink href="/#">Játék</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/#/szabalyzat/">Szabályzat</NavLink>
