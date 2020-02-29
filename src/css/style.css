@@ -1,0 +1,185 @@
+/* needed for full screen background */
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+	 font-family: 'Roboto', sans-serif !important;
+	 background-image: linear-gradient(to bottom, #ff4f40, #ff4d58, #ff4f6e, #ff5483, #fa5c97);
+	 background-repeat: no-repeat;
+	 background-size: cover;
+}
+
+.MainContainer {
+	text-align: center;
+}
+
+.rules-frame {
+	margin: 2em;
+}
+
+.credits-frame {
+	margin: 2em;
+}
+
+.flip-container {
+	perspective: 1000px;
+	margin-top:1.4em;
+}
+
+/* flip the pane when hovered */
+.flip-container:active .flipper, .flip-container.active .flipper {
+	transform: 			rotateY(180deg);
+	-ms-transform: 		rotateY(180deg);
+	-webkit-transform: 	rotateY(180deg);
+	-moz-transform: 	rotateY(180deg);
+	-o-transform: 		rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+
+	width: 	320px;
+	height: 480px;
+}
+
+
+/* flip speed goes here */
+.flipper {
+	transition: 		0.5s;
+	transform-style: 	preserve-3d;
+	width: 				320px;
+	position: 			relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: 		hidden;
+	-webkit-backface-visibility:hidden;
+	-ms-backface-visibility: 	hidden;
+	-moz-backface-visibility: 	hidden;
+	-o-backface-visibility: 	hidden;
+	position: 					absolute;
+	top: 						0;
+	left: 						0;
+	border-radius:				7px;
+}
+
+/* front pane, placed above back */
+.back {
+	transform: 			rotateY(0deg);
+	-ms-transform: 		rotateY(0deg);
+	-webkit-transform: 	rotateY(0deg);
+	-moz-transform: 	rotateY(0deg);
+	-o-transform: 		rotateY(0deg);
+	z-index: 			2;
+	background-color: #45bdff;
+
+}
+
+/* back, initially hidden pane */
+.front {
+	transform: 			rotateY(180deg);
+	-ms-transform: 		rotateY(180deg);
+	-webkit-transform: 	rotateY(180deg);
+	-moz-transform: 	rotateY(180deg);
+	-o-transform: 		rotateY(180deg);
+  	background-color: 	white;
+  	text-align: 		center;
+  	border: 			2px solid black;
+
+}
+
+.btn-card{
+	position: absolute;
+	right:    100px;
+	bottom:   25px;
+	background-color: #1a1a1a !important;
+	color: white;
+	border: none;
+	border-radius: .5rem;
+	box-shadow: 2px 3px rgba(0,0,0,0.5);
+	background-color:#1a1a1a;
+}
+
+.btn-card:hover{
+	color: white !important;
+}
+
+/* override bootstrap dark theme*/
+.bg-dark {
+    background-color:  #1a1a1a !important;
+}
+
+#legal_button{
+	background-color: #7c1d47 !important;
+	border-color: #7c1d47 !important;
+}
+
+.modal {
+    display: 			none; /* Hidden by default */
+    position: 			fixed; /* Stay in place */
+    z-index: 			1; /* Sit on top */
+    left: 				0;
+    top: 				0;
+    width: 				100%; /* Full width */
+    height: 			100%; /* Full height */
+    overflow: 			auto; /* Enable scroll if needed */
+    background-color: 	rgb(0,0,0); /* Fallback color */
+    background-color: 	rgba(0,0,0,0.4); /* Black w/ opacity */
+    text-align: 		center;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: 	#1e1c1c !important;
+    margin: 			auto;
+    padding: 			20px;
+    border: 			5px solid #888 !important;
+    width: 				500px;
+	height: 			480px;
+	color:				white;
+}
+
+/* Modal Content */
+.modal-content-mobile {
+    background-color: 	#1e1c1c !important;
+    margin: 			auto;
+    padding: 			5px;
+    border: 			1px solid #888;
+    width: 				100%;
+	height: 			100%;
+	font-size: 			1.5em;
+	color:				white;
+}
+.back_img
+{
+	border: 			2px solid black;
+	border-radius:		7px;
+	padding: 80px;
+	padding-top: 130px;
+	padding-bottom: 200px;
+}
+
+.txt-question
+{
+	color:		black; 
+	margin-top:	30px; 
+	font-size:	26px; 
+	padding:	10px;
+	position: relative;
+	top: 30%;
+	transform: translateY(-50%);
+}
+
+.left-card-label{
+	font-weight: bold;
+	font-size: 1.4em;
+	margin-top: 1em;
+}
+
+@media only screen and (max-width: 321px) {
+	.flip-container{
+		padding-left: 0px !important;
+	}
+}
