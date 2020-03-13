@@ -15,6 +15,10 @@ body {
 	text-align: center;
 }
 
+.lang-logo {
+	height: 1.2rem;
+}
+
 .rules-frame {
 	margin: 2em;
 }
@@ -91,6 +95,7 @@ body {
 }
 
 .btn-card{
+	width: 120px;
 	position: absolute;
 	right:    100px;
 	bottom:   25px;
