@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
+
 import * as data from './questions.json'
 
-import card from './../img/Cocktail-512.png'; // Tell Webpack this JS file uses this image
+import card from './../img/cocktail.png'; 
 
 import './../css/style.css';
 import './../css/animate.css';
-
 
 
 export default class Game extends Component {
@@ -17,6 +17,7 @@ export default class Game extends Component {
       flipClasses: "flip-container",
       currentQuestion: ""
     };
+
   }
 
   componentWillUpdate() {
@@ -44,17 +45,20 @@ export default class Game extends Component {
 
   render() {
 
+    const i18n = this.props.i18n;
+    const left_cards = this.state.questions.length;
+
     return (
       <div align="center" width="100%">
-        <div class="left-card-label">Még {this.state.questions.length} kártya</div>
+        <div className="left-card-label"> {i18n.t("game.card_left").replace('%NUMBER%', left_cards)} </div>
         <div id="lap1" className={this.state.flipClasses} align="center" onClick={this.cardClickHandler}>
           <div className="flipper" >
             <div className="back">
-              <img className="back_img" src={card} height="100%" width="100%" />
+              <img className="back_img" src={card} height="100%" width="100%" alt='back'/>
             </div>
             <div className="front">
               <div id="kerdes1" className="txt-question">  {this.state.currentQuestion} </div>
-              <button className="btn btn-warning btn-lg btn-card" onClick={this.replaceCard}> Következő </button>
+              <button className="btn btn-warning btn-lg btn-card" onClick={this.replaceCard}> {i18n.t("game.next")} </button>
             </div>
           </div>
         </div>
@@ -78,7 +82,7 @@ export default class Game extends Component {
       });
     }, 500);
 
-    if (this.state.questions.length != 0) {
+    if (this.state.questions.length !== 0) {
       this.setNewQuestion();
     } else {
       this.setState({
