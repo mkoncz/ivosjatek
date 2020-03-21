@@ -52,7 +52,7 @@
       "Drink if you are vegan."
     ],
     "relationship": [
-      "Drink 1 if you are single, 2 if you are in relationship."
+      "Drink 1 if you are single, 2 if you are in a relationship."
     ],
     "opinion": [
       "Drink if you think size matters.",
@@ -61,8 +61,8 @@
     "actual": [
       "Drink if you work tomorrow.",
       "Drink if you haven't visited a dentalist in the last one year.",
-      "Drink if you were born more than 50 km from here.",
-      "Drink if you did not show your real name on Facebook.",
+      "Drink if you were born more than 50 km away from here.",
+      "Drink if you do not show your real name on Facebook.",
       "Drink if you used Facebook today.",
       "Drink if you haven't had a shower today.",
       "Drink if you were in church this month.",
@@ -119,7 +119,7 @@
       "Drink if you have ever born a child.",
       "Drink if you have ever cried because of the death of a celebrity.",
       "Drink if you have ever had a bone fracture.",
-      "Drink if you have ever broke your leg.",
+      "Drink if you have ever broken your leg.",
       "Drink if you have ever denied the Facebook friend request of your coworker.",
       "Drink if you have ever returned a cloth after you wore it.",
       "Drink if you have ever had lice.",
@@ -132,7 +132,7 @@
       "Drink if you have ever learned French.",
       "Drink if you have ever learned Italian.",
       "Drink if you have ever learned Spanish.",
-      "Drink if you have ever drove a car after you drunk alcohol.",
+      "Drink if you have ever driven a car after you drunk alcohol.",
       "Drink if you have ever been awake for 48 hours.",
       "Drink if you have ever told someone \"I love you\", just to get laid.",
       "Drink if you have ever been kicked out from a club.",
@@ -155,14 +155,14 @@
       "Drink if you have ever had a sexpartner who was older than 30.",
       "Drink if you have ever had a sexpartner who was older than 40.",
       "Drink if you have ever had a sexpartner who was older than 50.",
-      "Drink if you have ever caught while masturbating.",
+      "Drink if you have ever been caught during masturbating.",
       "Drink if you have ever had sex outdoor.",
       "Drink if you have ever had sex in a bathroom.",
       "Drink if you have ever had sex in the kitchen.",
       "Drink if you have ever had sex on the floor.",
       "Drink if you have ever got a blowjob while driving.",
       "Drink if you have ever masturbated in front of someone else.",
-      "Drink if you have ever woke up next tto someone who did not know.",
+      "Drink if you have ever waken up next to someone who did not know.",
       "Drink if you have ever kissed someone of your sex.",
       "Drink if you have ever had a gay/lesbian dream.",
       "Drink if you have ever tried your boyfriend's or girlfriend's underwear.",
@@ -208,7 +208,7 @@
       "Drink if you have ever seen your friend having sex.",
       "Drink if you have ever licked whipped cream from someone else.",
       "Drink if you have ever got a lap dance.",
-      "Drink if you have ever gave someone a hip dance."
+      "Drink if you have ever given someone a hip dance."
     ],
     "give name": [
     ],
@@ -240,7 +240,6 @@
       "Lick your elbow or drink 2.",
       "Do 5 squats. Drink a sip after each one.",
       "Hold your breath for 15 seconds or drink one."
-
     ],
     "do or drink (bravery)": [
       "Sing a song from Lady Gaga or drink a shot.",
