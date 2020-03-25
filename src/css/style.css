@@ -28,6 +28,10 @@ body {
 	margin: 2em;
 }
 
+.releases-frame {
+	margin: 2em;
+}
+
 .flip-container {
 	perspective: 1000px;
 	margin-top:1.4em;
