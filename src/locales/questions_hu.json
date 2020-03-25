@@ -1,5 +1,5 @@
 {
-  "hun_data": {
+  "questions": {
     "külső tulajdonság, állapot, vélemény alapján": [
       "Kék szeműek isznak.",
       "Barna szeműek isznak.",
@@ -23,6 +23,7 @@
       "Az iszik, akinek legalább D kosaras a melltartója.",
       "Az iszik, akinek nagyobb a farka, mint 15 cm.",
       "Az iszik, akinek kisebb a farka, mint 21 cm.",
+      "Az iszik, aki nincs körülmetélve.",
       "Az iszik, aki kopaszodik."
     ],
     "belső tulajdonság": [
@@ -49,6 +50,7 @@
       "Az iszik, akinek nincs Snapchate.",
       "Az iszik, akinek nincs telefonja.",
       "Az iszik, akinek nincs Instagramja.",
+      "Az iszik, akinek privát az Instagramja.",
       "Az iszik, akinek van Tindere.",
       "Az iszik, akinek iPhoneja van.",
       "Az iszik, akinek Androidja van.",
@@ -93,7 +95,10 @@
       "Akinek sör van a poharában, iszik.",
       "Az iszik, aki cigizett már mióta elkezdődött a játék.",
       "Cigiszünet! ",
-      "Válassz ivópajtit, egy embernek csak egy ivópajtija lehet. (Ivópajti: mindig iszik, ha te is.)"
+      "Az iszik, aki nem akart ezzel az IvósJátékkal játszani.",
+      "Válassz ivópajtit! Egy embernek csak egy ivópajtija lehet. (Ivópajti: mindig iszik, ha te is.)",
+      "Az iszik, aki a játék után indul bulizni. Fenékig a poharakat!"
+
     ],
     "szeretett dolog": [
       "Aki szereti a focit, iszik."
@@ -106,7 +111,9 @@
       "Az iszik, aki szerinted a legszexibb rajtad kívül.",
       "Az iszik, aki a szerinted a legsmucigabb a borravaló adásnál.",
       "Az iszik, akinek szerinted a legnagyobb.",
-      "Az iszik, aki szerinted a leglustább."
+      "Az iszik, aki szerinted a leglustább.",
+      "Az iszik, aki szerinted a legtöbb emberrel feküdt le."
+
     ],
     "az iszik aki már (én még soha)": [
       "Az iszik, aki fogott már fegyvert. ",
@@ -114,12 +121,11 @@
       "Az iszik, aki hányt már mások előtt.",
       "Az iszik, aki nézett már meg 3 epizódot egyhuzamban valamelyik sorozatból.",
       "Az iszik, aki rúgott már be egyedül.",
+      "Az iszik, aki esett már be részegen egy bokorba.",
       "Az iszik, aki tartja a kapcsolatot egy exével.",
       "Az iszik, aki volt már részeg három egymást követő este.",
       "Az iszik, aki még nem látott egy Star Wars filmet sem.",
       "Az iszik, aki még nem látott egy South Park epizódot sem.",
-      "Az iszik, aki a játék után indul bulizni. Fenékig a poharakat!",
-      "Az iszik, aki nem akart ezzel az IvósJátékkal játszani.",
       "Az iszik, aki reggelizett már sört.",
       "Az iszik, aki felejtette már el lehúzni a WC-t.",
       "Az iszik, akit keltett már fel valaki a héten.",
@@ -134,7 +140,7 @@
       "Az iszik, aki ivott alkoholt fiatalkorúként.",
       "Az iszik, akit ütöttek már arcon ököllel.",
       "Az iszik, akinek sikerült felfognia az Eredet című filmet.",
-      "Az iszik, aki szült már.",
+      "Az iszik, aki már szült életében.",
       "Az iszik, aki sírt már egy híresség halála miatt.",
       "Az iszik, aki játszott már Yu-gi-oh-t és tudta is a szabályokat.",
       "Az iszik, aki csempészett már át valamit a határon.",
@@ -142,27 +148,29 @@
       "Az iszik, akinek tört már el a lába. ",
       "Az iszik, aki utasította már el egy munkatársa ismerősnek jelölését Facebookon.",
       "Az iszik, aki törölte már ki WC papíron kívül mással.",
-      "Az iszik, aki vitt már ruhát vissza az üzletbeúgy, hogy előtte hordta.",
+      "Az iszik, aki vitt már ruhát vissza az üzletbe úgy, hogy előtte hordta.",
       "Aki volt már tetves, iszik.",
       "Aki vágta már meg magát borotvával, iszik.",
       "Igyon egyet, aki lógott egy évet iskola helyett!",
       "Igyon egyet, aki verekedett már!",
+      "Igyon egyet, aki tanult olaszul!",
+      "Igyon egyet, aki tanult franciául!",
       "Igyon egyet, aki tanult németül!",
       "Igyon egyet, aki tanult angolul!",
       "Igyon egyet, aki szedett már fel valakit szórakozóhelyen!",
       "Igyon egyet, aki vezetett már miután alkoholt ivott!",
-      "Igyon egyet, aki volt már két napig egyhuzamban ébren!",
+      "Igyon egyet, aki volt már 48 óráig egyhuzamban ébren!",
       "Igyon egyet, aki mondta már hogy \"szeretlek\", csak hogy valaki lefeküdjön vele!",
       "Igyon egyet, akit dobtak már ki szórakozóhelyről!",
       "Igyon egyet, akinek szerveztek már meglepetésbulit!",
       "Igyon egyet, aki nyomott már ki máson pattanást!",
-      "Igyon egyet, aki pattintott már valakit állcsúcson!"
+      "Igyon egyet, aki pattintott már valakit állcsúcson!",
+      "Igyon egyet, akit pattintottak már állcsúcson!"
     ],
     "az iszik aki már (én még soha) 18+": [
       "Az iszik, aki fürdött már meztelenül tóban/folyóban/tengerben.",
       "Az iszik, aki használt már szexuális segédeszközt. (Óvszer nem számít)",
       "Az iszik, aki vett már fel szoknyát/nadrágot, alsónemű nélkül.",
-      "Az iszik, aki nincs körülmetélve.",
       "Az iszik, aki szexelt már kocsiban.",
       "Az iszik, aki szexelt már liftben.",
       "Az iszik, aki fogott már legalább D kosaras melleket.",
@@ -194,6 +202,14 @@
       "Az iszik, aki megcsókolta már egy barátja tesóját.",
       "Az iszik, aki táncolt már pucéran a tükör előtt.",
       "Az iszik, akinek volt már erotikus álma.",
+      "Az iszik, aki fizetett már elő pornóoldalra.",
+      "Az iszik, aki fizetett már webkamerás szexért.",
+      "Az iszik, aki vetközött webkamera előtt.",
+      "Az iszik, aki szaunázott már meztelenül.",
+      "Az iszik, aki napozott már topless.",
+      "Az iszik, aki fotózott már le valakit meztelenül a tudta nélkül.",
+      "Az iszik, aki volt már happy finish masszázson.",
+      "Az iszik, aki kiskorában maradt fent azért sokáig, hogy pornót nézhessen a kábeltévén.",
       "Az iszik, aki látta már valamelyik másik játékost meztelenül.",
       "Az iszik, aki feküdt már le olyannal, akivel nem kellett volna.",
       "Az iszik, aki maszturbált már több, mint háromszor egy nap alatt.",
@@ -207,6 +223,7 @@
       "Az iszik, aki maszturbált már gyümölccsel.",
       "Aki feküdt már le külföldivel, iszik.",
       "Akinek volt már fekete szexpartnere, iszik.",
+      "Akinek volt már ázsiai szexpartnere, iszik.",
       "Igyon egyet, aki nézett már ma pornót!",
       "Igyon egyet, aki nézett már a héten pornót!",
       "Igyon egyet, aki már volt meztelen több ember előtt (nem öltözőben)!",
@@ -230,7 +247,8 @@
       "Igyon egyet, aki használt már sikosítót",
       "Igyon egyet, aki nyalt már le tejszínhabot valakiről.",
       "Igyon egyet, aki öltáncolt már valakinek.",
-      "Igyon egyet, aki kapott már öltáncot valakitől."
+      "Igyon egyet, aki kapott már fütyifotót valakitől.",
+      "Igyon egyet, aki küldött már fütyifotót valakinek."
     ],
     "névadás": [
       "Mostantól mindenkit csak Carlos Albertonak szólithattok, aki a saját nevén szólít valakit, az iszik.",
@@ -252,12 +270,14 @@
       "Mindenki mond egy szereplőt a Star Warsból. A jobbra ülő kezd, és addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. ",
       "Mindenki mond egy szereplőt a Shrekből. A jobbra ülő kezd, és addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. ",
       "Mindenki mond egy szereplőt a Oroszlánkirályból. A jobbra ülő kezd, és addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. ",
-      "Mindenki mond egy hipermarketet. A jobbra ülő kezd, és addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. ",
+      "Mindenki mond egy szupermarketet. A jobbra ülő kezd, és addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. ",
       "Mindenki mond egy szexuális segédeszközt. A jobbra ülő kezd, és addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. ",
       "Mindenki mond egy traktor márkát. A jobbra ülő kezd, és addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. ",
       "Mindenki mond egy pornóoldalt. A jobbra ülő kezd, és addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. ",
       "Mindenki mond egy pornókiadót. A jobbra ülő kezd, és addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. ",
-      "Mindenki mond egy pornószínészt/színésznőt. A jobbra ülő kezd, és addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. ",
+      "Mindenki mond egy pornószínészt/pornószínésznőt. A jobbra ülő kezd, és addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. ",
+      "Mindenki mond egy pornószínésznőt. A jobbra ülő kezd, és addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. ",
+      "Mindenki mond egy magyar színészt. A jobbra ülő kezd, és addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. ",
       "Mindenki mond egy tampon márkát. A jobbra ülő kezd, és addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. ",
       "Mindenki mond egy sör márkát. A jobbra ülő kezd, és addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. ",
       "Mindenki mond egy vodka márkát. A jobbra ülő kezd, és addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. ",
@@ -268,7 +288,11 @@
       "Mindenki mond egy egyetemet. A jobbra ülő kezd, és addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. ",
       "Mindenki mond egy sorozatot. A jobbra ülő kezd, és addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. ",
       "Mindenki mond egy samponmárkát. A jobbra ülő kezd, és addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. ",
-      "Mindenki mond egy színt. A jobbra ülő kezd, és addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. "
+      "Mindenki mond egy színt. A jobbra ülő kezd, és addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. ",
+      "Mindenki mond egy Hungarikumot. A jobbra ülő kezd, és addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. ",
+      "Mindenki mond egy telefon márkát. A jobbra ülő kezd, és addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. ",
+      "Mindenki mond egy laptop márkát. A jobbra ülő kezd, és addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. ",
+      "Mindenki mond egy TV márkát. A jobbra ülő kezd, és addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. "
     ],
     "tedd vagy iszol (erő, ügyesség)": [
       "Csinálj 10 fekvőtámaszt. Ha nem tudsz, annyit iszol, amennyit a jobbra ülő mond.",
@@ -307,7 +331,7 @@
       "Adj egy bimbicsavarást a jobbra ülőnek! De ne túl durván! (Ha nem megvalósítható, igyatok egyet!)",
       "Kioszthatsz a játékosok között annyi kortyot, ahány éves vagy.",
       "Bármit kérdezhetsz valamelyik szomszédodtól, ha nem válaszol, iszik.",
-      "Idézz valamit a Mónika Show-ból vagy igyál egyet"
+      "Idézz valamit a Mónika Show-ból vagy igyál egyet."
     ],
     "igyál": [
       "Igyál egy kortyot a balra ülő poharából!",
@@ -347,8 +371,8 @@
     ],
     "szabály": [
       "Mostantól ivás előtt körbe kell nyalnod a poharad, ha elfelejted, duplán iszol.",
-      "Mostantól csak bal kézzel foghatod meg a pohatat, ha elfelejted, akkor duplán iszol.",
-      "Mostantól csak jobb kézzel foghatod meg a pohatat, ha elfelejted, akkor duplán iszol.",
+      "Mostantól csak bal kézzel foghatod meg a poharat, ha elfelejted, akkor duplán iszol.",
+      "Mostantól csak jobb kézzel foghatod meg a poharat, ha elfelejted, akkor duplán iszol.",
       "Mostantól minden ivás előtt fel kell állnod. Ha elfelejted, akkor duplán iszol.",
       "Mostantól minden ivás előtt azt kell mondanod: 'Ámen'. Ha elfelejted, akkor duplán iszol.",
       "Mostantól minden ivás előtt azt kell mondanod: 'Jézus teste'. Ha elfelejted, akkor duplán iszol.",
@@ -389,7 +413,8 @@
       "A többiek próbálják kitalálni! Ha választanod kellene, hogy kivel feküdj le David Beckham vagy The Rock, melyiket választanád? Aki rosszul tippel, az iszik.",
       "A többiek próbálják kitalálni! Ha ingyen lehetőséged lenne, megváltoztatnál magadon valamit egy plasztikai műtéttel? Aki rosszul tippel, az iszik.",
       "A többiek próbálják kitalálni! Ha választanod kellene, akkor megfeleznéd, vagy megdupláznád a súlyod? Aki rosszul tippel, az iszik.",
-      "A többiek próbálják kitalálni! Ha választanod kellene, akkor teljesen kopasz lennél, vagy megennél egy élő csótányt? Aki rosszul tippel, az iszik."
+      "A többiek próbálják kitalálni! Ha választanod kellene, akkor teljesen kopasz lennél, vagy megennél egy élő csótányt? Aki rosszul tippel, az iszik.",
+      "A többiek próbálják kitalálni! Szerinted a pornósok inkább színészek vagy prostituáltak? Aki rosszul tippel, az iszik."
     ],
     "rávágás": [
       "Olvasd fel hangosan, ha befejezted, indul a játék! Aki először megissza, ami a poharában van, választhat, ki igyon egy rövidet.",
