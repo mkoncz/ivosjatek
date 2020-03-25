@@ -41,7 +41,10 @@ const NavBar = (props) => {
               <NavLink href="/#/szabalyzat/">{props.i18n.t("nav.rules")}</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/#/keszito/">{props.i18n.t("nav.contact")}</NavLink>
+              <NavLink href="/#/frissitesek/">{props.i18n.t("nav.releasenotes")}</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/#/kapcsolat/">{props.i18n.t("nav.contact")}</NavLink>
             </NavItem>
             <NavItem>
               <NavLink onClick={selectEnglish}>
