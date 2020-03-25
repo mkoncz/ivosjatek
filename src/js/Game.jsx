@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
-import * as hun_data from '../locales/questions_hu.json'
-import * as en_data from '../locales/questions_en.json'
+import * as hun_question_resource from '../locales/questions_hu.json'
+import * as en_question_resource from '../locales/questions_en.json'
 
 import card from './../img/cocktail.png';
 
@@ -22,89 +22,29 @@ export default class Game extends Component {
 
   }
 
-  // set the text of the first car after the questions are loaded
   componentDidUpdate() {
 
-    if (this.state.currentQuestion === '') {
-      this.setNewQuestion();
-    }
-
+    //if the language is changed
     if(this.props.currentLang!==this.state.currentLanguage){
-
-      let allQuestions = [];
-
-      let questionResource;
-
-      if (hun_data != null && hun_data.questions != null && this.props.currentLang === 'hu') {
-        questionResource = hun_data.questions
-      } else if (en_data != null && en_data.questions != null && this.props.currentLang === 'en') {
-        questionResource = en_data.questions
-      } else {
-        alert(this.props.i18n.t('game.no_more_question'));
-        return;
-      }
-
-      const categories = Object.keys(questionResource)
-      for (const category of categories) {
-        for (const question of questionResource[category]) {
-          allQuestions.push(question);
-        }
-      }
-
-      this.setState({
-        questions: allQuestions,
-        currentLanguage: this.props.currentLang
-      },
-        () => {
-          this.setNewQuestion();
-          this.replaceCard();
-        }
-      );
-
-      
+      this.setLocalizedPack();
     }
     
   }
 
   componentDidMount() {
 
-
-
-    let allQuestions = [];
-
-    let questionResource;
-
-    if (hun_data != null && hun_data.questions != null && this.props.currentLang === 'hu') {
-      questionResource = hun_data.questions
-    } else if (en_data != null && en_data.questions != null && this.props.currentLang === 'en') {
-      questionResource = en_data.questions
-    } else {
-      alert(this.props.i18n.t('game.no_more_question'));
-      return;
-    }
-
-    const categories = Object.keys(questionResource)
-    for (const category of categories) {
-      for (const question of questionResource[category]) {
-        allQuestions.push(question);
-      }
-    }
-
-    this.setState({
-      questions: allQuestions,
-      currentLanguage: this.props.currentLang
-    });
+    this.setLocalizedPack();
 
   }
 
   render() {
 
     const i18n = this.props.i18n;
-    const left_cards = this.state.questions.length;
+    const number_of_left_cards = this.state.questions.length;
 
     return (
       <div align="center" width="100%">
-        <div className="left-card-label"> {i18n.t("game.card_left").replace('%NUMBER%', left_cards)} </div>
+        <div className="left-card-label"> {i18n.t("game.card_left").replace('%NUMBER%', number_of_left_cards)} </div>
         <div id="lap1" className={this.state.flipClasses} align="center" onClick={this.cardClickHandler}>
           <div className="flipper" >
             <div className="back">
@@ -174,5 +114,38 @@ export default class Game extends Component {
         currentQuestion: randomQuestion
       });
     }, 500);
+  }
+
+  setLocalizedPack(){
+
+    let allQuestions = [];
+
+    let localizedPack;
+
+    if (hun_question_resource != null && hun_question_resource.questions != null && this.props.currentLang === 'hu') {
+      localizedPack = hun_question_resource.questions
+    } else if (en_question_resource != null && en_question_resource.questions != null && this.props.currentLang === 'en') {
+      localizedPack = en_question_resource.questions
+    } else {
+      alert(this.props.i18n.t('game.no_more_question'));
+      return;
+    }
+
+    const categories = Object.keys(localizedPack)
+    for (const category of categories) {
+      for (const question of localizedPack[category]) {
+        allQuestions.push(question);
+      }
+    }
+
+    this.setState({
+      questions: allQuestions,
+      currentLanguage: this.props.currentLang
+    },
+      () => {
+        this.setNewQuestion();
+        this.replaceCard();
+      }
+    );
   }
 }
