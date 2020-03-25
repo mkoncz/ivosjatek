@@ -1,15 +1,21 @@
+// React JS libraries
 import React, { Component } from 'react'
-import NavBar from './NavBar';
-import Credits from './Credits';
-import Rules from './Rules';
-import Game from './Game';
-import i18n from "./i18n";
-
 import {
   HashRouter,
   Switch,
   Route
 } from "react-router-dom";
+
+// IvosJatek React component
+import NavBar from './NavBar';
+import Credits from './Credits';
+import Releases from './Releases';
+import Rules from './Rules';
+import Game from './Game';
+
+// internationalization
+import i18n from "./i18n";
+
 
 export default class MainContainer extends Component {
 
@@ -31,14 +37,20 @@ export default class MainContainer extends Component {
             />
           </div>
           <Switch>
-            <Route path="/szabalyzat">
+            <Route path="/szabalyzat"> 
               <Rules  
                 i18n={i18n} 
                 currentLang={this.state.currentLang}
               />
             </Route>
-            <Route path="/keszito">
+            <Route path="/kapcsolat">
               <Credits 
+                i18n={i18n} 
+                currentLang={this.state.currentLang}
+              />
+            </Route>
+            <Route path="/frissitesek">
+              <Releases 
                 i18n={i18n} 
                 currentLang={this.state.currentLang}
               />
@@ -53,8 +65,12 @@ export default class MainContainer extends Component {
         </HashRouter>
     );
   }
+
+  // triggered by child components via props
   reloadLanguage = (lang) => {
+    // changes the selected language in the i18n module
     i18n.changeLanguage(lang);
+    // changing the current language triggers the uploading of child components
     this.setState({
       currentLang: lang
     });
