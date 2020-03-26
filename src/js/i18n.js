@@ -2,8 +2,11 @@ import i18n from "i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 import XHR from "i18next-xhr-backend";
 
-import translationEng from "../locales/translation_en.json";
+import translationEn from "../locales/translation_en.json";
 import translationHu from "../locales/translation_hu.json";
+import rulesHu from "../locales/rules_hu.json";
+import rulesEn from "../locales/rules_en.json";
+
 i18n
   .use(XHR)
   .use(LanguageDetector)
@@ -20,14 +23,16 @@ i18n
 
     resources: {
       en: {
-        translations: translationEng
+        translations: translationEn,
+        rules: rulesEn
       },
       hu: {
-        translations: translationHu
+        translations: translationHu,
+        rules: rulesHu
       }
     },
     // have a common namespace used around the full app
-    ns: ["translations"],
+    ns: ["translations","rules"],
     defaultNS: "translations"
   });
 
