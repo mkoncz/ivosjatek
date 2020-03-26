@@ -14,18 +14,22 @@ import * as en_note_resource from '../locales/release_notes_en.json'
 function Releases(props) {
 
   // Localized list of the release notes.
+  // Note entries contain a title and a list of 
   let notes = props.currentLang === "hu" ? hun_note_resource.notes : en_note_resource.notes;
 
-  // Iterate and print release notes. Starts from the newest one.
+  // Iterate and print release notes. 
+  // Listing starts from the newest entry.
   return (
     <div className="releases-frame">
       {notes.reverse().map((release) => {
         return (
           <div>
             <h2>{release.title}</h2>
-            {release.notes.split("\n").map((bullet_point) => {
-              return <div> {bullet_point} </div>
-            })}
+            <ul>
+              {release.changes.map((bullet_point) => {
+                return <li> {bullet_point} </li>
+              })}
+            </ul>
             <br />
           </div>)
       })}
@@ -33,4 +37,5 @@ function Releases(props) {
   );
 }
 
+// Exporting component.
 export default Releases;
