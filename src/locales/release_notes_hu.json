@@ -2,19 +2,31 @@
   "notes":[
     {
       "title": "2017. február",
-      "notes": "- Elkészült az IvósJáték első verziója és elérhetővé vált az ivosjatek.hu-n."
+      "changes": [
+        "Elkészült az IvósJáték első verziója és elérhetővé vált az ivosjatek.hu-n."
+      ]
     },
     {
       "title": "2020. január",
-      "notes": "- Elkészült az IvósJáték React JS verziója."
+      "changes": [
+        "Elkészült az IvósJáték React JS verziója."
+      ]
     },
     {
       "title": "2020. február",
-      "notes": "- Az ivósjáték forráskódja elérhető a Github-on."
+      "changes": [
+        "Az ivósjáték forráskódja elérhető a Github-on."
+      ]
     },
     {
       "title": "2020 március",
-      "notes": "- Az alkamazás angol nyelven is elérhető. \n- Angol kérdéspakli elkészítve. \n- Nyelvválasztás nemzeti zászlókkal. \n- A fennamardó kártyák száma jelezve a felhasználónak. \n- Aloldal létrehozva a verziófrissítések leírásához."
+      "changes": [
+        "Az alkamazás angol nyelven is elérhető.",
+        "Angol kérdéspakli elkészítve.",
+        "Nyelvválasztás nemzeti zászlókkal.",
+        "A fennamardó kártyák száma jelezve a felhasználónak.",
+        "Aloldal létrehozva a verziófrissítések leírásához."
+      ]
     }
   ]
 }
