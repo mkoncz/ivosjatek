@@ -14,7 +14,7 @@ import * as en_note_resource from '../locales/release_notes_en.json'
 function Releases(props) {
 
   // Localized list of the release notes.
-  // Note entries contain a title and a list of 
+  // Note entries contain a title and a list of changes.
   let notes = props.currentLang === "hu" ? hun_note_resource.notes : en_note_resource.notes;
 
   // Iterate and print release notes. 
