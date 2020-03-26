@@ -11,19 +11,23 @@ function Rules(props) {
   return (
     <div className="rules-frame">
       <h2>Megkötések</h2>
-      <p>A játék csak 18 éven felüliek számára engedélyezett.</p>
-      <p>A játék csak saját felelősségre használható.</p>
-      <p>A játék során történő alkoholfogyasztás nem kötelező, pusztán lehetőség.</p>
-      <p>Alkoholfogyasztás esetén minden résztvevő törekedjen a mértékletes alkoholfogyasztásra!</p>
-      <p>A feladatok végrehajtása nem kötelező.</p>
+      <ul>
+        <li>A játék csak 18 éven felüliek számára engedélyezett.</li>
+        <li>A játék csak saját felelősségre használható.</li>
+        <li>A játék során történő alkoholfogyasztás nem kötelező, pusztán lehetőség.</li>
+        <li>Alkoholfogyasztás esetén minden résztvevő törekedjen a mértékletes alkoholfogyasztásra!</li>
+        <li>A feladatok végrehajtása nem kötelező.</li>
+      </ul>
       <h2>Játékszabályok</h2>
-      <p>Kattints/koppints a kártya hátlapjára.</p>
-      <p>Olvasd fel a kártya előlapján lévő feladatot.</p>
-      <p>A játékosok hajtsák végre a feladatot (ha szeretnék).</p>
-      <p>A "Következő" gombbal húzd elő a következő lapot.</p>
+      <ul>
+        <li>Kattints/koppints a kártya hátlapjára.</li>
+        <li>Olvasd fel a kártya előlapján lévő feladatot.</li>
+        <li>A játékosok hajtsák végre a feladatot (ha szeretnék).</li>
+        <li>A "Következő" gombbal húzd elő a következő lapot.</li>
+      </ul>
     </div>
   );
 }
 
-// exporting component
+// Exporting component.
 export default Rules;
