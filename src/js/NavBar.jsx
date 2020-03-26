@@ -41,7 +41,7 @@ const NavBar = (props) => {
               <NavLink href="/#/szabalyzat/">{props.i18n.t("nav.rules")}</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/#/frissitesek/">{props.i18n.t("nav.releasenotes")}</NavLink>
+              <NavLink href="/#/frissitesek/">{props.i18n.t("nav.release_notes")}</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/#/kapcsolat/">{props.i18n.t("nav.contact")}</NavLink>
