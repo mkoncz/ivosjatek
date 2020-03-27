@@ -7,7 +7,7 @@ import React from 'react';
  * @param {Object} props.i18n Configured i18next object. It is used for the localization.
  * @param {string} props.currentLang Shortened version of the language.
  */
-function Rules(props) {
+const Rules = (props) => {
   return (
     <div className="rules-frame">
       <h2>{props.i18n.t("rules:terms_title")}</h2>

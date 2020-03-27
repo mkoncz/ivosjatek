@@ -11,7 +11,7 @@ import * as en_note_resource from '../locales/release_notes_en.json'
  * @param {Object} props.i18n Configured i18next object. It is used for the localization.
  * @param {string} props.currentLang Shortened version of the language.
  */
-function Releases(props) {
+ Releases = (props) => {
 
   // Localized list of the release notes.
   // Note entries contain a title and a list of changes.

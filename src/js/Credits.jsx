@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Credits(props) {
+const Credits = (props) => {
   return (
    <div className="credits-frame">
      <h3>{props.i18n.t("credits.contact")}</h3>
