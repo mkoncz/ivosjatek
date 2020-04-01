@@ -1,13 +1,12 @@
-// Import React module.
+// Import ReactJS module.
 import React from 'react';
 
 /**
  * List of the rules.
  * 
  * @param {Object} props.i18n Configured i18next object. It is used for the localization.
- * @param {string} props.currentLang Shortened version of the language.
  */
-const Rules = (props) => {
+const Rules = props => {
   return (
     <div className="rules-frame">
       <h2>{props.i18n.t("rules:terms_title")}</h2>
@@ -29,5 +28,5 @@ const Rules = (props) => {
   );
 }
 
-// Exporting component.
+// Export component.
 export default Rules;
