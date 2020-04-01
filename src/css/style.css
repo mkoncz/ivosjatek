@@ -11,6 +11,10 @@ body {
 	 background-size: cover;
 }
 
+.hidden{
+	visibility: hidden;
+}
+
 .MainContainer {
 	text-align: center;
 }

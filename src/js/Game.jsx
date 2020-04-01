@@ -65,11 +65,18 @@ export default class Game extends Component {
     let that = this;
 
     // bounce out current card
-    setTimeout(function () {
+    if(this.state.currentQuestion===''){
       that.setState({
-        flipClasses: "flip-container animated bounceOutRight"
+        flipClasses: "hidden"
       });
-    }, 25);
+    }else{
+      setTimeout(function () {
+        that.setState({
+          flipClasses: "flip-container animated bounceOutRight"
+        });
+      }, 25);
+
+    }
 
     // bounce in new card
     setTimeout(function () {
