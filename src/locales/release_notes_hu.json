@@ -9,13 +9,13 @@
     {
       "title": "2020. január",
       "changes": [
-        "Elkészült az IvósJáték React JS verziója."
+        "Elkészült az IvósJáték ReactJS verziója."
       ]
     },
     {
       "title": "2020. február",
       "changes": [
-        "Az ivósjáték forráskódja elérhető a Github-on."
+        "Az ivósjáték forráskódja elérhető a GitHub-on."
       ]
     },
     {
@@ -24,7 +24,7 @@
         "Az alkamazás angol nyelven is elérhető.",
         "Angol kérdéspakli elkészítve.",
         "Nyelvválasztás nemzeti zászlókkal.",
-        "A fennamardó kártyák száma jelezve a felhasználónak.",
+        "A fennmaradó kártyák száma jelezve a felhasználónak.",
         "Aloldal létrehozva a verziófrissítések leírásához."
       ]
     }
