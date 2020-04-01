@@ -1,4 +1,4 @@
-// React JS libraries
+// ReactJS modules.
 import React, { Component } from 'react'
 import {
   HashRouter,
@@ -8,7 +8,7 @@ import {
 
 // IvosJatek React component
 import NavBar from './NavBar';
-import Credits from './Credits';
+import Contact from './Contact';
 import Releases from './Releases';
 import Rules from './Rules';
 import Game from './Game';
@@ -44,7 +44,7 @@ export default class MainContainer extends Component {
               />
             </Route>
             <Route path="/kapcsolat">
-              <Credits 
+              <Contact 
                 i18n={i18n} 
                 currentLang={this.state.currentLang}
               />
