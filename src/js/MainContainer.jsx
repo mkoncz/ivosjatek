@@ -40,7 +40,6 @@ export default class MainContainer extends Component {
             <Route path="/szabalyzat"> 
               <Rules  
                 i18n={i18n} 
-                currentLang={this.state.currentLang}
               />
             </Route>
             <Route path="/kapcsolat">
