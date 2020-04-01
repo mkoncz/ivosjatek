@@ -54,13 +54,13 @@ const NavBar = props => {
             <NavLink href="/#">{props.i18n.t("nav.game")}</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/#/szabalyzat/">{props.i18n.t("nav.rules")}</NavLink>
+            <NavLink href="/#/rules/">{props.i18n.t("nav.rules")}</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/#/frissitesek/">{props.i18n.t("nav.release_notes")}</NavLink>
+            <NavLink href="/#/releases/">{props.i18n.t("nav.release_notes")}</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/#/kapcsolat/">{props.i18n.t("nav.contact")}</NavLink>
+            <NavLink href="/#/contact/">{props.i18n.t("nav.contact")}</NavLink>
           </NavItem>
           <NavItem>
             <NavLink onClick={selectEnglish}>

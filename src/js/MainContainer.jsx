@@ -6,21 +6,24 @@ import {
   Route
 } from "react-router-dom";
 
-// IvosJatek React component
+// Import the local components.
 import NavBar from './NavBar';
 import Contact from './Contact';
 import Releases from './Releases';
 import Rules from './Rules';
 import Game from './Game';
 
-// internationalization
+// Import the internationalization module.
 import i18n from "./i18n";
 
-
+/**
+ * The main container of the page.
+ */
 export default class MainContainer extends Component {
 
   constructor(){
     super();
+    // The default language is Hungarian.
     this.state = {
       currentLang: 'hu'
     };
@@ -37,18 +40,18 @@ export default class MainContainer extends Component {
             />
           </div>
           <Switch>
-            <Route path="/szabalyzat"> 
+            <Route path="/rules"> 
               <Rules  
                 i18n={i18n} 
               />
             </Route>
-            <Route path="/kapcsolat">
+            <Route path="/contact">
               <Contact 
                 i18n={i18n} 
                 currentLang={this.state.currentLang}
               />
             </Route>
-            <Route path="/frissitesek">
+            <Route path="/releases">
               <Releases 
                 i18n={i18n} 
                 currentLang={this.state.currentLang}
@@ -65,11 +68,12 @@ export default class MainContainer extends Component {
     );
   }
 
-  // triggered by child components via props
+  // Change the language of the page.
+  // The function is triggered by child components via props.
   reloadLanguage = (lang) => {
-    // changes the selected language in the i18n module
+    // Change the selected language in the i18n module.
     i18n.changeLanguage(lang);
-    // changing the current language triggers the uploading of child components
+    // Change the current language triggers the uploading of child components.
     this.setState({
       currentLang: lang
     });
