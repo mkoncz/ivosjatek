@@ -1,4 +1,4 @@
-// Import React module.
+// Import ReactJS module.
 import React from 'react';
 
 // Import localized questions.
@@ -11,7 +11,7 @@ import * as en_note_resource from '../locales/release_notes_en.json'
  * @param {Object} props.i18n Configured i18next object. It is used for the localization.
  * @param {string} props.currentLang Shortened version of the language.
  */
- const Releases = (props) => {
+ const Releases = props => {
 
   // Localized list of the release notes.
   // Note entries contain a title and a list of changes.
@@ -37,5 +37,5 @@ import * as en_note_resource from '../locales/release_notes_en.json'
   );
 }
 
-// Exporting component.
+// Export component.
 export default Releases;
