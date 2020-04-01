@@ -22,7 +22,7 @@ import en_logo from './../img/en_logo.jpg'; // https://www.publicdomainpictures.
  * @param {Object} props.i18n Configured i18next object. It is used for the localization.
  * @param {string} props.currentLang Shortened version of the language. Changing the currentLang property triggers an update at the language change.
  */
-const NavBar = (props) => {
+const NavBar = props => {
 
   // isOpen is a state of the NavBar.
   // setIsOpen sets the isOpen state.
@@ -31,13 +31,13 @@ const NavBar = (props) => {
   // Reverts the isOpen state.
   // Works without parameter, therefore can be used as an eventhandler in JSX.
   const toggle = () => setIsOpen(!isOpen);
-  
+
   // Sets the selected language to English.
   // Changes state of the parent (MainContainer) component.
   const selectEnglish = () => {
     props.reloadLanguage('en');
   }
-  
+
   // Sets the selected language to Hungarian.
   // Changes state of the parent (MainContainer) component.
   const selectHungarian = () => {
@@ -45,37 +45,38 @@ const NavBar = (props) => {
   }
 
   return (
-      <Navbar color="dark" dark expand="md">
-        <NavbarBrand href="/#">{props.i18n.t("nav.title")}</NavbarBrand>
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
-            <NavItem>
-              <NavLink href="/#">{props.i18n.t("nav.game")}</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/#/szabalyzat/">{props.i18n.t("nav.rules")}</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/#/frissitesek/">{props.i18n.t("nav.release_notes")}</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/#/kapcsolat/">{props.i18n.t("nav.contact")}</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink onClick={selectEnglish}>
-                <img className="lang-logo" src={en_logo} alt='english'/>
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink onClick={selectHungarian}>
-                <img className="lang-logo" src={hu_logo} alt='hungarian'/>
-              </NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
-      </Navbar>
+    <Navbar color="dark" dark expand="md">
+      <NavbarBrand href="/#">{props.i18n.t("nav.title")}</NavbarBrand>
+      <NavbarToggler onClick={toggle} />
+      <Collapse isOpen={isOpen} navbar>
+        <Nav className="mr-auto" navbar>
+          <NavItem>
+            <NavLink href="/#">{props.i18n.t("nav.game")}</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="/#/szabalyzat/">{props.i18n.t("nav.rules")}</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="/#/frissitesek/">{props.i18n.t("nav.release_notes")}</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="/#/kapcsolat/">{props.i18n.t("nav.contact")}</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink onClick={selectEnglish}>
+              <img className="lang-logo" src={en_logo} alt='english-logo' />
+            </NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink onClick={selectHungarian}>
+              <img className="lang-logo" src={hu_logo} alt='hungarian-logo' />
+            </NavLink>
+          </NavItem>
+        </Nav>
+      </Collapse>
+    </Navbar>
   );
 }
 
+// Export component.
 export default NavBar;
