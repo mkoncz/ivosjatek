@@ -22,5 +22,5 @@ const Source = props => {
   );
 }
 
-// Ecport module.
+// Export module.
 export default Source;
