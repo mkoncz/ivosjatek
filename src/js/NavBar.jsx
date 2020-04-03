@@ -20,7 +20,7 @@ import en_logo from './../img/en_logo.jpg'; // https://www.publicdomainpictures.
  * List of the rules.
  * 
  * @param {Object} props.i18n Configured i18next object. It is used for the localization.
- * @param {string} props.currentLang Shortened version of the language. Changing the currentLang property triggers an update at the language change.
+ * @param {string} props.currentLanguage Shortened version of the language. Changing the currentLanguage property triggers an update at the language change.
  */
 const NavBar = props => {
 
@@ -28,18 +28,23 @@ const NavBar = props => {
   // setIsOpen sets the isOpen state.
   const [isOpen, setIsOpen] = useState(false);
 
-  // Reverts the isOpen state.
-  // Works without parameter, therefore can be used as an eventhandler in JSX.
+  /**
+   * Inverts the isOpen state.
+   */
   const toggle = () => setIsOpen(!isOpen);
 
-  // Sets the selected language to English.
-  // Changes state of the parent (MainContainer) component.
+  /**
+   * Sets the selected language to English.
+   * Changes state of the parent (MainContainer) component.
+   */
   const selectEnglish = () => {
     props.reloadLanguage('en');
   }
 
-  // Sets the selected language to Hungarian.
-  // Changes state of the parent (MainContainer) component.
+  /**
+   * Sets the selected language to Hungarian.
+   * Changes state of the parent (MainContainer) component.
+   */
   const selectHungarian = () => {
     props.reloadLanguage('hu');
   }

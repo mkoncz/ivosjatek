@@ -25,7 +25,7 @@ export default class MainContainer extends Component {
     super();
     // The default language is Hungarian.
     this.state = {
-      currentLang: 'hu'
+      currentLanguage: 'hu'
     };
   }
 
@@ -36,7 +36,7 @@ export default class MainContainer extends Component {
             <NavBar 
               i18n={i18n} 
               reloadLanguage={this.reloadLanguage}
-              currentLang={this.state.currentLang}
+              currentLanguage={this.state.currentLanguage}
             />
           </div>
           <Switch>
@@ -48,19 +48,19 @@ export default class MainContainer extends Component {
             <Route path="/contact">
               <Contact 
                 i18n={i18n} 
-                currentLang={this.state.currentLang}
+                currentLanguage={this.state.currentLanguage}
               />
             </Route>
             <Route path="/releases">
               <Releases 
                 i18n={i18n} 
-                currentLang={this.state.currentLang}
+                currentLanguage={this.state.currentLanguage}
               />
             </Route>
             <Route path="/">
               <Game 
                 i18n={i18n} 
-                currentLang={this.state.currentLang}
+                currentLanguage={this.state.currentLanguage}
               />
             </Route>
           </Switch>
@@ -68,14 +68,17 @@ export default class MainContainer extends Component {
     );
   }
 
-  // Change the language of the page.
-  // The function is triggered by child components via props.
+  /**
+   * Changes the language of the page.
+   * The function is triggered by child components via props.
+   * @param {string} lang - Code of the new language.
+   */ 
   reloadLanguage = (lang) => {
-    // Change the selected language in the i18n module.
+    // Changes the selected language in the i18n module.
     i18n.changeLanguage(lang);
-    // Change the current language triggers the uploading of child components.
+    // Change sthe current language triggers the uploading of child components.
     this.setState({
-      currentLang: lang
+      currentLanguage: lang
     });
   }
 }
