@@ -28,6 +28,15 @@
         "Number of left cards shown.",
         "Release notes added."
       ]
+    },
+    {
+      "title": "April 2020",
+      "changes": [
+        "New page for sources.",
+        "New page for the terms of use and rules.",
+        "New card animation.",
+        "Minom bugfixes.."
+      ]
     }
   ]
 }

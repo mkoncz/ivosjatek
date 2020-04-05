@@ -22,10 +22,19 @@
       "title": "2020. március",
       "changes": [
         "Az alkamazás angol nyelven is elérhető.",
-        "Angol kérdéspakli elkészítve.",
+        "Angol kérdéspakli létrehozása.",
         "Nyelvválasztás nemzeti zászlókkal.",
         "A fennmaradó kártyák száma jelezve a felhasználónak.",
-        "Aloldal létrehozva a verziófrissítések leírásához."
+        "Új aloldal a verziófrissítések leírásához."
+      ]
+    },
+    {
+      "title": "2020. április",
+      "changes": [
+        "Új aloldal a források leírásához.",
+        "Új aloldal a felhasználási feltételeknek és szabályoknak.",
+        "Új kártyaanimáció.",
+        "Kisebb hibajavítások."
       ]
     }
   ]
