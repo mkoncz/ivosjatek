@@ -5,7 +5,7 @@ import React from 'react';
 import SourceDetail from './SourceDetail';
 
 /**
- * The page contains the contact e-mail address of the creator and the list of used sources.
+ * The page contains the list of used sources.
  * 
  * @param {Object} props.i18n Configured i18next object. It is used for the localization.
  */

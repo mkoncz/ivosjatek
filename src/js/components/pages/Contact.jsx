@@ -2,7 +2,7 @@
 import React from 'react';
 
 /**
- * The page contains the contact e-mail address of the creator and the list of used sources.
+ * The page contains the contact e-mail address of the creator.
  * 
  * @param {Object} props.i18n Configured i18next object. It is used for the localization.
  */
