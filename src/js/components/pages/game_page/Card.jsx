@@ -96,7 +96,7 @@ export default class Card extends Component {
   createLanguageSelectorCard = () => {
     return (
       <div>
-        <p>Select a language.</p>
+        <p>Select language</p>
         <p>
           <span>
             <img onClick={this.selectEnglish} className="lang-logo lang-logo-big" src={en_logo} alt="english-logo" />
