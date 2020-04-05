@@ -2,16 +2,16 @@
 import React, { Component } from 'react'
 
 // Import question resources.
-import * as hun_question_resource from '../locales/questions_hu.json'
-import * as en_question_resource from '../locales/questions_en.json'
+import * as hun_question_resource from './../../../locales/questions_hu.json'
+import * as en_question_resource from './../../../locales/questions_en.json'
 
 // Import cocktail logo for the back page of the card.
-import card from './../img/cocktail.png';
+import card from './../../../img/cocktail.png';
 
 // Import custom styles.
-import './../css/style.css';
+import './../../../css/style.css';
 // Import animation styles.
-import './../css/animate.css';
+import './../../../css/animate.css';
 
 /**
  * The page contains the contact e-mail address of the creator and the list of used sources.

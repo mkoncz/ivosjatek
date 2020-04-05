@@ -13,8 +13,8 @@ import {
 } from 'reactstrap';
 
 // Import national flags of Hungary and Great Britain.
-import hu_logo from './../img/hu_logo.png'; // https://www.flickr.com/photos/80497449@N04/7378164364
-import en_logo from './../img/en_logo.jpg'; // https://www.publicdomainpictures.net/hu/view-image.php?image=136202
+import hu_logo from './../../img/hu_logo.png'; // https://www.flickr.com/photos/80497449@N04/7378164364
+import en_logo from './../../img/en_logo.jpg'; // https://www.publicdomainpictures.net/hu/view-image.php?image=136202
 
 /**
  * List of the rules.
@@ -63,6 +63,9 @@ const NavBar = props => {
           </NavItem>
           <NavItem>
             <NavLink href="/#/releases/">{props.i18n.t("nav.release_notes")}</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="/#/sources/">{props.i18n.t("nav.sources")}</NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="/#/contact/">{props.i18n.t("nav.contact")}</NavLink>

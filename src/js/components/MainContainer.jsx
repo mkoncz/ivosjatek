@@ -8,13 +8,14 @@ import {
 
 // Import the local components.
 import NavBar from './NavBar';
-import Contact from './Contact';
-import Releases from './Releases';
-import Rules from './Rules';
-import Game from './Game';
+import Contact from './pages/Contact';
+import Game from './pages/Game';
+import Releases from './pages/Releases';
+import Rules from './pages/Rules';
+import Sources from './pages/Sources';
 
 // Import the internationalization module.
-import i18n from "./i18n";
+import i18n from "../i18n";
 
 /**
  * The main container of the page.
@@ -53,6 +54,12 @@ export default class MainContainer extends Component {
             </Route>
             <Route path="/releases">
               <Releases 
+                i18n={i18n} 
+                currentLanguage={this.state.currentLanguage}
+              />
+            </Route>
+            <Route path="/sources">
+              <Sources 
                 i18n={i18n} 
                 currentLanguage={this.state.currentLanguage}
               />

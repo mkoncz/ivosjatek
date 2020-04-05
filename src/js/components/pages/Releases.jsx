@@ -2,8 +2,8 @@
 import React from 'react';
 
 // Import localized questions.
-import * as hun_note_resource from '../locales/release_notes_hu.json'
-import * as en_note_resource from '../locales/release_notes_en.json'
+import * as hun_note_resource from './../../../locales/release_notes_hu.json'
+import * as en_note_resource from './../../../locales/release_notes_en.json'
 
 /**
  * Release notes of the application.
