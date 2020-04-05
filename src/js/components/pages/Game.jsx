@@ -1,14 +1,24 @@
+// Import React modules.
 import React, { Component } from 'react'
 
-import * as hun_question_resource from '../locales/questions_hu.json'
-import * as en_question_resource from '../locales/questions_en.json'
+// Import question resources.
+import * as hun_question_resource from './../../../locales/questions_hu.json'
+import * as en_question_resource from './../../../locales/questions_en.json'
 
-import card from './../img/cocktail.png';
+// Import cocktail logo for the back page of the card.
+import card from './../../../img/cocktail.png';
 
-import './../css/style.css';
-import './../css/animate.css';
+// Import custom styles.
+import './../../../css/style.css';
+// Import animation styles.
+import './../../../css/animate.css';
 
-
+/**
+ * The page contains the contact e-mail address of the creator and the list of used sources.
+ * 
+ * @param {Object} props.i18n Configured i18next object. It is used for the localization.
+ * @param {string} props.currentLanguage Shortened version of the language. Changing the currentLanguage property triggers an update at the language change.
+ */
 export default class Game extends Component {
 
   constructor() {
@@ -16,30 +26,27 @@ export default class Game extends Component {
     this.state = {
       questions: [],
       flipClasses: 'flip-container',
-      currentQuestion: '', 
+      currentQuestion: '',
       currentLanguage: ''
     };
-
   }
 
-  componentDidUpdate() {
+  // Sets pack of the questions when page is opened.
+  componentDidMount() {
+    this.setLocalizedPack();
+  }
 
-    //if the language is changed
-    if(this.props.currentLang!==this.state.currentLanguage){
+  // Sets a new pack if the language is changed.
+  componentDidUpdate() {
+    if (this.props.currentLanguage !== this.state.currentLanguage) {
       this.setLocalizedPack();
     }
-    
-  }
-
-  componentDidMount() {
-
-    this.setLocalizedPack();
-
   }
 
   render() {
-
+    // i18next module. 
     const i18n = this.props.i18n;
+    // Count the left cards.
     const number_of_left_cards = this.state.questions.length;
 
     return (
@@ -60,71 +67,95 @@ export default class Game extends Component {
     )
   }
 
-  replaceCard = (flip) => {
+  /**
+   * Replaces the read card.
+   * Bounces out the read card and bounces in the new card.
+   * Uses the animations of the animate.css.
+   */
+  replaceCard = () => {
 
     let that = this;
 
-    // bounce out current card
-    setTimeout(function () {
+    // Bounces out the current card.
+    if (this.state.currentQuestion !== '') {
+      setTimeout(function () {
+        that.setState({
+          flipClasses: "flip-container animated bounceOutRight"
+        });
+      }, 25);
+    } else {
+      // The empty first card needs to be hidden.
       that.setState({
-        flipClasses: "flip-container animated bounceOutRight"
+        flipClasses: "hidden"
       });
-    }, 25);
+    }
 
-    // bounce in new card
+    // Bounces in the new card.
     setTimeout(function () {
       that.setState({
         flipClasses: "flip-container animated bounceInLeft"
       });
-    }, 500);
+    }, 450);
 
-    // set the text of the new card
+    // Sets the text of the new card.
     if (this.state.questions.length !== 0) {
       this.setNewQuestion();
     } else {
+      // Notifies the user if the card pack is empty.
       this.setState({
         currentQuestion: this.props.i18n.t('game.no_more_question')
       });
     }
-
   };
 
+  /**
+   * Handles the click event on the unread cards.
+   */
   cardClickHandler = () => {
     this.setState({
       flipClasses: "flip-container active",
     });
   }
 
+  /**
+   * Sets the question text on the new card.
+   */
   setNewQuestion = () => {
     let that = this;
     let randomQuestion = this.state.questions[Math.floor(Math.random() * this.state.questions.length)];
 
     setTimeout(function () {
+      // Removes used question from the question pack.
       for (var i = that.state.questions.length - 1; i >= 0; i--) {
         if (that.state.questions[i] === that.state.currentQuestion) {
           var array = [...that.state.questions]; // make a separate copy of the array
-          var index = array.indexOf(that.state.currentQuestion)
+          var index = array.indexOf(that.state.currentQuestion);
           if (index !== -1) {
             array.splice(index, 1);
             that.setState({ questions: array });
           }
+          break;
         }
       }
+      // Sets the current question.
       that.setState({
         currentQuestion: randomQuestion
       });
     }, 500);
   }
 
-  setLocalizedPack(){
+  /**
+   * Sets the localized pack.
+   */
+  setLocalizedPack() {
 
     let allQuestions = [];
 
     let localizedPack;
 
-    if (hun_question_resource != null && hun_question_resource.questions != null && this.props.currentLang === 'hu') {
+    if (hun_question_resource != null && hun_question_resource.questions != null && this.props.currentLanguage === 'hu') {
       localizedPack = hun_question_resource.questions
-    } else if (en_question_resource != null && en_question_resource.questions != null && this.props.currentLang === 'en') {
+    } else if (en_question_resource != null && en_question_resource.questions != null && this.props.currentLanguage === 'en') {
       localizedPack = en_question_resource.questions
     } else {
       alert(this.props.i18n.t('game.no_more_question'));
@@ -140,7 +171,7 @@ export default class Game extends Component {
 
     this.setState({
       questions: allQuestions,
-      currentLanguage: this.props.currentLang
+      currentLanguage: this.props.currentLanguage
     },
       () => {
         this.setNewQuestion();

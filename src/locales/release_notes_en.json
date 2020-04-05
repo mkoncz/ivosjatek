@@ -2,19 +2,32 @@
   "notes":[
     {
       "title": "February 2017",
-      "notes": "- Original version of the game written as a static website with jQuery. \n- ivosjatek.hu domain bought."
+      "changes": [
+        "Original version of the game written as a static website with jQuery.",
+        "ivosjatek.hu domain bought."
+      ]
     },
     {
       "title": "January 2020",
-      "notes": "- jQuery libraries replaced with React JS."
+      "changes": [
+        "jQuery libraries replaced with React JS."
+      ]
     },
     {
       "title": "February 2020",
-      "notes": "- Code published on Github."
+      "changes": [
+        "Code published on GitHub."
+      ]
     },
     {
       "title": "March 2020",
-      "notes": "- Localization of the navigation menu, Contact page, Rules page and game buttons. \n- English card pack translated and added. \n- National flags added as language selector buttons. \n- Number of left cards shown. \n- Release notes added."
+      "changes": [
+        "Localization of the navigation menu, Contact page, Rules page and game buttons.",
+        "English card pack translated and added.",
+        "National flags added as language selector buttons.",
+        "Number of left cards shown.",
+        "Release notes added."
+      ]
     }
   ]
 }

@@ -1,17 +1,23 @@
 {
-  "credits.contact": "Kapcsolat:",
-  "credits.licence": ". Felhasználái jogok: ",
-  "credits.source": "Forrás:",
-  "credits.source_cocktail": "Koktél vektor: ",
-  "credits.source_en_flag": "Brit zászló:  ",
-  "credits.source_hu_flag": "Magyar zászló: ",
+  "contact.contact": "Kapcsolat:",
+
   "game.card_left": "Még %NUMBER% kártya",
   "game.next": "Következő",
   "game.no_more_question": "Elfogytak a kérdések :(",
-  "nav.title": "Ivós Játék",
+
+  "nav.contact": "Kapcsolat",
   "nav.game": "Játék",
-  "nav.releasenotes": "Frissítések",
+  "nav.release_notes": "Frissítések",
   "nav.rules": "Szabályzat",
-  "nav.contact": "Kapcsolat"
+  "nav.sources": "Források",
+  "nav.title": "Ivós Játék",
+  
+  "source.licence": "Felhasználái jogok",
+  "source.library": "könyvtár",
+  "source.source": "forrás",
+  "source.source_cocktail": "Koktél vektor",
+  "source.source_en_flag": "Brit zászló",
+  "source.source_hu_flag": "Magyar zászló",
+  "source.sources_title": "Források"
 }
   
