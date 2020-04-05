@@ -1,5 +1,5 @@
 // ReactJS modules.
-import React, { Component } from 'react'
+import React, { Component } from "react"
 import {
   HashRouter,
   Switch,
@@ -7,12 +7,12 @@ import {
 } from "react-router-dom";
 
 // Import the local components.
-import NavBar from './NavBar';
-import Contact from './pages/Contact';
-import Game from './pages/Game';
-import Releases from './pages/Releases';
-import Rules from './pages/Rules';
-import Sources from './pages/sources_page/Sources';
+import NavBar from "./NavBar";
+import Contact from "./pages/Contact";
+import Game from "./pages/game_page/Game";
+import Releases from "./pages/Releases";
+import Rules from "./pages/Rules";
+import Sources from "./pages/sources_page/Sources";
 
 // Import the internationalization module.
 import i18n from "../i18n";
@@ -26,18 +26,22 @@ export default class MainContainer extends Component {
     super();
     // The default language is Hungarian.
     this.state = {
-      currentLanguage: 'hu'
+      currentLanguage: ""
     };
   }
 
   render() {
     return (
       <HashRouter>
-        <NavBar
-          i18n={i18n}
-          reloadLanguage={this.reloadLanguage}
-          currentLanguage={this.state.currentLanguage}
-        />
+        <div className={this.state.currentLanguage === "" ? " hidden" : " animated fadeIn"}>
+          <NavBar
+            i18n={i18n}
+            reloadLanguage={this.reloadLanguage}
+            currentLanguage={this.state.currentLanguage}
+            selectEnglish={this.selectEnglish}
+            selectHungarian={this.selectHungarian}
+          />
+        </div>
         <Switch>
           <Route path="/rules">
             <Rules
@@ -66,6 +70,8 @@ export default class MainContainer extends Component {
             <Game
               i18n={i18n}
               currentLanguage={this.state.currentLanguage}
+              selectEnglish={this.selectEnglish}
+              selectHungarian={this.selectHungarian}
             />
           </Route>
         </Switch>
@@ -85,5 +91,19 @@ export default class MainContainer extends Component {
     this.setState({
       currentLanguage: lang
     });
+  }
+
+  /**
+   * Sets the selected language to English.
+   */
+  selectEnglish = () => {
+    this.reloadLanguage("en");
+  }
+
+  /**
+   * Sets the selected language to Hungarian.
+   */
+  selectHungarian = () => {
+    this.reloadLanguage("hu");
   }
 }
