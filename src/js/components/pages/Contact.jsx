@@ -8,7 +8,7 @@ import React from 'react';
  */
 const Contact = props => {
   return (
-    <div className="contact-frame">
+    <div className="page-frame">
       <h3>{props.i18n.t("contact.contact")}</h3>
       <p>matthewkoncy@gmail.com</p>
      </div>

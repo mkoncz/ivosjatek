@@ -22,7 +22,7 @@ import i18n from "../i18n";
  */
 export default class MainContainer extends Component {
 
-  constructor(){
+  constructor() {
     super();
     // The default language is Hungarian.
     this.state = {
@@ -32,46 +32,44 @@ export default class MainContainer extends Component {
 
   render() {
     return (
-        <HashRouter>
-          <div className="MainContainer">
-            <NavBar 
-              i18n={i18n} 
-              reloadLanguage={this.reloadLanguage}
+      <HashRouter>
+        <NavBar
+          i18n={i18n}
+          reloadLanguage={this.reloadLanguage}
+          currentLanguage={this.state.currentLanguage}
+        />
+        <Switch>
+          <Route path="/rules">
+            <Rules
+              i18n={i18n}
+            />
+          </Route>
+          <Route path="/contact">
+            <Contact
+              i18n={i18n}
               currentLanguage={this.state.currentLanguage}
             />
-          </div>
-          <Switch>
-            <Route path="/rules"> 
-              <Rules  
-                i18n={i18n} 
-              />
-            </Route>
-            <Route path="/contact">
-              <Contact 
-                i18n={i18n} 
-                currentLanguage={this.state.currentLanguage}
-              />
-            </Route>
-            <Route path="/releases">
-              <Releases 
-                i18n={i18n} 
-                currentLanguage={this.state.currentLanguage}
-              />
-            </Route>
-            <Route path="/sources">
-              <Sources 
-                i18n={i18n} 
-                currentLanguage={this.state.currentLanguage}
-              />
-            </Route>
-            <Route path="/">
-              <Game 
-                i18n={i18n} 
-                currentLanguage={this.state.currentLanguage}
-              />
-            </Route>
-          </Switch>
-        </HashRouter>
+          </Route>
+          <Route path="/releases">
+            <Releases
+              i18n={i18n}
+              currentLanguage={this.state.currentLanguage}
+            />
+          </Route>
+          <Route path="/sources">
+            <Sources
+              i18n={i18n}
+              currentLanguage={this.state.currentLanguage}
+            />
+          </Route>
+          <Route path="/">
+            <Game
+              i18n={i18n}
+              currentLanguage={this.state.currentLanguage}
+            />
+          </Route>
+        </Switch>
+      </HashRouter>
     );
   }
 
@@ -79,7 +77,7 @@ export default class MainContainer extends Component {
    * Changes the language of the page.
    * The function is triggered by child components via props.
    * @param {string} lang - Code of the new language.
-   */ 
+   */
   reloadLanguage = (lang) => {
     // Changes the selected language in the i18n module.
     i18n.changeLanguage(lang);

@@ -20,7 +20,7 @@ import * as en_note_resource from './../../../locales/release_notes_en.json'
   // Iterates and prints release notes. 
   // Listing starts from the newest entry.
   return (
-    <div className="releases-frame">
+    <div className="page-frame">
       {notes.reverse().map((release) => {
         return (
           <div>

@@ -50,7 +50,7 @@ export default class Game extends Component {
     const number_of_left_cards = this.state.questions.length;
 
     return (
-      <div align="center" width="100%">
+      <div align="center" className='page-frame' width="100%">
         <div className="left-card-label"> {i18n.t("game.card_left").replace('%NUMBER%', number_of_left_cards)} </div>
         <div id="lap1" className={this.state.flipClasses} align="center" onClick={this.cardClickHandler}>
           <div className="flipper" >

@@ -1,22 +1,5 @@
-/* needed for full screen background */
-html, body {
-    margin: 0;
-    height: 100%;
-}
-
-body {
-	 font-family: 'Roboto', sans-serif !important;
-	 background-image: linear-gradient(to bottom, #ff4f40, #ff4d58, #ff4f6e, #ff5483, #fa5c97);
-	 background-repeat: no-repeat;
-	 background-size: cover;
-}
-
 .hidden{
 	visibility: hidden;
-}
-
-.MainContainer {
-	text-align: center;
 }
 
 .lang-logo {
@@ -24,16 +7,14 @@ body {
 	cursor: pointer;
 }
 
-.rules-frame {
-	margin: 2em;
-}
-
-.contact-frame {
-	margin: 2em;
-}
-
-.releases-frame {
-	margin: 2em;
+.page-frame {
+	min-height:100vh;
+	height:100%;
+	padding: 2em;
+	font-family: 'Roboto', sans-serif !important;
+	background-image: linear-gradient(to bottom, #ff4f40, #ff4d58, #ff4f6e, #ff5483, #fa5c97);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .flip-container {
