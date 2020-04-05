@@ -80,7 +80,7 @@ export default class Game extends Component {
     if (this.state.currentQuestion !== '') {
       setTimeout(function () {
         that.setState({
-          flipClasses: "flip-container animated bounceOutRight"
+          flipClasses: "flip-container active animated bounceOutRight"
         });
       }, 25);
     } else {
