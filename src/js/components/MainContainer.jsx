@@ -12,7 +12,7 @@ import Contact from './pages/Contact';
 import Game from './pages/Game';
 import Releases from './pages/Releases';
 import Rules from './pages/Rules';
-import Sources from './pages/Sources';
+import Sources from './pages/sources_page/Sources';
 
 // Import the internationalization module.
 import i18n from "../i18n";
