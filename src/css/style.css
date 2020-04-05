@@ -2,8 +2,14 @@
 	visibility: hidden;
 }
 
+.centered {
+	text-align: center;
+}
+
 .lang-logo {
 	height: 1.2rem;
+	margin-left: 8px;
+	margin-right: 8px;
 	cursor: pointer;
 }
 

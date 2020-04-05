@@ -54,7 +54,7 @@ const NavBar = props => {
       <NavbarBrand href="/#">{props.i18n.t("nav.title")}</NavbarBrand>
       <NavbarToggler onClick={toggle} />
       <Collapse isOpen={isOpen} navbar>
-        <Nav className="mr-auto" navbar>
+        <Nav className="mr-auto centered" navbar>
           <NavItem>
             <NavLink href="/#">{props.i18n.t("nav.game")}</NavLink>
           </NavItem>
@@ -71,13 +71,9 @@ const NavBar = props => {
             <NavLink href="/#/contact/">{props.i18n.t("nav.contact")}</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink onClick={selectEnglish}>
-              <img className="lang-logo" src={en_logo} alt='english-logo' />
-            </NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink onClick={selectHungarian}>
-              <img className="lang-logo" src={hu_logo} alt='hungarian-logo' />
+            <NavLink>
+              <img  onClick={selectEnglish} className="lang-logo" src={en_logo} alt='english-logo' />
+              <img onClick={selectHungarian} className="lang-logo" src={hu_logo} alt='hungarian-logo' />
             </NavLink>
           </NavItem>
         </Nav>
