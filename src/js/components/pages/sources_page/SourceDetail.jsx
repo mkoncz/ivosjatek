@@ -13,12 +13,12 @@ import React from 'react';
  */
 const SourceDetail = props => {
   return (
-    <div>
+    <li>
       {`${props.localizedName} ${props.i18n.t("source.source")}: `} 
       <a href={props.sourceURL}>{props.sourceName}</a> 
       {`. ${props.i18n.t("source.licence")}: `}
       <a href={props.licenceURL}>{props.licenceType}</a>.
-    </div> 
+    </li> 
   );
 }
 

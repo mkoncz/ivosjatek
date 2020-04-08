@@ -12,7 +12,7 @@ i18n
   .use(LanguageDetector)
   .init({
     debug: false,
-    lng: "hu",
+    lng: "en",
     fallbackLng: "en", // use en if detected lng is not available
 
     keySeparator: false, // we do not use keys in form messages.welcome

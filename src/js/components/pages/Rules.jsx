@@ -8,7 +8,7 @@ import React from 'react';
  */
 const Rules = props => {
   return (
-    <div className="rules-frame">
+    <div className="page-frame">
       <h2>{props.i18n.t("rules:terms_title")}</h2>
       <ul>
         <li>{props.i18n.t("rules:term_1")}</li>

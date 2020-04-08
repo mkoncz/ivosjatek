@@ -1,5 +1,5 @@
 {
-  "notes":[
+  "notes": [
     {
       "title": "February 2017",
       "changes": [
@@ -28,7 +28,16 @@
         "Number of left cards shown.",
         "Release notes added."
       ]
+    },
+    {
+      "title": "April 2020",
+      "changes": [
+        "New page for sources.",
+        "New page for the terms of use and rules.",
+        "New card animation.",
+        "Selected language is stored in cookie.",
+        "Minor bugfixes."
+      ]
     }
   ]
 }
-  

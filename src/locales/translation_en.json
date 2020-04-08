@@ -1,6 +1,9 @@
 {
   "contact.contact": "Contact:",
   
+  "game.age_check_1": "Can we see some ID please? ",
+  "game.age_check_2": "It's part of our commitment to responsible drinking.  ",
+  "game.age_check_button": "I'm an adult",
   "game.card_left": "%NUMBER% cards left",
   "game.next": "Next",
   "game.no_more_question": "No more questions :(",
@@ -15,6 +18,7 @@
   "source.licence": "Licensed by",
   "source.library": "library",
   "source.source": "source",
+  "source.source_18": "18+ icon",
   "source.source_cocktail": "Cocktail vector",
   "source.source_en_flag": "Brittish flag",
   "source.source_hu_flag": "Hungarian flag",
