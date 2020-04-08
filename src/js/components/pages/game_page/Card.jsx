@@ -29,14 +29,15 @@ export default class Card extends Component {
   render() {
 
     let isNextButtonHidden = false;
-
     let content;
+
     if (this.props.children === "language") {
       content = this.createLanguageSelectorCard();
       isNextButtonHidden = true;
     } else {
       content = this.props.children;
     }
+
     return (
       <div id="lap1" className={`flip-container ${this.state.flipClasses}`} align="center" onClick={this.cardClickHandler}>
         <div className="flipper" >
@@ -79,7 +80,7 @@ export default class Card extends Component {
       });
     }, 450);
 
-    if (this.state.children !== "language") {
+    if (this.props.children !== "language") {
       this.props.setNewQuestion();
     }
   };
