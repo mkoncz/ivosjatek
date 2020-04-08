@@ -40,6 +40,14 @@ const Sources = props => {
         />
         <SourceDetail
           i18n={props.i18n}
+          localizedName={props.i18n.t("source.source_18")}
+          sourceURL="https://www.shareicon.net/cinema-adult-number-age-movies-shapes-711363"
+          sourceName="SHAREICON.NET"
+          licenceURL="https://www.shareicon.net/about"
+          licenceType="Flaticon Basic Licence"
+        />
+        <SourceDetail
+          i18n={props.i18n}
           localizedName={"Animate.css " + props.i18n.t("source.library")}
           sourceURL="https://daneden.github.io/animate.css/"
           sourceName="Daniel Eden"
