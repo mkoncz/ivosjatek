@@ -1,6 +1,9 @@
-.hidden{
-	/*visibility: hidden;*/
-	display: none;
+body{
+	background-color: #ff4f40;
+}
+
+.hidden {
+	visibility: hidden;
 }
 
 .centered {
