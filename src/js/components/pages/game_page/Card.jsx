@@ -123,13 +123,13 @@ export default class Card extends Component {
       <div className="age_check">
         <img onClick={this.selectEnglish} className="adult_logo" src={adult_logo} alt="adult-logo" />
         <div className="question_block">
-          <p> Can we see some ID please? </p>
-          <p> It's part of our commitment to responsible drinking. </p>
+          <p>  {this.props.i18n.t("game.age_check_1")} </p>
+          <p>  {this.props.i18n.t("game.age_check_2")} </p>
         </div>
         <button
           className="btn btn-warning btn-lg"
           onClick={this.confirmAdult}>
-          I'm an adult.
+          {this.props.i18n.t("game.age_check_button")} 
         </button>
       </div>
     )

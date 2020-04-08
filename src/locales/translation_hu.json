@@ -1,6 +1,9 @@
 {
   "contact.contact": "Kapcsolat:",
 
+  "game.age_check_1": "Kérhetnék egy személyit?",
+  "game.age_check_2": "Az IvósJáték 18 éven felülieknek készült.",
+  "game.age_check_button": "Felnőtt vagyok",
   "game.card_left": "Még %NUMBER% kártya",
   "game.next": "Következő",
   "game.no_more_question": "Elfogytak a kérdések :(",
@@ -15,7 +18,8 @@
   "source.licence": "Felhasználási jogok",
   "source.library": "könyvtár",
   "source.source": "forrás",
-  "source.source_cocktail": "Koktél vektor",
+  "source.source_18": "\"18+\" ikon",
+  "source.source_cocktail": "Koktél ikon",
   "source.source_en_flag": "Brit zászló",
   "source.source_hu_flag": "Magyar zászló",
   "source.sources_title": "Források"
