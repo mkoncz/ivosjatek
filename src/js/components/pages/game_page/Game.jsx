@@ -20,22 +20,17 @@ import "./../../../../css/animate.css";
  */
 export default class Game extends Component {
 
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       questions: [],
       currentQuestion: "",
-      currentLanguage: ""
+      currentLanguage: this.props.currentLanguage
     };
   }
 
-  // Sets pack of the questions when page is opened.
   componentDidMount() {
-    if (this.state.currentLanguage === "") {
-      this.setState({
-        currentQuestion: "language"
-      });
-    }
+    this.setLocalizedPack();
   }
 
   // Sets a new pack if the language is changed.
@@ -65,6 +60,7 @@ export default class Game extends Component {
 
         <Card
           i18n={i18n}
+          currentLanguage={this.state.currentLanguage}
           selectEnglish={this.props.selectEnglish}
           selectHungarian={this.props.selectHungarian}
           setNewQuestion={this.setNewQuestion}>
@@ -78,12 +74,6 @@ export default class Game extends Component {
    * Sets the question text on the new card.
    */
   setNewQuestion = () => {
-    // The language was just selected.
-    // The next 
-    console.log(this.state.currentLanguage)
-    if (this.state.currentLanguage === "") {
-      return;
-    }
 
     // Sets the text of the new card.
     if (this.state.questions.length !== 0) {
@@ -124,6 +114,10 @@ export default class Game extends Component {
    * Sets the localized pack.
    */
   setLocalizedPack() {
+
+    if (this.props.currentLanguage === "") {
+      return;
+    }
 
     let allQuestions = [];
 

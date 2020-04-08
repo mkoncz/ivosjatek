@@ -5,6 +5,7 @@ import React, { Component } from "react"
 import card from "./../../../../img/cocktail.png";
 import hu_logo from "./../../../../img/hu_logo.png";
 import en_logo from "./../../../../img/en_logo.jpg";
+import adult_logo from "./../../../../img/18.png";
 
 // Import custom styles.
 import "./../../../../css/style.css";
@@ -31,10 +32,16 @@ export default class Card extends Component {
     let isNextButtonHidden = false;
     let content;
 
-    if (this.props.children === "language") {
+    // Asks the user age if it is not added yet. 
+    if (this.props.currentLanguage === "") {
       content = this.createLanguageSelectorCard();
       isNextButtonHidden = true;
-    } else {
+      // Asks the user age if it is not added yet. 
+    } else if (null == sessionStorage.getItem('isAdult')) {
+      content = this.createAgeCheckCard();
+      isNextButtonHidden = true;
+    }
+    else {
       content = this.props.children;
     }
 
@@ -80,21 +87,21 @@ export default class Card extends Component {
       });
     }, 450);
 
-    if (this.props.children !== "language") {
-      this.props.setNewQuestion();
-    }
+    this.props.setNewQuestion();
   };
 
   /**
    * Handles the click event on the unread cards.
    */
   cardClickHandler = () => {
+
     this.setState({
       flipClasses: "active",
     });
   }
 
   createLanguageSelectorCard = () => {
+
     return (
       <div>
         <p>Select language</p>
@@ -110,20 +117,64 @@ export default class Card extends Component {
     )
   }
 
+  createAgeCheckCard = () => {
+
+    return (
+      <div className="age_check">
+        <img onClick={this.selectEnglish} className="adult_logo" src={adult_logo} alt="adult-logo" />
+        <div className="question_block">
+          <p> Can we see some ID please? </p>
+          <p> It's part of our commitment to responsible drinking. </p>
+        </div>
+        <button
+          className="btn btn-warning btn-lg"
+          onClick={this.confirmAdult}>
+          I'm an adult.
+        </button>
+      </div>
+    )
+  }
+
+  /**
+   * Confirms that the user is an adult.
+   * Stores the decition in sessionStorage.
+   */
+  confirmAdult = () => {
+
+    this.replaceCard();
+    // Timeout needed because render() immediately replaces content and the bouncing is not done yet.
+    setTimeout(() => {
+      sessionStorage.setItem('isAdult', true)
+    }, 450);
+  }
+
   /**
    * Sets the selected language to English and draws the next card.
    */
   selectEnglish = () => {
-    this.props.selectEnglish();
+
+    // Starts out-bouncing
     this.replaceCard();
+
+    // Timeout needed because render() immediately replaces content and the bouncing is not done yet.
+    setTimeout(() => {
+      this.props.selectEnglish();
+    }, 450);
+
   }
 
   /**
    * Sets the selected language to Hungarian and draws the next card.
    */
   selectHungarian = () => {
-    this.props.selectHungarian();
+
+    // Starts out-bouncing
     this.replaceCard();
+
+    // Timeout needed because render() immediately replaces content and the bouncing is not done yet.
+    setTimeout(() => {
+      this.props.selectHungarian();
+    }, 450);
   }
 
 }
