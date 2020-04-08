@@ -17,6 +17,9 @@ import Sources from "./pages/sources_page/Sources";
 // Import the internationalization module.
 import i18n from "../i18n";
 
+import Cookies from "universal-cookie";
+
+
 /**
  * The main container of the page.
  */
@@ -24,16 +27,22 @@ export default class MainContainer extends Component {
 
   constructor() {
     super();
+    // Create cookies object.
+    this.cookies = new Cookies();
     // The default language is Hungarian.
     this.state = {
-      currentLanguage: ""
+      currentLanguage: null != this.cookies.get("lang") ? this.cookies.get("lang") : ""
     };
+    // Activate the i18n language changer.
+    if (null != this.cookies.get("lang")) {
+      i18n.changeLanguage(this.cookies.get("lang"));
+    }
   }
 
   render() {
     return (
       <HashRouter>
-        <div className={this.state.currentLanguage === "" ? " hidden" : " animated fadeIn"}>
+        <div className={this.state.currentLanguage === "" ? " hidden" : " animated slideInDown"}>
           <NavBar
             i18n={i18n}
             reloadLanguage={this.reloadLanguage}
@@ -85,6 +94,8 @@ export default class MainContainer extends Component {
    * @param {string} lang - Code of the new language.
    */
   reloadLanguage = (lang) => {
+    // Change cookie value of language.
+    this.cookies.set("lang", lang, { path: "/" });
     // Changes the selected language in the i18n module.
     i18n.changeLanguage(lang);
     // Change sthe current language triggers the uploading of child components.
