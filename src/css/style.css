@@ -27,7 +27,6 @@ body{
 .page-frame {
 	min-height:100vh;
 	height:100%;
-	padding: 2em;
 	font-family: 'Roboto', sans-serif !important;
 	background-image: linear-gradient(to bottom, #ff4f40, #ff4d58, #ff4f6e, #ff5483, #fa5c97);
 	background-repeat: no-repeat;
