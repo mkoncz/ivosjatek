@@ -2,8 +2,7 @@
 import React, { Component } from "react"
 
 // Import question resources.
-import * as hun_question_resource from "./../../../../locales/questions_hu.json"
-import * as en_question_resource from "./../../../../locales/questions_en.json"
+import * as questions from "./../../../../locales/questions.json"
 
 import Card from "./Card"
 
@@ -22,49 +21,38 @@ export default class Game extends Component {
 
   constructor(props) {
     super(props);
+    this.questions = questions.default;
+
     this.state = {
-      questions: [],
-      currentQuestion: "",
-      currentLanguage: this.props.currentLanguage
+      currentQuestion: this.props.currentLanguage==="" ? "" : this.getRandomQuestion()
     };
-  }
-
-  componentDidMount() {
-    this.setLocalizedPack();
-  }
-
-  // Sets a new pack if the language is changed.
-  componentDidUpdate() {
-    if (this.props.currentLanguage !== this.state.currentLanguage) {
-      this.setLocalizedPack();
-    }
   }
 
   render() {
     // i18next module. 
     const i18n = this.props.i18n;
     // Count the left cards.
-    const number_of_left_cards = this.state.questions.length;
+    const number_of_left_cards = this.questions.length;
 
     return (
       <div align="center" className="page-frame" width="100%">
 
-        {number_of_left_cards !== 0 ?
+        {this.props.currentLanguage!=="" ?
           <div className="left-card-label animated fadeIn">
             {i18n.t("game.card_left").replace("%NUMBER%", number_of_left_cards)}
-          </div> : 
+          </div> :
           <div className="left-card-label">
             &nbsp;
-          </div> 
+          </div>
         }
 
         <Card
           i18n={i18n}
-          currentLanguage={this.state.currentLanguage}
+          currentLanguage={this.props.currentLanguage}
           selectEnglish={this.props.selectEnglish}
           selectHungarian={this.props.selectHungarian}
           setNewQuestion={this.setNewQuestion}>
-          {this.state.currentQuestion}
+          {this.state.currentQuestion[this.props.currentLanguage]}
         </Card>
       </div>
     )
@@ -75,29 +63,15 @@ export default class Game extends Component {
    */
   setNewQuestion = () => {
 
+    console.log("new")
+
     // Sets the text of the new card.
-    if (this.state.questions.length !== 0) {
+    if (this.questions.length !== 0) {
 
-      let that = this;
-
-      let randomQuestion = this.state.questions[Math.floor(Math.random() * this.state.questions.length)];
-
-      setTimeout(function () {
-
-        // Removes used question from the question pack.
-        for (var i = that.state.questions.length - 1; i >= 0; i--) {
-          if (that.state.questions[i] === that.state.currentQuestion) {
-            var array = [...that.state.questions]; // make a separate copy of the array
-            var index = array.indexOf(that.state.currentQuestion);
-            if (index !== -1) {
-              array.splice(index, 1);
-              that.setState({ questions: array });
-            }
-            break;
-          }
-        }
+      setTimeout(() => {
+        let randomQuestion = this.getRandomQuestion();
         // Sets the current question.
-        that.setState({
+        this.setState({
           currentQuestion: randomQuestion
         });
       }, 500);
@@ -107,45 +81,23 @@ export default class Game extends Component {
         currentQuestion: this.props.i18n.t("game.no_more_question")
       });
     }
-
   }
 
-  /**
-   * Sets the localized pack.
-   */
-  setLocalizedPack() {
 
-    if (this.props.currentLanguage === "") {
-      return;
-    }
-
-    let allQuestions = [];
-
-    let localizedPack;
-
-    if (hun_question_resource != null && hun_question_resource.questions != null && this.props.currentLanguage === "hu") {
-      localizedPack = hun_question_resource.questions
-    } else if (en_question_resource != null && en_question_resource.questions != null && this.props.currentLanguage === "en") {
-      localizedPack = en_question_resource.questions
-    } else {
-      alert(this.props.i18n.t("game.no_more_question"));
-      return;
-    }
-
-    const categories = Object.keys(localizedPack)
-    for (const category of categories) {
-      for (const question of localizedPack[category]) {
-        allQuestions.push(question);
+  getRandomQuestion = () => {
+    let randomQuestion = this.questions[Math.floor(Math.random() * this.questions.length)];
+    // Removes used question from the question pack.
+    for (var i = this.questions.length - 1; i >= 0; i--) {
+      if (this.questions[i] === randomQuestion) {
+        var array = [...this.questions]; // make a separate copy of the array
+        var index = array.indexOf(randomQuestion);
+        if (index !== -1) {
+          array.splice(index, 1);
+          this.questions = array;
+        }
+        break;
       }
     }
-
-    this.setState({
-      questions: allQuestions,
-      currentLanguage: this.props.currentLanguage
-    },
-      () => {
-        this.setNewQuestion();
-      }
-    );
+    return randomQuestion;
   }
 }

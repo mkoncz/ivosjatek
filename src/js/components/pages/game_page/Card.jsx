@@ -69,25 +69,25 @@ export default class Card extends Component {
    * Bounces out the read card and bounces in the new card.
    * Uses the animations of the animate.css.
    */
-  replaceCard = () => {
-
-    let that = this;
+  replaceCard = (newQuestion) => {
 
     // Bounces out the current card.
-    setTimeout(function () {
-      that.setState({
+    setTimeout(() => {
+      this.setState({
         flipClasses: "active animated bounceOutRight"
       });
     }, 25);
 
     // Bounces in the new card.
-    setTimeout(function () {
-      that.setState({
+    setTimeout(() => {
+      this.setState({
         flipClasses: "animated bounceInLeft"
       });
     }, 450);
 
-    this.props.setNewQuestion();
+    if(newQuestion || newQuestion==null){
+      this.props.setNewQuestion();
+    }
   };
 
   /**
@@ -141,7 +141,7 @@ export default class Card extends Component {
    */
   confirmAdult = () => {
 
-    this.replaceCard();
+    this.replaceCard(true);
     // Timeout needed because render() immediately replaces content and the bouncing is not done yet.
     setTimeout(() => {
       sessionStorage.setItem('isAdult', true)
@@ -154,7 +154,7 @@ export default class Card extends Component {
   selectEnglish = () => {
 
     // Starts out-bouncing
-    this.replaceCard();
+    this.replaceCard(false);
 
     // Timeout needed because render() immediately replaces content and the bouncing is not done yet.
     setTimeout(() => {
@@ -169,7 +169,7 @@ export default class Card extends Component {
   selectHungarian = () => {
 
     // Starts out-bouncing
-    this.replaceCard();
+    this.replaceCard(false);
 
     // Timeout needed because render() immediately replaces content and the bouncing is not done yet.
     setTimeout(() => {
