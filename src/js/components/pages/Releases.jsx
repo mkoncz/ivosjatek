@@ -15,7 +15,7 @@ import * as en_note_resource from './../../../locales/release_notes_en.json'
 
   // Localized list of the release notes.
   // Note entries contain a title and a list of changes.
-  let notes = props.currentLanguage === "hu" ? [...hun_note_resource.notes] : [en_note_resource.notes];
+  let notes = props.currentLanguage === "hu" ? [...hun_note_resource.notes] : [...en_note_resource.notes];
 
   // Iterates and prints release notes. 
   // Listing starts from the newest entry.
@@ -23,11 +23,11 @@ import * as en_note_resource from './../../../locales/release_notes_en.json'
     <div className="page-frame">
       {notes.reverse().map((release) => {
         return (
-          <div>
+          <div key={release.title}>
             <h2>{release.title}</h2>
             <ul>
               {release.changes.map((bullet_point) => {
-                return <li> {bullet_point} </li>
+                return <li key={bullet_point}> {bullet_point} </li>
               })}
             </ul>
             <br />
