@@ -12,7 +12,7 @@ import SourceDetail from './SourceDetail';
 const Sources = props => {
   return (
     <div className="page-frame">
-      <h3>{props.i18n.t("source.sources_title")}:</h3>
+      <h4>{props.i18n.t("source.sources_title")}:</h4>
       <ul>
         <SourceDetail
           i18n={props.i18n}

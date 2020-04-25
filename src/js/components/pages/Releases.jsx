@@ -24,7 +24,7 @@ import * as en_note_resource from './../../../locales/release_notes_en.json'
       {notes.reverse().map((release) => {
         return (
           <div key={release.title}>
-            <h2>{release.title}</h2>
+            <h4>{release.title}</h4>
             <ul>
               {release.changes.map((bullet_point) => {
                 return <li key={bullet_point}> {bullet_point} </li>
