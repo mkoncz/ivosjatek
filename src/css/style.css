@@ -31,6 +31,7 @@ body{
 	background-image: linear-gradient(to bottom, #ff4f40, #ff4d58, #ff4f6e, #ff5483, #fa5c97);
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding:2em;
 }
 
 .flip-container {
