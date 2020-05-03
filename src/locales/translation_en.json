@@ -23,5 +23,26 @@
   "source.source_cocktail": "Cocktail vector",
   "source.source_en_flag": "Brittish flag",
   "source.source_hu_flag": "Hungarian flag",
-  "source.sources_title": "Sources"
+  "source.sources_title": "Sources",
+
+  "sponsors.addAndRemoveQuestions": "We can add/remove questions based on common agreement.",
+  "sponsors.chooseBackside": "You can choose the backside logo of your cards.",
+  "sponsors.chooseNameAndLogo": "You can choose new name and logo for the game.",
+  "sponsors.chooseQuestion": "You can choose the question of your cards.",
+  "sponsors.chooseTheme": "You can choose a new theme for the page based on your brand colors.",
+  "sponsors.contactMe": "Contact me ;)",
+  "sponsors.instagram": "You can upload sponsored content to the Instagram page of ivosjatek.hu.",
+  "sponsors.currentSponsors": "Current sponsors",
+  "sponsors.get5Cards": "You get 5 own cards in the deck.",
+  "sponsors.getListed": "You get listed among the sponsors.",
+  "sponsors.getPhoto": "You get a photo of me and my friends drinking 100 beers.",
+  "sponsors.howToBeOwner": "How to be the owner of the game?",
+  "sponsors.howToBeSponsor": "How to be a sponsor?",
+  "sponsors.loseCards": "If this drinking game is sold to a new owner, you can lose your sponsored cards. (You can keep the photo of us and the 100 beers.)",
+  "sponsors.ownerTitle": "Owner",
+  "sponsors.pay100Beers": "Pay 100 beers for me.",
+  "sponsors.sponsorTitle": "Sponsors",
+  "sponsors.technicalSupport": "You get 1 year of free technical support from me.",
+  "sponsors.whyToBeOwner": "Why to be the owner?",
+  "sponsors.whyToBeSponsor": "Why to be a sponsor?"
 }
