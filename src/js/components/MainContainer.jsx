@@ -81,6 +81,7 @@ export default class MainContainer extends Component {
             <Sponsors
               i18n={i18n}
               currentLanguage={this.state.currentLanguage}
+              selectEnglish={this.selectEnglish}
             />
           </Route>
           <Route path="/">
