@@ -55,6 +55,9 @@ const NavBar = props => {
               <NavLink href="/#/contact/">{props.i18n.t("nav.contact")}</NavLink>
             </NavItem>
             <NavItem>
+              <NavLink href="/#/sponsors/">{props.i18n.t("nav.sponsors")}</NavLink>
+            </NavItem>
+            <NavItem>
               <NavLink>
                 <img onClick={props.selectEnglish} className="lang-logo" src={en_logo} alt='english-logo' />
                 <img onClick={props.selectHungarian} className="lang-logo" src={hu_logo} alt='hungarian-logo' />

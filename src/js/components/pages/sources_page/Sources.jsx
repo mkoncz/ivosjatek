@@ -12,7 +12,7 @@ import SourceDetail from './SourceDetail';
 const Sources = props => {
   return (
     <div className="page-frame">
-      <h3>{props.i18n.t("source.sources_title")}:</h3>
+      <h4>{props.i18n.t("source.sources_title")}:</h4>
       <ul>
         <SourceDetail
           i18n={props.i18n}
@@ -53,6 +53,47 @@ const Sources = props => {
           sourceName="Daniel Eden"
           licenceURL="https://github.com/daneden/animate.css/blob/master/LICENSE"
           licenceType="MIT Licence"
+        />
+        
+        <SourceDetail
+          i18n={props.i18n}
+          localizedName={props.i18n.t("source.source_king")}
+          sourceURL="https://www.peakpx.com/478241/king-on-robe-statue"
+          sourceName="PEAKPX"
+          licenceURL="https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+          licenceType="CC0 1.0 Universal"
+        />
+        <SourceDetail
+          i18n={props.i18n}
+          localizedName={props.i18n.t("source.source_bottles")}
+          sourceURL="https://www.peakpx.com/581703/2-brown-label-bottles"
+          sourceName="PEAKPX"
+          licenceURL="https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+          licenceType="CC0 1.0 Universal"
+        />
+        <SourceDetail
+          i18n={props.i18n}
+          localizedName={props.i18n.t("source.source_bar_v1")}
+          sourceURL="https://www.peakpx.com/478886/bar-desk"
+          sourceName="PEAKPX"
+          licenceURL="https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+          licenceType="CC0 1.0 Universal"
+        />
+        <SourceDetail
+          i18n={props.i18n}
+          localizedName={props.i18n.t("source.source_bar_v2")}
+          sourceURL="https://www.peakpx.com/562004/bar-store-set"
+          sourceName="PEAKPX"
+          licenceURL="https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+          licenceType="CC0 1.0 Universal"
+        />
+        <SourceDetail
+          i18n={props.i18n}
+          localizedName={props.i18n.t("source.source_whiskey")}
+          sourceURL="https://pixabay.com/photos/alcohol-party-style-drink-1961542/"
+          sourceName="PIXABAY"
+          licenceURL="https://pixabay.com/service/license/"
+          licenceType="Pixabay Licence"
         />
       </ul>
     </div>

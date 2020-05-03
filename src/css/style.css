@@ -31,15 +31,16 @@ body{
 	background-image: linear-gradient(to bottom, #ff4f40, #ff4d58, #ff4f6e, #ff5483, #fa5c97);
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding:2em;
 }
 
-.flip-container {
+.flip-container,
+.small-flip-container {
 	perspective: 1000px;
 	margin-top:0.9em;
 }
 
 /* flip the pane when hovered */
-.flip-container:active .flipper, 
 .flip-container.active .flipper {
 	transform: 			rotateY(180deg);
 	-ms-transform: 		rotateY(180deg);
@@ -50,11 +51,9 @@ body{
 
 .flip-container, 
 .front, .back {
-
 	width: 	320px;
 	height: 480px;
 }
-
 
 /* flip speed goes here */
 .flipper {
@@ -76,6 +75,7 @@ body{
 	top: 						0;
 	left: 						0;
 	border-radius:				7px;
+	border: 			1px solid black;
 }
 
 /* front pane, placed above back */
@@ -87,8 +87,205 @@ body{
 	-o-transform: 		rotateY(0deg);
 	z-index: 			2;
 	background-color: #45bdff;
+}
+
+/* front pane, placed above back */
+.back img{
+	width: 47%;
+	padding-top:47%;
+}
+
+/****** SPONSORS  ****/
+
+.sponsors-container {
+	background-color: #1a1a1a !important;
+	color: rgba(255,255,255,.55);
+}
+
+.sponsors-container a,
+.sponsors-container a:visited
+{
+	color: rgba(255,255,255,.55);
+}
+.sponsors-container {
+	background-color: #1a1a1a !important;
+	color: rgba(255,255,255,.55);
+}
+.sponsors-container {
+	background-color: #1a1a1a !important;
+	color: rgba(255,255,255,.55);
+}
+
+.sponsors-how-row {
+	text-align: center;
+	background-image: url("../img/sponsors/beers.jpg");
+	background-size: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sponsors-100-beers-row,
+.owner-contact-me-row
+ {
+	text-align: center;
+	height: 25em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sponsors-100-beers-row div,
+.owner-contact-me-row div
+{
+	font-size: 3em;
+}
+
+.sponsors-why-row {
+	text-align: center;
+	background-image: url("../img/sponsors/bar_black.jpg");
+	background-size: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sponsors-how-row div,
+.sponsors-why-row div,
+.owner-why-row div,
+.current-sponsors-row div
+{
+	font-size: 5em;
+}
+
+.sponsors-why-logos-row {
+	text-align: center;
+	padding: 2em;
+	font-size: 1em;
+	height: auto;
+	padding: 6em 6em 0em 6em;
+}
+
+.sponsor-logos
+{
+	font-size: 4em;
+}
+
+.sponsor-reason {
+	padding: 2.5em ;
+}
+
+.owner-how-row {
+	text-align: center;
+	background-image: url("../img/sponsors/king.jpg");
+	background-size: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.owner-how-row div
+{
+	font-size: 4em;
+}
+
+.owner-why-row {
+	text-align: center;
+	background-image: url("../img/sponsors/bar_brown.jpg");
+	background-size: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.current-sponsors-row {
+	text-align: center;
+	background-image: url("../img/sponsors/whiskey.jpg");
+	background-size: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.background-layout-spacer{
+	visibility: hidden;
+	width: 100%;
+}
+
+.absolute-position{
+	position: absolute;
+}
+
+.sponsor-card {
+	width: 240px;
+	height: 340px;
+	text-align: center;
+	border-radius:7px;
+	margin: 15px;
+	float: left;
+}
+
+.sponsor-card.black{
+	background-color: black;
+}
+
+.sponsor-card.green{
+	background-color: #3a5954;
+}
+
+.sponsor-card img{
+	width: 65%;
+	padding-top: 23%;
+}
+
+.sponsor-cards{
+	margin-top:2em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media only screen and (max-width: 1190px) {
+
+	.sponsors-100-beers-row,
+	.owner-contact-me-row
+	{
+		height: 15em;
+	}
+
+	.sponsors-100-beers-row div,
+	.owner-contact-me-row div
+	{
+		font-size: 6vw;
+	}
+
+	.sponsors-how-row div,
+	.sponsors-why-row div,
+	.owner-why-row div,
+	.owner-how-row div,
+	.current-sponsors-row div
+	{
+		font-size: 8vw;
+	}
+
+	.sponsors-why-logos-row {
+		padding: 2em;
+		font-size: 1em;
+		height: auto;
+	}
+
+	.sponsor-logos
+	{
+		font-size: 4em;
+	}
+
+	.sponsor-reason {
+		padding: 2em ;
+	}
 
 }
+
+
 
 /* back, initially hidden pane */
 .front {
@@ -99,8 +296,6 @@ body{
 	-o-transform: 		rotateY(180deg);
   	background-color: 	white;
   	text-align: 		center;
-  	border: 			2px solid black;
-
 }
 
 .btn-card {
@@ -123,56 +318,6 @@ body{
 /* override bootstrap dark theme*/
 .bg-dark {
     background-color:  #1a1a1a !important;
-}
-
-#legal_button {
-	background-color: #7c1d47 !important;
-	border-color: #7c1d47 !important;
-}
-
-.modal {
-    display: 			none; /* Hidden by default */
-    position: 			fixed; /* Stay in place */
-    z-index: 			1; /* Sit on top */
-    left: 				0;
-    top: 				0;
-    width: 				100%; /* Full width */
-    height: 			100%; /* Full height */
-    overflow: 			auto; /* Enable scroll if needed */
-    background-color: 	rgb(0,0,0); /* Fallback color */
-    background-color: 	rgba(0,0,0,0.4); /* Black w/ opacity */
-    text-align: 		center;
-}
-
-/* Modal Content */
-.modal-content {
-    background-color: 	#1e1c1c !important;
-    margin: 			auto;
-    padding: 			20px;
-    border: 			5px solid #888 !important;
-    width: 				500px;
-	height: 			480px;
-	color:				white;
-}
-
-/* Modal Content */
-.modal-content-mobile {
-    background-color: 	#1e1c1c !important;
-    margin: 			auto;
-    padding: 			5px;
-    border: 			1px solid #888;
-    width: 				100%;
-	height: 			100%;
-	font-size: 			1.5em;
-	color:				white;
-}
-
-.back_img {
-	border: 			2px solid black;
-	border-radius:		7px;
-	padding: 80px;
-	padding-top: 130px;
-	padding-bottom: 200px;
 }
 
 .txt-question {

@@ -13,10 +13,12 @@ import Game from "./pages/game_page/Game";
 import Releases from "./pages/Releases";
 import Rules from "./pages/Rules";
 import Sources from "./pages/sources_page/Sources";
+import Sponsors from "./pages/sponsors_page/Sponsors";
 
 // Import the internationalization module.
 import i18n from "../i18n";
 
+// Import module for cookie handling.
 import Cookies from "universal-cookie";
 
 
@@ -73,6 +75,13 @@ export default class MainContainer extends Component {
             <Sources
               i18n={i18n}
               currentLanguage={this.state.currentLanguage}
+            />
+          </Route>
+          <Route path="/sponsors">
+            <Sponsors
+              i18n={i18n}
+              currentLanguage={this.state.currentLanguage}
+              selectEnglish={this.selectEnglish}
             />
           </Route>
           <Route path="/">

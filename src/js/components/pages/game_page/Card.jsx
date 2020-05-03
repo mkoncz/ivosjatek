@@ -7,6 +7,8 @@ import hu_logo from "./../../../../img/hu_logo.jpg";
 import en_logo from "./../../../../img/en_logo.jpg";
 import adult_logo from "./../../../../img/18.png";
 
+import CardBack from "./CardBack"
+
 // Import custom styles.
 import "./../../../../css/style.css";
 // Import animation styles.
@@ -46,11 +48,12 @@ export default class Card extends Component {
     }
 
     return (
-      <div id="lap1" className={`flip-container ${this.state.flipClasses}`} align="center" onClick={this.cardClickHandler}>
+      <div className={`flip-container ${this.state.flipClasses}`} align="center" onClick={this.cardClickHandler}>
         <div className="flipper" >
-          <div className="back">
-            <img className="back_img" src={card} height="100%" width="100%" alt="back" />
-          </div>
+          <CardBack 
+            imageSource={card}
+            color='white'
+          />
           <div className="front">
             <div id="kerdes1" className="txt-question">  {content} </div>
             <button

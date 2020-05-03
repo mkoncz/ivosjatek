@@ -38,6 +38,13 @@
         "Selected language is stored in cookie.",
         "Minor bugfixes."
       ]
+    },
+    {
+      "title": "May 2020",
+      "changes": [
+        "New page for sponsors.",
+        "Bugfixes of mobile view."
+      ]
     }
   ]
 }
