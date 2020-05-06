@@ -35,7 +35,7 @@ export default class Game extends Component {
     const number_of_left_cards = this.questions.length;
 
     return (
-      <div align="center" className="page-frame" width="100%">
+      <div align="center" className="page-frame game-view" width="100%">
 
         {this.props.currentLanguage!=="" ?
           <div className="left-card-label animated fadeIn">
@@ -82,7 +82,6 @@ export default class Game extends Component {
       });
     }
   }
-
 
   getRandomQuestion = () => {
     let randomQuestion = this.questions[Math.floor(Math.random() * this.questions.length)];
