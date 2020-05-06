@@ -7,8 +7,9 @@ import {
   faFileSignature, faPalette, faTrashAlt, faWrench, faHashtag
 } from '@fortawesome/free-solid-svg-icons'
 
-import peakyIconResource from "./../../../../img/sponsors/peaky.png";
-import viztoronyIconResource from "./../../../../img/sponsors/viztorony.jpg";
+import cobblerIconResource from "./../../../../img/sponsors/card_backs/cobbler.png";
+import peakyIconResource from "./../../../../img/sponsors/card_backs/peaky.png";
+import viztoronyIconResource from "./../../../../img/sponsors/card_backs/viztorony.jpg";
 import beersLayoutSpacer from "./../../../../img/sponsors/beers.jpg";
 import barBlackLayoutSpacer from "./../../../../img/sponsors/bar_black.jpg";
 import barBrownLayoutSpacer from "./../../../../img/sponsors/bar_brown.jpg";
@@ -110,16 +111,15 @@ const Sponsors = props => {
         <Col className="absolute-position">{props.i18n.t("sponsors.currentSponsors")}</Col>
       </Row>
       <Row >
-        <Col sm="12" md="3" className="sponsor-cards">
           <div className="sponsor-card black">
             <img src={peakyIconResource} />
           </div>
-        </Col>
-        <Col sm="12" md="3" className="sponsor-cards">
           <div className="sponsor-card green">
             <img src={viztoronyIconResource} />
           </div>
-        </Col>
+          <div className="sponsor-card black">
+            <img src={cobblerIconResource} />
+          </div>
       </Row>
     </Container>
   );
