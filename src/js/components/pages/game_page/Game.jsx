@@ -63,8 +63,6 @@ export default class Game extends Component {
    */
   setNewQuestion = () => {
 
-    console.log("new")
-
     // Sets the text of the new card.
     if (this.questions.length !== 0) {
 

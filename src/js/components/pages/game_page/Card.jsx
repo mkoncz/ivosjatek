@@ -14,6 +14,10 @@ import "./../../../../css/style.css";
 // Import animation styles.
 import "./../../../../css/animate.css";
 
+// Import module for cookie handling.
+import Cookies from "universal-cookie";
+
+
 /**
  * The page contains the actual Card.
  * 
@@ -24,6 +28,9 @@ export default class Card extends Component {
 
   constructor() {
     super();
+
+    this.cookies = new Cookies();
+
     this.state = {
       flipClasses: "animated bounceInLeft"
     };
@@ -35,7 +42,7 @@ export default class Card extends Component {
     let content;
 
     // Asks the user age if it is not added yet. 
-    if (this.props.currentLanguage === "") {
+    if (null == this.cookies.get("lang")) {
       content = this.createLanguageSelectorCard();
       isNextButtonHidden = true;
       // Asks the user age if it is not added yet. 
