@@ -287,89 +287,90 @@ body {
     .sponsor-reason {
         padding: 2em;
     }
+}
 
-    /* back, initially hidden pane */
-    .front {
-        transform: rotateY(180deg);
-        -ms-transform: rotateY(180deg);
-        -webkit-transform: rotateY(180deg);
-        -moz-transform: rotateY(180deg);
-        -o-transform: rotateY(180deg);
-        background-color: white;
-        text-align: center;
-    }
+/* back, initially hidden pane */
+.front {
+    transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    background-color: white;
+    text-align: center;
+}
 
-    .btn-card {
-        width: 120px;
-        position: absolute;
-        right: 100px;
-        bottom: 25px;
-        background-color: #1a1a1a !important;
-        color: white;
-        border: none;
-        border-radius: .5rem;
-        box-shadow: 2px 3px rgba(0, 0, 0, 0.5);
-        background-color: #1a1a1a;
-    }
+.btn-card {
+    width: 120px;
+    position: absolute;
+    right: 100px;
+    bottom: 25px;
+    background-color: #1a1a1a !important;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.5);
+    background-color: #1a1a1a;
+}
 
-    .btn-card:hover {
-        color: #ddd !important;
-    }
+.btn-card:hover {
+    color: #ddd !important;
+}
 
-    /* override bootstrap dark theme*/
-    .bg-dark {
-        background-color: #1a1a1a !important;
-    }
+/* override bootstrap dark theme*/
+.bg-dark {
+    background-color: #1a1a1a !important;
+}
 
-    .txt-question {
-        color: black;
-        margin-top: 30px;
-        font-size: 26px;
-        padding: 10px;
-        position: relative;
-        top: 30%;
-        transform: translateY(-50%);
-    }
+.txt-question {
+    color: black;
+    margin-top: 30px;
+    font-size: 26px;
+    padding: 10px;
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%);
+}
 
-    .left-card-label {
-        font-weight: bold;
-        font-size: 1.3em;
-        margin-top: 0.8em;
-    }
+.left-card-label {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: 0.8em;
+}
 
-    .age_check {
-        font-size: 17px;
-    }
+.age_check {
+    font-size: 17px;
+}
 
-    .age_check img {
-        margin: 120px 0 30px 0;
-    }
+.age_check img {
+    margin: 120px 0 30px 0;
+}
 
-    .age_check p {
-        padding: 0px;
-        margin: 0px 40px;
-    }
+.age_check p {
+    padding: 0px;
+    margin: 0px 40px;
+}
 
-    .age_check .question_block {
-        margin: 10px 0 80px 0;
-    }
+.age_check .question_block {
+    margin: 10px 0 80px 0;
+}
 
-    .age_check button {
-        margin: 0px;
-        background-color: #1a1a1a !important;
-        color: white;
-        border: none;
-        border-radius: .5rem;
-        box-shadow: 2px 3px rgba(0, 0, 0, 0.5);
-        background-color: #1a1a1a;
-    }
+.age_check button {
+    margin: 0px;
+    background-color: #1a1a1a !important;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.5);
+    background-color: #1a1a1a;
+}
 
-    .age_check button:hover {
-        color: #ddd !important;
-    }
+.age_check button:hover {
+    color: #ddd !important;
+}
 
-    @media only screen and (max-width: 321px) {
-        .flip-container {
-            padding-left: 0px !important;
-        }
+@media only screen and (max-width: 321px) {
+    .flip-container {
+        padding-left: 0px !important;
     }
+}
