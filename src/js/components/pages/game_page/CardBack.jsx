@@ -1,17 +1,52 @@
 // Import ReactJS module.
 import React from 'react';
 
+import cobblerIconResource from "./../../../../img/card_backs/cobbler.png";
+import peakyIconResource from "./../../../../img/card_backs/peaky.png";
+import viztoronyIconResource from "./../../../../img/card_backs/viztorony.jpg";
+import cocktailIconResource from "./../../../../img/card_backs/cocktail.svg";
+
 /**
  * Card Back page.
  * 
- * @param {Object} props.imageSource Configured i18next object. It is used for the localization.
- * @param {string} props.color Shortened version of the language.
+ * @param {Object} props.logo Configured i18next object. It is used for the localization.
+ * @param {string} props.bgColor Color of the backside of the card.
  */
  const CardBack = props => {
-  // Listing starts from the newest entry.
+
+  /**
+   * Gets the imported image resource based on the logo keyword.
+   * @param {string} keyword Logo field of the question JSON element. 
+   */
+  const getImageResource = (keyword) => {
+    if(keyword=="cobbler"){
+      return cobblerIconResource;
+    } else if(keyword=="peaky"){
+      return peakyIconResource;
+    } else if(keyword=="viztorony"){
+      return viztoronyIconResource;
+    }
+    return cocktailIconResource;
+  }
+
+  /**
+   * Gets the imported image resource based on the logo keyword.
+   * @param {string} keyword Logo field of the question JSON element. 
+   */
+  const getBackgroundColor = (keyword) => {
+    if(keyword=="cobbler"){
+      return "black";
+    } else if(keyword=="peaky"){
+      return "#060604";
+    } else if(keyword=="viztorony"){
+      return "#3a5954";
+    }
+    return "#d3f42f";
+  }
+
   return (
-    <div className="back">
-      <img src={props.imageSource} alt="back-logo" />
+    <div className="back" style={{backgroundColor: getBackgroundColor(props.logo)}}>
+      <img src={getImageResource(props.logo)} alt="back-logo" />
     </div>
   );
 }

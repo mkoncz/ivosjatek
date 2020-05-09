@@ -51,8 +51,11 @@ export default class Game extends Component {
           currentLanguage={this.props.currentLanguage}
           selectEnglish={this.props.selectEnglish}
           selectHungarian={this.props.selectHungarian}
-          setNewQuestion={this.setNewQuestion}>
-          {this.state.currentQuestion[this.props.currentLanguage]}
+          setNewQuestion={this.setNewQuestion}
+          currentQuestion={this.state.currentQuestion[this.props.currentLanguage]}
+          logo={this.state.currentQuestion.logo === "" ? "cocktail.svg" : this.state.currentQuestion.logo}
+          bgColor={this.state.currentQuestion.color === "" ? "#d3f42f" : this.state.currentQuestion.color}
+          >
         </Card>
       </div>
     )

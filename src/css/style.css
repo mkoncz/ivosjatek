@@ -97,7 +97,6 @@ a:hover {
     -moz-transform: rotateY(0deg);
     -o-transform: rotateY(0deg);
     z-index: 2;
-    background-color: #d3f42f;
 }
 
 /* front pane, placed above back */

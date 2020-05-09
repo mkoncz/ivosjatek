@@ -2,7 +2,6 @@
 import React, { Component } from "react"
 
 // Import cocktail logo for the back page of the card.
-import card from "./../../../../img/cocktail.svg";
 import hu_logo from "./../../../../img/hu_logo.jpg";
 import en_logo from "./../../../../img/en_logo.jpg";
 import adult_logo from "./../../../../img/18.png";
@@ -51,15 +50,15 @@ export default class Card extends Component {
       isNextButtonHidden = true;
     }
     else {
-      content = this.props.children;
+      content = this.props.currentQuestion;
     }
 
     return (
       <div className={`flip-container ${this.state.flipClasses}`} align="center" onClick={this.cardClickHandler}>
         <div className="flipper" >
           <CardBack 
-            imageSource={card}
-            color='white'
+            logo={this.props.logo}
+            bgColor={this.props.bgColor}
           />
           <div className="front">
             <div id="kerdes1" className="txt-question">  {content} </div>
