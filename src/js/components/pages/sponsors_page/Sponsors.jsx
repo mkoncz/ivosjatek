@@ -110,14 +110,14 @@ const Sponsors = props => {
         <img src={whiskeyLayoutSpacer} className="background-layout-spacer" />
         <Col className="absolute-position">{props.i18n.t("sponsors.currentSponsors")}</Col>
       </Row>
-      <Row >
-          <div className="sponsor-card black">
+      <Row className="sponsor-cards-row">
+          <div className="sponsor-card peakybarbers">
             <img src={peakyIconResource} />
           </div>
-          <div className="sponsor-card green">
+          <div className="sponsor-card viztorony">
             <img src={viztoronyIconResource} />
           </div>
-          <div className="sponsor-card black">
+          <div className="sponsor-card georgecobbler">
             <img src={cobblerIconResource} />
           </div>
       </Row>
