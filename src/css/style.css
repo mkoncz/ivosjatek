@@ -229,12 +229,20 @@ body{
 	float: left;
 }
 
-.sponsor-card.black{
+.sponsor-cards-row{
+	justify-content: center;
+}
+
+.sponsor-card.georgecobbler{
 	background-color: black;
 }
 
-.sponsor-card.green{
+.sponsor-card.viztorony{
 	background-color: #3a5954;
+}
+
+.sponsor-card.peakybarbers{
+	background-color: #060604;
 }
 
 .sponsor-card img{
