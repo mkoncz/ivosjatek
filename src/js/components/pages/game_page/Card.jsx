@@ -2,7 +2,6 @@
 import React, { Component } from "react"
 
 // Import cocktail logo for the back page of the card.
-import card from "./../../../../img/cocktail.png";
 import hu_logo from "./../../../../img/hu_logo.jpg";
 import en_logo from "./../../../../img/en_logo.jpg";
 import adult_logo from "./../../../../img/18.png";
@@ -14,6 +13,10 @@ import "./../../../../css/style.css";
 // Import animation styles.
 import "./../../../../css/animate.css";
 
+// Import module for cookie handling.
+import Cookies from "universal-cookie";
+
+
 /**
  * The page contains the actual Card.
  * 
@@ -24,6 +27,9 @@ export default class Card extends Component {
 
   constructor() {
     super();
+
+    this.cookies = new Cookies();
+
     this.state = {
       flipClasses: "animated bounceInLeft"
     };
@@ -35,7 +41,7 @@ export default class Card extends Component {
     let content;
 
     // Asks the user age if it is not added yet. 
-    if (this.props.currentLanguage === "") {
+    if (null == this.cookies.get("lang")) {
       content = this.createLanguageSelectorCard();
       isNextButtonHidden = true;
       // Asks the user age if it is not added yet. 
@@ -44,15 +50,15 @@ export default class Card extends Component {
       isNextButtonHidden = true;
     }
     else {
-      content = this.props.children;
+      content = this.props.currentQuestion;
     }
 
     return (
       <div className={`flip-container ${this.state.flipClasses}`} align="center" onClick={this.cardClickHandler}>
         <div className="flipper" >
           <CardBack 
-            imageSource={card}
-            color='white'
+            logo={this.props.logo}
+            bgColor={this.props.bgColor}
           />
           <div className="front">
             <div id="kerdes1" className="txt-question">  {content} </div>

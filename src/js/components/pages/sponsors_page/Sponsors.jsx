@@ -7,14 +7,14 @@ import {
   faFileSignature, faPalette, faTrashAlt, faWrench, faHashtag
 } from '@fortawesome/free-solid-svg-icons'
 
-import cobblerIconResource from "./../../../../img/sponsors/card_backs/cobbler.png";
-import peakyIconResource from "./../../../../img/sponsors/card_backs/peaky.png";
-import viztoronyIconResource from "./../../../../img/sponsors/card_backs/viztorony.jpg";
-import beersLayoutSpacer from "./../../../../img/sponsors/beers.jpg";
-import barBlackLayoutSpacer from "./../../../../img/sponsors/bar_black.jpg";
-import barBrownLayoutSpacer from "./../../../../img/sponsors/bar_brown.jpg";
-import kingLayoutSpacer from "./../../../../img/sponsors/king.jpg";
-import whiskeyLayoutSpacer from "./../../../../img/sponsors/whiskey.jpg";
+import cobblerIconResource from "./../../../../img/card_backs/cobbler.png";
+import peakyIconResource from "./../../../../img/card_backs/peaky.png";
+import viztoronyIconResource from "./../../../../img/card_backs/viztorony.jpg";
+import beersLayoutSpacer from "./../../../../img/sponsors_page/beers.jpg";
+import barBlackLayoutSpacer from "./../../../../img/sponsors_page/bar_black.jpg";
+import barBrownLayoutSpacer from "./../../../../img/sponsors_page/bar_brown.jpg";
+import kingLayoutSpacer from "./../../../../img/sponsors_page/king.jpg";
+import whiskeyLayoutSpacer from "./../../../../img/sponsors_page/whiskey.jpg";
 
 /**
  * Sponsors of the game.
@@ -110,16 +110,22 @@ const Sponsors = props => {
         <img src={whiskeyLayoutSpacer} className="background-layout-spacer" />
         <Col className="absolute-position">{props.i18n.t("sponsors.currentSponsors")}</Col>
       </Row>
-      <Row >
-          <div className="sponsor-card black">
+      <Row className="sponsor-cards-row">
+        <a href="https://www.instagram.com/peakybarbersofficial" target="_blank">
+          <div className="sponsor-card peakybarbers">
             <img src={peakyIconResource} />
           </div>
-          <div className="sponsor-card green">
+        </a>
+        <a href="https://www.instagram.com/nagyerdeiviztorony" target="_blank">
+          <div className="sponsor-card viztorony">
             <img src={viztoronyIconResource} />
           </div>
-          <div className="sponsor-card black">
+        </a>
+        <a href="https://www.instagram.com/georgecobbler" target="_blank">
+          <div className="sponsor-card georgecobbler">
             <img src={cobblerIconResource} />
           </div>
+        </a>
       </Row>
     </Container>
   );

@@ -31,40 +31,42 @@ const NavBar = props => {
   /**
    * Inverts the isOpen state.
    */
-  const toggle = () => setIsOpen(!isOpen);
+  const toggleHamburger = () => setIsOpen(!isOpen);
+
+  const closeHamburger = () => setIsOpen(false);
 
   return (
     <Navbar color="dark" dark expand="md" >
-        <NavbarBrand href="/#">{props.i18n.t("nav.title")}</NavbarBrand>
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar >
-          <Nav className="mr-auto centered" navbar>
-            <NavItem>
-              <NavLink href="/#">{props.i18n.t("nav.game")}</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/#/rules/">{props.i18n.t("nav.rules")}</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/#/releases/">{props.i18n.t("nav.release_notes")}</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/#/sources/">{props.i18n.t("nav.sources")}</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/#/contact/">{props.i18n.t("nav.contact")}</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/#/sponsors/">{props.i18n.t("nav.sponsors")}</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink>
-                <img onClick={props.selectEnglish} className="lang-logo" src={en_logo} alt='english-logo' />
-                <img onClick={props.selectHungarian} className="lang-logo" src={hu_logo} alt='hungarian-logo' />
-              </NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
+      <NavbarBrand href="/#">{props.i18n.t("nav.title")}</NavbarBrand>
+      <NavbarToggler onClick={toggleHamburger} />
+      <Collapse isOpen={isOpen} navbar >
+        <Nav className="mr-auto centered" navbar>
+          <NavItem>
+            <NavLink href="/#" onClick={closeHamburger}>{props.i18n.t("nav.game")}</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="/#/rules/" onClick={closeHamburger}>{props.i18n.t("nav.rules")}</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="/#/releases/" onClick={closeHamburger}>{props.i18n.t("nav.release_notes")}</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="/#/sources/" onClick={closeHamburger}>{props.i18n.t("nav.sources")}</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="/#/contact/" onClick={closeHamburger}>{props.i18n.t("nav.contact")}</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="/#/sponsors/" onClick={closeHamburger}>{props.i18n.t("nav.sponsors")}</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink>
+              <img onClick={props.selectEnglish} className="lang-logo" src={en_logo} alt='english-logo' />
+              <img onClick={props.selectHungarian} className="lang-logo" src={hu_logo} alt='hungarian-logo' />
+            </NavLink>
+          </NavItem>
+        </Nav>
+      </Collapse>
     </Navbar>
   );
 }
