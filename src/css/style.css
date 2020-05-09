@@ -208,7 +208,7 @@ body {
 }
 
 .background-layout-spacer {
-    height: 100%;
+    width: 100%;
 }
 
 .absolute-position {
@@ -297,6 +297,11 @@ body {
      {
         height: 15em;
         overflow: hidden;
+    }
+
+    .background-layout-spacer {
+        width: auto;
+        height: 100%;
     }
 
 }
