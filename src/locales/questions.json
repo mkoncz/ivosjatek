@@ -3,2250 +3,2632 @@
         "id": 1.0,
         "type": "outer_quality",
         "hu": "K\u00e9k szem\u0171ek isznak.",
-        "en": "Drink if you have blue eyes."
+        "en": "Drink if you have blue eyes.",
+        "logo": ""
     },
     {
         "id": 2.0,
         "type": "outer_quality",
         "hu": "Barna szem\u0171ek isznak.",
-        "en": "Drink if you have brown eyes."
+        "en": "Drink if you have brown eyes.",
+        "logo": ""
     },
     {
         "id": 3.0,
         "type": "outer_quality",
         "hu": "Fekete szem\u0171ek isznak.",
-        "en": "Drink if you have black eyes."
+        "en": "Drink if you have black eyes.",
+        "logo": ""
     },
     {
         "id": 4.0,
         "type": "outer_quality",
         "hu": "Z\u00f6ld szem\u0171ek isznak.",
-        "en": "Drink if you have green eyes."
+        "en": "Drink if you have green eyes.",
+        "logo": ""
     },
     {
         "id": 5.0,
         "type": "outer_quality",
         "hu": "L\u00e1nyok isznak.",
-        "en": "Girls drink."
+        "en": "Girls drink.",
+        "logo": ""
     },
     {
         "id": 6.0,
         "type": "outer_quality",
         "hu": "Fi\u00fak isznak.",
-        "en": "Boys drink."
+        "en": "Boys drink.",
+        "logo": ""
     },
     {
         "id": 7.0,
         "type": "outer_quality",
         "hu": "25 \u00e9v felettiek isznak.",
-        "en": "Drink if you are older than 25."
+        "en": "Drink if you are older than 25.",
+        "logo": ""
     },
     {
         "id": 8.0,
         "type": "outer_quality",
         "hu": "25 \u00e9v alattiak isznak.",
-        "en": "Drink if you are younger than 25."
+        "en": "Drink if you are younger than 25.",
+        "logo": ""
     },
     {
         "id": 9.0,
         "type": "outer_quality",
         "hu": "V\u00f6r\u00f6s haj\u00faak isznak.",
-        "en": "Drink if you have red hair."
+        "en": "Drink if you have red hair.",
+        "logo": ""
     },
     {
         "id": 10.0,
         "type": "outer_quality",
         "hu": "Fekete haj\u00faak isznak.",
-        "en": "Drink if you have black hair."
+        "en": "Drink if you have black hair.",
+        "logo": ""
     },
     {
         "id": 11.0,
         "type": "outer_quality",
         "hu": "Sz\u0151ke haj\u00faak isznak.",
-        "en": "Drink if you have blonde hair."
+        "en": "Drink if you have blonde hair.",
+        "logo": "peaky"
     },
     {
         "id": 12.0,
         "type": "outer_quality",
         "hu": "Barna haj\u00faak isznak.",
-        "en": "Drink if you have brown hair."
+        "en": "Drink if you have brown hair.",
+        "logo": "peaky"
     },
     {
         "id": 13.0,
         "type": "outer_quality",
         "hu": "Festett haj\u00faak isznak.",
-        "en": "Drink if you have dyed hair."
+        "en": "Drink if you have dyed hair.",
+        "logo": "peaky"
     },
     {
         "id": 14.0,
         "type": "outer_quality",
         "hu": "Az iszik, akinek a legr\u00f6videbb a haja.",
-        "en": "The player with the shortest hair drinks."
+        "en": "The player with the shortest hair drinks.",
+        "logo": "peaky"
     },
     {
         "id": 15.0,
         "type": "outer_quality",
         "hu": "Az iszik, akinek a leghosszabb a haja.",
-        "en": "The player with the longest hair drinks."
+        "en": "The player with the longest hair drinks.",
+        "logo": "peaky"
     },
     {
         "id": 16.0,
         "type": "outer_quality",
         "hu": "Az iszik, aki kopaszodik.",
-        "en": "Drink if you are bald."
+        "en": "Drink if you are bald.",
+        "logo": "peaky"
     },
     {
         "id": 17.0,
         "type": "outer_quality",
         "hu": "Az iszik, aki a legbarn\u00e1bb k\u00f6z\u00fcletek.",
-        "en": "The tannest player drinks."
+        "en": "The tannest player drinks.",
+        "logo": ""
     },
     {
         "id": 18.0,
         "type": "outer_quality",
         "hu": "Az iszik, aki a legsz\u0151r\u00f6sebb k\u00f6z\u00fcletek.",
-        "en": "The hairiest player drinks."
+        "en": "The hairiest player drinks.",
+        "logo": "peaky"
     },
     {
         "id": 19.0,
         "type": "outer_quality",
         "hu": "Az iszik, aki nehezebb, mint 70kg.",
-        "en": "Drink if your weight is more than 70kg / 150lbs."
+        "en": "Drink if your weight is more than 70kg / 150lbs.",
+        "logo": ""
     },
     {
         "id": 20.0,
         "type": "outer_quality",
         "hu": "Az iszik, aki k\u00f6nnyebb, mint 70kg.",
-        "en": "Drink if your weight is lesser than 70kg / 150lbs."
+        "en": "Drink if your weight is lesser than 70kg / 150lbs.",
+        "logo": ""
     },
     {
         "id": 21.0,
         "type": "outer_quality",
         "hu": "Az iszik, akinek nagyobb a cip\u0151m\u00e9rete, mint 40-es.",
-        "en": "Drink if your shoe size is larger than 40(EU)."
+        "en": "Drink if your shoe size is larger than 40(EU).",
+        "logo": ""
     },
     {
         "id": 22.0,
         "type": "outer_quality",
         "hu": "Az iszik, akinek kisebb a cip\u0151m\u00e9rete, mint 40-es.",
-        "en": "Drink if your shoe size is smaller than 40(EU)."
+        "en": "Drink if your shoe size is smaller than 40(EU).",
+        "logo": ""
     },
     {
         "id": 23.0,
         "type": "outer_quality",
         "hu": "Az iszik, akinek a legnagyobb a bicepsze.",
-        "en": "The player with the biggest biceps drinks."
+        "en": "The player with the biggest biceps drinks.",
+        "logo": ""
     },
     {
         "id": 24.0,
         "type": "outer_quality",
         "hu": "Az iszik, akinek a legnagyobb az orra.",
-        "en": "The player with the biggest nose drinks."
+        "en": "The player with the biggest nose drinks.",
+        "logo": ""
     },
     {
         "id": 25.0,
         "type": "outer_quality",
         "hu": "Az iszik, akinek a legnagyobb a hasa.",
-        "en": "The player with the biggest tummy drinks."
+        "en": "The player with the biggest tummy drinks.",
+        "logo": ""
     },
     {
         "id": 26.0,
         "type": "outer_quality",
         "hu": "Az iszik, akinek a legv\u00e9konyabb a karja. \u00c9s lehet\u0151leg a k\u00f6zelj\u00f6v\u0151ben menjen el gy\u00farni. :P",
-        "en": "The player with the slimmest arm drinks. And go to the gym please. :P"
+        "en": "The player with the slimmest arm drinks. And go to the gym please. :P",
+        "logo": ""
     },
     {
         "id": 27.0,
         "type": "outer_quality",
         "hu": "Az iszik, akinek a legr\u00f6videbb a farka.",
-        "en": "The player with the shortest dick drinks."
+        "en": "The player with the shortest dick drinks.",
+        "logo": ""
     },
     {
         "id": 28.0,
         "type": "outer_quality",
         "hu": "Az iszik, akinek nagyobb a farka, mint 15 cm.",
-        "en": "Drink if your penis is longer than 15 cm."
+        "en": "Drink if your penis is longer than 15 cm.",
+        "logo": ""
     },
     {
         "id": 29.0,
         "type": "outer_quality",
         "hu": "Az iszik, akinek kisebb a farka, mint 21 cm.",
-        "en": "Drink if your penis is shorter than 15 cm."
+        "en": "Drink if your penis is shorter than 15 cm.",
+        "logo": ""
     },
     {
         "id": 30.0,
         "type": "outer_quality",
         "hu": "Az iszik, aki nincs k\u00f6r\u00fclmet\u00e9lve.",
-        "en": "Drink if you are uncircumcised."
+        "en": "Drink if you are uncircumcised.",
+        "logo": ""
     },
     {
         "id": 31.0,
         "type": "inner_quality",
         "hu": "Aki a legid\u0151sebb k\u00f6z\u00fcletek, az iszik.",
-        "en": "The oldest player drinks."
+        "en": "The oldest player drinks.",
+        "logo": ""
     },
     {
         "id": 32.0,
         "type": "inner_quality",
         "hu": "Aki a legfiatalabb k\u00f6z\u00fcletek, az iszik.",
-        "en": "The youngest player drinks."
+        "en": "The youngest player drinks.",
+        "logo": ""
     },
     {
         "id": 33.0,
         "type": "inner_quality",
         "hu": "Aki balkezes, az iszik.",
-        "en": "Drink if you are left-handed."
+        "en": "Drink if you are left-handed.",
+        "logo": ""
     },
     {
         "id": 34.0,
         "type": "inner_quality",
         "hu": "Aki jobbkezes, az iszik.",
-        "en": "Drink if you are right-handed."
+        "en": "Drink if you are right-handed.",
+        "logo": ""
     },
     {
         "id": 35.0,
         "type": "inner_quality",
         "hu": "Akinek van A bet\u0171 a nev\u00e9ben, az iszik.",
-        "en": "Drink if you have 'A' letter in your name."
+        "en": "Drink if you have 'A' letter in your name.",
+        "logo": ""
     },
     {
         "id": 36.0,
         "type": "inner_quality",
         "hu": "Akinek van S bet\u0171 a nev\u00e9ben, az iszik.",
-        "en": "Drink if you have 'S' letter in your name."
+        "en": "Drink if you have 'S' letter in your name.",
+        "logo": ""
     },
     {
         "id": 37.0,
         "type": "inner_quality",
         "hu": "Az iszik, aki a legk\u00f6zelebb lakik.",
-        "en": "The player with the closest home drinks."
+        "en": "The player with the closest home drinks.",
+        "logo": ""
     },
     {
         "id": 38.0,
         "type": "inner_quality",
         "hu": "Az iszik, aki a legmesszebb lakik.",
-        "en": "The player with the furthest home drinks"
+        "en": "The player with the furthest home drinks",
+        "logo": ""
     },
     {
         "id": 39.0,
         "type": "inner_quality",
         "hu": "Az iszik, aki t\u00f6bb, mint 50 km-re sz\u00fcletett innen.",
-        "en": "Drink if you were born more than 50 km away from here."
+        "en": "Drink if you were born more than 50 km away from here.",
+        "logo": ""
     },
     {
         "id": 40.0,
         "type": "inner_quality",
         "hu": "Ha a sz\u00fclet\u00e9snapod p\u00e1ratlan sz\u00e1mra esik, igy\u00e1l egyet!",
-        "en": "Drink if your birthday is an odd number."
+        "en": "Drink if your birthday is an odd number.",
+        "logo": ""
     },
     {
         "id": 41.0,
         "type": "inner_quality",
         "hu": "Ha a sz\u00fclet\u00e9snapod p\u00e1ros sz\u00e1mra esik, igy\u00e1l egyet!",
-        "en": "Drink if your birthday is an even number."
+        "en": "Drink if your birthday is an even number.",
+        "logo": ""
     },
     {
         "id": 42.0,
         "type": "inner_quality",
         "hu": "Ha a sz\u00fclet\u00e9si \u00e9ved p\u00e1ratlan sz\u00e1mra esik, igy\u00e1l egyet!",
-        "en": "Drink if your birth year is an odd number."
+        "en": "Drink if your birth year is an odd number.",
+        "logo": ""
     },
     {
         "id": 43.0,
         "type": "inner_quality",
         "hu": "Ha a sz\u00fclet\u00e9si \u00e9ved p\u00e1ros sz\u00e1mra esik, igy\u00e1l egyet!",
-        "en": "Drink if your birth year is an even number."
+        "en": "Drink if your birth year is an even number.",
+        "logo": ""
     },
     {
         "id": 44.0,
         "type": "outfit",
         "hu": "Akinek lyukas a zoknija, iszik.",
-        "en": "Drink if you wear a holey sock."
+        "en": "Drink if you wear a holey sock.",
+        "logo": ""
     },
     {
         "id": 45.0,
         "type": "outfit",
         "hu": "Az iszik, akin van olyan ruhadarab, amit ma vett fel el\u0151sz\u00f6r.",
-        "en": "Drink if you wear your current outfit for the first time."
+        "en": "Drink if you wear your current outfit for the first time.",
+        "logo": ""
     },
     {
         "id": 46.0,
         "type": "outfit",
         "hu": "Akin tanga van, igyon egyet.",
-        "en": "Drink if you wear a thong."
+        "en": "Drink if you wear a thong.",
+        "logo": ""
     },
     {
         "id": 47.0,
         "type": "outfit",
         "hu": "Az iszik, akinek van piercingje.",
-        "en": "Drink if you have a piencing."
+        "en": "Drink if you have a piencing.",
+        "logo": ""
     },
     {
         "id": 48.0,
         "type": "outfit",
         "hu": "Igyon egyet, akin van \u00f3ra!",
-        "en": "Drink if you wear a watch."
+        "en": "Drink if you wear a watch.",
+        "logo": ""
     },
     {
         "id": 49.0,
         "type": "outfit",
         "hu": "Szem\u00fcvegesek isznak.",
-        "en": "Drink if you wear glasses."
+        "en": "Drink if you wear glasses.",
+        "logo": ""
     },
     {
         "id": 50.0,
         "type": "ownership",
         "hu": "Az iszik, akinek nincs Twittere.",
-        "en": "Drink if you don't have Twitter."
+        "en": "Drink if you don't have Twitter.",
+        "logo": ""
     },
     {
         "id": 51.0,
         "type": "ownership",
         "hu": "Az iszik, akinek nincs Snapchate.",
-        "en": "Drink if you don't have Snapchat."
+        "en": "Drink if you don't have Snapchat.",
+        "logo": ""
     },
     {
         "id": 52.0,
         "type": "ownership",
         "hu": "Az iszik, akinek nincs telefonja.",
-        "en": "Drink if you don't have a phone."
+        "en": "Drink if you don't have a phone.",
+        "logo": ""
     },
     {
         "id": 53.0,
         "type": "ownership",
         "hu": "Az iszik, akinek nincs Instagramja.",
-        "en": "Drink if you don't have Instagram."
+        "en": "Drink if you don't have Instagram.",
+        "logo": ""
     },
     {
         "id": 54.0,
         "type": "ownership",
         "hu": "Az iszik, akinek priv\u00e1t az Instagramja.",
-        "en": "Drink if you have a private Instagram account."
+        "en": "Drink if you have a private Instagram account.",
+        "logo": ""
     },
     {
         "id": 55.0,
         "type": "ownership",
         "hu": "Az iszik, akinek van Tindere.",
-        "en": "Drink if you have a Tinder account."
+        "en": "Drink if you have a Tinder account.",
+        "logo": ""
     },
     {
         "id": 56.0,
         "type": "ownership",
         "hu": "Az iszik, akinek iPhoneja van.",
-        "en": "Drink if you have iPhone."
+        "en": "Drink if you have iPhone.",
+        "logo": ""
     },
     {
         "id": 57.0,
         "type": "ownership",
         "hu": "Az iszik, akinek Androidja van.",
-        "en": "Drink if you have Android."
+        "en": "Drink if you have Android.",
+        "logo": ""
     },
     {
         "id": 58.0,
         "type": "ownership",
         "hu": "Az iszik, akinek van diplom\u00e1ja",
-        "en": "Drink if you have university degree."
+        "en": "Drink if you have university degree.",
+        "logo": ""
     },
     {
         "id": 59.0,
         "type": "ownership",
         "hu": "Az iszik, akinek a legt\u00f6bb Facebook ismer\u0151se van.",
-        "en": "The player with the most Facebook friends drinks."
+        "en": "The player with the most Facebook friends drinks.",
+        "logo": ""
     },
     {
         "id": 60.0,
         "type": "ownership",
         "hu": "Akinek nem az igazi neve van ki\u00edrva Facebookon, iszik.",
-        "en": "Drink if you do not show your real name on Facebook."
+        "en": "Drink if you do not show your real name on Facebook.",
+        "logo": ""
     },
     {
         "id": 61.0,
         "type": "ownership",
         "hu": "Az iszik, akit a legt\u00f6bben k\u00f6vetnek Instagramon.",
-        "en": "The player with the most Instagram followers drinks."
+        "en": "The player with the most Instagram followers drinks.",
+        "logo": ""
     },
     {
         "id": 62.0,
         "type": "ownership",
         "hu": "Igyon egyet, akinek van valamilyen szexu\u00e1lis seg\u00e9deszk\u00f6ze!",
-        "en": "Drink if you have an adult toy."
+        "en": "Drink if you have an adult toy.",
+        "logo": ""
     },
     {
         "id": 63.0,
         "type": "habit",
         "hu": "Az iszik, cigizik.",
-        "en": "Drink if you smoke."
+        "en": "Drink if you smoke.",
+        "logo": ""
     },
     {
         "id": 64.0,
         "type": "habit",
         "hu": "Az iszik, aki r\u00e1gja a k\u00f6rm\u00e9t.",
-        "en": "Drink if you used to chew your nails."
+        "en": "Drink if you used to chew your nails.",
+        "logo": ""
     },
     {
         "id": 65.0,
         "type": "habit",
         "hu": "Szokt\u00e1l magadban besz\u00e9lni? Ha igen, akkor igy\u00e1l!",
-        "en": "Drink if you used to soliloquize."
+        "en": "Drink if you used to soliloquize.",
+        "logo": ""
     },
     {
         "id": 66.0,
         "type": "habit",
         "hu": "Az iszik, aki veget\u00e1ri\u00e1nus.",
-        "en": "Drink if you are vegan."
+        "en": "Drink if you are vegan.",
+        "logo": ""
     },
     {
         "id": 67.0,
         "type": "relationship",
         "hu": "Az iszik, aki a legt\u00f6bb ideje van kapcsolatban.",
-        "en": "The player(s) with the longest relationship drinks."
+        "en": "The player(s) with the longest relationship drinks.",
+        "logo": ""
     },
     {
         "id": 68.0,
         "type": "relationship",
         "hu": "Az iszik, aki tartja a kapcsolatot egy ex\u00e9vel.",
-        "en": "Drink if you keep contact with an ex."
+        "en": "Drink if you keep contact with an ex.",
+        "logo": ""
     },
     {
         "id": 69.0,
         "type": "relationship",
         "hu": "Igyon egyet, akinek volt m\u00e1r nyitott kapcsolata!",
-        "en": "Drink if you have ever had an open relationship."
+        "en": "Drink if you have ever had an open relationship.",
+        "logo": ""
     },
     {
         "id": 70.0,
         "type": "relationship",
         "hu": "Igy\u00e1l egyet, ha szingli vagy. Kett\u0151t, ha kapcsolatban. H\u00e1rmat, ha bonyolult.",
-        "en": "Drink 1 if you are single, 2 if you are in a relationship."
+        "en": "Drink 1 if you are single, 2 if you are in a relationship.",
+        "logo": ""
     },
     {
         "id": 71.0,
         "type": "liked_thing",
         "hu": "Aki szereti a focit, iszik.",
-        "en": "Drink if you like football."
+        "en": "Drink if you like football.",
+        "logo": ""
     },
     {
         "id": 72.0,
         "type": "opinion",
         "hu": "Igyon egyet, aki szerint a m\u00e9ret a l\u00e9nyeg!",
-        "en": "Drink if you think size matters."
+        "en": "Drink if you think size matters.",
+        "logo": ""
     },
     {
         "id": 73.0,
         "type": "opinion",
         "hu": "Az iszik, aki szerint a kuty\u00e1k jobbak, mint a macsk\u00e1k.",
-        "en": "Drink if you prefer dogs before cats."
+        "en": "Drink if you prefer dogs before cats.",
+        "logo": ""
     },
     {
         "id": 74.0,
         "type": "actual",
         "hu": "Az iszik, aki t\u00f6bb, mint egy \u00e9ve nem volt fogorvosn\u00e1l.",
-        "en": "Drink if you haven't visited a dentalist in the last one year."
+        "en": "Drink if you haven't visited a dentalist in the last one year.",
+        "logo": ""
     },
     {
         "id": 75.0,
         "type": "actual",
         "hu": "Igyon egyet, akinek volt egy\u00e9jszak\u00e1s kalandja az ut\u00f3bbi egy \u00e9vben!",
-        "en": "Drink if you had a one night affair in the last one year."
+        "en": "Drink if you had a one night affair in the last one year.",
+        "logo": ""
     },
     {
         "id": 76.0,
         "type": "actual",
         "hu": "Az iszik, aki volt az ut\u00f3bbi egy h\u00f3napban templomban.",
-        "en": "Drink if you were in church this month."
+        "en": "Drink if you were in church this month.",
+        "logo": ""
     },
     {
         "id": 77.0,
         "type": "actual",
         "hu": "Igyon egyet, aki biciklizett az ut\u00f3bbi egy h\u00f3napban!",
-        "en": "Drink if you cycled in the last month."
+        "en": "Drink if you cycled in the last month.",
+        "logo": ""
     },
     {
         "id": 78.0,
         "type": "actual",
         "hu": "Az iszik, akit keltett m\u00e1r fel valaki a h\u00e9ten.",
-        "en": "Drink if you were woken up by someone else this week."
+        "en": "Drink if you were woken up by someone else this week.",
+        "logo": ""
     },
     {
         "id": 79.0,
         "type": "actual",
         "hu": "Az iszik, aki Facebookozott m\u00e1r ma.",
-        "en": "Drink if you used Facebook today."
+        "en": "Drink if you used Facebook today.",
+        "logo": ""
     },
     {
         "id": 80.0,
         "type": "actual",
         "hu": "Az iszik, aki ma m\u00e9g nem zuhanyzott.",
-        "en": "Drink if you haven't had a shower today."
+        "en": "Drink if you haven't had a shower today.",
+        "logo": ""
     },
     {
         "id": 81.0,
         "type": "actual",
         "hu": "Az iszik, aki ma dolgozott.",
-        "en": "Drink if you worked today."
+        "en": "Drink if you worked today.",
+        "logo": ""
     },
     {
         "id": 82.0,
         "type": "actual",
         "hu": "Az iszik, aki holnap dolgozik.",
-        "en": "Drink if you work tomorrow."
+        "en": "Drink if you work tomorrow.",
+        "logo": ""
     },
     {
         "id": 83.0,
         "type": "actual",
         "hu": "Az iszik, aki ny\u00falt m\u00e1r mag\u00e1hoz ma.",
-        "en": "Drink if you have touched yourself today."
+        "en": "Drink if you have touched yourself today.",
+        "logo": ""
     },
     {
         "id": 84.0,
         "type": "actual",
         "hu": "Igyon egyet, aki \u00e9rt m\u00e1r ma p\u00e9niszhez!",
-        "en": "Drink if you have touched a penis today."
+        "en": "Drink if you have touched a penis today.",
+        "logo": ""
     },
     {
         "id": 85.0,
         "type": "actual",
         "hu": "Igyon egyet, aki \u00e9rt m\u00e1r ma n\u0151i mellhez!",
-        "en": "Drink if you have touched boobs today."
+        "en": "Drink if you have touched boobs today.",
+        "logo": ""
     },
     {
         "id": 86.0,
         "type": "actual",
         "hu": "Igyon egyet, aki n\u00e9zett m\u00e1r a h\u00e9ten porn\u00f3t!",
-        "en": "Drink if you have watched porn this week."
+        "en": "Drink if you have watched porn this week.",
+        "logo": ""
     },
     {
         "id": 87.0,
         "type": "actual",
         "hu": "Igyon egyet, aki n\u00e9zett m\u00e1r ma porn\u00f3t!",
-        "en": "Drink if you have watched porn today."
+        "en": "Drink if you have watched porn today.",
+        "logo": ""
     },
     {
         "id": 88.0,
         "type": "actual",
         "hu": "Az iszik, aki ma 10 ut\u00e1n kelt fel.",
-        "en": "Drink if you woke up after 10AM today."
+        "en": "Drink if you woke up after 10AM today.",
+        "logo": ""
     },
     {
         "id": 89.0,
         "type": "actual",
         "hu": "Igyon egyet, aki liftezett m\u00e1r ma!",
-        "en": "Drink if you used an evelator today."
+        "en": "Drink if you used an evelator today.",
+        "logo": ""
     },
     {
         "id": 90.0,
         "type": "actual",
         "hu": "Igyon egyet, aki \u00fclt m\u00e1r ma kocsiban!",
-        "en": "Drink if you sat in a car today."
+        "en": "Drink if you sat in a car today.",
+        "logo": ""
     },
     {
         "id": 91.0,
         "type": "current_game",
         "hu": "Akinek whiskey (is) van a pohar\u00e1ban, iszik.",
-        "en": "Drink if you have whiskey in your glass."
+        "en": "Drink if you have whiskey in your glass.",
+        "logo": "viztorony"
     },
     {
         "id": 92.0,
         "type": "current_game",
         "hu": "Akinek vodka (is) van a pohar\u00e1ban, iszik.",
-        "en": "Drink if you have vodka in your glass."
+        "en": "Drink if you have vodka in your glass.",
+        "logo": "viztorony"
     },
     {
         "id": 93.0,
         "type": "current_game",
         "hu": "Akinek pezsg\u0151 (is) van a pohar\u00e1ban, iszik.",
-        "en": "Drink if you have champagne in your glass."
+        "en": "Drink if you have champagne in your glass.",
+        "logo": "viztorony"
     },
     {
         "id": 94.0,
         "type": "current_game",
         "hu": "Akinek bor (is) van a pohar\u00e1ban, iszik.",
-        "en": "Drink if you have wine in your glass."
+        "en": "Drink if you have wine in your glass.",
+        "logo": "viztorony"
     },
     {
         "id": 95.0,
         "type": "current_game",
         "hu": "Akinek k\u00f3la is van a pohar\u00e1ban, iszik.",
-        "en": "Drink if you have coke in your glass."
+        "en": "Drink if you have coke in your glass.",
+        "logo": "viztorony"
     },
     {
         "id": 96.0,
         "type": "current_game",
         "hu": "Akinek s\u00f6r van a pohar\u00e1ban, iszik.",
-        "en": "Drink if you have beer in your glass."
+        "en": "Drink if you have beer in your glass.",
+        "logo": "viztorony"
     },
     {
         "id": 97.0,
         "type": "current_game",
         "hu": "Az iszik, aki cigizett m\u00e1r mi\u00f3ta elkezd\u0151d\u00f6tt a j\u00e1t\u00e9k.",
-        "en": "Drink if you smoked since the game started."
+        "en": "Drink if you smoked since the game started.",
+        "logo": "viztorony"
     },
     {
         "id": 98.0,
         "type": "current_game",
         "hu": "Cigisz\u00fcnet! ",
-        "en": "Smoking break!"
+        "en": "Smoking break!",
+        "logo": ""
     },
     {
         "id": 99.0,
         "type": "current_game",
         "hu": "Az iszik, aki nem akart az Iv\u00f3sJ\u00e1t\u00e9kkal j\u00e1tszani.",
-        "en": "Drink if you did not want to play with the drinking game."
+        "en": "Drink if you did not want to play with the drinking game.",
+        "logo": ""
     },
     {
         "id": 100.0,
         "type": "current_game",
         "hu": "Az iszik, aki l\u00e1tta m\u00e1r valamelyik m\u00e1sik j\u00e1t\u00e9kost meztelen\u00fcl.",
-        "en": "Drink if you have ever saw any other player naked."
+        "en": "Drink if you have ever saw any other player naked.",
+        "logo": ""
     },
     {
         "id": 101.0,
         "type": "current_game",
         "hu": "V\u00e1lassz iv\u00f3pajtit! Egy embernek csak egy iv\u00f3pajtija lehet. (Iv\u00f3pajti: mindig iszik, ha te is.)",
-        "en": "Choose a Drinking Buddy! (They have to drink everytime you drink.)"
+        "en": "Choose a Drinking Buddy! (They have to drink everytime you drink.)",
+        "logo": ""
     },
     {
         "id": 102.0,
         "type": "current_game",
         "hu": "Az iszik, aki a j\u00e1t\u00e9k ut\u00e1n indul bulizni. Fen\u00e9kig a poharakat!",
-        "en": "Drink if you go party after the drinking game!"
+        "en": "Drink if you go party after the drinking game!",
+        "logo": "viztorony"
     },
     {
         "id": 103.0,
         "type": "current_game",
         "hu": "Aki az el\u0151z\u0151 k\u00e1rty\u00e1n\u00e1l ivott, az iszik.",
-        "en": "Drink again if you drank at the previous card."
+        "en": "Drink again if you drank at the previous card.",
+        "logo": "viztorony"
     },
     {
         "id": 104.0,
         "type": "current_game",
         "hu": "Az iszik, aki legutolj\u00e1ra volt WC-n.",
-        "en": "The last player who visited the toilet drinks."
+        "en": "The last player who visited the toilet drinks.",
+        "logo": ""
     },
     {
         "id": 105.0,
         "type": "current_game",
         "hu": "Az iszik, akinek a leger\u0151sebb pia van a pohar\u00e1ban.",
-        "en": "The player with the strongest drink drinks."
+        "en": "The player with the strongest drink drinks.",
+        "logo": "viztorony"
     },
     {
         "id": 106.0,
         "type": "current_game",
         "hu": "Az iszik, akinek a legt\u00f6bb pia van a pohar\u00e1ban.",
-        "en": "The player with the most drink in their glass drinks."
+        "en": "The player with the most drink in their glass drinks.",
+        "logo": "viztorony"
     },
     {
         "id": 107.0,
         "type": "current_game",
         "hu": "\u00dcr\u00edtse ki a pohar\u00e1t, akinek a legkevesebb van benne! (Csak a nem-\u00fcres poharakat n\u00e9zz\u00e9tek!)",
-        "en": "The player with the least drink in their glass has to ."
+        "en": "The player with the least drink in their glass has to drink.",
+        "logo": "viztorony"
     },
     {
         "id": 108.0,
         "type": "according_to_you",
         "hu": "Az iszik, aki a szerinted a legr\u00e9szegebb.",
-        "en": "The drunkest player according to you has to drink."
+        "en": "The drunkest player according to you has to drink.",
+        "logo": ""
     },
     {
         "id": 109.0,
         "type": "according_to_you",
         "hu": "Az iszik, aki a szerinted a legj\u00f3zanabb.",
-        "en": "The soberest player according to you has to drink."
+        "en": "The soberest player according to you has to drink.",
+        "logo": ""
     },
     {
         "id": 110.0,
         "type": "according_to_you",
         "hu": "Az iszik, aki a szerinted a legideges\u00edt\u0151bb.",
-        "en": "The most annoying player according to you has to drink."
+        "en": "The most annoying player according to you has to drink.",
+        "logo": ""
     },
     {
         "id": 111.0,
         "type": "according_to_you",
         "hu": "Az iszik, aki a szerinted a legszexibb.",
-        "en": "The sexiest player according to you has to drink."
+        "en": "The sexiest player according to you has to drink.",
+        "logo": ""
     },
     {
         "id": 112.0,
         "type": "according_to_you",
         "hu": "Az iszik, aki szerinted a legszexibb rajtad k\u00edv\u00fcl.",
-        "en": "The sexiest player according to you has to drink. You cannot choose yourself."
+        "en": "The sexiest player according to you has to drink. You cannot choose yourself.",
+        "logo": ""
     },
     {
         "id": 113.0,
         "type": "according_to_you",
         "hu": "Az iszik, aki a szerinted a legsmucigabb a borraval\u00f3 ad\u00e1sn\u00e1l.",
-        "en": "The thirfiest player according to you has to drink."
+        "en": "The thirfiest player according to you has to drink.",
+        "logo": ""
     },
     {
         "id": 114.0,
         "type": "according_to_you",
         "hu": "Az iszik, akinek szerinted a legnagyobb.",
-        "en": "Guess which player has the longest one. He has to drink."
+        "en": "Guess which player has the longest one. He has to drink.",
+        "logo": ""
     },
     {
         "id": 115.0,
         "type": "according_to_you",
         "hu": "Az iszik, aki szerinted a leglust\u00e1bb.",
-        "en": "The laziest player according to you has to drink."
+        "en": "The laziest player according to you has to drink.",
+        "logo": ""
     },
     {
         "id": 116.0,
         "type": "according_to_you",
         "hu": "Az iszik, aki szerinted a legt\u00f6bb emberrel fek\u00fcdt le.",
-        "en": "Guess who laid the most people. They have to drink."
+        "en": "Guess who laid the most people. They have to drink.",
+        "logo": ""
     },
     {
         "id": 117.0,
         "type": "have_you_ever",
         "hu": "Az iszik, aki fogott m\u00e1r fegyvert.",
-        "en": "Drink if you have ever held a weapon in your hand."
+        "en": "Drink if you have ever held a weapon in your hand.",
+        "logo": ""
     },
     {
         "id": 118.0,
         "type": "have_you_ever",
         "hu": "Az iszik, aki cigizett m\u00e1r.",
-        "en": "Drink if you have ever smoked."
+        "en": "Drink if you have ever smoked.",
+        "logo": ""
     },
     {
         "id": 119.0,
         "type": "have_you_ever",
         "hu": "Az iszik, aki f\u00fcvezett m\u00e1r.",
-        "en": "Drink if you have ever smoked weed."
+        "en": "Drink if you have ever smoked weed.",
+        "logo": ""
     },
     {
         "id": 120.0,
         "type": "have_you_ever",
         "hu": "Az iszik, aki h\u00e1nyt m\u00e1r m\u00e1sok el\u0151tt.",
-        "en": "Drink if you have ever puked in front of others."
+        "en": "Drink if you have ever puked in front of others.",
+        "logo": ""
     },
     {
         "id": 121.0,
         "type": "have_you_ever",
         "hu": "Az iszik, aki n\u00e9zett m\u00e1r meg 3 epiz\u00f3dot egyhuzamban valamelyik sorozatb\u00f3l.",
-        "en": "Drink if you have ever watched 3 episodes of a series in a row."
+        "en": "Drink if you have ever watched 3 episodes of a series in a row.",
+        "logo": ""
     },
     {
         "id": 122.0,
         "type": "have_you_ever",
         "hu": "Az iszik, aki r\u00fagott m\u00e1r be egyed\u00fcl.",
-        "en": "Drink if you have ever got drunk alone."
+        "en": "Drink if you have ever got drunk alone.",
+        "logo": ""
     },
     {
         "id": 123.0,
         "type": "have_you_ever",
         "hu": "Az iszik, aki esett m\u00e1r be r\u00e9szegen egy bokorba.",
-        "en": "Drink if you have ever been so drunk that you fell into a bush."
+        "en": "Drink if you have ever been so drunk that you fell into a bush.",
+        "logo": ""
     },
     {
         "id": 124.0,
         "type": "have_you_ever",
         "hu": "Az iszik, aki volt m\u00e1r r\u00e9szeg h\u00e1rom egym\u00e1st k\u00f6vet\u0151 este.",
-        "en": "Drink if you have ever got drunk 3 days in a row."
+        "en": "Drink if you have ever got drunk 3 days in a row.",
+        "logo": ""
     },
     {
         "id": 125.0,
         "type": "have_you_ever",
         "hu": "Az iszik, aki m\u00e9g nem l\u00e1tott egy Star Wars filmet sem.",
-        "en": "Drink if you haven't ever seen a Star Wars movie."
+        "en": "Drink if you haven't ever seen a Star Wars movie.",
+        "logo": ""
     },
     {
         "id": 126.0,
         "type": "have_you_ever",
         "hu": "Az iszik, aki m\u00e9g nem l\u00e1tott egy South Park epiz\u00f3dot sem.",
-        "en": "Drink if you haven't ever seen a South Park episode."
+        "en": "Drink if you haven't ever seen a South Park episode.",
+        "logo": ""
     },
     {
         "id": 127.0,
         "type": "have_you_ever",
         "hu": "Az iszik, aki reggelizett m\u00e1r s\u00f6rt.",
-        "en": "Drink if you have ever had beer for breakfast."
+        "en": "Drink if you have ever had beer for breakfast.",
+        "logo": ""
     },
     {
         "id": 128.0,
         "type": "have_you_ever",
         "hu": "Az iszik, aki felejtette m\u00e1r el leh\u00fazni a WC-t.",
-        "en": "Drink if you have ever forgot to flush the toilet."
+        "en": "Drink if you have ever forgot to flush the toilet.",
+        "logo": ""
     },
     {
         "id": 129.0,
         "type": "have_you_ever",
         "hu": "Az iszik, aki szedett m\u00e1r fel valakit, randiz\u00f3s appal.",
-        "en": "Drink if you have ever got laid with the help of a dating app."
+        "en": "Drink if you have ever got laid with the help of a dating app.",
+        "logo": ""
     },
     {
         "id": 130.0,
         "type": "have_you_ever",
         "hu": "Az iszik, aki m\u00e1r lopott \u00e9let\u00e9ben.",
-        "en": "Drink if you have ever stolen something."
+        "en": "Drink if you have ever stolen something.",
+        "logo": ""
     },
     {
         "id": 131.0,
         "type": "have_you_ever",
         "hu": "Az iszik, aki kapott m\u00e1r csekket gyorshajt\u00e1s\u00e9rt.",
-        "en": "Drink if you have ever been fined because of speeding."
+        "en": "Drink if you have ever been fined because of speeding.",
+        "logo": ""
     },
     {
         "id": 132.0,
         "type": "have_you_ever",
         "hu": "Az iszik, aki pr\u00f3b\u00e1lt m\u00e1r leszokni a doh\u00e1nyz\u00e1sr\u00f3l.",
-        "en": "Drink if you have ever tried to stop smoking."
+        "en": "Drink if you have ever tried to stop smoking.",
+        "logo": ""
     },
     {
         "id": 133.0,
         "type": "have_you_ever",
         "hu": "Az iszik, aki t\u00f6bb, mint 3 telep\u00fcl\u00e9sen \u00e9lt eddig.",
-        "en": "Drink if you have lived in more than 3 towns in your life."
+        "en": "Drink if you have lived in more than 3 towns in your life.",
+        "logo": ""
     },
     {
         "id": 134.0,
         "type": "have_you_ever",
         "hu": "Az iszik, aki eg\u00e9sz \u00e9let\u00e9ben egy telep\u00fcl\u00e9sen \u00e9lt eddig.",
-        "en": "Drink if you lived your whole life in one town."
+        "en": "Drink if you lived your whole life in one town.",
+        "logo": ""
     },
     {
         "id": 135.0,
         "type": "have_you_ever",
         "hu": "Az iszik, aki kelt m\u00e1r fel \u00fagy valahol, hogy nem tudta, hogy ker\u00fclt oda.",
-        "en": "Drink if you have ever woken up somewhere and you did not remember how to got there."
+        "en": "Drink if you have ever woken up somewhere and you did not remember how to got there.",
+        "logo": ""
     },
     {
         "id": 136.0,
         "type": "have_you_ever",
         "hu": "Az iszik, aki ivott alkoholt fiatalkor\u00fak\u00e9nt.",
-        "en": "Drink if you have ever drunk alcohol as an underage."
+        "en": "Drink if you have ever drunk alcohol as an underage.",
+        "logo": ""
     },
     {
         "id": 137.0,
         "type": "have_you_ever",
         "hu": "Az iszik, akit \u00fct\u00f6ttek m\u00e1r arcon \u00f6k\u00f6llel.",
-        "en": "Drink if you have ever been hit in the face."
+        "en": "Drink if you have ever been hit in the face.",
+        "logo": ""
     },
     {
         "id": 138.0,
         "type": "have_you_ever",
         "hu": "Az iszik, akinek siker\u00fclt felfognia az Eredet c\u00edm\u0171 filmet.",
-        "en": "Drink if you understood the Inception movie for the first time."
+        "en": "Drink if you understood the Inception movie for the first time.",
+        "logo": ""
     },
     {
         "id": 139.0,
         "type": "have_you_ever",
         "hu": "Az iszik, aki m\u00e1r sz\u00fclt \u00e9let\u00e9ben.",
-        "en": "Drink if you have ever born a child."
+        "en": "Drink if you have ever born a child.",
+        "logo": ""
     },
     {
         "id": 140.0,
         "type": "have_you_ever",
         "hu": "Az iszik, aki s\u00edrt m\u00e1r egy h\u00edress\u00e9g hal\u00e1la miatt.",
-        "en": "Drink if you have ever cried because of the death of a celebrity."
+        "en": "Drink if you have ever cried because of the death of a celebrity.",
+        "logo": ""
     },
     {
         "id": 141.0,
         "type": "have_you_ever",
         "hu": "Az iszik, aki j\u00e1tszott m\u00e1r Yu-gi-oh-t \u00e9s tudta is a szab\u00e1lyokat.",
-        "en": "Drink if you have ever played Yu-gi-oh card game."
+        "en": "Drink if you have ever played Yu-gi-oh card game.",
+        "logo": ""
     },
     {
         "id": 142.0,
         "type": "have_you_ever",
         "hu": "Az iszik, aki csemp\u00e9szett m\u00e1r \u00e1t valamit a hat\u00e1ron.",
-        "en": "Drink if you have ever smuggled something through a state border."
+        "en": "Drink if you have ever smuggled something through a state border.",
+        "logo": ""
     },
     {
         "id": 143.0,
         "type": "have_you_ever",
         "hu": "Az iszik, akinek t\u00f6rt m\u00e1r el csontja.",
-        "en": "Drink if you have ever had a bone fracture."
+        "en": "Drink if you have ever had a bone fracture.",
+        "logo": ""
     },
     {
         "id": 144.0,
         "type": "have_you_ever",
         "hu": "Az iszik, akinek t\u00f6rt m\u00e1r el a l\u00e1ba.",
-        "en": "Drink if you have ever broken your leg."
+        "en": "Drink if you have ever broken your leg.",
+        "logo": ""
     },
     {
         "id": 145.0,
         "type": "have_you_ever",
         "hu": "Az iszik, aki utas\u00edtotta m\u00e1r el egy munkat\u00e1rsa ismer\u0151snek jel\u00f6l\u00e9s\u00e9t Facebookon.",
-        "en": "Drink if you have ever denied the Facebook friend request of your coworker."
+        "en": "Drink if you have ever denied the Facebook friend request of your coworker.",
+        "logo": ""
     },
     {
         "id": 146.0,
         "type": "have_you_ever",
         "hu": "Az iszik, aki t\u00f6r\u00f6lte m\u00e1r ki WC pap\u00edron k\u00edv\u00fcl m\u00e1ssal.",
-        "en": "Drink if you have ever used anything else than toilet paper for toilet paper purposes."
+        "en": "Drink if you have ever used anything else than toilet paper for toilet paper purposes.",
+        "logo": ""
     },
     {
         "id": 147.0,
         "type": "have_you_ever",
         "hu": "Az iszik, aki vitt m\u00e1r ruh\u00e1t vissza az \u00fczletbe \u00fagy, hogy el\u0151tte hordta.",
-        "en": "Drink if you have ever returned a cloth after you wore it."
+        "en": "Drink if you have ever returned a cloth after you wore it.",
+        "logo": ""
     },
     {
         "id": 148.0,
         "type": "have_you_ever",
         "hu": "Aki volt m\u00e1r tetves, iszik.",
-        "en": "Drink if you have ever had lice."
+        "en": "Drink if you have ever had lice.",
+        "logo": ""
     },
     {
         "id": 149.0,
         "type": "have_you_ever",
         "hu": "Aki v\u00e1gta m\u00e1r meg mag\u00e1t borotv\u00e1val, iszik.",
-        "en": "Drink if you have ever cut yourself accidentaly while shaving."
+        "en": "Drink if you have ever cut yourself accidentaly while shaving.",
+        "logo": ""
     },
     {
         "id": 150.0,
         "type": "have_you_ever",
         "hu": "Igyon egyet, aki l\u00f3gott egy \u00e9vet iskola helyett!",
-        "en": "Drink if you have ever paused your school for a year."
+        "en": "Drink if you have ever paused your school for a year.",
+        "logo": ""
     },
     {
         "id": 151.0,
         "type": "have_you_ever",
         "hu": "Igyon egyet, aki verekedett m\u00e1r!",
-        "en": "Drink if you have ever fighted on the screet."
+        "en": "Drink if you have ever fighted on the screet.",
+        "logo": ""
     },
     {
         "id": 152.0,
         "type": "have_you_ever",
         "hu": "Igyon egyet, aki tanult olaszul!",
-        "en": "Drink if you have ever learned Italian."
+        "en": "Drink if you have ever learned Italian.",
+        "logo": ""
     },
     {
         "id": 153.0,
         "type": "have_you_ever",
         "hu": "Igyon egyet, aki tanult francia nyelvet!",
-        "en": "Drink if you have ever learned French."
+        "en": "Drink if you have ever learned French.",
+        "logo": ""
     },
     {
         "id": 154.0,
         "type": "have_you_ever",
         "hu": "Igyon egyet, aki tanult n\u00e9met\u00fcl!",
-        "en": "Drink if you have ever learned German."
+        "en": "Drink if you have ever learned German.",
+        "logo": ""
     },
     {
         "id": 155.0,
         "type": "have_you_ever",
         "hu": "Igyon egyet, aki tanult angolul!",
-        "en": "Drink if you have ever learned English."
+        "en": "Drink if you have ever learned English.",
+        "logo": ""
     },
     {
         "id": 156.0,
         "type": "have_you_ever",
         "hu": "Igyon egyet, aki szedett m\u00e1r fel valakit sz\u00f3rakoz\u00f3helyen!",
-        "en": "Drink if you have ever picked up someone at a bar."
+        "en": "Drink if you have ever picked up someone at a bar.",
+        "logo": ""
     },
     {
         "id": 157.0,
         "type": "have_you_ever",
         "hu": "Igyon egyet, aki vezetett m\u00e1r miut\u00e1n alkoholt ivott!",
-        "en": "Drink if you have ever driven a car after you drunk alcohol."
+        "en": "Drink if you have ever driven a car after you drunk alcohol.",
+        "logo": ""
     },
     {
         "id": 158.0,
         "type": "have_you_ever",
         "hu": "Igyon egyet, aki volt m\u00e1r 48 \u00f3r\u00e1ig egyhuzamban \u00e9bren!",
-        "en": "Drink if you have ever been awake for 48 hours."
+        "en": "Drink if you have ever been awake for 48 hours.",
+        "logo": ""
     },
     {
         "id": 159.0,
         "type": "have_you_ever",
-        "hu": "Igyon egyet, aki mondta m\u00e1r hogy \\\"szeretlek\\\", csak hogy valaki lefek\u00fcdj\u00f6n vele!",
-        "en": "Drink if you have ever told someone \\\"I love you\\\", just to get laid."
+        "hu": "Igyon egyet, aki mondta m\u00e1r hogy \"szeretlek\", csak hogy valaki lefek\u00fcdj\u00f6n vele!",
+        "en": "Drink if you have ever told someone \"I love you\", just to get laid.",
+        "logo": ""
     },
     {
         "id": 160.0,
         "type": "have_you_ever",
         "hu": "Igyon egyet, akit dobtak m\u00e1r ki sz\u00f3rakoz\u00f3helyr\u0151l!",
-        "en": "Drink if you have ever been kicked out from a club."
+        "en": "Drink if you have ever been kicked out from a club.",
+        "logo": ""
     },
     {
         "id": 161.0,
         "type": "have_you_ever",
         "hu": "Igyon egyet, akinek szerveztek m\u00e1r meglepet\u00e9sbulit!",
-        "en": "Drink if you have ever got a surprise party."
+        "en": "Drink if you have ever got a surprise party.",
+        "logo": ""
     },
     {
         "id": 162.0,
         "type": "have_you_ever",
         "hu": "Igyon egyet, aki nyomott m\u00e1r ki m\u00e1son pattan\u00e1st!",
-        "en": "Drink if you have ever popped pimplen on someone else."
+        "en": "Drink if you have ever popped pimplen on someone else.",
+        "logo": ""
     },
     {
         "id": 163.0,
         "type": "have_you_ever",
         "hu": "Igyon egyet, aki pattintott m\u00e1r valakit \u00e1llcs\u00facson!",
-        "en": "Drink if you have ever hit someone in the face."
+        "en": "Drink if you have ever hit someone in the face.",
+        "logo": ""
     },
     {
         "id": 164.0,
         "type": "have_you_ever",
         "hu": "Igyon egyet, akit pattintottak m\u00e1r \u00e1llcs\u00facson!",
-        "en": "Drink if you have ever been hit in the face."
+        "en": "Drink if you have ever been hit in the face.",
+        "logo": ""
     },
     {
         "id": 165.0,
         "type": "have_you_ever_18",
         "hu": "Az iszik, aki haszn\u00e1lt m\u00e1r szexu\u00e1lis seg\u00e9deszk\u00f6zt. (\u00d3vszer nem sz\u00e1m\u00edt)",
-        "en": "Drink if you have ever used an adult toy."
+        "en": "Drink if you have ever used an adult toy.",
+        "logo": ""
     },
     {
         "id": 166.0,
         "type": "have_you_ever_18",
         "hu": "Az iszik, aki vett m\u00e1r fel szokny\u00e1t/nadr\u00e1got, als\u00f3nem\u0171 n\u00e9lk\u00fcl.",
-        "en": "Drink if you have ever worn skirt/jeans without underwear."
+        "en": "Drink if you have ever worn skirt/jeans without underwear.",
+        "logo": ""
     },
     {
         "id": 167.0,
         "type": "have_you_ever_18",
         "hu": "Az iszik, aki m\u00e9rte m\u00e1r meg egy p\u00e9nisz hossz\u00e1t.",
-        "en": "Drink if you have ever measured a penis."
+        "en": "Drink if you have ever measured a penis.",
+        "logo": ""
     },
     {
         "id": 168.0,
         "type": "have_you_ever_18",
         "hu": "Az iszik, akit kaptak m\u00e1r rajta maszturb\u00e1l\u00e1son.",
-        "en": "Drink if you have ever been caught during masturbating."
+        "en": "Drink if you have ever been caught during masturbating.",
+        "logo": ""
     },
     {
         "id": 169.0,
         "type": "have_you_ever_18",
         "hu": "Az iszik, akire nyitottak m\u00e1r r\u00e1 puc\u00e9ran.",
-        "en": "Drink if you have ever been caught during masturbating."
+        "en": "Drink if you have ever been caught during masturbating.",
+        "logo": ""
     },
     {
         "id": 170.0,
         "type": "have_you_ever_18",
         "hu": "Az iszik, aki m\u00e1r maszturb\u00e1lt m\u00e1s el\u0151tt.",
-        "en": "Drink if you have ever masturbated in front of someone else."
+        "en": "Drink if you have ever masturbated in front of someone else.",
+        "logo": ""
     },
     {
         "id": 171.0,
         "type": "have_you_ever_18",
         "hu": "Az iszik, aki m\u00e1r \u00e9bredt olyan mellett, akit nem ismert.",
-        "en": "Drink if you have ever waken up next to someone who did not know."
+        "en": "Drink if you have ever waken up next to someone who did not know.",
+        "logo": ""
     },
     {
         "id": 172.0,
         "type": "have_you_ever_18",
         "hu": "Az iszik, aki m\u00e1r cs\u00f3kolt meg azonos nem\u0171 embert.",
-        "en": "Drink if you have ever kissed someone of your sex."
+        "en": "Drink if you have ever kissed someone of your sex.",
+        "logo": ""
     },
     {
         "id": 173.0,
         "type": "have_you_ever_18",
         "hu": "Az iszik, akinek volt m\u00e1r erotikus \u00e1lma.",
-        "en": "Drink if you have ever had an erotic dream."
+        "en": "Drink if you have ever had an erotic dream.",
+        "logo": ""
     },
     {
         "id": 174.0,
         "type": "have_you_ever_18",
         "hu": "Az iszik, akinek m\u00e1r volt meleg/leszbikus \u00e1lma.",
-        "en": "Drink if you have ever had a gay/lesbian dream."
+        "en": "Drink if you have ever had a gay/lesbian dream.",
+        "logo": ""
     },
     {
         "id": 175.0,
         "type": "have_you_ever_18",
         "hu": "Az iszik, aki pr\u00f3b\u00e1lta m\u00e1r fel a bar\u00e1tja/bar\u00e1tn\u0151je als\u00f3nem\u0171j\u00e9t.",
-        "en": "Drink if you have ever tried your boyfriend's or girlfriend's underwear."
+        "en": "Drink if you have ever tried your boyfriend's or girlfriend's underwear.",
+        "logo": ""
     },
     {
         "id": 176.0,
         "type": "have_you_ever_18",
         "hu": "Az iszik, aki szexelt m\u00e1r \u00fagy, hogy a partner\u00e9n k\u00edv\u00fcl m\u00e1s is volt a szob\u00e1ban.",
-        "en": "Drink if you have ever had sex while someone else was on the room (except your partner)."
+        "en": "Drink if you have ever had sex while someone else was on the room (except your partner).",
+        "logo": ""
     },
     {
         "id": 177.0,
         "type": "have_you_ever_18",
         "hu": "Az iszik, aki megcs\u00f3kolta m\u00e1r egy bar\u00e1tja/bar\u00e1tn\u0151je tes\u00f3j\u00e1t.",
-        "en": "Drink if you have ever kissed your friends sister."
+        "en": "Drink if you have ever kissed your friends sister.",
+        "logo": ""
     },
     {
         "id": 178.0,
         "type": "have_you_ever_18",
         "hu": "Az iszik, aki t\u00e1ncolt m\u00e1r puc\u00e9ran a t\u00fck\u00f6r el\u0151tt.",
-        "en": "Drink if you have ever danced naked in front of the mirror."
+        "en": "Drink if you have ever danced naked in front of the mirror.",
+        "logo": ""
     },
     {
         "id": 179.0,
         "type": "have_you_ever_18",
         "hu": "Az iszik, akinek volt m\u00e1r erotikus \u00e1lma.",
-        "en": "Drink if you have ever had an erotic dream."
+        "en": "Drink if you have ever had an erotic dream.",
+        "logo": ""
     },
     {
         "id": 180.0,
         "type": "have_you_ever_18",
         "hu": "Az iszik, aki vetk\u0151z\u00f6tt webkamera el\u0151tt.",
-        "en": "Drink if you have ever stripped through webcam."
+        "en": "Drink if you have ever stripped through webcam.",
+        "logo": ""
     },
     {
         "id": 181.0,
         "type": "have_you_ever_18",
         "hu": "Az iszik, aki volt m\u00e1r happy finish massz\u00e1zson.",
-        "en": "Drink if you have ever had a happy finish massage."
+        "en": "Drink if you have ever had a happy finish massage.",
+        "logo": ""
     },
     {
         "id": 182.0,
         "type": "have_you_ever_18",
         "hu": "Az iszik, aki maszturb\u00e1lt m\u00e1r t\u00f6bb, mint h\u00e1romszor egy nap alatt.",
-        "en": "Drink if you have ever masturbated more than 3 in one day."
+        "en": "Drink if you have ever masturbated more than 3 in one day.",
+        "logo": ""
     },
     {
         "id": 183.0,
         "type": "have_you_ever_18",
         "hu": "Az iszik, aki maszturb\u00e1lt m\u00e1r t\u00f6bb, mint n\u00e9gyszer egy nap alatt.",
-        "en": "Drink if you have ever masturbated more than 4 in one day."
+        "en": "Drink if you have ever masturbated more than 4 in one day.",
+        "logo": ""
     },
     {
         "id": 184.0,
         "type": "have_you_ever_18",
         "hu": "Az iszik, aki hazudott m\u00e1r a farka m\u00e9ret\u00e9r\u0151l (vagy a partner\u00e9\u00e9r\u0151l).",
-        "en": "Drink if you have ever lied about your penis size (or your parter's one)."
+        "en": "Drink if you have ever lied about your penis size (or your parter's one).",
+        "logo": ""
     },
     {
         "id": 185.0,
         "type": "have_you_ever_18",
         "hu": "Az iszik, aki l\u00e1tott m\u00e1r \u00e9l\u0151ben sztript\u00edzt.",
-        "en": "Drink if you have ever seen striptease live."
+        "en": "Drink if you have ever seen striptease live.",
+        "logo": ""
     },
     {
         "id": 186.0,
         "type": "have_you_ever_18",
         "hu": "Az iszik, aki volt m\u00e1r nudib\u00e1rban.",
-        "en": "Drink if you have ever been in a topless bar."
+        "en": "Drink if you have ever been in a topless bar.",
+        "logo": ""
     },
     {
         "id": 187.0,
         "type": "have_you_ever_18",
         "hu": "Az iszik, akinek kellett m\u00e1r eltakarnia valamelyik testr\u00e9sz\u00e9t, mert nyoma volt az el\u0151z\u0151 \u00e9jszak\u00e1nak.",
-        "en": "Drink if you have ever had to hide the marks of the last night (e.g. hickey)."
+        "en": "Drink if you have ever had to hide the marks of the last night (e.g. hickey).",
+        "logo": ""
     },
     {
         "id": 188.0,
         "type": "have_you_ever_18",
         "hu": "Az iszik, aki k\u00e9mkedett m\u00e1r valamelyik exe ut\u00e1n.",
-        "en": "Drink if you have ever spied after your ex."
+        "en": "Drink if you have ever spied after your ex.",
+        "logo": ""
     },
     {
         "id": 189.0,
         "type": "have_you_ever_18",
         "hu": "Az iszik, aki maszturb\u00e1lt m\u00e1r gy\u00fcm\u00f6lccsel.",
-        "en": "Drink if you have ever masturbated with a fruit."
+        "en": "Drink if you have ever masturbated with a fruit.",
+        "logo": ""
     },
     {
         "id": 190.0,
         "type": "have_you_ever_18",
         "hu": "Igyon egyet, aki haszn\u00e1lt m\u00e1r bilincset szex k\u00f6zben!",
-        "en": "Drink if you have ever used handcuffs for sex."
+        "en": "Drink if you have ever used handcuffs for sex.",
+        "logo": ""
     },
     {
         "id": 191.0,
         "type": "have_you_ever_18",
         "hu": "Igyon egyet, aki cs\u00f3kolt m\u00e1r meg valakit a saj\u00e1t nem\u00e9b\u0151l!",
-        "en": "Drink if you have ever kissed someone of your sex."
+        "en": "Drink if you have ever kissed someone of your sex.",
+        "logo": ""
     },
     {
         "id": 192.0,
         "type": "have_you_ever_18",
         "hu": "Igyon egyet, aki mozdult m\u00e1r r\u00e1 h\u00e1zas emberre!",
-        "en": "Drink if you have ever flirted with a married person."
+        "en": "Drink if you have ever flirted with a married person.",
+        "logo": ""
     },
     {
         "id": 193.0,
         "type": "have_you_ever_18",
         "hu": "Igyon egyet, aki l\u00e1tta m\u00e1r egy bar\u00e1tj\u00e1t szex k\u00f6zben!",
-        "en": "Drink if you have ever seen your friend having sex."
+        "en": "Drink if you have ever seen your friend having sex.",
+        "logo": ""
     },
     {
         "id": 194.0,
         "type": "have_you_ever_18",
         "hu": "Igyon egyet, akit l\u00e1tott m\u00e1r egy bar\u00e1tja szexel\u00e9s k\u00f6zben!",
-        "en": "Drink if a friend has ever seen you having sex. "
+        "en": "Drink if a friend has ever seen you having sex. ",
+        "logo": ""
     },
     {
         "id": 195.0,
         "type": "have_you_ever_18",
         "hu": "Igyon egyet, aki haszn\u00e1lt m\u00e1r sikos\u00edt\u00f3t!",
-        "en": "Drink if you have ever used lublicant."
+        "en": "Drink if you have ever used lublicant.",
+        "logo": ""
     },
     {
         "id": 196.0,
         "type": "have_you_ever_18",
         "hu": "Igyon egyet, aki nyalt m\u00e1r le tejsz\u00ednhabot valakir\u0151l.",
-        "en": "Drink if you have ever licked whipped cream from someone else."
+        "en": "Drink if you have ever licked whipped cream from someone else.",
+        "logo": ""
     },
     {
         "id": 197.0,
         "type": "have_you_ever_18",
         "hu": "Igyon egyet, aki \u00f6lt\u00e1ncolt m\u00e1r valakinek.",
-        "en": "Drink if you have ever given someone a hip dance."
+        "en": "Drink if you have ever given someone a hip dance.",
+        "logo": ""
     },
     {
         "id": 198.0,
         "type": "nudes",
         "hu": "Igyon egyet, aki csin\u00e1lt m\u00e1r meztelen k\u00e9pet valaki m\u00e1sr\u00f3l!",
-        "en": "Drink if you have ever took a naked photo about someone else."
+        "en": "Drink if you have ever took a naked photo about someone else.",
+        "logo": ""
     },
     {
         "id": 199.0,
         "type": "nudes",
         "hu": "Az iszik, aki fot\u00f3zott m\u00e1r le valakit meztelen\u00fcl a tudta n\u00e9lk\u00fcl.",
-        "en": "Drink if you have ever took a naked photo of someone and did not tell them."
+        "en": "Drink if you have ever took a naked photo of someone and did not tell them.",
+        "logo": ""
     },
     {
         "id": 200.0,
         "type": "nudes",
         "hu": "Igyon egyet, aki csin\u00e1lt m\u00e1r meztelen k\u00e9pet mag\u00e1r\u00f3l!",
-        "en": "Drink if you have ever took a naked photo about yourself."
+        "en": "Drink if you have ever took a naked photo about yourself.",
+        "logo": ""
     },
     {
         "id": 201.0,
         "type": "nudes",
         "hu": "Igyon egyet, aki kapott m\u00e1r szexi k\u00e9pet valakit\u0151l!",
-        "en": "Drink if you have ever got sexy pics."
+        "en": "Drink if you have ever got sexy pics.",
+        "logo": ""
     },
     {
         "id": 202.0,
         "type": "nudes",
         "hu": "Igyon egyet, aki k\u00fcld\u00f6tt m\u00e1r szexi k\u00e9pet valakinek!",
-        "en": "Drink if you have ever sent sexy pics."
+        "en": "Drink if you have ever sent sexy pics.",
+        "logo": ""
     },
     {
         "id": 203.0,
         "type": "nudes",
         "hu": "Igyon egyet, aki kapott m\u00e1r f\u00fctyifot\u00f3t valakit\u0151l!",
-        "en": "Drink if you have ever got dick pics."
+        "en": "Drink if you have ever got dick pics.",
+        "logo": ""
     },
     {
         "id": 204.0,
         "type": "nudes",
         "hu": "Igyon egyet, aki k\u00fcld\u00f6tt m\u00e1r f\u00fctyifot\u00f3t valakinek!",
-        "en": "Drink if you have ever sent dick pics."
+        "en": "Drink if you have ever sent dick pics.",
+        "logo": ""
     },
     {
         "id": 205.0,
         "type": "naked",
         "hu": "Az iszik, aki szaun\u00e1zott m\u00e1r meztelen\u00fcl.",
-        "en": "Drink if you have ever been naked in sauna."
+        "en": "Drink if you have ever been naked in sauna.",
+        "logo": ""
     },
     {
         "id": 206.0,
         "type": "naked",
         "hu": "Az iszik, aki napozott m\u00e1r topless.",
-        "en": "Drink if you have ever sunbathed topless."
+        "en": "Drink if you have ever sunbathed topless.",
+        "logo": ""
     },
     {
         "id": 207.0,
         "type": "naked",
         "hu": "Igyon egyet, aki m\u00e1r volt meztelen t\u00f6bb ember el\u0151tt (nem \u00f6lt\u00f6z\u0151ben)!",
-        "en": "Drink if you have ever been naked in front of other people (not in a dressing room)."
+        "en": "Drink if you have ever been naked in front of other people (not in a dressing room).",
+        "logo": ""
     },
     {
         "id": 208.0,
         "type": "naked",
         "hu": "Igyon egyet, aki vett m\u00e1r r\u00e9szt meztelen fut\u00e1son!",
-        "en": "Drink if you have ever participated in a naked running."
+        "en": "Drink if you have ever participated in a naked running.",
+        "logo": ""
     },
     {
         "id": 209.0,
         "type": "naked",
         "hu": "Az iszik, aki f\u00fcrd\u00f6tt m\u00e1r meztelen\u00fcl t\u00f3ban/foly\u00f3ban/tengerben.",
-        "en": "Drink if you have ever swimmed naked."
+        "en": "Drink if you have ever swimmed naked.",
+        "logo": ""
     },
     {
         "id": 210.0,
         "type": "boobs",
         "hu": "Az iszik, aki fogott m\u00e1r legal\u00e1bb D kosaras melleket.",
-        "en": "Drink if you have ever touched larger than C cup boobs."
+        "en": "Drink if you have ever touched larger than C cup boobs.",
+        "logo": ""
     },
     {
         "id": 211.0,
         "type": "boobs",
         "hu": "Az iszik, aki fogott m\u00e1r nagyobb, mint D kosaras melleket.",
-        "en": "Drink if you have ever touched larger than D cup boobs."
+        "en": "Drink if you have ever touched larger than D cup boobs.",
+        "logo": ""
     },
     {
         "id": 212.0,
         "type": "boobs",
         "hu": "Az iszik, aki fogott m\u00e1r szilikon melleket.",
-        "en": "Drink if you have ever touched fake boobs."
+        "en": "Drink if you have ever touched fake boobs.",
+        "logo": ""
     },
     {
         "id": 213.0,
         "type": "boobs",
         "hu": "Az iszik, aki l\u00e1tott m\u00e1r legal\u00e1bb D kosaras melleket.",
-        "en": "Drink if you have ever seen larger than C cup boobs."
+        "en": "Drink if you have ever seen larger than C cup boobs.",
+        "logo": ""
     },
     {
         "id": 214.0,
         "type": "boobs",
         "hu": "Az iszik, aki l\u00e1tott m\u00e1r nagyobb, mint D kosaras melleket.",
-        "en": "Drink if you have ever seen larger than D cup boobs."
+        "en": "Drink if you have ever seen larger than D cup boobs.",
+        "logo": ""
     },
     {
         "id": 215.0,
         "type": "boobs",
         "hu": "Az iszik, aki l\u00e1tott m\u00e1r szilikon melleket.",
-        "en": "Drink if you have ever seen fake boobs."
+        "en": "Drink if you have ever seen fake boobs.",
+        "logo": ""
     },
     {
         "id": 216.0,
         "type": "boobs",
         "hu": "Az iszik, akinek legal\u00e1bb C kosaras a melltart\u00f3ja.",
-        "en": "Drink if your boobs are larger than B cup."
+        "en": "Drink if your boobs are larger than B cup.",
+        "logo": ""
     },
     {
         "id": 217.0,
         "type": "boobs",
         "hu": "Az iszik, akinek legal\u00e1bb D kosaras a melltart\u00f3ja.",
-        "en": "Drink if your boobs are larger than C cup."
+        "en": "Drink if your boobs are larger than C cup.",
+        "logo": ""
     },
     {
         "id": 218.0,
         "type": "boobs",
         "hu": "Az iszik, akinek nagyobb, mint D kosaras a melltart\u00f3ja.",
-        "en": "Drink if your boobs are larger than D cup."
+        "en": "Drink if your boobs are larger than D cup.",
+        "logo": ""
     },
     {
         "id": 219.0,
         "type": "boobs",
         "hu": "Az iszik, akinek a legnagyobb a melle.",
-        "en": "The player with the biggest boobs drinks."
+        "en": "The player with the biggest boobs drinks.",
+        "logo": ""
     },
     {
         "id": 220.0,
         "type": "boobs",
         "hu": "Igyon egyet, aki villantott m\u00e1r mellet idegeneknek!",
-        "en": "Drink if you have ever flashed boobs for strangers."
+        "en": "Drink if you have ever flashed boobs for strangers.",
+        "logo": ""
     },
     {
         "id": 221.0,
         "type": "porn",
         "hu": "Az iszik, aki l\u00e1tott m\u00e1r \u00e9l\u0151ben porn\u00f3sz\u00edn\u00e9szt/sz\u00edn\u00e9szn\u0151t.",
-        "en": "Drink if you have ever saw a porn actor/actress."
+        "en": "Drink if you have ever saw a porn actor/actress.",
+        "logo": ""
     },
     {
         "id": 222.0,
         "type": "porn",
         "hu": "Az iszik, akinek van porn\u00f3 a k\u00f6nyvjelz\u0151i k\u00f6z\u00f6tt.",
-        "en": "Drink if you have a porn site in your bookmarks."
+        "en": "Drink if you have a porn site in your bookmarks.",
+        "logo": ""
     },
     {
         "id": 223.0,
         "type": "porn",
         "hu": "Az iszik, aki kiskor\u00e1ban maradt fent az\u00e9rt sok\u00e1ig, hogy porn\u00f3t n\u00e9zhessen a k\u00e1belt\u00e9v\u00e9n.",
-        "en": "Drink if you watched porn as an underage."
+        "en": "Drink if you watched porn as an underage.",
+        "logo": ""
     },
     {
         "id": 224.0,
         "type": "porn",
         "hu": "Az iszik, aki fizetett m\u00e1r el\u0151 egy porn\u00f3oldalra.",
-        "en": "Drink if you have ever payed for porn."
+        "en": "Drink if you have ever payed for porn.",
+        "logo": ""
     },
     {
         "id": 225.0,
         "type": "porn",
         "hu": "Az iszik, aki fizetett m\u00e1r webkamer\u00e1s szex\u00e9rt.",
-        "en": "Drink if you have ever payed for webcam porn."
+        "en": "Drink if you have ever payed for webcam porn.",
+        "logo": ""
     },
     {
         "id": 226.0,
         "type": "sex_place",
         "hu": "Az iszik, aki szexelt m\u00e1r kocsiban.",
-        "en": "Drink if you have ever had sex in a car."
+        "en": "Drink if you have ever had sex in a car.",
+        "logo": ""
     },
     {
         "id": 227.0,
         "type": "sex_place",
         "hu": "Az iszik, aki szexelt m\u00e1r liftben.",
-        "en": "Drink if you have ever had sex in an evelator."
+        "en": "Drink if you have ever had sex in an evelator.",
+        "logo": ""
     },
     {
         "id": 228.0,
         "type": "sex_place",
         "hu": "Igyon egyet, aki szexelt m\u00e1r szabadban!",
-        "en": "Drink if you have ever had sex outdoor."
+        "en": "Drink if you have ever had sex outdoor.",
+        "logo": ""
     },
     {
         "id": 229.0,
         "type": "sex_place",
         "hu": "Igyon egyet, aki szexelt m\u00e1r mosd\u00f3ban!",
-        "en": "Drink if you have ever had sex in a bathroom."
+        "en": "Drink if you have ever had sex in a bathroom.",
+        "logo": ""
     },
     {
         "id": 230.0,
         "type": "sex_place",
         "hu": "Igyon egyet, aki szexelt m\u00e1r a padl\u00f3n!",
-        "en": "Drink if you have ever had sex on the floor."
+        "en": "Drink if you have ever had sex on the floor.",
+        "logo": ""
     },
     {
         "id": 231.0,
         "type": "sex_place",
         "hu": "Igyon egyet, aki szexelt m\u00e1r m\u00e1s \u00e1gy\u00e1ban \u00e9s nem mondta el neki!",
-        "en": "Drink if you have ever had sex in someone else's bed and you did not tell them."
+        "en": "Drink if you have ever had sex in someone else's bed and you did not tell them.",
+        "logo": ""
     },
     {
         "id": 232.0,
         "type": "sex_place",
         "hu": "Igyon egyet, akit k\u00e9nyeztettek m\u00e1r vezet\u00e9s k\u00f6zben!",
-        "en": "Drink if you have ever got a blowjob while driving."
+        "en": "Drink if you have ever got a blowjob while driving.",
+        "logo": ""
     },
     {
         "id": 233.0,
         "type": "sex_place",
         "hu": "Igyon egyet, aki szexelt m\u00e1r konyh\u00e1ban!",
-        "en": "Drink if you have ever had sex in the kitchen."
+        "en": "Drink if you have ever had sex in the kitchen.",
+        "logo": ""
     },
     {
         "id": 234.0,
         "type": "sex_partner",
         "hu": "Igyon egyet, akinek t\u00f6bb mint 5 szexpartnere volt!",
-        "en": "Drink if you had more than 5 sex partners."
+        "en": "Drink if you had more than 5 sex partners.",
+        "logo": ""
     },
     {
         "id": 235.0,
         "type": "sex_partner",
         "hu": "Igyon egyet, akinek t\u00f6bb mint 10 szexpartnere volt!",
-        "en": "Drink if you had more than 10 sex partners."
+        "en": "Drink if you had more than 10 sex partners.",
+        "logo": ""
     },
     {
         "id": 236.0,
         "type": "sex_partner",
         "hu": "Igyon egyet, akinek t\u00f6bb mint 15 szexpartnere volt!",
-        "en": "Drink if you had more than 15 sex partners."
+        "en": "Drink if you had more than 15 sex partners.",
+        "logo": ""
     },
     {
         "id": 237.0,
         "type": "sex_partner",
         "hu": "Az iszik, aki b\u00e1nta m\u00e1r meg, hogy lefek\u00fcdt valakivel.",
-        "en": "Drink if you have ever regretted that had sex with someone."
+        "en": "Drink if you have ever regretted that had sex with someone.",
+        "logo": ""
     },
     {
         "id": 238.0,
         "type": "sex_partner",
         "hu": "Az iszik, aki szexelt m\u00e1r 30 \u00e9v felettivel.",
-        "en": "Drink if you have ever had a sexpartner who was older than 30."
+        "en": "Drink if you have ever had a sexpartner who was older than 30.",
+        "logo": ""
     },
     {
         "id": 239.0,
         "type": "sex_partner",
         "hu": "Az iszik, aki szexelt m\u00e1r 40 \u00e9v felettivel.",
-        "en": "Drink if you have ever had a sexpartner who was older than 40."
+        "en": "Drink if you have ever had a sexpartner who was older than 40.",
+        "logo": ""
     },
     {
         "id": 240.0,
         "type": "sex_partner",
         "hu": "Aki fek\u00fcdt m\u00e1r le k\u00fclf\u00f6ldivel, iszik.",
-        "en": "Drink if you have ever had sex with a foreighner."
+        "en": "Drink if you have ever had sex with a foreighner.",
+        "logo": ""
     },
     {
         "id": 241.0,
         "type": "sex_partner",
         "hu": "Akinek volt m\u00e1r fekete szexpartnere, iszik.",
-        "en": "Drink if you have ever had a black sex partner."
+        "en": "Drink if you have ever had a black sex partner.",
+        "logo": ""
     },
     {
         "id": 242.0,
         "type": "sex_partner",
         "hu": "Akinek volt m\u00e1r \u00e1zsiai szexpartnere, iszik.",
-        "en": "Drink if you have ever had an asian sex partner."
+        "en": "Drink if you have ever had an asian sex partner.",
+        "logo": ""
     },
     {
         "id": 243.0,
         "type": "sex_partner",
         "hu": "Az iszik, aki fek\u00fcdt m\u00e1r le egy bar\u00e1tja/bar\u00e1tn\u0151je tes\u00f3j\u00e1val.",
-        "en": "Drink if you have ever had sex with the sister/brother of a friend."
+        "en": "Drink if you have ever had sex with the sister/brother of a friend.",
+        "logo": ""
     },
     {
         "id": 244.0,
         "type": "give_name",
         "hu": "Mostant\u00f3l mindenkit csak Carlos Albertonak sz\u00f3l\u00edthattok, aki a saj\u00e1t nev\u00e9n sz\u00f3l\u00edt valakit, az iszik.",
-        "en": "For all players: you have to call the other players Carlos Alberto. If someone uses a real name, has to drink."
+        "en": "For all players: you have to call the other players Carlos Alberto. If someone uses a real name, has to drink.",
+        "logo": ""
     },
     {
         "id": 245.0,
         "type": "give_name",
         "hu": "Mostant\u00f3l mindenkit csak Bobinak sz\u00f3l\u00edthattok, aki a saj\u00e1t nev\u00e9n sz\u00f3l\u00edt valakit, az iszik.",
-        "en": "For all players: you have to call the other players Bobby. If someone uses a real name, has to drink."
+        "en": "For all players: you have to call the other players Bobby. If someone uses a real name, has to drink.",
+        "logo": ""
     },
     {
         "id": 246.0,
         "type": "give_name",
         "hu": "Mostant\u00f3l mindenki csak K\u00e1rolynak sz\u00f3l\u00edthat t\u00e9ged. Ha valaki m\u00e9gis az igazi neveden sz\u00f3l\u00edt, az iszik.",
-        "en": "For all players: you have to call the other players Percival. If someone uses a real name, has to drink."
+        "en": "For all players: you have to call the other players Percival. If someone uses a real name, has to drink.",
+        "logo": ""
     },
     {
         "id": 247.0,
         "type": "give_name",
         "hu": "D\u00f6nts el, ki a legpapucsabb a j\u00e1t\u00e9kosok k\u00f6z\u00fcl, mostant\u00f3l Papucsnak kell sz\u00f3l\u00edtanotok! Aki nem \u00edgy h\u00edvja, iszik. Papucs is igyon egyet!",
-        "en": "For all players: you have to call the highest players Big Boss. If someone uses their real name, has to drink."
+        "en": "For all players: you have to call the highest players Big Boss. If someone uses their real name, has to drink.",
+        "logo": ""
     },
     {
         "id": 248.0,
         "type": "give_name",
         "hu": "Mostant\u00f3l mindenki neve el\u00e9 Mr. vagy Mrs. ker\u00fcl. Ha elfelejti valaki, iszik.",
-        "en": "For all players: you have to call the other players as Mr or Ms/Mrs. If someone uses their real name, has to drink."
+        "en": "For all players: you have to call the other players as Mr or Ms/Mrs. If someone uses their real name, has to drink.",
+        "logo": ""
     },
     {
         "id": 249.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy szinonim\u00e1t a p\u00e9niszre. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a synonym for the penis one after another until one of you can't, they drink."
+        "en": "For all players: Tell a synonym for the penis one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 250.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy szinonim\u00e1t a mellekre. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a synonym for the boobs one after another until one of you can't, they drink."
+        "en": "For all players: Tell a synonym for the boobs one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 251.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy szinonim\u00e1t a her\u00e9kre. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik. ",
-        "en": "For all players: Tell a synonym for the testicles one after another until one of you can't, they drink."
+        "en": "For all players: Tell a synonym for the testicles one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 252.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy szerepl\u0151t a South Parkb\u00f3l. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a character from the South Park one after another until one of you can't, they drink."
+        "en": "For all players: Tell a character from the South Park one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 253.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy szerepl\u0151t a Agymen\u0151kb\u0151l. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a character from the Big Bang Theory one after another until one of you can't, they drink."
+        "en": "For all players: Tell a character from the Big Bang Theory one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 254.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy szerepl\u0151t a Family Guyb\u00f3l. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a character from the Family Guy one after another until one of you can't, they drink."
+        "en": "For all players: Tell a character from the Family Guy one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 255.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy szerepl\u0151t a Harry Potterb\u0151l. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a character from the Harry Potter one after another until one of you can't, they drink."
+        "en": "For all players: Tell a character from the Harry Potter one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 256.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy szerepl\u0151t a Gy\u0171r\u0171k ur\u00e1b\u00f3l. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a character from the Lord of the Rings one after another until one of you can't, they drink."
+        "en": "For all players: Tell a character from the Lord of the Rings one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 257.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy szerepl\u0151t a Star Warsb\u00f3l. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a character from the Star Wars one after another until one of you can't, they drink."
+        "en": "For all players: Tell a character from the Star Wars one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 258.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy szerepl\u0151t a Shrekb\u0151l. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik. ",
-        "en": "For all players: Tell a character from the Shrek one after another until one of you can't, they drink."
+        "en": "For all players: Tell a character from the Shrek one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 259.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy szerepl\u0151t a Oroszl\u00e1nkir\u00e1lyb\u00f3l. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a character from the Lion King one after another until one of you can't, they drink."
+        "en": "For all players: Tell a character from the Lion King one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 260.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy szupermarketet. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a supermarket one after another until one of you can't, they drink."
+        "en": "For all players: Tell a supermarket one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 261.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy szexu\u00e1lis seg\u00e9deszk\u00f6zt. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell an adult toy one after another until one of you can't, they drink."
+        "en": "For all players: Tell an adult toy one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 262.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy traktor m\u00e1rk\u00e1t. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell an tractor manufacturer one after another until one of you can't, they drink."
+        "en": "For all players: Tell an tractor manufacturer one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 263.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy aut\u00f3 m\u00e1rk\u00e1t. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell an car manufacturer one after another until one of you can't, they drink."
+        "en": "For all players: Tell an car manufacturer one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 264.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy porn\u00f3oldalt. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a porn site one after another. If you can't until one of you can't, they drink."
+        "en": "For all players: Tell a porn site one after another. If you can't until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 265.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy porn\u00f3kiad\u00f3t (pl.Brazzers). A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a porn publisher (e.g. Brazzers) one after another until one of you can't, they drink."
+        "en": "For all players: Tell a porn publisher (e.g. Brazzers) one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 266.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy porn\u00f3sz\u00edn\u00e9szt/porn\u00f3sz\u00edn\u00e9szn\u0151t. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a porn actor/actress one after another until one of you can't, they drink."
+        "en": "For all players: Tell a porn actor/actress one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 267.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy porn\u00f3sz\u00edn\u00e9szn\u0151t. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a porn actress one after another until one of you can't, they drink."
+        "en": "For all players: Tell a porn actress one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 268.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy magyar sz\u00edn\u00e9szt. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell an Oscar winner actor/actress one after another until one of you can't, they drink."
+        "en": "For all players: Tell an Oscar winner actor/actress one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 269.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy tampon m\u00e1rk\u00e1t. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a tampon brand one after another until one of you can't, they drink."
+        "en": "For all players: Tell a tampon brand one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 270.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy s\u00f6r m\u00e1rk\u00e1t. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik. ",
-        "en": "For all players: Tell a beer brand one after another until one of you can't, they drink."
+        "en": "For all players: Tell a beer brand one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 271.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy vodka m\u00e1rk\u00e1t. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a vodka brand one after another until one of you can't, they drink."
+        "en": "For all players: Tell a vodka brand one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 272.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy whiskey m\u00e1rk\u00e1t. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a whiskey brand one after another until one of you can't, they drink."
+        "en": "For all players: Tell a whiskey brand one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 273.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy k\u00f3la m\u00e1rk\u00e1t. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a coke brand one after another until one of you can't, they drink."
+        "en": "For all players: Tell a coke brand one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 274.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy \u00f3vszer m\u00e1rk\u00e1t. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a condom brand one after another until one of you can't, they drink."
+        "en": "For all players: Tell a condom brand one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 275.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy szexu\u00e1lis poz\u00edci\u00f3t. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a sex position one after another until one of you can't, they drink."
+        "en": "For all players: Tell a sex position one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 276.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy f\u0151v\u00e1rost. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a capital one after another until one of you can't, they drink."
+        "en": "For all players: Tell a capital one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 277.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy egyetemet. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a university one after another until one of you can't, they drink."
+        "en": "For all players: Tell a university one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 278.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy sorozatot. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a TV series one after another until one of you can't, they drink."
+        "en": "For all players: Tell a TV series one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 279.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy samponm\u00e1rk\u00e1t. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a sampoo brand one after another until one of you can't, they drink."
+        "en": "For all players: Tell a sampoo brand one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 280.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy sz\u00ednt. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a color brand one after another until one of you can't, they drink."
+        "en": "For all players: Tell a color brand one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 281.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy Hungarikumot. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a holiday from the USA (e.g. Columbus Day) one after another until one of you can't, they drink."
+        "en": "For all players: Tell a holiday from the USA (e.g. Columbus Day) one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 282.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy telefon m\u00e1rk\u00e1t. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a phone brand one after another until one of you can't, they drink."
+        "en": "For all players: Tell a phone brand one after another until one of you can't, they drink.",
+        "logo": "cobbler"
+    },
+    {
+        "id": 283.0,
+        "type": "tell_a",
+        "hu": "Mindenki mond egy n\u00e9met zenekart. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
+        "en": "For all players: Tell a German music band one after another until one of you can't, they drink.",
+        "logo": "cobbler"
     },
     {
         "id": 283.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy laptop m\u00e1rk\u00e1t. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a laptop brand one after another until one of you can't, they drink."
+        "en": "For all players: Tell a laptop brand one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 284.0,
         "type": "tell_a",
         "hu": "Mindenki mond egy TV m\u00e1rk\u00e1t. A jobbra \u00fcl\u0151 kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
-        "en": "For all players: Tell a TV brand one after another until one of you can't, they drink."
+        "en": "For all players: Tell a TV brand one after another until one of you can't, they drink.",
+        "logo": ""
     },
     {
         "id": 285.0,
         "type": "do_or_drink",
         "hu": "Csin\u00e1lj 10 fekv\u0151t\u00e1maszt! Ha nem tudsz, annyit iszol, amennyit a jobbra \u00fcl\u0151 mond.",
-        "en": "Do 10 push ups or your right neighbour will tell you how much you have to drink."
+        "en": "Do 10 push ups or your right neighbour will tell you how much you have to drink.",
+        "logo": "cobbler"
     },
     {
         "id": 286.0,
         "type": "do_or_drink",
         "hu": "\u00c1llj kezen, vagy igy\u00e1l egy r\u00f6videt!",
-        "en": "Stand on your hands or drink a shot."
+        "en": "Stand on your hands or drink a shot.",
+        "logo": ""
     },
     {
         "id": 287.0,
         "type": "do_or_drink",
         "hu": "Nyald meg a k\u00f6ny\u00f6k\u00f6d! Ha nem tudod, annyit iszol, amennyit a jobbra \u00fcl\u0151 mond.",
-        "en": "Lick your elbow or your right neighbour will tell you how much you have to drink."
+        "en": "Lick your elbow or your right neighbour will tell you how much you have to drink.",
+        "logo": ""
     },
     {
         "id": 288.0,
         "type": "do_or_drink",
         "hu": "Tartsd vissza a l\u00e9legzeted 15 m\u00e1sodpercre, vagy igy\u00e1l kett\u0151t!",
-        "en": "Hold your breath for 15 seconds or drink one."
+        "en": "Hold your breath for 15 seconds or drink one.",
+        "logo": ""
     },
     {
         "id": 289.0,
         "type": "do_or_drink",
         "hu": "Mondd ki: 'Cirkuszi csibecombcsont', ha nem megy, iszol!",
-        "en": "Tongue-twister:  'She sells seashells by the seashore '. If you cannot say it, drink 1."
+        "en": "Tongue-twister:  'She sells seashells by the seashore '. If you cannot say it, drink 1.",
+        "logo": ""
     },
     {
         "id": 290.0,
         "type": "do_or_drink",
         "hu": "Mondd ki: 'Jobb egy l\u00fadnyak t\u00edz ty\u00faknyakn\u00e1l', ha nem megy, iszol!",
-        "en": "Tongue-twister:  'How can a clam cram in a clean cream can? '. If you cannot say it, drink 1."
+        "en": "Tongue-twister:  'How can a clam cram in a clean cream can? '. If you cannot say it, drink 1.",
+        "logo": ""
     },
     {
         "id": 291.0,
         "type": "do_or_drink",
         "hu": "Mondd ki: 'Luxusmoszkvicskisbusz-slusszkulcs', ha nem megy, iszol!",
-        "en": "Tongue-twister:  ' Can you can a can as a canner can can a can?'. If you cannot say it, drink 1."
+        "en": "Tongue-twister:  ' Can you can a can as a canner can can a can?'. If you cannot say it, drink 1.",
+        "logo": ""
     },
     {
         "id": 292.0,
         "type": "do_or_drink",
         "hu": "Mondd ki: 'Nem lehet a M\u00e1rta m\u00e1s\u00e9, mert a M\u00e1rta m\u00e1r Tam\u00e1s\u00e9.', ha nem megy, iszol!",
-        "en": "Tongue-twister:  ' I saw a kitten eating chicken in the kitchen'. If you cannot say it, drink 1."
+        "en": "Tongue-twister:  ' I saw a kitten eating chicken in the kitchen'. If you cannot say it, drink 1.",
+        "logo": ""
     },
     {
         "id": 293.0,
         "type": "do_or_drink",
         "hu": "Mondd ki: 'Lenin mauz\u00f3leum\u00e1nak millenniumi lelin\u00f3leumoz\u00e1sa.', ha nem megy, iszol!",
-        "en": "Tongue-twister:  ' I wish to wash my Irish wristwatch'. If you cannot say it, drink 1."
+        "en": "Tongue-twister:  ' I wish to wash my Irish wristwatch'. If you cannot say it, drink 1.",
+        "logo": ""
     },
     {
         "id": 294.0,
         "type": "do_or_drink",
         "hu": "Mondd ki: 'A k\u00f6v\u00e9r kuvik a vak kivi kovak\u00f6v\u00e9re k\u00edv\u00e1ncsi.', ha nem megy, iszol!",
-        "en": "Tongue-twister:  'Near an ear, a nearer ear, a nearly eerie ear '. If you cannot say it, drink 1."
+        "en": "Tongue-twister:  'Near an ear, a nearer ear, a nearly eerie ear '. If you cannot say it, drink 1.",
+        "logo": ""
     },
     {
         "id": 295.0,
         "type": "do_or_drink",
         "hu": "Mondd ki: 'Peckes cick\u00e1ny-fick\u00f3 picike kocka-vacka.', ha nem megy, iszol!",
-        "en": "Tongue-twister:  'Nine nice night nurses nursing nicely '. If you cannot say it, drink 1."
+        "en": "Tongue-twister:  'Nine nice night nurses nursing nicely '. If you cannot say it, drink 1.",
+        "logo": ""
     },
     {
         "id": 296.0,
         "type": "do_or_drink",
         "hu": "Mondd ki: 'Sz\u00e1z sasszem meg sz\u00e1z sasszem az sok sz\u00e1z sasszem.', ha nem megy, iszol!",
-        "en": "Tongue-twister:  'Four fine fresh fish for you '. If you cannot say it, drink 1."
+        "en": "Tongue-twister:  'Four fine fresh fish for you '. If you cannot say it, drink 1.",
+        "logo": ""
     },
     {
         "id": 297.0,
         "type": "do_or_drink",
         "hu": "Mondd ki: 'Nappal a lapp pap a lapp paplak nappalij\u00e1ban pip\u00e1l.', ha nem megy, iszol!",
-        "en": "Tongue-twister:  ' We surely shall see the sun shine soon'. If you cannot say it, drink 1."
+        "en": "Tongue-twister:  ' We surely shall see the sun shine soon'. If you cannot say it, drink 1.",
+        "logo": ""
     },
     {
         "id": 298.0,
         "type": "do_or_drink",
         "hu": "Mondd ki: 'Stresszes, strasszos strucc-sztreccscucc.', ha nem megy, iszol!",
-        "en": "Tongue-twister:  'Fred fed Ted bread, and Ted fed Fred bread '. If you cannot say it, drink 1."
+        "en": "Tongue-twister:  'Fred fed Ted bread, and Ted fed Fred bread '. If you cannot say it, drink 1.",
+        "logo": ""
     },
     {
         "id": 299.0,
         "type": "do_or_drink",
         "hu": "Mondd ki: 'Csendes csiga csinos\u00edtgat kicsi csod\u00e1s h\u00e1zacsk\u00e1j\u00e1n.', ha nem megy, iszol!",
-        "en": "Tongue-twister:  'I slit the sheet, the sheet I slit, and on the slitted sheet I sit '. If you cannot say it, drink 1."
+        "en": "Tongue-twister:  'I slit the sheet, the sheet I slit, and on the slitted sheet I sit '. If you cannot say it, drink 1.",
+        "logo": ""
     },
     {
         "id": 300.0,
         "type": "do_or_drink",
         "hu": "Mondd ki: 'J\u00f3l j\u00e1rnak a moln\u00e1rok mikor j\u00f3 ny\u00e1r j\u00e1r r\u00e1jok.', ha nem megy, iszol!",
-        "en": "Tongue-twister:  ' Lesser leather never weathered wetter weather better'. If you cannot say it, drink 1."
+        "en": "Tongue-twister:  ' Lesser leather never weathered wetter weather better'. If you cannot say it, drink 1.",
+        "logo": ""
     },
     {
         "id": 301.0,
         "type": "do_or_drink",
         "hu": "Guggolj le 5-sz\u00f6r! Minden guggol\u00e1s ut\u00e1n igy\u00e1l egy kortyot. Ha nem akarsz mozogni, akkor igy\u00e1l egy r\u00f6videt.",
-        "en": "Do 5 squats. Drink a sip after each one."
+        "en": "Do 5 squats. Drink a sip after each one.",
+        "logo": ""
     },
     {
         "id": 302.0,
         "type": "do_or_drink",
         "hu": "Mindenki \u00e1lljon fel! Kiny\u00fajtott l\u00e1bbal \u00e9rints\u00e9tek meg a l\u00e1bujjaitokat! Akinek nem siker\u00fcl, iszik.",
-        "en": "All stand up! Touch your toes with your fingers. Your legs cannot be bended. If someone cannot do it, has to drink."
+        "en": "All stand up! Touch your toes with your fingers. Your legs cannot be bended. If someone cannot do it, has to drink.",
+        "logo": ""
     },
     {
         "id": 303.0,
         "type": "dare_or_drink",
         "hu": "\u00c9nekelj valamit Lady Gagat\u00f3l! Ha nem tudsz, igy\u00e1l egy r\u00f6videt!",
-        "en": "Sing a song from Lady Gaga or drink a shot."
+        "en": "Sing a song from Lady Gaga or drink a shot.",
+        "logo": "cobbler"
     },
     {
         "id": 304.0,
         "type": "dare_or_drink",
         "hu": "\u00c9nekelj valamit Gy\u0151zik\u00e9t\u0151l! Ha nem tudsz, igy\u00e1l egy r\u00f6videt!",
-        "en": "Sing a song from Pitbull or drink a shot."
+        "en": "Sing a song from Pitbull or drink a shot.",
+        "logo": "cobbler"
     },
     {
         "id": 305.0,
         "type": "dare_or_drink",
         "hu": "\u00c9nekelj valamit Fekete P\u00e1k\u00f3t\u00f3l! Ha nem tudsz, igy\u00e1l egy r\u00f6videt!",
-        "en": "Sing a song from Justin Bieber or drink a shot."
+        "en": "Sing a song from Justin Bieber or drink a shot.",
+        "logo": "cobbler"
     },
     {
         "id": 306.0,
         "type": "dare_or_drink",
         "hu": "\u00c9nekelj valamit Kis Gr\u00f3fot\u00f3l! Ha nem tudsz, igy\u00e1l egy r\u00f6videt!",
-        "en": "Sing a song from Madonna or drink a shot."
+        "en": "Sing a song from Madonna or drink a shot.",
+        "logo": "cobbler"
     },
     {
         "id": 307.0,
         "type": "dare_or_drink",
         "hu": "\u00c9nekelj valamit Wellhello! Ha nem tudsz, igy\u00e1l egy r\u00f6videt!",
-        "en": "Sing a song from Britney Spears or drink a shot."
+        "en": "Sing a song from Britney Spears or drink a shot.",
+        "logo": "cobbler"
     },
     {
         "id": 308.0,
         "type": "dare_or_drink",
         "hu": "Fek\u00fcdj a padl\u00f3n 10 m\u00e1sodpercig \u00fagy mint egy tengeri csillag, vagy igy\u00e1l egy r\u00f6videt!",
-        "en": "Lay on the floor for 10 seconds or drink a shot."
+        "en": "Lay on the floor for 10 seconds or drink a shot.",
+        "logo": ""
     },
     {
         "id": 309.0,
         "type": "dare_or_drink",
         "hu": "K\u00f6sd be szemed, am\u00edg te nem j\u00f6ssz \u00fajra!",
-        "en": "Wear blindfold until your next round."
+        "en": "Wear blindfold until your next round.",
+        "logo": ""
     },
     {
         "id": 310.0,
         "type": "dare_or_drink",
         "hu": "Egy\u00e9l meg egy f\u00e9l szalv\u00e9t\u00e1t/zsebkend\u0151t, vagy igy\u00e1l kett\u0151t!",
-        "en": "Eat a half tissue or drink one."
+        "en": "Eat a half tissue or drink one.",
+        "logo": ""
     },
     {
         "id": 311.0,
         "type": "dare_or_drink",
         "hu": "T\u00e1ncolj, \u00fagy mint Michael Jackson, vagy igy\u00e1l!",
-        "en": "Dance like Michael Jackson or drink one."
+        "en": "Dance like Michael Jackson or drink one.",
+        "logo": ""
     },
     {
         "id": 312.0,
         "type": "dare_or_drink",
         "hu": "Ha kocsm\u00e1ban vagytok, k\u00e9rdezd meg a pultost, hogy szerinte r\u00e9szeg vagy-e. Vagy vegy\u00e9l egy s\u00f6rt valakinek!",
-        "en": "Buy a beer for the drunkest player."
+        "en": "Buy a beer for the drunkest player.",
+        "logo": ""
     },
     {
         "id": 313.0,
         "type": "dare_or_drink",
         "hu": "Posztolj egy cs\u00fccs\u00f6r\u00edt\u0151s k\u00e9pet Instagramon vagy Facebookon, vagy igy\u00e1l kett\u0151t!",
-        "en": "Post a duckface photo on Instagram or drink 2."
+        "en": "Post a duckface photo on Instagram or drink 2.",
+        "logo": ""
     },
     {
         "id": 314.0,
         "type": "dare_or_drink",
         "hu": "Megb\u00e1nthatsz valakit b\u00fcntetlen\u00fcl, de akkor innod kell 2-t!",
-        "en": "Buy a beer for the soberest player."
+        "en": "Buy a beer for the soberest player.",
+        "logo": ""
     },
     {
         "id": 315.0,
         "type": "dare_or_drink",
         "hu": "H\u00edvd fel egy csal\u00e1dtagod, \u00e9s k\u00edv\u00e1nj boldog sz\u00fclet\u00e9snapot, vagy igy\u00e1l kett\u0151t!",
-        "en": "Call a family member and wish 'Happy Brithday' or drink 2."
+        "en": "Call a family member and wish 'Happy Brithday' or drink 2.",
+        "logo": ""
     },
     {
         "id": 316.0,
         "type": "dare_or_drink",
         "hu": "Adj egy bimbicsavar\u00e1st a jobbra \u00fcl\u0151nek! De ne t\u00fal durv\u00e1n! (Ha nem megval\u00f3s\u00edthat\u00f3, igyatok egyet!)",
-        "en": "You can decide who drinks 5 sips."
+        "en": "You can decide who drinks 5 sips.",
+        "logo": ""
     },
     {
         "id": 317.0,
         "type": "dare_or_drink",
         "hu": "Kioszthatsz a j\u00e1t\u00e9kosok k\u00f6z\u00f6tt annyi kortyot, ah\u00e1ny \u00e9ves vagy.",
-        "en": "You can decide who drinks 3 sips."
+        "en": "You can decide who drinks 3 sips.",
+        "logo": ""
     },
     {
         "id": 318.0,
         "type": "",
         "hu": "Tekerd be az arcod WC pap\u00edrral 5 percre, musz\u00e1j! (Hagyj helyet l\u00e9legezni!)",
-        "en": ""
+        "en": "",
+        "logo": ""
     },
     {
         "id": 319.0,
         "type": "dare_or_drink",
         "hu": "B\u00e1rmit k\u00e9rdezhetsz valamelyik szomsz\u00e9dodt\u00f3l, ha nem v\u00e1laszol, iszik.",
-        "en": "You can ask anything from your neightbour. If they do not answer they have to drink."
+        "en": "You can ask anything from your neightbour. If they do not answer they have to drink.",
+        "logo": ""
     },
     {
         "id": 320.0,
         "type": "dare_or_drink",
         "hu": "Id\u00e9zz valamit a M\u00f3nika Show-b\u00f3l vagy igy\u00e1l egyet.",
-        "en": "You can decide who drinks 1 shot."
+        "en": "You can decide who drinks 1 shot.",
+        "logo": ""
     },
     {
         "id": 321.0,
         "type": "dare_or_drink_18",
         "hu": "H\u00edvj fel valakit \u00e9s k\u00e9rdezd meg tud-e egy j\u00f3 porn\u00f3oldalt! Ha nem mered, igy\u00e1l egy r\u00f6videt!",
-        "en": "Call someone and ask about their favorit porn site. If you don't dare, drink a shot."
+        "en": "Call someone and ask about their favorit porn site. If you don't dare, drink a shot.",
+        "logo": ""
     },
     {
         "id": 322.0,
         "type": "dare_or_drink_18",
         "hu": "Valaki rajzolhat egy faszt az arcodra. Ha nem egyezel bele, igy\u00e1l egy r\u00f6videt!",
-        "en": "Someone can draw a d!ck on your face or you drink one."
+        "en": "Someone can draw a d!ck on your face or you drink one.",
+        "logo": ""
     },
     {
         "id": 323.0,
         "type": "dare_or_drink_18",
         "hu": "J\u00e1tszd el, hogy megsz\u00fclsz egy pi\u00e1s \u00fcveget! Ha nem mered, iszol!",
-        "en": "Act like you give birth to a beer bottle or drink one."
+        "en": "Act like you give birth to a beer bottle or drink one.",
+        "logo": ""
     },
     {
         "id": 324.0,
         "type": "dare_or_drink_18",
         "hu": "Hagyd valakinek, hogy megfogja a melled, vagy igy\u00e1l h\u00e1rmat!",
-        "en": "Let someone touch your boobs or drink 3."
+        "en": "Let someone touch your boobs or drink 3.",
+        "logo": ""
     },
     {
         "id": 325.0,
         "type": "dare_or_drink_18",
         "hu": "Hagyd valakinek, hogy megpaskolja a feneked, vagy igy\u00e1l h\u00e1rmat!",
-        "en": "Let someone spank your ass or drink 3."
+        "en": "Let someone spank your ass or drink 3.",
+        "logo": ""
     },
     {
         "id": 326.0,
         "type": "dare_or_drink_18",
         "hu": "Ha szingli vagy, a jobbra \u00fcl\u0151 j\u00e1t\u00e9kos megfoghatja a melled. Vagy ak\u00e1r ihatsz is egyet helyette.",
-        "en": "If you are single: let the left neighbour touch your boobs or drink a shot."
+        "en": "If you are single: let the left neighbour touch your boobs or drink a shot.",
+        "logo": ""
     },
     {
         "id": 327.0,
         "type": "dare_or_drink_18",
         "hu": "Ha szingli vagy, a balra \u00fcl\u0151 j\u00e1t\u00e9kos megfoghatja a melled. Vagy ak\u00e1r ihatsz is egyet helyette.",
-        "en": "If you are single: let the left neighbour touch your boobs or drink a shot."
+        "en": "If you are single: let the left neighbour touch your boobs or drink a shot.",
+        "logo": ""
     },
     {
         "id": 328.0,
         "type": "dare_or_drink_18",
         "hu": "Mindenki r\u00e1csaphat a seggedre, vagy igy\u00e1l kett\u0151t!",
-        "en": "Everybody can slap on your ass or drink 2."
+        "en": "Everybody can slap on your ass or drink 2.",
+        "logo": ""
     },
     {
         "id": 329.0,
         "type": "dare_or_drink_18",
         "hu": "Valaki doboljon a seggeden, vagy iszol kett\u0151t.",
-        "en": "Let someone play drums on your butt or drink 2."
+        "en": "Let someone play drums on your butt or drink 2.",
+        "logo": ""
     },
     {
         "id": 330.0,
         "type": "dare_or_drink_18",
         "hu": "Vedd le a fels\u0151d \u00e9s p\u00f6rgesd a fejed felett, vagy igy\u00e1l kett\u0151t!",
-        "en": "Take off your t-shirt and spin it or drink one."
+        "en": "Take off your t-shirt and spin it or drink one.",
+        "logo": ""
     },
     {
         "id": 331.0,
         "type": "dare_or_drink_18",
         "hu": "Sz\u00ednlelj orgazmust, vagy iszol.",
-        "en": "Act like you have an orgasm or drink one."
+        "en": "Act like you have an orgasm or drink one.",
+        "logo": ""
     },
     {
         "id": 332.0,
         "type": "dare_or_drink_18",
         "hu": "Vegy\u00e9l le egy ruhadarabot, vagy igy\u00e1l kett\u0151t!",
-        "en": "Take off a piece of cloth or drink 2."
+        "en": "Take off a piece of cloth or drink 2.",
+        "logo": ""
     },
     {
         "id": 333.0,
         "type": "dare_or_drink_18",
         "hu": "Vegy\u00e9l le k\u00e9t ruhadarabot, vagy igy\u00e1l ugyanennyit!",
-        "en": "Take off 2 pieces of cloth or drink 2."
+        "en": "Take off 2 pieces of cloth or drink 2.",
+        "logo": ""
     },
     {
         "id": 334.0,
         "type": "dare_or_drink_18",
         "hu": "Szopkodd valaki h\u00fcvelykujj\u00e1t, vagy igy\u00e1l kett\u0151t!",
-        "en": "Suck someone's thumb or drink 2."
+        "en": "Suck someone's thumb or drink 2.",
+        "logo": ""
     },
     {
         "id": 335.0,
         "type": "dare_or_drink_18",
         "hu": "Puszild meg a szemben \u00fcl\u0151 j\u00e1t\u00e9kos, ahol \u0151 akarja, vagy iszol egy r\u00f6videt!",
-        "en": "Kiss your right neighbour on any place or drink a shot."
+        "en": "Kiss your right neighbour on any place or drink a shot.",
+        "logo": ""
     },
     {
         "id": 336.0,
         "type": "you_drink",
         "hu": "Igy\u00e1l egy kortyot a balra \u00fcl\u0151 pohar\u00e1b\u00f3l!",
-        "en": "Drink one sip from the glass of your left neighbour."
+        "en": "Drink one sip from the glass of your left neighbour.",
+        "logo": ""
     },
     {
         "id": 337.0,
         "type": "you_drink",
         "hu": "Igy\u00e1l egy kortyot a jobbra \u00fcl\u0151 pohar\u00e1b\u00f3l!",
-        "en": "Drink one sip from the glass of your right neighbour."
+        "en": "Drink one sip from the glass of your right neighbour.",
+        "logo": ""
     },
     {
         "id": 338.0,
         "type": "you_drink",
         "hu": "Igy\u00e1l egy kortyot valaki pohar\u00e1b\u00f3l!",
-        "en": "Drink one sip from someone's glass."
+        "en": "Drink one sip from someone's glass.",
+        "logo": ""
     },
     {
         "id": 339.0,
         "type": "you_drink",
         "hu": "Igy\u00e1l egy-egy kortyot mindenki pohar\u00e1b\u00f3l!",
-        "en": "Drink one sip from everyone's glass."
+        "en": "Drink one sip from everyone's glass.",
+        "logo": ""
     },
     {
         "id": 340.0,
         "type": "you_drink",
         "hu": "Igy\u00e1l egy kortyot a szemben \u00fcl\u0151 pohar\u00e1b\u00f3l!",
-        "en": "Drink one sip from the glass of the opposite sitting player."
+        "en": "Drink one sip from the glass of the opposite sitting player.",
+        "logo": ""
     },
     {
         "id": 341.0,
         "type": "you_drink",
         "hu": "Igy\u00e1l egy-egy kortyot a k\u00e9t szomsz\u00e9dod pohar\u00e1b\u00f3l!",
-        "en": "Your neighbours drink."
+        "en": "Your neighbours drink.",
+        "logo": ""
     },
     {
         "id": 342.0,
         "type": "you_drink",
         "hu": "Igyon mindk\u00e9t szomsz\u00e9dod egy-egy kortyot a pohar\u00e1b\u00f3l!",
-        "en": "Drink one sip from the glasses of your neighbours."
+        "en": "Drink one sip from the glasses of your neighbours.",
+        "logo": ""
     },
     {
         "id": 343.0,
         "type": "you_drink",
         "hu": "Igyon mindk\u00e9t szomsz\u00e9dod egy-egy kortyot a poharadb\u00f3l!",
-        "en": "Your neighbours drink 1 sip from your glass."
+        "en": "Your neighbours drink 1 sip from your glass.",
+        "logo": ""
     },
     {
         "id": 344.0,
         "type": "you_drink",
         "hu": "Lefetyeld a pi\u00e1d, mint egy kutya vagy igy\u00e1l egy r\u00f6videt!",
-        "en": "Drink like a dog or drink a shot."
+        "en": "Drink like a dog or drink a shot.",
+        "logo": ""
     },
     {
         "id": 345.0,
         "type": "you_drink",
         "hu": "Idd ki a poharad!",
-        "en": "Make your glass empty!"
+        "en": "Make your glass empty!",
+        "logo": "viztorony"
     },
     {
         "id": 346.0,
         "type": "you_drink",
         "hu": "A balra \u00fcl\u0151 j\u00e1t\u00e9kos b\u00e1rmilyen pi\u00e1t \u00f6nthet a poharadba.",
-        "en": "Your left neighbour can choose your next drink."
+        "en": "Your left neighbour can choose your next drink.",
+        "logo": ""
     },
     {
         "id": 347.0,
         "type": "you_drink",
         "hu": "Kioszthatsz 10 kortyot a j\u00e1t\u00e9kosok k\u00f6z\u00f6tt.",
-        "en": "You can give 10 sips for the other players."
+        "en": "You can give 10 sips for the other players.",
+        "logo": ""
     },
     {
         "id": 348.0,
         "type": "you_drink",
         "hu": "V\u00e1lassz egy m\u00e1sik k\u00e1rty\u00e1t, vagy igy\u00e1l 10-et!",
-        "en": "Draw a new card or drink 10."
+        "en": "Draw a new card or drink 10.",
+        "logo": ""
     },
     {
         "id": 349.0,
         "type": "rule",
         "hu": "Mostant\u00f3l iv\u00e1s el\u0151tt k\u00f6rbe kell nyalnod a poharad, ha elfelejted, dupl\u00e1n iszol.",
-        "en": "New rule: you have to lick your glass before you drink. If you forget, drink twice."
+        "en": "New rule: you have to lick your glass before you drink. If you forget, drink twice.",
+        "logo": ""
     },
     {
         "id": 350.0,
         "type": "rule",
         "hu": "Mostant\u00f3l csak bal k\u00e9zzel foghatod meg a poharat, ha elfelejted, akkor dupl\u00e1n iszol.",
-        "en": "New rule: you can touch your glass only with left hand. If you forget, drink twice."
+        "en": "New rule: you can touch your glass only with left hand. If you forget, drink twice.",
+        "logo": ""
     },
     {
         "id": 351.0,
         "type": "rule",
         "hu": "Mostant\u00f3l csak jobb k\u00e9zzel foghatod meg a poharat, ha elfelejted, akkor dupl\u00e1n iszol.",
-        "en": "New rule: you can touch your glass only with right hand. If you forget, drink twice."
+        "en": "New rule: you can touch your glass only with right hand. If you forget, drink twice.",
+        "logo": ""
     },
     {
         "id": 352.0,
         "type": "rule",
         "hu": "Mostant\u00f3l minden iv\u00e1s el\u0151tt fel kell \u00e1llnod. Ha elfelejted, akkor dupl\u00e1n iszol.",
-        "en": "New rule: you have to stand up before you drink. If you forget, drink twice."
+        "en": "New rule: you have to stand up before you drink. If you forget, drink twice.",
+        "logo": ""
     },
     {
         "id": 353.0,
         "type": "rule",
         "hu": "Mostant\u00f3l minden iv\u00e1s el\u0151tt azt kell mondanod: '\u00c1men'. Ha elfelejted, akkor dupl\u00e1n iszol.",
-        "en": "New rule: you have to say 'Amen' before you drink. If you forget, drink twice."
+        "en": "New rule: you have to say 'Amen' before you drink. If you forget, drink twice.",
+        "logo": ""
     },
     {
         "id": 354.0,
         "type": "rule",
         "hu": "Mostant\u00f3l minden iv\u00e1s el\u0151tt azt kell mondanod: 'J\u00e9zus teste'. Ha elfelejted, akkor dupl\u00e1n iszol.",
-        "en": "New rule: you have to clap before you drink. If you forget, drink twice."
+        "en": "New rule: you have to clap before you drink. If you forget, drink twice.",
+        "logo": ""
     },
     {
         "id": 355.0,
         "type": "rule",
         "hu": "Mostant\u00f3l minden iv\u00e1s el\u0151tt azt kell mondanod: '\u00c1ld\u00e1s b\u00e9kess\u00e9g, m\u00e1ln\u00e1s \u00e9dess\u00e9g'. Ha elfelejted, akkor dupl\u00e1n iszol.",
-        "en": "New rule: you have say 'Easy peasy, lemon squeezy' before you drink. If you forget, drink twice."
+        "en": "New rule: you have say 'Easy peasy, lemon squeezy' before you drink. If you forget, drink twice.",
+        "logo": ""
     },
     {
         "id": 356.0,
         "type": "rule",
         "hu": "Mostant\u00f3l minden iv\u00e1s el\u0151tt azt kell mondanod: 'Fen\u00e9kig'. Ha elfelejted, akkor dupl\u00e1n iszol.",
-        "en": "New rule: you have say 'Cheers' before you drink. If you forget, drink twice."
+        "en": "New rule: you have say 'Cheers' before you drink. If you forget, drink twice.",
+        "logo": ""
     },
     {
         "id": 357.0,
         "type": "rule",
         "hu": "\u00daj szab\u00e1ly! Aki mostant\u00f3l az asztalhoz \u00e9r, iszik egyet.",
-        "en": "New rule: if someone touches the table, they have to drink."
+        "en": "New rule: if someone touches the table, they have to drink.",
+        "logo": ""
     },
     {
         "id": 358.0,
         "type": "rule",
         "hu": "\u00daj szab\u00e1ly! Mostant\u00f3l a bal szomsz\u00e9dod mondja meg mit iszol.",
-        "en": "New rule: from now your right neighbour decides what you drink."
+        "en": "New rule: from now your right neighbour decides what you drink.",
+        "logo": ""
     },
     {
         "id": 359.0,
         "type": "vote",
         "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! Ha v\u00e1lasztanod kellene, akkor soha t\u00f6bb\u00e9 nem enn\u00e9l h\u00fast, vagy nem inn\u00e1l alkoholt? Aki rosszul tippel, az iszik.",
-        "en": "If you had to choose: would you stop eating meat or stop drinking alcohol? The other players guess. Who is wrong has to drink."
+        "en": "If you had to choose: would you stop eating meat or stop drinking alcohol? The other players guess. Who is wrong has to drink.",
+        "logo": ""
     },
     {
         "id": 360.0,
         "type": "vote",
         "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! Ha v\u00e1lasztanod kellene, hogy kivel fek\u00fcdj le Natalie Portman vagy Jennifer Aniston, melyiket v\u00e1lasztan\u00e1d? Aki rosszul tippel, az iszik.",
-        "en": "If you had to choose: would you sleep with Natalie Portman or Jennifer Aniston? The other players guess. Who is wrong has to drink."
+        "en": "If you had to choose: would you sleep with Natalie Portman or Jennifer Aniston? The other players guess. Who is wrong has to drink.",
+        "logo": ""
     },
     {
         "id": 361.0,
         "type": "vote",
         "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! Ha v\u00e1lasztanod kellene, hogy kivel fek\u00fcdj le Emma Watson vagy Mila Kunis, melyiket v\u00e1lasztan\u00e1d? Aki rosszul tippel, az iszik.",
-        "en": "If you had to choose: would you sleep with Emma Watson or Mila Kunis? The other players guess. Who is wrong has to drink."
+        "en": "If you had to choose: would you sleep with Emma Watson or Mila Kunis? The other players guess. Who is wrong has to drink.",
+        "logo": ""
     },
     {
         "id": 362.0,
         "type": "vote",
         "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! Ha v\u00e1lasztanod kellene, hogy kivel fek\u00fcdj le Brad Pitt vagy Jason Momoa, melyiket v\u00e1lasztan\u00e1d? Aki rosszul tippel, az iszik.",
-        "en": "If you had to choose: would you sleep with Brad Pitt or Jason Momoa? The other players guess. Who is wrong has to drink."
+        "en": "If you had to choose: would you sleep with Brad Pitt or Jason Momoa? The other players guess. Who is wrong has to drink.",
+        "logo": ""
     },
     {
         "id": 363.0,
         "type": "vote",
         "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! Ha v\u00e1lasztanod kellene, hogy kivel fek\u00fcdj le Ryan Reynolds vagy Bradley Cooper, melyiket v\u00e1lasztan\u00e1d? Aki rosszul tippel, az iszik.",
-        "en": "If you had to choose: would you sleep with Ryan Reynolds or Bradley Cooper? The other players guess. Who is wrong has to drink."
+        "en": "If you had to choose: would you sleep with Ryan Reynolds or Bradley Cooper? The other players guess. Who is wrong has to drink.",
+        "logo": ""
     },
     {
         "id": 364.0,
         "type": "vote",
         "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! Ha v\u00e1lasztanod kellene, hogy kivel fek\u00fcdj le Hugh Jackman vagy Johnny Depp, melyiket v\u00e1lasztan\u00e1d? Aki rosszul tippel, az iszik.",
-        "en": "If you had to choose: would you sleep with Hugh Jackman or Johnny Depp? The other players guess. Who is wrong has to drink."
+        "en": "If you had to choose: would you sleep with Hugh Jackman or Johnny Depp? The other players guess. Who is wrong has to drink.",
+        "logo": ""
     },
     {
         "id": 365.0,
         "type": "vote",
         "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! Ha v\u00e1lasztanod kellene, hogy kivel fek\u00fcdj le Ryan Reynolds vagy Bradley Cooper, melyiket v\u00e1lasztan\u00e1d? Aki rosszul tippel, az iszik.",
-        "en": "If you had to choose: would you sleep with Ryan Reynolds or Bradley Cooper? The other players guess. Who is wrong has to drink."
+        "en": "If you had to choose: would you sleep with Ryan Reynolds or Bradley Cooper? The other players guess. Who is wrong has to drink.",
+        "logo": ""
     },
     {
         "id": 366.0,
         "type": "vote",
         "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! Ha v\u00e1lasztanod kellene, hogy kivel fek\u00fcdj le Channing Tatum vagy Chris Hemsworth, melyiket v\u00e1lasztan\u00e1d? Aki rosszul tippel, az iszik.",
-        "en": "If you had to choose: would you sleep with Channing Tatum or Chris Hemsworth? The other players guess. Who is wrong has to drink."
+        "en": "If you had to choose: would you sleep with Channing Tatum or Chris Hemsworth? The other players guess. Who is wrong has to drink.",
+        "logo": ""
     },
     {
         "id": 367.0,
         "type": "vote",
         "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! Ha v\u00e1lasztanod kellene, hogy kivel fek\u00fcdj le David Beckham vagy The Rock, melyiket v\u00e1lasztan\u00e1d? Aki rosszul tippel, az iszik.",
-        "en": "If you had to choose: would you sleep with David Beckham or The Rock? The other players guess. Who is wrong has to drink."
+        "en": "If you had to choose: would you sleep with David Beckham or The Rock? The other players guess. Who is wrong has to drink.",
+        "logo": ""
     },
     {
         "id": 368.0,
         "type": "vote",
         "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! Ha ingyen lehet\u0151s\u00e9ged lenne, megv\u00e1ltoztatn\u00e1l magadon valamit egy plasztikai m\u0171t\u00e9ttel? Aki rosszul tippel, az iszik.",
-        "en": "If you had the possibility to change something on your body with a plactic surgery for free, would you do it? The other players guess. Who is wrong has to drink."
+        "en": "If you had the possibility to change something on your body with a plactic surgery for free, would you do it? The other players guess. Who is wrong has to drink.",
+        "logo": ""
     },
     {
         "id": 369.0,
         "type": "vote",
         "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! Ha v\u00e1lasztanod kellene, akkor megfelezn\u00e9d, vagy megdupl\u00e1zn\u00e1d a s\u00falyod? Aki rosszul tippel, az iszik.",
-        "en": "If you had to choose: would you have the half or the double of your current weight? The other players guess. Who is wrong has to drink."
+        "en": "If you had to choose: would you have the half or the double of your current weight? The other players guess. Who is wrong has to drink.",
+        "logo": ""
     },
     {
         "id": 370.0,
         "type": "vote",
         "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! Ha v\u00e1lasztanod kellene, akkor teljesen kopasz lenn\u00e9l, vagy megenn\u00e9l egy \u00e9l\u0151 cs\u00f3t\u00e1nyt? Aki rosszul tippel, az iszik.",
-        "en": "If you had to choose: would you be rather bald or eat a living bug? The other players guess. Who is wrong has to drink."
+        "en": "If you had to choose: would you be rather bald or eat a living bug? The other players guess. Who is wrong has to drink.",
+        "logo": ""
     },
     {
         "id": 371.0,
         "type": "vote",
         "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! Szerinted a porn\u00f3sok ink\u00e1bb sz\u00edn\u00e9szek vagy prostitu\u00e1ltak? Aki rosszul tippel, az iszik.",
-        "en": "Do you think that pornstars are actors or prostitutes? The other players guess. Who is wrong has to drink."
+        "en": "Do you think that pornstars are actors or prostitutes? The other players guess. Who is wrong has to drink.",
+        "logo": ""
     },
     {
         "id": 372.0,
         "type": "fastest_one",
         "hu": "Olvasd fel hangosan, ha befejezted, indul a j\u00e1t\u00e9k! Aki el\u0151sz\u00f6r megissza, ami a pohar\u00e1ban van, v\u00e1laszthat, ki igyon egy r\u00f6videt.",
-        "en": "Read loud: the first player who makes their glass empty can choose who drinks a shot."
+        "en": "Read loud: the first player who makes their glass empty can choose who drinks a shot.",
+        "logo": "viztorony"
     },
     {
         "id": 373.0,
         "type": "fastest_one",
         "hu": "Olvasd fel hangosan, ha befejezted, indul a j\u00e1t\u00e9k! Aki el\u0151sz\u00f6r tal\u00e1l egy h\u00e1romsz\u00f6g alak\u00fa t\u00e1rgyat, v\u00e1laszthat, hogy ki igyon egy r\u00f6videt.",
-        "en": "Read loud: the first player who finds a triangle shaped object can choose who drinks a shot."
+        "en": "Read loud: the first player who finds a triangle shaped object can choose who drinks a shot.",
+        "logo": ""
     },
     {
         "id": 374.0,
         "type": "fastest_one",
         "hu": "Olvasd fel hangosan, ha befejezted, indul a j\u00e1t\u00e9k! Aki el\u0151sz\u00f6r tal\u00e1l egy s\u00e1rga sz\u00edn\u0171 t\u00e1rgyat, v\u00e1laszthat, hogy ki igyon egy r\u00f6videt.",
-        "en": "Read loud: the first player finds a yellow object can choose who drinks a shot."
+        "en": "Read loud: the first player finds a yellow object can choose who drinks a shot.",
+        "logo": ""
     },
     {
         "id": 375.0,
         "type": "fastest_one",
         "hu": "Olvasd fel hangosan, ha befejezted, indul a j\u00e1t\u00e9k! Aki el\u0151sz\u00f6r megnyalja a k\u00f6ny\u00f6k\u00e9t, kioszthat 20 kortyot a j\u00e1t\u00e9kosok k\u00f6z\u00f6tt.",
-        "en": "Read loud: the first player who licks their elbow can choose who drinks a shot."
+        "en": "Read loud: the first player who licks their elbow can choose who drinks a shot.",
+        "logo": ""
     }
 ]
