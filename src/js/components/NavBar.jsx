@@ -31,31 +31,33 @@ const NavBar = props => {
   /**
    * Inverts the isOpen state.
    */
-  const toggle = () => setIsOpen(!isOpen);
+  const toggleHamburger = () => setIsOpen(!isOpen);
+
+  const closeHamburger = () => setIsOpen(false);
 
   return (
     <Navbar color="dark" dark expand="md" >
       <NavbarBrand href="/#">{props.i18n.t("nav.title")}</NavbarBrand>
-      <NavbarToggler onClick={toggle} />
+      <NavbarToggler onClick={toggleHamburger} />
       <Collapse isOpen={isOpen} navbar >
         <Nav className="mr-auto centered" navbar>
           <NavItem>
-            <NavLink href="/#" onClick={toggle}>{props.i18n.t("nav.game")}</NavLink>
+            <NavLink href="/#" onClick={closeHamburger}>{props.i18n.t("nav.game")}</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/#/rules/" onClick={toggle}>{props.i18n.t("nav.rules")}</NavLink>
+            <NavLink href="/#/rules/" onClick={closeHamburger}>{props.i18n.t("nav.rules")}</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/#/releases/" onClick={toggle}>{props.i18n.t("nav.release_notes")}</NavLink>
+            <NavLink href="/#/releases/" onClick={closeHamburger}>{props.i18n.t("nav.release_notes")}</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/#/sources/" onClick={toggle}>{props.i18n.t("nav.sources")}</NavLink>
+            <NavLink href="/#/sources/" onClick={closeHamburger}>{props.i18n.t("nav.sources")}</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/#/contact/" onClick={toggle}>{props.i18n.t("nav.contact")}</NavLink>
+            <NavLink href="/#/contact/" onClick={closeHamburger}>{props.i18n.t("nav.contact")}</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/#/sponsors/" onClick={toggle}>{props.i18n.t("nav.sponsors")}</NavLink>
+            <NavLink href="/#/sponsors/" onClick={closeHamburger}>{props.i18n.t("nav.sponsors")}</NavLink>
           </NavItem>
           <NavItem>
             <NavLink>
