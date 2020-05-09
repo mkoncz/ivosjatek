@@ -44,7 +44,7 @@ export default class MainContainer extends Component {
   render() {
     return (
       <HashRouter>
-        <div className={this.state.currentLanguage === "" ? " hidden" : " animated slideInDown"}>
+        <div className={this.state.currentLanguage === "" ? " hidden" : " animated slideInDown nav-bar"}>
           <NavBar
             i18n={i18n}
             reloadLanguage={this.reloadLanguage}

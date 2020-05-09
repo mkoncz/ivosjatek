@@ -11,6 +11,10 @@ body {
     text-align: center;
 }
 
+.nav-bar {
+    z-index: 100;
+}
+
 .lang-logo {
     height: 1.2rem;
     margin-left: 8px;
@@ -124,7 +128,6 @@ body {
 
 .sponsors-how-row {
     text-align: center;
-    background-image: url("../img/sponsors/beers.jpg");
     background-size: 100%;
     display: flex;
     justify-content: center;
@@ -147,7 +150,6 @@ body {
 
 .sponsors-why-row {
     text-align: center;
-    background-image: url("../img/sponsors/bar_black.jpg");
     background-size: 100%;
     display: flex;
     justify-content: center;
@@ -179,7 +181,6 @@ body {
 
 .owner-how-row {
     text-align: center;
-    background-image: url("../img/sponsors/king.jpg");
     background-size: 100%;
     display: flex;
     justify-content: center;
@@ -192,7 +193,6 @@ body {
 
 .owner-why-row {
     text-align: center;
-    background-image: url("../img/sponsors/bar_brown.jpg");
     background-size: 100%;
     display: flex;
     justify-content: center;
@@ -201,7 +201,6 @@ body {
 
 .current-sponsors-row {
     text-align: center;
-    background-image: url("../img/sponsors/whiskey.jpg");
     background-size: 100%;
     display: flex;
     justify-content: center;
@@ -209,8 +208,7 @@ body {
 }
 
 .background-layout-spacer {
-    visibility: hidden;
-    width: 100%;
+    height: 100%;
 }
 
 .absolute-position {
@@ -287,6 +285,20 @@ body {
     .sponsor-reason {
         padding: 2em;
     }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .sponsors-how-row,
+    .sponsors-why-row,
+    .owner-how-row,
+    .owner-why-row,
+    .current-sponsors-row 
+     {
+        height: 15em;
+        overflow: hidden;
+    }
+
 }
 
 /* back, initially hidden pane */
