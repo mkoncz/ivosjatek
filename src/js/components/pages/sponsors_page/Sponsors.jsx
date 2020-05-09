@@ -111,15 +111,21 @@ const Sponsors = props => {
         <Col className="absolute-position">{props.i18n.t("sponsors.currentSponsors")}</Col>
       </Row>
       <Row className="sponsor-cards-row">
+        <a href="https://www.instagram.com/peakybarbersofficial" target="_blank">
           <div className="sponsor-card peakybarbers">
             <img src={peakyIconResource} />
           </div>
+        </a>
+        <a href="https://www.instagram.com/nagyerdeiviztorony" target="_blank">
           <div className="sponsor-card viztorony">
             <img src={viztoronyIconResource} />
           </div>
+        </a>
+        <a href="https://www.instagram.com/georgecobbler" target="_blank">
           <div className="sponsor-card georgecobbler">
             <img src={cobblerIconResource} />
           </div>
+        </a>
       </Row>
     </Container>
   );
