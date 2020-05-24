@@ -12,18 +12,18 @@ import cocktailIconResource from "./../../../../img/card_backs/cocktail.svg";
  * @param {Object} props.logo Configured i18next object. It is used for the localization.
  * @param {string} props.bgColor Color of the backside of the card.
  */
- const CardBack = props => {
+const CardBack = props => {
 
   /**
    * Gets the imported image resource based on the logo keyword.
    * @param {string} keyword Logo field of the question JSON element. 
    */
   const getImageResource = (keyword) => {
-    if(keyword=="cobbler"){
+    if (keyword === "cobbler") {
       return cobblerIconResource;
-    } else if(keyword=="peaky"){
+    } else if (keyword === "peaky") {
       return peakyIconResource;
-    } else if(keyword=="viztorony"){
+    } else if (keyword === "viztorony") {
       return viztoronyIconResource;
     }
     return cocktailIconResource;
@@ -34,18 +34,18 @@ import cocktailIconResource from "./../../../../img/card_backs/cocktail.svg";
    * @param {string} keyword Logo field of the question JSON element. 
    */
   const getBackgroundColor = (keyword) => {
-    if(keyword=="cobbler"){
+    if (keyword === "cobbler") {
       return "black";
-    } else if(keyword=="peaky"){
+    } else if (keyword === "peaky") {
       return "#060604";
-    } else if(keyword=="viztorony"){
+    } else if (keyword === "viztorony") {
       return "#3a5954";
     }
     return "#d3f42f";
   }
 
   return (
-    <div className="back" style={{backgroundColor: getBackgroundColor(props.logo)}}>
+    <div className="back" style={{ backgroundColor: getBackgroundColor(props.logo) }}>
       <img src={getImageResource(props.logo)} alt="back-logo" />
     </div>
   );
