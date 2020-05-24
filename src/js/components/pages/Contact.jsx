@@ -1,6 +1,9 @@
 // Import ReactJS module.
 import React from 'react';
 
+// Instagram icon iamge resource.
+import instagramImageResource from "./../../../img/insta.png";
+
 /**
  * The page contains the contact e-mail address of the creator.
  * 
@@ -9,9 +12,12 @@ import React from 'react';
 const Contact = props => {
   return (
     <div className="page-frame">
-      <h3>{props.i18n.t("contact.contact")}</h3>
-      <p>matthewkoncy@gmail.com</p>
-     </div>
+      <h3>{props.i18n.t("contact.contact")}</h3><br></br>
+      <a href="https://www.instagram.com/ivosjatek.hu/" className="insta-ref" target="_blank">
+        <img src={instagramImageResource} className="insta-icon" alt="insta-icon" />
+        IVOSJATEK.HU
+      </a>
+    </div>
   );
 }
 

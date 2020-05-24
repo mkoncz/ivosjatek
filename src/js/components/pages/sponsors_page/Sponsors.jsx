@@ -10,11 +10,11 @@ import {
 import cobblerIconResource from "./../../../../img/card_backs/cobbler.png";
 import peakyIconResource from "./../../../../img/card_backs/peaky.png";
 import viztoronyIconResource from "./../../../../img/card_backs/viztorony.jpg";
-import beersLayoutSpacer from "./../../../../img/sponsors_page/beers.jpg";
-import barBlackLayoutSpacer from "./../../../../img/sponsors_page/bar_black.jpg";
-import barBrownLayoutSpacer from "./../../../../img/sponsors_page/bar_brown.jpg";
-import kingLayoutSpacer from "./../../../../img/sponsors_page/king.jpg";
-import whiskeyLayoutSpacer from "./../../../../img/sponsors_page/whiskey.jpg";
+import beersImageResource from "./../../../../img/sponsors_page/beers.jpg";
+import barBlackImageResource from "./../../../../img/sponsors_page/bar_black.jpg";
+import barBrownImageResource from "./../../../../img/sponsors_page/bar_brown.jpg";
+import kingImageResource from "./../../../../img/sponsors_page/king.jpg";
+import whiskeyImageResource from "./../../../../img/sponsors_page/whiskey.jpg";
 
 /**
  * Sponsors of the game.
@@ -31,14 +31,14 @@ const Sponsors = props => {
   return (
     <Container fluid className="sponsors-container">
       <Row className="sponsors-how-row">
-        <img src={beersLayoutSpacer} className="background-layout-spacer" />
+        <img src={beersImageResource} className="background-layout-spacer" />
         <Col className="absolute-position">{props.i18n.t("sponsors.howToBeSponsor")}</Col>
       </Row>
       <Row className="sponsors-100-beers-row">
         <Col sm="12">{props.i18n.t("sponsors.pay100Beers")}</Col>
       </Row>
       <Row className="sponsors-why-row">
-        <img src={barBlackLayoutSpacer} className="background-layout-spacer" />
+        <img src={barBlackImageResource} className="background-layout-spacer" />
         <Col className="absolute-position">{props.i18n.t("sponsors.whyToBeSponsor")}</Col>
       </Row>
       <Row className="sponsors-why-logos-row">
@@ -68,14 +68,14 @@ const Sponsors = props => {
         </Col>
       </Row>
       <Row className="owner-how-row">
-        <img src={kingLayoutSpacer} className="background-layout-spacer" />
+        <img src={kingImageResource} className="background-layout-spacer" />
         <Col className="absolute-position">{props.i18n.t("sponsors.howToBeOwner")}</Col>
       </Row>
       <Row className="owner-contact-me-row">
         <Col className="absolute-position">{props.i18n.t("sponsors.contactMe")}</Col>
       </Row>
       <Row className="owner-why-row">
-        <img src={barBrownLayoutSpacer} className="background-layout-spacer" />
+        <img src={barBrownImageResource} className="background-layout-spacer" />
         <Col className="absolute-position">{props.i18n.t("sponsors.whyToBeOwner")}</Col>
       </Row>
       <Row className="sponsors-why-logos-row">
@@ -107,7 +107,7 @@ const Sponsors = props => {
         </Col>
       </Row>
       <Row className="current-sponsors-row">
-        <img src={whiskeyLayoutSpacer} className="background-layout-spacer" />
+        <img src={whiskeyImageResource} className="background-layout-spacer" />
         <Col className="absolute-position">{props.i18n.t("sponsors.currentSponsors")}</Col>
       </Row>
       <Row className="sponsor-cards-row">
