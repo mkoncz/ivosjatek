@@ -1,4 +1,4 @@
-Ivosjatek.hu is a web based drinking game.
+Ivosjatek.hu is a web-based drinking game.
 It is available in English and Hungarian language.
 
 The project started in 2017.
