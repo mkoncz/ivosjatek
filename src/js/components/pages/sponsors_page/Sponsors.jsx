@@ -24,10 +24,6 @@ import whiskeyImageResource from "./../../../../img/sponsors_page/whiskey.jpg";
  */
 const Sponsors = props => {
 
-  if (props.currentLanguage === "") {
-    props.selectEnglish();
-  }
-
   return (
     <Container fluid className="sponsors-container">
       <Row className="sponsors-how-row">

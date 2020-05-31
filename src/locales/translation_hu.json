@@ -1,6 +1,9 @@
 {
   "contact.contact": "Kapcsolat:",
 
+  "cookie.accept": "Elfogadom",
+  "cookie.question": "A website sütiket használ, hogy eltárolja a választott nyelvet.",
+
   "game.age_check_1": "Kérhetnék egy személyit?",
   "game.age_check_2": "Az IvósJáték 18 éven felülieknek készült.",
   "game.age_check_button": "Felnőtt vagyok",

@@ -15,10 +15,12 @@ import Rules from "./pages/Rules";
 import Sources from "./pages/sources_page/Sources";
 import Sponsors from "./pages/sponsors_page/Sponsors";
 
+
 // Import the internationalization module.
 import i18n from "../i18n";
 
-// Import module for cookie handling.
+// Import modules for cookie handling.
+import CookieConsent from "react-cookie-consent";
 import Cookies from "universal-cookie";
 
 
@@ -49,8 +51,6 @@ export default class MainContainer extends Component {
             i18n={i18n}
             reloadLanguage={this.reloadLanguage}
             currentLanguage={this.state.currentLanguage}
-            selectEnglish={this.selectEnglish}
-            selectHungarian={this.selectHungarian}
           />
         </div>
         <Switch>
@@ -81,18 +81,25 @@ export default class MainContainer extends Component {
             <Sponsors
               i18n={i18n}
               currentLanguage={this.state.currentLanguage}
-              selectEnglish={this.selectEnglish}
             />
           </Route>
           <Route path="/">
             <Game
               i18n={i18n}
               currentLanguage={this.state.currentLanguage}
-              selectEnglish={this.selectEnglish}
-              selectHungarian={this.selectHungarian}
+              reloadLanguage={this.reloadLanguage}
             />
           </Route>
         </Switch>
+        <CookieConsent
+          location="bottom"
+          buttonText={i18n.t("cookie.accept")}
+          style={{ background: "#2B373B" }}
+          buttonStyle={{ backgroundColor: "rgb(211, 244, 47)", fontSize: "13px" }}
+          expires={150}
+        >
+          {i18n.t("cookie.question")}
+        </CookieConsent>
       </HashRouter>
     );
   }
@@ -113,17 +120,4 @@ export default class MainContainer extends Component {
     });
   }
 
-  /**
-   * Sets the selected language to English.
-   */
-  selectEnglish = () => {
-    this.reloadLanguage("en");
-  }
-
-  /**
-   * Sets the selected language to Hungarian.
-   */
-  selectHungarian = () => {
-    this.reloadLanguage("hu");
-  }
 }

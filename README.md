@@ -1,7 +1,9 @@
 Ivosjatek.hu is a web-based drinking game.
+
 It is available in English and Hungarian language.
 
 The project started in 2017.
+
 Its only purpose was to make my parties more interesting.
 
 Later I decided to rewrite the jQuery based code in React.
@@ -15,4 +17,5 @@ Tested platforms:
 The code is under MIT licence.
 
 Web: http://ivosjatek.hu
+
 Contact: https://www.instagram.com/ivosjatek.hu
