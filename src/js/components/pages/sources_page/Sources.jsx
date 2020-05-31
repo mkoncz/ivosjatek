@@ -4,6 +4,8 @@ import React from 'react';
 // Import Source component.
 import SourceDetail from './SourceDetail';
 
+import githubImageResource from "./../../../../img/github_logo.png";
+
 /**
  * The page contains the list of used sources.
  * 
@@ -54,7 +56,7 @@ const Sources = props => {
           licenceURL="https://github.com/daneden/animate.css/blob/master/LICENSE"
           licenceType="MIT Licence"
         />
-        
+
         <SourceDetail
           i18n={props.i18n}
           localizedName={props.i18n.t("source.source_king")}
@@ -96,6 +98,13 @@ const Sources = props => {
           licenceType="Pixabay Licence"
         />
       </ul>
+      <div>
+        <h4>GitHub:</h4>
+        <a href="https://github.com/matthewkoncz/ivosjatek" className="github-ref" target="_blank">
+          <img src={githubImageResource} className="github-icon" alt="insta-icon" />
+          <div className="github-label" >IVOSJATEK</div>
+        </a>
+      </div>
     </div>
   );
 }
