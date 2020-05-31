@@ -24,7 +24,7 @@ export default class Game extends Component {
     this.questions = questions.default;
 
     this.state = {
-      currentQuestion: this.props.currentLanguage==="" ? "" : this.getRandomQuestion()
+      currentQuestion: this.getRandomQuestion()
     };
   }
 
@@ -37,25 +37,17 @@ export default class Game extends Component {
     return (
       <div align="center" className="page-frame game-view" width="100%">
 
-        {this.props.currentLanguage!=="" ?
-          <div className="left-card-label animated fadeIn">
-            {i18n.t("game.card_left").replace("%NUMBER%", number_of_left_cards)}
-          </div> :
-          <div className="left-card-label">
-            &nbsp;
-          </div>
-        }
+        <div className="left-card-label animated fadeIn">
+          {i18n.t("game.card_left").replace("%NUMBER%", number_of_left_cards)}:
+        </div> 
 
         <Card
           i18n={i18n}
           currentLanguage={this.props.currentLanguage}
-          selectEnglish={this.props.selectEnglish}
-          selectHungarian={this.props.selectHungarian}
+          reloadLanguage={this.props.reloadLanguage}
           setNewQuestion={this.setNewQuestion}
-          currentQuestion={this.state.currentQuestion[this.props.currentLanguage]}
-          logo={this.state.currentQuestion.logo === "" ? "cocktail.svg" : this.state.currentQuestion.logo}
-          bgColor={this.state.currentQuestion.color === "" ? "#d3f42f" : this.state.currentQuestion.color}
-          >
+          currentQuestionModel={this.state.currentQuestion}
+        >
         </Card>
       </div>
     )

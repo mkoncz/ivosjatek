@@ -81,15 +81,13 @@ export default class MainContainer extends Component {
             <Sponsors
               i18n={i18n}
               currentLanguage={this.state.currentLanguage}
-              selectEnglish={this.selectEnglish}
             />
           </Route>
           <Route path="/">
             <Game
               i18n={i18n}
               currentLanguage={this.state.currentLanguage}
-              selectEnglish={this.selectEnglish}
-              selectHungarian={this.selectHungarian}
+              reloadLanguage={this.reloadLanguage}
             />
           </Route>
         </Switch>
@@ -113,17 +111,4 @@ export default class MainContainer extends Component {
     });
   }
 
-  /**
-   * Sets the selected language to English.
-   */
-  selectEnglish = () => {
-    this.reloadLanguage("en");
-  }
-
-  /**
-   * Sets the selected language to Hungarian.
-   */
-  selectHungarian = () => {
-    this.reloadLanguage("hu");
-  }
 }

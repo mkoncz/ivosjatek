@@ -40,6 +40,9 @@ export default class Card extends Component {
     let isNextButtonHidden = false;
     let content;
 
+    let logo = "cocktail.svg";
+    let bgColor = "#d3f42f";
+
     // Asks the user age if it is not added yet. 
     if (null == this.cookies.get("lang")) {
       content = this.createLanguageSelectorCard();
@@ -50,15 +53,21 @@ export default class Card extends Component {
       isNextButtonHidden = true;
     }
     else {
-      content = this.props.currentQuestion;
+      content = this.props.currentQuestionModel[this.props.currentLanguage];
+      if (this.props.currentQuestionModel.logo !== "") {
+        logo = this.props.currentQuestionModel.logo;
+      }
+      if (this.props.currentQuestionModel.color !== "") {
+        logo = this.props.currentQuestionModel.color;
+      }
     }
 
     return (
       <div className={`flip-container ${this.state.flipClasses}`} align="center" onClick={this.cardClickHandler}>
         <div className="flipper" >
-          <CardBack 
-            logo={this.props.logo}
-            bgColor={this.props.bgColor}
+          <CardBack
+            logo={logo}
+            bgColor={bgColor}
           />
           <div className="front">
             <div id="kerdes1" className="txt-question">  {content} </div>
@@ -94,7 +103,7 @@ export default class Card extends Component {
       });
     }, 450);
 
-    if(newQuestion || newQuestion==null){
+    if (newQuestion || newQuestion == null) {
       this.props.setNewQuestion();
     }
   };
@@ -109,6 +118,9 @@ export default class Card extends Component {
     });
   }
 
+  /**
+   * Creates card with the available language logos.
+   */
   createLanguageSelectorCard = () => {
 
     return (
@@ -116,21 +128,24 @@ export default class Card extends Component {
         <p>Select language</p>
         <p>
           <span>
-            <img onClick={this.selectEnglish} className="lang-logo lang-logo-big" src={en_logo} alt="english-logo" />
+            <img onClick={(e) => this.reloadLanguage("en")} className="lang-logo lang-logo-big" src={en_logo} alt="english-logo" />
           </span>
           <span>
-            <img onClick={this.selectHungarian} className="lang-logo lang-logo-big" src={hu_logo} alt="hungarian-logo" />
+            <img onClick={(e) => this.reloadLanguage("hu")} className="lang-logo lang-logo-big" src={hu_logo} alt="hungarian-logo" />
           </span>
         </p>
       </div>
     )
   }
 
+  /**
+   * Creates card with age check question and next button.
+   */
   createAgeCheckCard = () => {
 
     return (
       <div className="age_check">
-        <img onClick={this.selectEnglish} className="adult_logo" src={adult_logo} alt="adult-logo" />
+        <img className="adult_logo" src={adult_logo} alt="adult-logo" />
         <div className="question_block">
           <p>  {this.props.i18n.t("game.age_check_1")} </p>
           <p>  {this.props.i18n.t("game.age_check_2")} </p>
@@ -138,7 +153,7 @@ export default class Card extends Component {
         <button
           className="btn btn-warning btn-lg"
           onClick={this.confirmAdult}>
-          {this.props.i18n.t("game.age_check_button")} 
+          {this.props.i18n.t("game.age_check_button")}
         </button>
       </div>
     )
@@ -160,30 +175,16 @@ export default class Card extends Component {
   /**
    * Sets the selected language to English and draws the next card.
    */
-  selectEnglish = () => {
+  reloadLanguage = (language) => {
 
     // Starts out-bouncing
     this.replaceCard(false);
 
     // Timeout needed because render() immediately replaces content and the bouncing is not done yet.
     setTimeout(() => {
-      this.props.selectEnglish();
+      this.props.reloadLanguage(language);
     }, 450);
 
-  }
-
-  /**
-   * Sets the selected language to Hungarian and draws the next card.
-   */
-  selectHungarian = () => {
-
-    // Starts out-bouncing
-    this.replaceCard(false);
-
-    // Timeout needed because render() immediately replaces content and the bouncing is not done yet.
-    setTimeout(() => {
-      this.props.selectHungarian();
-    }, 450);
   }
 
 }
