@@ -23,6 +23,9 @@ import i18n from "../i18n";
 import CookieConsent from "react-cookie-consent";
 import Cookies from "universal-cookie";
 
+// Import React Helmet for handling <head> attributes dinamically.
+import { Helmet } from "react-helmet";
+
 
 /**
  * The main container of the page.
@@ -35,7 +38,7 @@ export default class MainContainer extends Component {
     this.cookies = new Cookies();
     // The default language is Hungarian.
     this.state = {
-      currentLanguage: null != this.cookies.get("lang") ? this.cookies.get("lang") : "en"
+      currentLanguage: null != this.cookies.get("lang") ? this.cookies.get("lang") : "hu"
     };
     // Activate the i18n language changer.
     if (null != this.cookies.get("lang")) {
@@ -46,6 +49,9 @@ export default class MainContainer extends Component {
   render() {
     return (
       <HashRouter>
+        <Helmet>
+          <title>{i18n.t("nav.title")}</title>
+        </Helmet>
         <div className="animated nav-bar">
           <NavBar
             i18n={i18n}

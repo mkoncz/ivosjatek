@@ -1,6 +1,9 @@
 // Import ReactJS module.
 import React from 'react';
 
+// Import React Helmet for handling <head> attributes dinamically.
+import { Helmet } from "react-helmet";
+
 /**
  * List of the rules.
  * 
@@ -9,6 +12,9 @@ import React from 'react';
 const Rules = props => {
   return (
     <div className="page-frame">
+      <Helmet>
+        <title>{props.i18n.t("nav.rules")} | {props.i18n.t("nav.title")}</title>
+      </Helmet>
       <h4>{props.i18n.t("rules:terms_title")}</h4>
       <ul>
         <li>{props.i18n.t("rules:term_1")}</li>
