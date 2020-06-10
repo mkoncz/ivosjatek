@@ -7,6 +7,7 @@ import {
   faFileSignature, faPalette, faTrashAlt, faWrench, faHashtag
 } from '@fortawesome/free-solid-svg-icons'
 
+// Import image resources.
 import cobblerIconResource from "./../../../../img/card_backs/cobbler.png";
 import peakyIconResource from "./../../../../img/card_backs/peaky.png";
 import viztoronyIconResource from "./../../../../img/card_backs/viztorony.jpg";
@@ -15,6 +16,10 @@ import barBlackImageResource from "./../../../../img/sponsors_page/bar_black.jpg
 import barBrownImageResource from "./../../../../img/sponsors_page/bar_brown.jpg";
 import kingImageResource from "./../../../../img/sponsors_page/king.jpg";
 import whiskeyImageResource from "./../../../../img/sponsors_page/whiskey.jpg";
+
+
+// Import React Helmet for handling <head> attributes dinamically.
+import { Helmet } from "react-helmet";
 
 /**
  * Sponsors of the game.
@@ -26,6 +31,9 @@ const Sponsors = props => {
 
   return (
     <Container fluid className="sponsors-container">
+      <Helmet>
+        <title> {props.i18n.t("nav.sponsors")} | {props.i18n.t("nav.title")}</title>
+      </Helmet>
       <Row className="sponsors-how-row">
         <img src={beersImageResource} className="background-layout-spacer" />
         <Col className="absolute-position">{props.i18n.t("sponsors.howToBeSponsor")}</Col>
