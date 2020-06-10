@@ -4,7 +4,12 @@ import React from 'react';
 // Import Source component.
 import SourceDetail from './SourceDetail';
 
+// Import GitHub logo.
 import githubImageResource from "./../../../../img/github_logo.png";
+
+
+// Import React Helmet for handling <head> attributes dinamically.
+import { Helmet } from "react-helmet";
 
 /**
  * The page contains the list of used sources.
@@ -14,6 +19,9 @@ import githubImageResource from "./../../../../img/github_logo.png";
 const Sources = props => {
   return (
     <div className="page-frame">
+      <Helmet>
+        <title>{props.i18n.t("nav.sources")} | {props.i18n.t("nav.title")}</title>
+      </Helmet>
       <h4>{props.i18n.t("source.sources_title")}:</h4>
       <ul>
         <SourceDetail
