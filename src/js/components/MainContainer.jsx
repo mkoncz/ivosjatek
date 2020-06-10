@@ -35,7 +35,7 @@ export default class MainContainer extends Component {
     this.cookies = new Cookies();
     // The default language is Hungarian.
     this.state = {
-      currentLanguage: null != this.cookies.get("lang") ? this.cookies.get("lang") : "en"
+      currentLanguage: null != this.cookies.get("lang") ? this.cookies.get("lang") : "hu"
     };
     // Activate the i18n language changer.
     if (null != this.cookies.get("lang")) {
