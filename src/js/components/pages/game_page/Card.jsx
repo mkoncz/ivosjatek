@@ -51,7 +51,7 @@ export default class Card extends Component {
       this.setState({
         flipClasses: "animated bounceInLeft"
       });
-    }, 100);
+    }, 2);
 
   }
 
@@ -108,8 +108,6 @@ export default class Card extends Component {
    * Uses the animations of the animate.css.
    */
   replaceCard = (newQuestion) => {
-
-
 
     // Bounces out the current card.
     setTimeout(() => {
