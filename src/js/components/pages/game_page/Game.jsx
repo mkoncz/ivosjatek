@@ -38,7 +38,7 @@ export default class Game extends Component {
       <div align="center" className="page-frame game-view" width="100%">
 
         <div className="left-card-label animated fadeIn">
-          {i18n.t("game.card_left").replace("%NUMBER%", number_of_left_cards)}:
+          {i18n.t("game.card_left").replace("%NUMBER%", number_of_left_cards)}
         </div> 
 
         <Card
