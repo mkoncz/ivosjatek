@@ -35,6 +35,26 @@ export default class Card extends Component {
     };
   }
 
+  componentDidMount() {
+
+    // ANDROID BROWSER QUICK FIX
+    // Android browsers needs an initial css transformation.
+    // It can be activated with the active class.
+
+    // Bounces out the current card.
+    this.setState({
+      flipClasses: "active animated bounceInLeft"
+    });
+
+    // Bounces out the current card.
+    setTimeout(() => {
+      this.setState({
+        flipClasses: "animated bounceInLeft"
+      });
+    }, 100);
+
+  }
+
   render() {
 
     let isNextButtonHidden = false;
@@ -88,6 +108,8 @@ export default class Card extends Component {
    * Uses the animations of the animate.css.
    */
   replaceCard = (newQuestion) => {
+
+
 
     // Bounces out the current card.
     setTimeout(() => {
