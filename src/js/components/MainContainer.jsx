@@ -1,6 +1,10 @@
 // ReactJS modules.
 import React, { Component } from "react"
-import { Router } from "@reach/router"
+import {
+  HashRouter,
+  Switch,
+  Route
+} from "react-router-dom";
 
 // Import the local components.
 import NavBar from "./NavBar";
@@ -43,9 +47,8 @@ export default class MainContainer extends Component {
   }
 
   render() {
-
     return (
-      <div>
+      <HashRouter>
         <Helmet>
           <title>{i18n.t("nav.title")}</title>
         </Helmet>
@@ -56,34 +59,44 @@ export default class MainContainer extends Component {
             currentLanguage={this.state.currentLanguage}
           />
         </div>
-        <Router>
-          <Rules path="/rules" i18n={i18n} />
-          <Contact
-            path="/contact"
-            i18n={i18n}
-            currentLanguage={this.state.currentLanguage}
-          />
-          <Releases
-            path="/releases"
-            i18n={i18n}
-            currentLanguage={this.state.currentLanguage}
-          />
-          <Sources
-            path="/sources"
-            i18n={i18n}
-            currentLanguage={this.state.currentLanguage}
-          />
-          <Sponsors
-            path="/sponsors"
-            i18n={i18n}
-            currentLanguage={this.state.currentLanguage}
-          />
-          <Game path="/"
-            i18n={i18n}
-            currentLanguage={this.state.currentLanguage}
-            reloadLanguage={this.reloadLanguage}
-          />
-        </Router>
+        <Switch>
+          <Route path="/rules">
+            <Rules
+              i18n={i18n}
+            />
+          </Route>
+          <Route path="/contact">
+            <Contact
+              i18n={i18n}
+              currentLanguage={this.state.currentLanguage}
+            />
+          </Route>
+          <Route path="/releases">
+            <Releases
+              i18n={i18n}
+              currentLanguage={this.state.currentLanguage}
+            />
+          </Route>
+          <Route path="/sources">
+            <Sources
+              i18n={i18n}
+              currentLanguage={this.state.currentLanguage}
+            />
+          </Route>
+          <Route path="/sponsors">
+            <Sponsors
+              i18n={i18n}
+              currentLanguage={this.state.currentLanguage}
+            />
+          </Route>
+          <Route path="/">
+            <Game
+              i18n={i18n}
+              currentLanguage={this.state.currentLanguage}
+              reloadLanguage={this.reloadLanguage}
+            />
+          </Route>
+        </Switch>
         <CookieConsent
           location="bottom"
           buttonText={i18n.t("cookie.accept")}
@@ -93,7 +106,7 @@ export default class MainContainer extends Component {
         >
           {i18n.t("cookie.question")}
         </CookieConsent>
-      </div>
+      </HashRouter>
     );
   }
 
