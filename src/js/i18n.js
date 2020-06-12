@@ -12,8 +12,8 @@ i18n
   .use(LanguageDetector)
   .init({
     debug: false,
-    lng: "en",
-    fallbackLng: "en", // use en if detected lng is not available
+    lng: "hu",
+    fallbackLng: "hu", // use en if detected lng is not available
 
     keySeparator: false, // we do not use keys in form messages.welcome
 
