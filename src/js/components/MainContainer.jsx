@@ -15,6 +15,8 @@ import Rules from "./pages/Rules";
 import Sources from "./pages/sources_page/Sources";
 import Sponsors from "./pages/sponsors_page/Sponsors";
 
+// Import module that redirects http requests to https.
+import HttpsRedirect from 'react-https-redirect';
 
 // Import the internationalization module.
 import i18n from "../i18n";
@@ -48,65 +50,67 @@ export default class MainContainer extends Component {
 
   render() {
     return (
-      <HashRouter>
-        <Helmet>
-          <title>{i18n.t("nav.title")}</title>
-        </Helmet>
-        <div className="animated nav-bar">
-          <NavBar
-            i18n={i18n}
-            reloadLanguage={this.reloadLanguage}
-            currentLanguage={this.state.currentLanguage}
-          />
-        </div>
-        <Switch>
-          <Route path="/rules">
-            <Rules
+      <HttpsRedirect>
+        <HashRouter>
+          <Helmet>
+            <title>{i18n.t("nav.title")}</title>
+          </Helmet>
+          <div className="animated nav-bar">
+            <NavBar
               i18n={i18n}
-            />
-          </Route>
-          <Route path="/contact">
-            <Contact
-              i18n={i18n}
-              currentLanguage={this.state.currentLanguage}
-            />
-          </Route>
-          <Route path="/releases">
-            <Releases
-              i18n={i18n}
-              currentLanguage={this.state.currentLanguage}
-            />
-          </Route>
-          <Route path="/sources">
-            <Sources
-              i18n={i18n}
-              currentLanguage={this.state.currentLanguage}
-            />
-          </Route>
-          <Route path="/sponsors">
-            <Sponsors
-              i18n={i18n}
-              currentLanguage={this.state.currentLanguage}
-            />
-          </Route>
-          <Route path="/">
-            <Game
-              i18n={i18n}
-              currentLanguage={this.state.currentLanguage}
               reloadLanguage={this.reloadLanguage}
+              currentLanguage={this.state.currentLanguage}
             />
-          </Route>
-        </Switch>
-        <CookieConsent
-          location="bottom"
-          buttonText={i18n.t("cookie.accept")}
-          style={{ background: "#2B373B" }}
-          buttonStyle={{ backgroundColor: "rgb(211, 244, 47)", fontSize: "13px" }}
-          expires={150}
-        >
-          {i18n.t("cookie.question")}
-        </CookieConsent>
-      </HashRouter>
+          </div>
+          <Switch>
+            <Route path="/rules">
+              <Rules
+                i18n={i18n}
+              />
+            </Route>
+            <Route path="/contact">
+              <Contact
+                i18n={i18n}
+                currentLanguage={this.state.currentLanguage}
+              />
+            </Route>
+            <Route path="/releases">
+              <Releases
+                i18n={i18n}
+                currentLanguage={this.state.currentLanguage}
+              />
+            </Route>
+            <Route path="/sources">
+              <Sources
+                i18n={i18n}
+                currentLanguage={this.state.currentLanguage}
+              />
+            </Route>
+            <Route path="/sponsors">
+              <Sponsors
+                i18n={i18n}
+                currentLanguage={this.state.currentLanguage}
+              />
+            </Route>
+            <Route path="/">
+              <Game
+                i18n={i18n}
+                currentLanguage={this.state.currentLanguage}
+                reloadLanguage={this.reloadLanguage}
+              />
+            </Route>
+          </Switch>
+          <CookieConsent
+            location="bottom"
+            buttonText={i18n.t("cookie.accept")}
+            style={{ background: "#2B373B" }}
+            buttonStyle={{ backgroundColor: "rgb(211, 244, 47)", fontSize: "13px" }}
+            expires={150}
+          >
+            {i18n.t("cookie.question")}
+          </CookieConsent>
+        </HashRouter>
+      </HttpsRedirect>
     );
   }
 
