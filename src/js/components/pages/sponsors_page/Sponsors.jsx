@@ -126,7 +126,7 @@ const Sponsors = props => {
           </div>
         </a>
         <a href="https://www.instagram.com/georgecobbler" target="_blank">
-          <div className="sponsor-card georgecobbler">
+          <div className="sponsor-card cobbler">
             <img src={cobblerIconResource} />
           </div>
         </a>

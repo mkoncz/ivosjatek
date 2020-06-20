@@ -21,7 +21,7 @@ const CardBack = props => {
   const getImageResource = (keyword) => {
     if (keyword === "cobbler") {
       return cobblerIconResource;
-    } else if (keyword === "peaky") {
+    } else if (keyword === "peakybarbers") {
       return peakyIconResource;
     } else if (keyword === "viztorony") {
       return viztoronyIconResource;
@@ -29,23 +29,9 @@ const CardBack = props => {
     return cocktailIconResource;
   }
 
-  /**
-   * Gets the imported image resource based on the logo keyword.
-   * @param {string} keyword Logo field of the question JSON element. 
-   */
-  const getBackgroundColor = (keyword) => {
-    if (keyword === "cobbler") {
-      return "black";
-    } else if (keyword === "peaky") {
-      return "#060604";
-    } else if (keyword === "viztorony") {
-      return "#3a5954";
-    }
-    return "#d3f42f";
-  }
 
   return (
-    <div className="back" style={{ backgroundColor: getBackgroundColor(props.logo) }}>
+    <div className={`back ${props.logo}`} >
       <img src={getImageResource(props.logo)} alt="back-logo" />
     </div>
   );

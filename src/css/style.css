@@ -97,6 +97,7 @@ a:hover {
     -moz-transform: rotateY(0deg);
     -o-transform: rotateY(0deg);
     z-index: 2;
+    background-color: #d3f42f;
 }
 
 /* front pane, placed above back */
@@ -221,16 +222,24 @@ a:hover {
     padding-bottom: 6em;
 }
 
-.sponsor-card.georgecobbler {
+.sponsor-card.cobbler,
+.back.cobbler {
     background-color: black;
+    /* border and box-shadow is same as default */
 }
 
-.sponsor-card.viztorony {
-    background-color: #3a5954;
+.sponsor-card.viztorony ,
+.back.viztorony{
+    background-color: #415854;
+    border: 1px solid #415854;
+    box-shadow: 0 -2px 10px #415854;
 }
 
-.sponsor-card.peakybarbers {
+.sponsor-card.peakybarbers,
+.back.peakybarbers {
     background-color: #060604;
+    border: 1px solid #060604;
+    box-shadow: 0 -2px 10px #060604;
 }
 
 .sponsor-card img {
