@@ -22,5 +22,5 @@ http://ivosjatek.hu/#/releases/
 The code is under MIT licence.
 
 ### Contact
-- Web: http://ivosjatek.hu
+- Web: https://ivosjatek.hu
 - IG: https://www.instagram.com/ivosjatek.hu
