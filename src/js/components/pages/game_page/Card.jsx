@@ -60,7 +60,7 @@ export default class Card extends Component {
     let isNextButtonHidden = false;
     let content;
 
-    let logo = "cocktail.svg";
+    var logo = "cocktail.svg";
     let bgColor = "#d3f42f";
 
     // Asks the user age if it is not added yet. 
@@ -78,8 +78,9 @@ export default class Card extends Component {
         logo = this.props.currentQuestionModel.logo;
       }
       if (this.props.currentQuestionModel.color !== "") {
-        logo = this.props.currentQuestionModel.color;
+        bgColor = this.props.currentQuestionModel.color;
       }
+
     }
 
     return (
