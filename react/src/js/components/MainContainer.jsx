@@ -1,7 +1,7 @@
 // ReactJS modules.
 import React, { Component } from "react"
 import {
-  HashRouter,
+  BrowserRouter,
   Switch,
   Route
 } from "react-router-dom";
@@ -51,7 +51,7 @@ export default class MainContainer extends Component {
   render() {
     return (
       <HttpsRedirect>
-        <HashRouter>
+        <BrowserRouter>
           <Helmet>
             <title>{i18n.t("nav.title")}</title>
           </Helmet>
@@ -109,7 +109,7 @@ export default class MainContainer extends Component {
           >
             {i18n.t("cookie.question")}
           </CookieConsent>
-        </HashRouter>
+        </BrowserRouter>
       </HttpsRedirect>
     );
   }
