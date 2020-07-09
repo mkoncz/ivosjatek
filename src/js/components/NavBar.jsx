@@ -13,8 +13,8 @@ import {
 } from 'reactstrap';
 
 // Import national flags of Hungary and Great Britain.
-import hu_logo from './../../img/hu_logo_grey_bg.jpg'; // https://www.flickr.com/photos/80497449@N04/7378164364
-import en_logo from './../../img/en_logo_grey_bg.jpg'; // https://www.publicdomainpictures.net/hu/view-image.php?image=136202
+import hu_logo from './../../img/hu_flag.png'; // https://www.flickr.com/photos/80497449@N04/7378164364
+import en_logo from './../../img/en_flag.png'; // https://www.publicdomainpictures.net/hu/view-image.php?image=136202
 
 /**
  * List of the rules.
@@ -37,27 +37,27 @@ const NavBar = props => {
 
   return (
     <Navbar color="dark" dark expand="md" >
-      <NavbarBrand href="/#">{props.i18n.t("nav.title")}</NavbarBrand>
+      <NavbarBrand href="/">{props.i18n.t("nav.title")}</NavbarBrand>
       <NavbarToggler onClick={toggleHamburger} />
       <Collapse isOpen={isOpen} navbar >
         <Nav className="mr-auto centered" navbar>
           <NavItem>
-            <NavLink href="/#" onClick={closeHamburger}>{props.i18n.t("nav.game")}</NavLink>
+            <NavLink href="/" onClick={closeHamburger}>{props.i18n.t("nav.game")}</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/#/rules/" onClick={closeHamburger}>{props.i18n.t("nav.rules")}</NavLink>
+            <NavLink href="/rules" onClick={closeHamburger}>{props.i18n.t("nav.rules")}</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/#/releases/" onClick={closeHamburger}>{props.i18n.t("nav.release_notes")}</NavLink>
+            <NavLink href="/releases" onClick={closeHamburger}>{props.i18n.t("nav.release_notes")}</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/#/sources/" onClick={closeHamburger}>{props.i18n.t("nav.sources")}</NavLink>
+            <NavLink href="/sources" onClick={closeHamburger}>{props.i18n.t("nav.sources")}</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/#/contact/" onClick={closeHamburger}>{props.i18n.t("nav.contact")}</NavLink>
+            <NavLink href="/contact" onClick={closeHamburger}>{props.i18n.t("nav.contact")}</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/#/sponsors/" onClick={closeHamburger}>{props.i18n.t("nav.sponsors")}</NavLink>
+            <NavLink href="/sponsors" onClick={closeHamburger}>{props.i18n.t("nav.sponsors")}</NavLink>
           </NavItem>
           <NavItem>
             <NavLink>
