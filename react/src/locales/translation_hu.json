@@ -2,7 +2,14 @@
   "contact.contact": "Kapcsolat:",
 
   "cookie.accept": "Elfogadom",
-  "cookie.question": "A website sütiket használ, hogy eltárolja a választott nyelvet.",
+  "cookie.question": "A weboldal sütit használ, hogy eltárolja a választott nyelvet.",
+
+  "desc.contact": "Az oldal elérhetőségeit tartalmazza. Az Instagram a készítő fő kommunikációs csatornája.",
+  "desc.game": "Alapozd meg az estét vagy pörgesd fel a bulit egy izgalmas italozós kártyajátékkal. Az ivósjáték garantáltan szuper lehetőség a közös szórakozásra.",
+  "desc.release_notes": "Az Ivósjáték újításai és javításai kerülnek listázásra havi felbontásban.",
+  "desc.rules": "Az Ivós Játék használatát korlátozó megkötések, illetve a játék menetét leíró szabályzat.",
+  "desc.sources": "Az Ivós Játék által felhasznált képek, ikonok és más források listája, illetve a GitHub projekt linkje.",
+  "desc.sponsors": "A támogatási és szponzorációs lehetőségek leírása. A jelenlegi támogatók felsorolása és kártyáik kinézete.",
 
   "game.age_check_1": "Kérhetnék egy személyit?",
   "game.age_check_2": "Az IvósJáték 18 éven felülieknek készült.",
@@ -13,6 +20,7 @@
 
   "nav.contact": "Kapcsolat",
   "nav.game": "Játék",
+  "nav.home": "Főoldal",
   "nav.release_notes": "Frissítések",
   "nav.rules": "Szabályzat",
   "nav.sources": "Források",
