@@ -11,6 +11,9 @@ import "./../../../../css/style.css";
 // Import animation styles.
 import "./../../../../css/animate.css";
 
+// Import React Helmet for handling <head> attributes dinamically.
+import { Helmet } from "react-helmet";
+
 /**
  * The page contains the Game with the current Card.
  * 
@@ -36,10 +39,13 @@ export default class Game extends Component {
 
     return (
       <div align="center" className="page-frame game-view" width="100%">
-
-        <div className="left-card-label animated fadeIn">
+        <Helmet>
+          <title>{this.props.i18n.t("nav.home")} | {this.props.i18n.t("nav.title")}</title>
+          <meta name="description" content={this.props.i18n.t("desc.game")} />
+        </Helmet>
+        <h1 className="left-card-label animated fadeIn">
           {i18n.t("game.card_left").replace("%NUMBER%", number_of_left_cards)}
-        </div> 
+        </h1> 
 
         <Card
           i18n={i18n}
