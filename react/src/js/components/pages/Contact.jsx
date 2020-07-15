@@ -18,6 +18,7 @@ const Contact = props => {
     <div className="page-frame">
       <Helmet>
         <title>{props.i18n.t("nav.contact")} | {props.i18n.t("nav.title")}</title>
+        <meta name="description" content={this.props.i18n.t("desc.contact")} />
       </Helmet>
       <h3>{props.i18n.t("contact.contact")}</h3><br></br>
       <a href="https://www.instagram.com/ivosjatek.hu/" className="insta-ref" target="_blank">

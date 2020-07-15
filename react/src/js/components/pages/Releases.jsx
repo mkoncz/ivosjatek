@@ -26,6 +26,7 @@ const Releases = props => {
     <div className="page-frame">
       <Helmet>
         <title>{props.i18n.t("nav.release_notes")} | {props.i18n.t("nav.title")}</title>
+        <meta name="description" content={this.props.i18n.t("desc.releases")} />
       </Helmet>
       {notes.reverse().map((release) => {
         return (

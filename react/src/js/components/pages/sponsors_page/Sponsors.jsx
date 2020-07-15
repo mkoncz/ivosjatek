@@ -33,6 +33,7 @@ const Sponsors = props => {
     <Container fluid className="sponsors-container">
       <Helmet>
         <title> {props.i18n.t("nav.sponsors")} | {props.i18n.t("nav.title")}</title>
+        <meta name="description" content={this.props.i18n.t("desc.sponsors")} />
       </Helmet>
       <Row className="sponsors-how-row">
         <img src={beersImageResource} className="background-layout-spacer" />

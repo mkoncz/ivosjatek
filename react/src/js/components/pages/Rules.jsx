@@ -14,6 +14,7 @@ const Rules = props => {
     <div className="page-frame">
       <Helmet>
         <title>{props.i18n.t("nav.rules")} | {props.i18n.t("nav.title")}</title>
+        <meta name="description" content={this.props.i18n.t("desc.rules")} />
       </Helmet>
       <h4>{props.i18n.t("rules:terms_title")}</h4>
       <ul>

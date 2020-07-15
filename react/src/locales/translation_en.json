@@ -4,6 +4,13 @@
   "cookie.accept": "Accept",
   "cookie.question": "This website uses cookies to store selected language.",
   
+  "desc.contact": "Contains the contact details. The main communication platform is Instagram.",
+  "desc.game": "Make the night unforgettable. This drinking game is a great tool to cheer up party.",
+  "desc.release_notes": "The release notes of the game come every month on this page. They are mostly new features and bugfixes.",
+  "desc.rules": "The rescrictions of the game are listed here. Also here can you read about the game rules.",
+  "desc.sources": "The used images, logos and other resources are listed here. There is also a link for the GitHub project.",
+  "desc.sponsors": "The sponsoring possibilities are shown on this page. You can also be the owner of the game.",
+
   "game.age_check_1": "Can we see some ID please? ",
   "game.age_check_2": "It's part of our commitment to responsible drinking.  ",
   "game.age_check_button": "I'm an adult",
@@ -13,6 +20,7 @@
 
   "nav.contact": "Contact",
   "nav.game": "Game",
+  "nav.home": "Home",
   "nav.release_notes": "Release Notes",
   "nav.rules": "Rules",
   "nav.sources": "Sources",

@@ -146,7 +146,7 @@ export default class Card extends Component {
 
     return (
       <div>
-        <p>Select language</p>
+        <h3>Select language.</h3><br></br>
         <p>
           <span>
             <img onClick={(e) => this.reloadLanguage("en")} className="lang-logo lang-logo-big" src={en_logo} alt="english-logo" />
