@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+  <url>
+    <loc>https://ivosjatek.hu</loc>
+    <lastmod>2020-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/rules</loc>
+    <lastmod>2020-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/contact</loc>
+    <lastmod>2020-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/releases</loc>
+    <lastmod>2020-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/sources</loc>
+    <lastmod>2020-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/sponsors</loc>
+    <lastmod>2020-07-15</lastmod>
+  </url>
+</urlset>
