@@ -21,6 +21,7 @@ const Sources = props => {
     <div className="page-frame">
       <Helmet>
         <title>{props.i18n.t("nav.sources")} | {props.i18n.t("nav.title")}</title>
+        <meta name="description" content={this.props.i18n.t("desc.sources")} />
       </Helmet>
       <h4>{props.i18n.t("source.sources_title")}:</h4>
       <ul>
