@@ -1,11 +1,11 @@
 // Import ReactJS module.
-import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React from "react";
+import { Container, Row, Col } from "reactstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faCameraRetro, faPiggyBank, faCommentDots, faCopy, faBeer, faShoppingCart,
   faFileSignature, faPalette, faTrashAlt, faWrench, faHashtag
-} from '@fortawesome/free-solid-svg-icons'
+} from "@fortawesome/free-solid-svg-icons"
 
 // Import image resources.
 import cobblerIconResource from "./../../../../img/card_backs/cobbler.png";
@@ -34,6 +34,7 @@ const Sponsors = props => {
       <Helmet>
         <title> {props.i18n.t("nav.sponsors")} | {props.i18n.t("nav.title")}</title>
         <meta name="description" content={this.props.i18n.t("desc.sponsors")} />
+        <link rel="canonical" href="https://ivosjatek.hu/sponsors" />
       </Helmet>
       <Row className="sponsors-how-row">
         <img src={beersImageResource} className="background-layout-spacer" />
@@ -102,7 +103,7 @@ const Sponsors = props => {
         </Col>
         <Col xs="12" sm="6" md="4">
           <FontAwesomeIcon icon={faHashtag} className="sponsor-logos" /><br />
-          <a href='https://www.instagram.com/ivosjatek.hu/' target="_blank">
+          <a href="https://www.instagram.com/ivosjatek.hu/" target="_blank">
             <div className="sponsor-reason">{props.i18n.t("sponsors.instagram")}</div>
           </a>
         </Col>
