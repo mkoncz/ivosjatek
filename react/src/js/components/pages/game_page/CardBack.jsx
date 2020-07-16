@@ -1,5 +1,5 @@
 // Import ReactJS module.
-import React from 'react';
+import React from "react";
 
 import cobblerIconResource from "./../../../../img/card_backs/cobbler.png";
 import peakyIconResource from "./../../../../img/card_backs/peaky.png";

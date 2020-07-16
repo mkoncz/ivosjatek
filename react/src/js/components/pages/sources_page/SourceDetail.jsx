@@ -1,5 +1,5 @@
 // Import ReactJS module.
-import React from 'react';
+import React from "react";
 
 /**
  * The page contains the contact e-mail address of the creator and the list of used sources.

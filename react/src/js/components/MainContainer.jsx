@@ -16,7 +16,7 @@ import Sources from "./pages/sources_page/Sources";
 import Sponsors from "./pages/sponsors_page/Sponsors";
 
 // Import module that redirects http requests to https.
-import HttpsRedirect from 'react-https-redirect';
+import HttpsRedirect from "react-https-redirect";
 
 // Import the internationalization module.
 import i18n from "../i18n";
