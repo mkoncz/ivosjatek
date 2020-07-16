@@ -21,7 +21,7 @@ const Sources = props => {
     <div className="page-frame">
       <Helmet>
         <title>{props.i18n.t("nav.sources")} | {props.i18n.t("nav.title")}</title>
-        <meta name="description" content={this.props.i18n.t("desc.sources")} />
+        <meta name="description" content={props.i18n.t("desc.sources")} />
         <link rel="canonical" href="https://ivosjatek.hu/sources" />
       </Helmet>
       <h4>{props.i18n.t("source.sources_title")}:</h4>

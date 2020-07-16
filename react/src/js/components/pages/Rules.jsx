@@ -14,7 +14,7 @@ const Rules = props => {
     <div className="page-frame">
       <Helmet>
         <title>{props.i18n.t("nav.rules")} | {props.i18n.t("nav.title")}</title>
-        <meta name="description" content={this.props.i18n.t("desc.rules")} />
+        <meta name="description" content={props.i18n.t("desc.rules")} />
         <link rel="canonical" href="https://ivosjatek.hu/rules" />
       </Helmet>
       <h4>{props.i18n.t("rules:terms_title")}</h4>
