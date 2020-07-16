@@ -1,5 +1,5 @@
 // Import ReactJS module.
-import React from 'react';
+import React from "react";
 
 // Instagram icon iamge resource.
 import instagramImageResource from "./../../../img/insta.png";
@@ -19,6 +19,7 @@ const Contact = props => {
       <Helmet>
         <title>{props.i18n.t("nav.contact")} | {props.i18n.t("nav.title")}</title>
         <meta name="description" content={this.props.i18n.t("desc.contact")} />
+        <link rel="canonical" href="https://ivosjatek.hu/contact" />
       </Helmet>
       <h3>{props.i18n.t("contact.contact")}</h3><br></br>
       <a href="https://www.instagram.com/ivosjatek.hu/" className="insta-ref" target="_blank">
