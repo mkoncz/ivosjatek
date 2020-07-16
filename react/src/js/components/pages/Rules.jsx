@@ -1,5 +1,5 @@
 // Import ReactJS module.
-import React from 'react';
+import React from "react";
 
 // Import React Helmet for handling <head> attributes dinamically.
 import { Helmet } from "react-helmet";
@@ -15,6 +15,7 @@ const Rules = props => {
       <Helmet>
         <title>{props.i18n.t("nav.rules")} | {props.i18n.t("nav.title")}</title>
         <meta name="description" content={this.props.i18n.t("desc.rules")} />
+        <link rel="canonical" href="https://ivosjatek.hu/rules" />
       </Helmet>
       <h4>{props.i18n.t("rules:terms_title")}</h4>
       <ul>
