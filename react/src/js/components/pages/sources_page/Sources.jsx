@@ -1,8 +1,8 @@
 // Import ReactJS module.
-import React from 'react';
+import React from "react";
 
 // Import Source component.
-import SourceDetail from './SourceDetail';
+import SourceDetail from "./SourceDetail";
 
 // Import GitHub logo.
 import githubImageResource from "./../../../../img/github_logo.png";
@@ -22,6 +22,7 @@ const Sources = props => {
       <Helmet>
         <title>{props.i18n.t("nav.sources")} | {props.i18n.t("nav.title")}</title>
         <meta name="description" content={this.props.i18n.t("desc.sources")} />
+        <link rel="canonical" href="https://ivosjatek.hu/sources" />
       </Helmet>
       <h4>{props.i18n.t("source.sources_title")}:</h4>
       <ul>
