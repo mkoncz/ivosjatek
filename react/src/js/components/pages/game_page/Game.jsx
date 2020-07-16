@@ -42,6 +42,7 @@ export default class Game extends Component {
         <Helmet>
           <title>{this.props.i18n.t("nav.home")} | {this.props.i18n.t("nav.title")}</title>
           <meta name="description" content={this.props.i18n.t("desc.game")} />
+          <link rel="canonical" href="https://ivosjatek.hu" />
         </Helmet>
         <h1 className="left-card-label animated fadeIn">
           {i18n.t("game.card_left").replace("%NUMBER%", number_of_left_cards)}

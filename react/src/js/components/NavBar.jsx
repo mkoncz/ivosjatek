@@ -1,5 +1,5 @@
 // Import ReactJS modules.
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 // Import Reactstrap (ReactJS version of Bootstraps).
 import {
@@ -10,11 +10,11 @@ import {
   Nav,
   NavItem,
   NavLink,
-} from 'reactstrap';
+} from "reactstrap";
 
 // Import national flags of Hungary and Great Britain.
-import hu_logo from './../../img/hu_flag.png'; // https://www.flickr.com/photos/80497449@N04/7378164364
-import en_logo from './../../img/en_flag.png'; // https://www.publicdomainpictures.net/hu/view-image.php?image=136202
+import hu_logo from "./../../img/hu_flag.png"; // https://www.flickr.com/photos/80497449@N04/7378164364
+import en_logo from "./../../img/en_flag.png"; // https://www.publicdomainpictures.net/hu/view-image.php?image=136202
 
 /**
  * List of the rules.
@@ -61,8 +61,8 @@ const NavBar = props => {
           </NavItem>
           <NavItem>
             <NavLink>
-              <img onClick={() => {props.reloadLanguage("en")}} className="lang-logo" src={en_logo} alt='english-logo' />
-              <img onClick={() => {props.reloadLanguage("hu")}} className="lang-logo" src={hu_logo} alt='hungarian-logo' />
+              <img onClick={() => {props.reloadLanguage("en")}} className="lang-logo" src={en_logo} alt="english-logo" />
+              <img onClick={() => {props.reloadLanguage("hu")}} className="lang-logo" src={hu_logo} alt="hungarian-logo" />
             </NavLink>
           </NavItem>
         </Nav>

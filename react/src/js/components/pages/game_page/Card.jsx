@@ -68,7 +68,7 @@ export default class Card extends Component {
       content = this.createLanguageSelectorCard();
       isNextButtonHidden = true;
       // Asks the user age if it is not added yet. 
-    } else if (null == sessionStorage.getItem('isAdult')) {
+    } else if (null == sessionStorage.getItem("isAdult")) {
       content = this.createAgeCheckCard();
       isNextButtonHidden = true;
     }
@@ -189,7 +189,7 @@ export default class Card extends Component {
     this.replaceCard(true);
     // Timeout needed because render() immediately replaces content and the bouncing is not done yet.
     setTimeout(() => {
-      sessionStorage.setItem('isAdult', true)
+      sessionStorage.setItem("isAdult", true)
     }, 450);
   }
 
