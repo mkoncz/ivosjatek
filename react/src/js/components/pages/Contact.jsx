@@ -22,8 +22,8 @@ const Contact = props => {
         <link rel="canonical" href="https://ivosjatek.hu/contact" />
       </Helmet>
       <h3>{props.i18n.t("contact.contact")}</h3><br></br>
-      <a href="https://www.instagram.com/ivosjatek.hu/" className="insta-ref" target="_blank">
-        <img src={instagramImageResource} className="insta-icon" alt="insta-icon" />
+      <a href="https://www.instagram.com/ivosjatek.hu/" className="insta-ref" target="_blank" rel="noopener noreferrer">
+        <img src={instagramImageResource} className="insta-icon" alt="Instagram" />
         IVOSJATEK.HU
       </a>
     </div>

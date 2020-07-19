@@ -41,14 +41,14 @@ const Sponsors = props => {
       </Helmet>
       <div className={`${loaded ? '' : 'hidden'}`}>
         <Row className="sponsors-how-row">
-          <img src={beersImageResource} className="background-layout-spacer" onLoad={() => setLoaded(true)} />
+          <img src={beersImageResource} className="background-layout-spacer" onLoad={() => setLoaded(true)} alt=""/>
           <Col className="absolute-position">{props.i18n.t("sponsors.howToBeSponsor")}</Col>
         </Row>
         <Row className="sponsors-100-beers-row">
           <Col sm="12">{props.i18n.t("sponsors.pay100Beers")}</Col>
         </Row>
         <Row className="sponsors-why-row">
-          <img src={barBlackImageResource} className="background-layout-spacer" />
+          <img src={barBlackImageResource} className="background-layout-spacer" alt=""/>
           <Col className="absolute-position">{props.i18n.t("sponsors.whyToBeSponsor")}</Col>
         </Row>
         <Row className="sponsors-why-logos-row">
@@ -78,14 +78,14 @@ const Sponsors = props => {
           </Col>
         </Row>
         <Row className="owner-how-row">
-          <img src={kingImageResource} className="background-layout-spacer" />
+          <img src={kingImageResource} className="background-layout-spacer" alt=""/>
           <Col className="absolute-position">{props.i18n.t("sponsors.howToBeOwner")}</Col>
         </Row>
         <Row className="owner-contact-me-row">
           <Col className="absolute-position">{props.i18n.t("sponsors.contactMe")}</Col>
         </Row>
         <Row className="owner-why-row">
-          <img src={barBrownImageResource} className="background-layout-spacer" />
+          <img src={barBrownImageResource} className="background-layout-spacer" alt=""/>
           <Col className="absolute-position">{props.i18n.t("sponsors.whyToBeOwner")}</Col>
         </Row>
         <Row className="sponsors-why-logos-row">
@@ -107,7 +107,7 @@ const Sponsors = props => {
           </Col>
           <Col xs="12" sm="6" md="4">
             <FontAwesomeIcon icon={faHashtag} className="sponsor-logos" /><br />
-            <a href="https://www.instagram.com/ivosjatek.hu/" target="_blank">
+            <a href="https://www.instagram.com/ivosjatek.hu/" target="_blank" rel="noopener noreferrer">
               <div className="sponsor-reason">{props.i18n.t("sponsors.instagram")}</div>
             </a>
           </Col>
@@ -117,23 +117,23 @@ const Sponsors = props => {
           </Col>
         </Row>
         <Row className="current-sponsors-row">
-          <img src={whiskeyImageResource} className="background-layout-spacer" />
+          <img src={whiskeyImageResource} className="background-layout-spacer" alt="" />
           <Col className="absolute-position">{props.i18n.t("sponsors.currentSponsors")}</Col>
         </Row>
         <Row className="sponsor-cards-row">
-          <a href="https://www.instagram.com/peakybarbersofficial" target="_blank">
+          <a href="https://www.instagram.com/peakybarbersofficial" target="_blank" rel="noopener noreferrer">
             <div className="sponsor-card peakybarbers">
-              <img src={peakyIconResource} />
+              <img src={peakyIconResource} alt=""/>
             </div>
           </a>
-          <a href="https://www.instagram.com/nagyerdeiviztorony" target="_blank">
+          <a href="https://www.instagram.com/nagyerdeiviztorony" target="_blank" rel="noopener noreferrer">
             <div className="sponsor-card viztorony">
-              <img src={viztoronyIconResource} />
+              <img src={viztoronyIconResource} alt=""/>
             </div>
           </a>
-          <a href="https://www.instagram.com/georgecobbler" target="_blank">
+          <a href="https://www.instagram.com/georgecobbler" target="_blank" rel="noopener noreferrer">
             <div className="sponsor-card cobbler">
-              <img src={cobblerIconResource} />
+              <img src={cobblerIconResource} alt=""/>
             </div>
           </a>
         </Row>
