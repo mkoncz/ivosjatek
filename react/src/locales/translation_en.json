@@ -18,6 +18,10 @@
   "game.next": "Next",
   "game.no_more_question": "No more questions :(",
 
+  "image_alt.card": "Card",
+  "image_alt.english": "English",
+  "image_alt.hungarian": "Hungarian",
+
   "nav.contact": "Contact",
   "nav.game": "Game",
   "nav.home": "Home",

@@ -61,8 +61,8 @@ const NavBar = props => {
           </NavItem>
           <NavItem>
             <NavLink>
-              <img onClick={() => {props.reloadLanguage("en")}} className="lang-logo" src={en_logo} alt="english-logo" />
-              <img onClick={() => {props.reloadLanguage("hu")}} className="lang-logo" src={hu_logo} alt="hungarian-logo" />
+              <img onClick={() => {props.reloadLanguage("en")}} className="lang-logo" src={en_logo} alt={props.i18n.t("image_alt.english")} />
+              <img onClick={() => {props.reloadLanguage("hu")}} className="lang-logo" src={hu_logo} alt={props.i18n.t("image_alt.hungarian")} />
             </NavLink>
           </NavItem>
         </Nav>

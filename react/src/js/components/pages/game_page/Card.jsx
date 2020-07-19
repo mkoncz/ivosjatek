@@ -89,6 +89,7 @@ export default class Card extends Component {
           <CardBack
             logo={logo}
             bgColor={bgColor}
+            i18n={this.props.i18n}
           />
           <div className="front">
             <div id="kerdes1" className="txt-question">  {content} </div>
@@ -149,10 +150,10 @@ export default class Card extends Component {
         <h3>Select language.</h3><br></br>
         <p>
           <span>
-            <img onClick={(e) => this.reloadLanguage("en")} className="lang-logo lang-logo-big" src={en_logo} alt="english-logo" />
+            <img onClick={(e) => this.reloadLanguage("en")} className="lang-logo lang-logo-big" src={en_logo} alt={this.props.i18n.t("image_alt.hungarian")} />
           </span>
           <span>
-            <img onClick={(e) => this.reloadLanguage("hu")} className="lang-logo lang-logo-big" src={hu_logo} alt="hungarian-logo" />
+            <img onClick={(e) => this.reloadLanguage("hu")} className="lang-logo lang-logo-big" src={hu_logo} alt={this.props.i18n.t("image_alt.hungarian")} />
           </span>
         </p>
       </div>
@@ -166,7 +167,7 @@ export default class Card extends Component {
 
     return (
       <div className="age_check">
-        <img className="adult_logo" src={adult_logo} alt="adult-logo" />
+        <img className="adult_logo" src={adult_logo} alt="18" />
         <div className="question_block">
           <p>  {this.props.i18n.t("game.age_check_1")} </p>
           <p>  {this.props.i18n.t("game.age_check_2")} </p>
