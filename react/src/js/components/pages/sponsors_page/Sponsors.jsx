@@ -39,7 +39,7 @@ const Sponsors = props => {
         <meta name="description" content={props.i18n.t("desc.sponsors")} />
         <link rel="canonical" href="https://ivosjatek.hu/sponsors" />
       </Helmet>
-      <div className={`${loaded ? '' : 'hidden'}`}>
+      <div className={`${loaded ? "" : "hidden"}`}>
         <Row className="sponsors-how-row">
           <img src={beersImageResource} className="background-layout-spacer" onLoad={() => setLoaded(true)} alt=""/>
           <Col className="absolute-position">{props.i18n.t("sponsors.howToBeSponsor")}</Col>
