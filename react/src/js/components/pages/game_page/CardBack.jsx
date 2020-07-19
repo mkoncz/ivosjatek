@@ -32,7 +32,7 @@ const CardBack = props => {
 
   return (
     <div className={`back ${props.logo}`} >
-      <img src={getImageResource(props.logo)} alt="back-logo" />
+      <img src={getImageResource(props.logo)} alt={props.i18n.t("image_alt.hungarian")} />
     </div>
   );
 }
