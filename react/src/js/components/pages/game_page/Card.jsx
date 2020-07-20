@@ -134,7 +134,6 @@ export default class Card extends Component {
    * Handles the click event on the unread cards.
    */
   cardClickHandler = () => {
-
     this.setState({
       flipClasses: "active",
     });
@@ -150,10 +149,12 @@ export default class Card extends Component {
         <h3>Select language.</h3><br></br>
         <p>
           <span>
-            <img onClick={(e) => this.reloadLanguage("en")} className="lang-logo lang-logo-big" src={en_logo} alt={this.props.i18n.t("image_alt.hungarian")} />
+            <img onClick={(e) => this.reloadLanguage("en")} className="lang-logo lang-logo-big"
+              src={en_logo} alt={this.props.i18n.t("image_alt.english")} />
           </span>
           <span>
-            <img onClick={(e) => this.reloadLanguage("hu")} className="lang-logo lang-logo-big" src={hu_logo} alt={this.props.i18n.t("image_alt.hungarian")} />
+            <img onClick={(e) => this.reloadLanguage("hu")} className="lang-logo lang-logo-big"
+              src={hu_logo} alt={this.props.i18n.t("image_alt.hungarian")} />
           </span>
         </p>
       </div>
