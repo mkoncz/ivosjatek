@@ -6,6 +6,7 @@
 
   "desc.contact": "Az oldal elérhetőségeit tartalmazza. Az Instagram a készítő fő kommunikációs csatornája.",
   "desc.game": "Alapozd meg az estét vagy pörgesd fel a bulit egy izgalmas italozós kártyajátékkal. Az ivósjáték garantáltan szuper lehetőség a közös szórakozásra.",
+  "desc.posts": "Cikkek az internet világából, amelyek bizonyos kártyákat inspiráltak a játékhoz.",
   "desc.release_notes": "Az Ivósjáték újításai és javításai kerülnek listázásra havi felbontásban.",
   "desc.rules": "Az Ivós Játék használatát korlátozó megkötések, illetve a játék menetét leíró szabályzat.",
   "desc.sources": "Az Ivós Játék által felhasznált képek, ikonok és más források listája, illetve a GitHub projekt linkje.",
@@ -25,6 +26,7 @@
   "nav.contact": "Kapcsolat",
   "nav.game": "Játék",
   "nav.home": "Főoldal",
+  "nav.posts": "Cikkek",
   "nav.release_notes": "Frissítések",
   "nav.rules": "Szabályzat",
   "nav.sources": "Források",

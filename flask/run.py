@@ -14,5 +14,7 @@ app = Flask(__name__, static_folder=static_folder, template_folder=template_fold
 @app.route('/sources')
 @app.route('/sponsors')
 @app.route('/releases')
+@app.route('/p')
+@app.route('/p/<post-slug>')
 def route():
     return render_template('/index.html')

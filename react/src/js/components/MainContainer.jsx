@@ -14,6 +14,8 @@ import Releases from "./pages/Releases";
 import Rules from "./pages/Rules";
 import Sources from "./pages/sources_page/Sources";
 import Sponsors from "./pages/sponsors_page/Sponsors";
+import Posts from "./pages/posts/Posts";
+import PostJuly from "./pages/posts/PostJuly";
 
 // Import module that redirects http requests to https.
 import HttpsRedirect from "react-https-redirect";
@@ -90,6 +92,14 @@ export default class MainContainer extends Component {
               <Sponsors
                 i18n={i18n}
                 currentLanguage={this.state.currentLanguage}
+              />
+            </Route>
+            <Route path="/p/felnottfilmes-keri-a-videoi-torleset">
+              <PostJuly/>
+            </Route>
+            <Route path="/p">
+              <Posts
+                i18n={i18n}
               />
             </Route>
             <Route path="/">

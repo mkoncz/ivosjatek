@@ -115,6 +115,13 @@ const Sources = props => {
           <div className="github-label" >IVOSJATEK</div>
         </a>
       </div>
+      <div className="post-link">
+        <br/>
+        <br/>
+        <a href="/p">
+        <p>Cikkek</p>
+        </a>
+      </div>
     </div>
   );
 }
