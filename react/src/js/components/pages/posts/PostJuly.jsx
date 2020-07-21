@@ -4,7 +4,7 @@ import React from "react";
 // Import React Helmet for handling <head> attributes dinamically.
 import { Helmet } from "react-helmet";
 
-import InstagramEmbed from 'react-instagram-embed';
+import InstagramEmbed from "react-instagram-embed";
 
 /**
  * The page contains a post.
@@ -28,11 +28,11 @@ const PostJuly = props => {
                 nő azonban mára nagyon megbánta, hogy hat évvel ezelőtt belekóstolt a pornózásba.
             </p>
             <InstagramEmbed
-                url='https://www.instagram.com/p/BvXHuuWFj8X/?utm_source=ig_web_copy_link'
+                url="https://www.instagram.com/p/BvXHuuWFj8X/?utm_source=ig_web_copy_link"
                 maxWidth={320}
                 hideCaption={true}
-                containerTagName='div'
-                protocol=''
+                containerTagName="div"
+                protocol=""
                 injectScript
                 onLoading={() => {}}
                 onSuccess={() => {}}
@@ -46,11 +46,11 @@ const PostJuly = props => {
                 Ennek a kizsákmányolásnak szeretne véget venni azzal, hogy leveteti összes videóját az internetről.
             </h5>
             <InstagramEmbed
-                url='https://www.instagram.com/p/BuIWvVzlmgJ/?utm_source=ig_web_copy_link'
+                url="https://www.instagram.com/p/BuIWvVzlmgJ/?utm_source=ig_web_copy_link"
                 maxWidth={320}
                 hideCaption={true}
-                containerTagName='div'
-                protocol=''
+                containerTagName="div"
+                protocol=""
                 injectScript
                 onLoading={() => {}}
                 onSuccess={() => {}}
@@ -71,11 +71,11 @@ const PostJuly = props => {
             </p>
 
             <InstagramEmbed
-                url='https://www.instagram.com/p/BrP0J7Zlhhm/?utm_source=ig_web_copy_link'
+                url="https://www.instagram.com/p/BrP0J7Zlhhm/?utm_source=ig_web_copy_link"
                 maxWidth={320}
                 hideCaption={true}
-                containerTagName='div'
-                protocol=''
+                containerTagName="div"
+                protocol=""
                 injectScript
                 onLoading={() => {}}
                 onSuccess={() => {}}
