@@ -10,7 +10,7 @@ Later I decided to rewrite the jQuery based code in React.
 It is available in English and Hungarian language.
 
 ### Release notes
-http://ivosjatek.hu/#/releases/
+https://ivosjatek.hu/releases/
 
 ### Tested platforms
 - Desktop: Internet Explorer, Microsoft Edge, Google Chrome, Mozilla Firefox, Safari
