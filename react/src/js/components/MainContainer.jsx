@@ -151,7 +151,9 @@ export default class MainContainer extends Component {
               <PostJuly />
             </Route>
             <Route path="/p">
-              <Posts/>
+              <Posts
+                i18n={i18n}
+              />
             </Route>
             { /* END SEO */}
             <Route path={["/", "/hu"]}>
