@@ -27,36 +27,40 @@ const PostJuly = props => {
                 keresett pornósa. A most 27 éves libanoni-amerikai
                 nő azonban mára nagyon megbánta, hogy hat évvel ezelőtt belekóstolt a pornózásba.
             </p>
-            <InstagramEmbed
-                url="https://www.instagram.com/p/BvXHuuWFj8X/?utm_source=ig_web_copy_link"
-                maxWidth={320}
-                hideCaption={true}
-                containerTagName="div"
-                protocol=""
-                injectScript
-                onLoading={() => {}}
-                onSuccess={() => {}}
-                onAfterRender={() => {}}
-                onFailure={() => {}}
+            <div align="center">
+                <InstagramEmbed
+                    url="https://www.instagram.com/p/BvXHuuWFj8X/?utm_source=ig_web_copy_link"
+                    hideCaption={true}
+                    containerTagName="div"
+                    protocol=""
+                    injectScript
+                    onLoading={() => { }}
+                    onSuccess={() => { }}
+                    onAfterRender={() => { }}
+                    onFailure={() => { }}
                 />
+            </div>
+
             <h5 className="post-h">
                 Mia azt mondja, ő mindössze 12 ezer dollárt (kb. 3,7 millió forintot)
                 keresett a videóival, melyekkel a PornHub pornómegosztó és a BangBros
                 nevű pornóforgalmazó még évekkel később is dollármilliókat kaszál.
                 Ennek a kizsákmányolásnak szeretne véget venni azzal, hogy leveteti összes videóját az internetről.
             </h5>
-            <InstagramEmbed
-                url="https://www.instagram.com/p/BuIWvVzlmgJ/?utm_source=ig_web_copy_link"
-                maxWidth={320}
-                hideCaption={true}
-                containerTagName="div"
-                protocol=""
-                injectScript
-                onLoading={() => {}}
-                onSuccess={() => {}}
-                onAfterRender={() => {}}
-                onFailure={() => {}}
+            <div align="center">
+                <InstagramEmbed
+                    url="https://www.instagram.com/p/BuIWvVzlmgJ/?utm_source=ig_web_copy_link"
+                    hideCaption={true}
+                    containerTagName="div"
+                    protocol=""
+                    injectScript
+                    onLoading={() => { }}
+                    onSuccess={() => { }}
+                    onAfterRender={() => { }}
+                    onFailure={() => { }}
                 />
+            </div>
+
             <p className="post-p">
                 A nő már többször próbálta megvásárolni pornóvideóit, hogy azokat végleg
                 eltüntethesse a világhálóról, ám a jogtulajdonosok ennek érthető módon ellenállnak.
@@ -69,19 +73,20 @@ const PostJuly = props => {
                 Az Instagramon 21 millió követővel rendelkező nő egy online petíciót indított, hogy elérje a célját.
                 Az ügyét már több mint 1,8 millió ember támogatta.
             </p>
-
-            <InstagramEmbed
-                url="https://www.instagram.com/p/BrP0J7Zlhhm/?utm_source=ig_web_copy_link"
-                maxWidth={320}
-                hideCaption={true}
-                containerTagName="div"
-                protocol=""
-                injectScript
-                onLoading={() => {}}
-                onSuccess={() => {}}
-                onAfterRender={() => {}}
-                onFailure={() => {}}
+            <div align="center">
+                <InstagramEmbed
+                    url="https://www.instagram.com/p/BrP0J7Zlhhm/?utm_source=ig_web_copy_link"
+                    hideCaption={true}
+                    containerTagName="div"
+                    protocol=""
+                    injectScript
+                    onLoading={() => { }}
+                    onSuccess={() => { }}
+                    onAfterRender={() => { }}
+                    onFailure={() => { }}
                 />
+            </div>
+
             <p className="post-p">
                 A kérvényt <a href="https://www.change.org/p/pornhub-justice-for-mia-khalifa">itt</a> tudjátok aláírni.
             </p>

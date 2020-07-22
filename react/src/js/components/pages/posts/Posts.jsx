@@ -1,8 +1,9 @@
 // Import ReactJS module.
 import React from "react";
 
-// Import GitHub logo.
+// Import thumbnails.
 import miaImageResource from "./../../../../img/posts/mia.jpg";
+import milaImageResource from "./../../../../img/posts/mila.jpg";
 
 
 // Import React Helmet for handling <head> attributes dinamically.
@@ -28,6 +29,15 @@ const Posts = props => {
         <div className="post-thumbnail-title-container" >
           <h4 className="post-thumbnail-title">
             Majdnem kétmillióan kérik, hogy távolítsák el a netről a világ legismertebb pornósának videóit
+          </h4>
+        </div>
+      </a>
+      <div className="post-separator"></div>
+      <a className="post-a" href="/p/ketrecharcos-lesz-ukrajna-legnagyobb-mellu-noje">
+        <img src={milaImageResource} className="post-thumbnail" alt={props.i18n.t("nav.posts")} />
+        <div className="post-thumbnail-title-container" >
+          <h4 className="post-thumbnail-title">
+            MMA harcosnak áll Ukrajna legnagyobb mellű nője
           </h4>
         </div>
       </a>
