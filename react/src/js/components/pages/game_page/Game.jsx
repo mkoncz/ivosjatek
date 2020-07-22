@@ -19,6 +19,7 @@ import { Helmet } from "react-helmet";
  * 
  * @param {Object} props.i18n Configured i18next object. It is used for the localization.
  * @param {string} props.currentLanguage Shortened version of the language. Changing the currentLanguage property triggers an update at the language change.
+ * @param {function} props.reloadLanguage Changes the language of the page.
  */
 export default class Game extends Component {
 
@@ -29,6 +30,10 @@ export default class Game extends Component {
     this.state = {
       currentQuestion: this.getRandomQuestion()
     };
+  }
+
+  componentDidMount() {
+    this.props.reloadLanguage(this.props.currentLanguage);
   }
 
   render() {
@@ -42,11 +47,11 @@ export default class Game extends Component {
         <Helmet>
           <title>{this.props.i18n.t("nav.home")} | {this.props.i18n.t("nav.title")}</title>
           <meta name="description" content={this.props.i18n.t("desc.game")} />
-          <link rel="canonical" href="https://ivosjatek.hu" />
+          <link rel="canonical" href={`https://ivosjatek.hu/${this.props.currentLanguage === "en" ? "en" : ""}`} />
         </Helmet>
         <h1 className="left-card-label animated fadeIn">
           {i18n.t("game.card_left").replace("%NUMBER%", number_of_left_cards)}
-        </h1> 
+        </h1>
 
         <Card
           i18n={i18n}
