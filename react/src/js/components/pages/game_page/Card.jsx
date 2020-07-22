@@ -63,12 +63,7 @@ export default class Card extends Component {
     var logo = "cocktail.svg";
     let bgColor = "#d3f42f";
 
-    // Asks the user age if it is not added yet. 
-    if (null == this.cookies.get("lang")) {
-      content = this.createLanguageSelectorCard();
-      isNextButtonHidden = true;
-      // Asks the user age if it is not added yet. 
-    } else if (null == sessionStorage.getItem("isAdult")) {
+    if (null == sessionStorage.getItem("isAdult")) {
       content = this.createAgeCheckCard();
       isNextButtonHidden = true;
     }
@@ -140,28 +135,6 @@ export default class Card extends Component {
   }
 
   /**
-   * Creates card with the available language logos.
-   */
-  createLanguageSelectorCard = () => {
-
-    return (
-      <div>
-        <h3>Select language.</h3><br></br>
-        <p>
-          <span>
-            <img onClick={(e) => this.reloadLanguage("en")} className="lang-logo lang-logo-big"
-              src={en_logo} alt={this.props.i18n.t("image_alt.english")} />
-          </span>
-          <span>
-            <img onClick={(e) => this.reloadLanguage("hu")} className="lang-logo lang-logo-big"
-              src={hu_logo} alt={this.props.i18n.t("image_alt.hungarian")} />
-          </span>
-        </p>
-      </div>
-    )
-  }
-
-  /**
    * Creates card with age check question and next button.
    */
   createAgeCheckCard = () => {
@@ -170,8 +143,8 @@ export default class Card extends Component {
       <div className="age_check">
         <img className="adult_logo" src={adult_logo} alt="18" />
         <div className="question_block">
-          <p>  {this.props.i18n.t("game.age_check_1")} </p>
-          <p>  {this.props.i18n.t("game.age_check_2")} </p>
+          <h5>{this.props.i18n.t("game.age_check_1")}</h5>
+          <p>{this.props.i18n.t("game.age_check_2")}</p>
         </div>
         <button
           className="btn btn-warning btn-lg"
