@@ -2,38 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
   <url>
     <loc>https://ivosjatek.hu</loc>
-    <lastmod>2020-07-22</lastmod>
+    <lastmod>2020-07-23</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/hu</loc>
+    <lastmod>2020-07-23</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/en</loc>
+    <lastmod>2020-07-23</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/rules</loc>
-    <lastmod>2020-07-22</lastmod>
+    <lastmod>2020-07-23</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/hu/rules</loc>
+    <lastmod>2020-07-23</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/en/rules</loc>
+    <lastmod>2020-07-23</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/contact</loc>
-    <lastmod>2020-07-22</lastmod>
+    <lastmod>2020-07-23</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/hu/contact</loc>
+    <lastmod>2020-07-23</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/en/contact</loc>
+    <lastmod>2020-07-23</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/releases</loc>
-    <lastmod>2020-07-22</lastmod>
+    <lastmod>2020-07-23</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/hu/releases</loc>
+    <lastmod>2020-07-23</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/en/releases</loc>
+    <lastmod>2020-07-23</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/sources</loc>
-    <lastmod>2020-07-22</lastmod>
+    <lastmod>2020-07-23</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/hu/sources</loc>
+    <lastmod>2020-07-23</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/en/sources</loc>
+    <lastmod>2020-07-23</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/sponsors</loc>
-    <lastmod>2020-07-22</lastmod>
+    <lastmod>2020-07-23</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/hu/sponsors</loc>
+    <lastmod>2020-07-23</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/en/sponsors</loc>
+    <lastmod>2020-07-23</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/p</loc>
-    <lastmod>2020-07-22</lastmod>
+    <lastmod>2020-07-23</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/p/felnottfilmes-keri-a-videoi-torleset</loc>
-    <lastmod>2020-07-22</lastmod>
+    <lastmod>2020-07-23</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/p/ketrecharcos-lesz-ukrajna-legnagyobb-mellu-noje</loc>
-    <lastmod>2020-07-22</lastmod>
+    <lastmod>2020-07-23</lastmod>
   </url>
 </urlset>
