@@ -1,5 +1,6 @@
 // Import ReactJS module.
-import React from "react";
+import React, { Component } from "react";
+
 
 // Import localized questions.
 import * as hun_note_resource from "./../../../locales/release_notes_hu.json"
@@ -13,37 +14,49 @@ import { Helmet } from "react-helmet";
  * 
  * @param {Object} props.i18n Configured i18next object. It is used for the localization.
  * @param {string} props.currentLanguage Shortened version of the language.
+ * @param {function} props.reloadLanguage Changes the language of the page.
  */
-const Releases = props => {
+export default class Contact extends Component {
 
+  constructor() {
+    super();
+    this.state = {
+      loaded: false
+    }
+  }
+  
+  componentDidMount() {
+    this.props.reloadLanguage(this.props.currentLanguage);
+  }
+  
   // Localized list of the release notes.
   // Note entries contain a title and a list of changes.
-  let notes = props.currentLanguage === "hu" ? [...hun_note_resource.notes] : [...en_note_resource.notes];
-
+  
   // Iterates and prints release notes. 
   // Listing starts from the newest entry.
-  return (
-    <div className="page-frame">
-      <Helmet>
-        <title>{props.i18n.t("nav.release_notes")} | {props.i18n.t("nav.title")}</title>
-        <meta name="description" content={props.i18n.t("desc.release_notes")} />
-        <link rel="canonical" href="https://ivosjatek.hu/releases" />
+  render() {
+    let notes = this.props.currentLanguage === "hu" ? [...hun_note_resource.notes] : [...en_note_resource.notes];
+    return (
+      <div className="page-frame">
+        <Helmet>
+          <title>{this.props.i18n.t("nav.release_notes")} | {this.props.i18n.t("nav.title")}</title>
+          <meta name="description" content={this.props.i18n.t("desc.release_notes")} />
+          <link rel="canonical" href={`https://ivosjatek.hu/${this.props.currentLanguage === "en" ? "en/" : ""}releases`} />
+          contact
       </Helmet>
-      {notes.reverse().map((release) => {
-        return (
-          <div key={release.title}>
-            <h4>{release.title}</h4>
-            <ul>
-              {release.changes.map((bullet_point) => {
-                return <li key={bullet_point}> {bullet_point} </li>
-              })}
-            </ul>
-            <br />
-          </div>)
-      })}
-    </div>
-  );
+        {notes.reverse().map((release) => {
+          return (
+            <div key={release.title}>
+              <h4>{release.title}</h4>
+              <ul>
+                {release.changes.map((bullet_point) => {
+                  return <li key={bullet_point}> {bullet_point} </li>
+                })}
+              </ul>
+              <br />
+            </div>)
+        })}
+      </div>
+    );
+  }
 }
-
-// Export component.
-export default Releases;

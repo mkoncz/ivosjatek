@@ -16,6 +16,7 @@ import Sources from "./pages/sources_page/Sources";
 import Sponsors from "./pages/sponsors_page/Sponsors";
 import Posts from "./pages/posts/Posts";
 import PostJuly from "./pages/posts/PostJuly";
+import PostJuly2 from "./pages/posts/PostJuly2";
 
 // Import module that redirects http requests to https.
 import HttpsRedirect from "react-https-redirect";
@@ -65,44 +66,95 @@ export default class MainContainer extends Component {
             />
           </div>
           <Switch>
-            <Route path="/rules">
+            <Route path={["/rules", "/hu/rules"]}>
               <Rules
                 i18n={i18n}
+                currentLanguage={this.state.currentLanguage}
+                reloadLanguage={this.reloadLanguage}
               />
             </Route>
-            <Route path="/contact">
+            <Route path={["/contact", "/hu/contact"]}>
               <Contact
                 i18n={i18n}
                 currentLanguage={this.state.currentLanguage}
+                reloadLanguage={this.reloadLanguage}
               />
             </Route>
-            <Route path="/releases">
+            <Route path={["/releases", "/hu/releases"]}>
               <Releases
                 i18n={i18n}
                 currentLanguage={this.state.currentLanguage}
+                reloadLanguage={this.reloadLanguage}
               />
             </Route>
-            <Route path="/sources">
+            <Route path={["/sources", "/hu/sources"]}>
               <Sources
                 i18n={i18n}
                 currentLanguage={this.state.currentLanguage}
+                reloadLanguage={this.reloadLanguage}
               />
             </Route>
-            <Route path="/sponsors">
+            <Route path={["/sponsors", "/hu/sponsors"]}>
               <Sponsors
                 i18n={i18n}
                 currentLanguage={this.state.currentLanguage}
+                reloadLanguage={this.reloadLanguage}
               />
+            </Route>
+            <Route path={["/rules", "/hu/rules"]}>
+              <Rules
+                i18n={i18n}
+                currentLanguage={this.state.currentLanguage}
+                reloadLanguage={this.reloadLanguage}
+              />
+            </Route>
+            <Route path="/en/contact">
+              <Contact
+                i18n={i18n}
+                currentLanguage="en"
+                reloadLanguage={this.reloadLanguage}
+              />
+            </Route>
+            <Route path="/en/releases">
+              <Releases
+                i18n={i18n}
+                currentLanguage="en"
+                reloadLanguage={this.reloadLanguage}
+              />
+            </Route>
+            <Route path="/en/sources">
+              <Sources
+                i18n={i18n}
+                currentLanguage="en"
+                reloadLanguage={this.reloadLanguage}
+              />
+            </Route>
+            <Route path="/en/sponsors">
+              <Sponsors
+                i18n={i18n}
+                currentLanguage="en"
+                reloadLanguage={this.reloadLanguage}
+              />
+            </Route>
+            <Route path="/en">
+              <Game
+                i18n={i18n}
+                currentLanguage="en"
+                reloadLanguage={this.reloadLanguage}
+              />
+            </Route>
+            { /* SEO */}
+            <Route path="/p/ketrecharcos-lesz-ukrajna-legnagyobb-mellu-noje">
+              <PostJuly2 />
             </Route>
             <Route path="/p/felnottfilmes-keri-a-videoi-torleset">
-              <PostJuly/>
+              <PostJuly />
             </Route>
             <Route path="/p">
-              <Posts
-                i18n={i18n}
-              />
+              <Posts/>
             </Route>
-            <Route path="/">
+            { /* END SEO */}
+            <Route path={["/", "/hu"]}>
               <Game
                 i18n={i18n}
                 currentLanguage={this.state.currentLanguage}

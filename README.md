@@ -10,7 +10,7 @@ Later I decided to rewrite the jQuery based code in React.
 It is available in English and Hungarian language.
 
 ### Release notes
-https://ivosjatek.hu/releases/
+https://ivosjatek.hu/en/releases/
 
 ### Tested platforms
 - Desktop: Internet Explorer, Microsoft Edge, Google Chrome, Mozilla Firefox, Safari
@@ -22,5 +22,5 @@ https://ivosjatek.hu/releases/
 The code is under MIT licence.
 
 ### Contact
-- Web: https://ivosjatek.hu
+- Web: https://ivosjatek.hu/en
 - IG: https://www.instagram.com/ivosjatek.hu
