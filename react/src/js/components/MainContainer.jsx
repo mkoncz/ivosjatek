@@ -14,6 +14,7 @@ import Releases from "./pages/Releases";
 import Rules from "./pages/Rules";
 import Sources from "./pages/sources_page/Sources";
 import Sponsors from "./pages/sponsors_page/Sponsors";
+import Page404 from "./pages/Page404";
 import Posts from "./pages/posts/Posts";
 import PostJuly from "./pages/posts/PostJuly";
 import PostJuly2 from "./pages/posts/PostJuly2";
@@ -142,6 +143,9 @@ export default class MainContainer extends Component {
                 currentLanguage="en"
                 reloadLanguage={this.reloadLanguage}
               />
+            </Route>
+            <Route path="/404">
+              <Page404/>
             </Route>
             { /* SEO */}
             <Route path="/p/ketrecharcos-lesz-ukrajna-legnagyobb-mellu-noje">
