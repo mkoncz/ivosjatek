@@ -145,7 +145,9 @@ export default class MainContainer extends Component {
               />
             </Route>
             <Route path="/404">
-              <Page404/>
+              <Page404
+                i18n={i18n}
+              />
             </Route>
             { /* SEO */}
             <Route path="/p/ketrecharcos-lesz-ukrajna-legnagyobb-mellu-noje">
