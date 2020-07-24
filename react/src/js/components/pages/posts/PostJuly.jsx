@@ -11,7 +11,7 @@ import InstagramEmbed from "react-instagram-embed";
  * Posts are not really relevant for this website. 
  * They are needed because of SEO reasons.
  */
-const PostJuly = props => {
+const PostJuly = () => {
     return (
         <div className="page-frame">
             <Helmet>
@@ -93,26 +93,27 @@ const PostJuly = props => {
             <h4 className="post-h">
                 A cikk a következő kártyákat inspirálta:
             </h4>
-            <div className="post-card">
-                <div className="post-card-text">
-                    Az iszik, aki látott már élőben pornószínészt / színésznőt.
+            <div align="center">
+                <div className="post-card">
+                    <div className="post-card-text">
+                        Az iszik, aki látott már élőben pornószínészt / színésznőt.
                 </div>
-            </div>
-            <div className="post-card">
-                <div className="post-card-text">
-                    Hívj fel valakit és kérdezd meg tud-e egy jó pornóoldalt! Ha nem mered, igyál egy rövidet!
                 </div>
-            </div>
-            <div className="post-card">
-                <div className="post-card-text">
+                <div className="post-card">
+                    <div className="post-card-text">
+                        Hívj fel valakit és kérdezd meg tud-e egy jó pornóoldalt! Ha nem mered, igyál egy rövidet!
+                </div>
+                </div>
+                <div className="post-card">
+                    <div className="post-card-text">
 
-                    A többiek próbálják kitalálni! Szerinted a pornósok inkább színészek vagy prostituáltak? Aki rosszul tippel, az iszik.
+                        A többiek próbálják kitalálni! Szerinted a pornósok inkább színészek vagy prostituáltak? Aki rosszul tippel, az iszik.
+                </div>
+                </div>
+                <div>
+                    Ivósjáték: <a href="/">katt ide</a>
                 </div>
             </div>
-            <div>
-                Ivósjáték: <a href="/">katt ide</a>
-            </div>
-
         </div>
     );
 }
