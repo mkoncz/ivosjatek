@@ -1,9 +1,7 @@
 // Import React modules.
 import React, { Component } from "react"
 
-// Import cocktail logo for the back page of the card.
-import hu_logo from "./../../../../img/hu_flag.png";
-import en_logo from "./../../../../img/en_flag.png";
+// Import adult logo.
 import adult_logo from "./../../../../img/18.png";
 
 import CardBack from "./CardBack"

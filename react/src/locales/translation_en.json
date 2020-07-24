@@ -1,11 +1,12 @@
 {
+  "404": "Not valid page. Let's go back to the home page.",
   "contact.contact": "Contact:",
 
   "cookie.accept": "Accept",
   "cookie.question": "This website uses cookies to store selected language.",
   
   "desc.contact": "Contains the contact details. The main communication platform is Instagram.",
-  "desc.game": "Make the night unforgettable. This drinking game is a great tool to cheer up party.",
+  "desc.game": "Make the night unforgettable. This drinking game is a great tool to cheer up the party.",
   "desc.posts": "Various posts from the internet that inspired cards for this game. They are not always relevant to the drinking.",
   "desc.release_notes": "The release notes of the game come every month on this page. They are mostly new features and bugfixes.",
   "desc.rules": "The rescrictions of the game are listed here. Also here can you read about the game rules.",
