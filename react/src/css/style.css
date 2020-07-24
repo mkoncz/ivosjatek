@@ -516,3 +516,7 @@ a:hover {
 .post-separator{
     clear: left;
 } 
+
+.center-404 {
+    text-align: center;
+}
