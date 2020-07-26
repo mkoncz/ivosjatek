@@ -3,6 +3,7 @@ import React, { Component } from "react";
 
 // Instagram icon iamge resource.
 import instagramImageResource from "./../../../img/insta.png";
+import linkedinImageResource from "./../../../img/linkedin.png";
 
 // Import React Helmet for handling <head> attributes dinamically.
 import { Helmet } from "react-helmet";
@@ -39,10 +40,19 @@ export default class Contact extends Component {
 
         </Helmet>
         <h3>{this.props.i18n.t("contact.contact")}</h3><br></br>
-        <a href="https://www.instagram.com/ivosjatek.hu/" className="insta-ref" target="_blank" rel="noopener noreferrer">
-          <img src={instagramImageResource} className="insta-icon" alt="Instagram" />
-          IVOSJATEK.HU
-        </a>
+        <div>
+          <a href="https://www.instagram.com/ivosjatek.hu/" className="insta-ref" target="_blank" rel="noopener noreferrer">
+            <img src={instagramImageResource} className="insta-icon" alt="Instagram" />
+            IVOSJATEK.HU
+          </a>
+        </div>
+        <div>
+          <a href="https://www.linkedin.com/company/ivosjatek/" className="insta-ref" target="_blank" rel="noopener noreferrer">
+            <img src={linkedinImageResource} className="linkedin-contact-icon" alt="LinkedIn" />
+            IVOSJATEK.HU
+          </a>
+        </div>
+
       </div>
     );
   }
