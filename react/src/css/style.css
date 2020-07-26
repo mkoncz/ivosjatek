@@ -517,6 +517,16 @@ a:hover {
     clear: left;
 } 
 
+.post-card-big {
+    background-color: white;
+    color: black;
+    width: 320px;
+    height: 480px;
+    text-align: center;
+    border-radius: 7px;
+    margin: 15px;
+}
+
 .center-404 {
     text-align: center;
 }
