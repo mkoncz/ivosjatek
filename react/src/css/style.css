@@ -437,6 +437,13 @@ a:hover {
 .insta-icon {
     height: 3em;
     margin-bottom: 0.3em;
+    margin-left: 0.3em;
+    margin-right: 0.2em;
+}
+
+.linkedin-contact-icon {
+    height: 3.5em;
+    margin-bottom: 0.3em;
 }
 
 .github-icon {
@@ -516,6 +523,16 @@ a:hover {
 .post-separator{
     clear: left;
 } 
+
+.post-card-big {
+    background-color: white;
+    color: black;
+    width: 320px;
+    height: 480px;
+    text-align: center;
+    border-radius: 7px;
+    margin: 15px;
+}
 
 .center-404 {
     text-align: center;
