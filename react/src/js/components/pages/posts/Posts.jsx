@@ -1,11 +1,6 @@
 // Import ReactJS module.
 import React from "react";
 
-// Import thumbnails.
-import miaImageResource from "./../../../../img/posts/mia.jpg";
-import milaImageResource from "./../../../../img/posts/mila.jpg";
-
-
 // Import React Helmet for handling <head> attributes dinamically.
 import { Helmet } from "react-helmet";
 
@@ -25,7 +20,8 @@ const Posts = props => {
       <h1>{props.i18n.t("nav.posts")}</h1>
 
       <a href="/p/felnottfilmes-keri-a-videoi-torleset">
-        <img src={miaImageResource} className="post-thumbnail" alt={props.i18n.t("nav.posts")} />
+        <img src="https://instagram.fbud4-1.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/91972246_115766546750301_8183436718060852579_n.jpg?_nc_ht=instagram.fbud4-1.fna.fbcdn.net&_nc_cat=1&_nc_ohc=fWhQs2hcIxgAX8oec7m&oh=88b32a6890cff1219e3a4dec4e2d09ca&oe=5F47580B" 
+        className="post-thumbnail" alt={props.i18n.t("nav.posts")} />
         <div className="post-thumbnail-title-container" >
           <h4 className="post-thumbnail-title">
             Majdnem kétmillióan kérik, hogy távolítsák el a netről a világ legismertebb pornósának videóit
@@ -34,7 +30,8 @@ const Posts = props => {
       </a>
       <div className="post-separator"></div>
       <a className="post-a" href="/p/ketrecharcos-lesz-ukrajna-legnagyobb-mellu-noje">
-        <img src={milaImageResource} className="post-thumbnail" alt={props.i18n.t("nav.posts")} />
+        <img src="https://instagram.fbud4-1.fna.fbcdn.net/v/t51.2885-15/e35/103877492_298962061477741_2945378977191134397_n.jpg?_nc_ht=instagram.fbud4-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=Qe3_2q5STXkAX-bLSSN&oh=d2b91f5f890eff4e7fbbdedc7a046419&oe=5F47B146" 
+        className="post-thumbnail" alt={props.i18n.t("nav.posts")} />
         <div className="post-thumbnail-title-container" >
           <h4 className="post-thumbnail-title">
             MMA harcosnak áll Ukrajna legnagyobb mellű nője
