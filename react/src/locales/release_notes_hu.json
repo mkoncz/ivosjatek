@@ -47,6 +47,23 @@
         "Instagram link a Kapcsolat aloldalon.",
         "Mobil nézet hibajavítások."
       ]
+    },
+    {
+      "title": "2020. június",
+      "changes": [
+        "Az oldal átköltözött a felhőbe.",
+        "100 új kártya.",
+        "Animációs hibák javítása.",
+        "LinkedIn link a Kapcsolat aloldalon."
+      ]
+    },
+    {
+      "title": "2020. július",
+      "changes": [
+        "Google Analytics és Google Search Console bekötése.",
+        "Az ivosjatek.hu a Google találatok első oldalán szerepel.",
+        "Biztonsági hibák javítása."
+      ]
     }
   ]
 }

@@ -72,7 +72,8 @@ const PostJuly = () => {
                 keresett pornósa. A most 27 éves libanoni-amerikai
                 nő azonban mára nagyon megbánta, hogy hat évvel ezelőtt belekóstolt a pornózásba.
             </p>
-            <div align="center">
+
+            <div className="post-social-media" >
                 <InstagramEmbed
                     url="https://www.instagram.com/p/BvXHuuWFj8X/?utm_source=ig_web_copy_link"
                     hideCaption={true}
@@ -92,7 +93,8 @@ const PostJuly = () => {
                 nevű pornóforgalmazó még évekkel később is dollármilliókat kaszál.
                 Ennek a kizsákmányolásnak szeretne véget venni azzal, hogy leveteti összes videóját az internetről.
             </h5>
-            <div align="center">
+
+            <div className="post-social-media" >
                 <InstagramEmbed
                     url="https://www.instagram.com/p/BuIWvVzlmgJ/?utm_source=ig_web_copy_link"
                     hideCaption={true}
@@ -110,15 +112,18 @@ const PostJuly = () => {
                 A nő már többször próbálta megvásárolni pornóvideóit, hogy azokat végleg
                 eltüntethesse a világhálóról, ám a jogtulajdonosok ennek érthető módon ellenállnak.
             </p>
+
             <h5 className="post-h">
                 "Az a 11 videó kísérteni fog a halálom napjáig"
             </h5>
+
             <p className="post-p">
                 A jelenleg sportműsorokat készítő Mia Khalifa most azt szeretné, ha azok végleg eltűnnének az internetről.
                 Az Instagramon 21 millió követővel rendelkező nő egy online petíciót indított, hogy elérje a célját.
                 Az ügyét már több mint 1,8 millió ember támogatta.
             </p>
-            <div align="center">
+
+            <div className="post-social-media" >
                 <InstagramEmbed
                     url="https://www.instagram.com/p/BrP0J7Zlhhm/?utm_source=ig_web_copy_link"
                     hideCaption={true}
@@ -135,9 +140,11 @@ const PostJuly = () => {
             <p className="post-p">
                 A kérvényt <a href="https://www.change.org/p/pornhub-justice-for-mia-khalifa">itt</a> tudjátok aláírni.
             </p>
+
             <h4 className="post-h">
                 A cikk a következő kártyákat inspirálta:
             </h4>
+            
             <div align="center">
                 <div className="post-card">
                     <div className="post-card-text">
