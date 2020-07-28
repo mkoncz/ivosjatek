@@ -48,6 +48,23 @@
         "Instagram link on the Contact page.",
         "Bugfixes of mobile view."
       ]
+    },
+    {
+      "title": "June 2020",
+      "changes": [
+        "The page is moved to the cloud.",
+        "100 new cards.",
+        "Animation issues fixed.",
+        "LinkedIn link on the Contact page."
+      ]
+    },
+    {
+      "title": "July 2020",
+      "changes": [
+        "Google Analytics and Google Search Console connected.",
+        "The ivosjatek.hu domain is on the first page of the hungarian search results.",
+        "Security issues fixed."
+      ]
     }
   ]
 }
