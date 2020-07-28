@@ -38,6 +38,16 @@ const Posts = props => {
           </h4>
         </div>
       </a>
+      <div className="post-separator"></div>
+      <a className="post-a" href="/p/biztositast_kotott_a_peniszere">
+        <img src="https://instagram.fbud4-1.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/109352985_2660633004202600_6221325164259584362_n.jpg?_nc_ht=instagram.fbud4-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=sqs7AR79OqcAX8B6bDi&oh=1d4f08de9980ba8f0f1d0bbe456ae197&oe=5F49092F" 
+        className="post-thumbnail" alt={props.i18n.t("nav.posts")} />
+        <div className="post-thumbnail-title-container" >
+          <h4 className="post-thumbnail-title">
+            1 millió dolláros biztosítást kötött a péniszére a férfi
+          </h4>
+        </div>
+      </a>
 
     </div>
   );
