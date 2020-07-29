@@ -1,11 +1,27 @@
 // Import React module.
 import React from "react";
+import Modal from 'react-modal';
 
 // Import React Helmet for handling <head> attributes dinamically.
 import { Helmet } from "react-helmet";
 
 import InstagramEmbed from "react-instagram-embed";
 import { TwitterTweetEmbed } from 'react-twitter-embed';
+
+import adult_logo from "./../../../../img/18.png";
+
+const customStyles = {
+    content: {
+        top: '50%',
+        left: '50%',
+        right: 'auto',
+        bottom: 'auto',
+        marginRight: '-50%',
+        transform: 'translate(-50%, -50%)',
+        backgroundColor: "#000",
+        textAlign: "center"
+    }
+};
 
 /**
  * The page contains a post.
@@ -14,6 +30,8 @@ import { TwitterTweetEmbed } from 'react-twitter-embed';
  * http://www.borsonline.hu/celeb/4000-novel-fekudt-le-mar-a-pornos-elmondta-kivel-volt-a-legjobb/132231
  */
 const PostJuly3 = () => {
+    const [modalIsOpen, setIsOpen] = React.useState(true);
+
     return (
         <div className="page-frame">
             <Helmet>
@@ -21,6 +39,30 @@ const PostJuly3 = () => {
                 <meta name="description" content="1 millió dolláros (350 millió forintos) biztosítást kötött a péniszére ez a férfi" />
                 <link rel="canonical" href="https://ivosjatek.hu/p/biztositast_kotott_a_peniszere" />
             </Helmet>
+            <Modal
+                isOpen={modalIsOpen}
+                onRequestClose={() => { setIsOpen(false) }}
+                style={customStyles}
+                contentLabel="18 éves"
+            >
+                <div className="post-card-big">
+                    <div className="txt-question">
+                        <div className="pre-card">
+                            <img className="adult_logo" src={adult_logo} alt="18" />
+                            <div className="question_block">
+                                <h5>Kérhetnék egy személyit?</h5>
+                                <p>Az IvósJáték egy 18 éven felülieknek készült játék.</p>
+                            </div>
+                            <button
+                                className="btn btn-warning btn-lg"
+                                onClick={() => { setIsOpen(false) }}>
+                                Felnőtt vagyok
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </Modal>
             <h3 className="post-h">Biztosítást kötött a péniszére Keiran Lee pornófilmes színész/rendező</h3>
 
             <div className="post-social-media" align="center" >
