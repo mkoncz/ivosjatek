@@ -17,8 +17,12 @@
   "game.age_check_2": "It's part of our commitment to responsible drinking.  ",
   "game.age_check_button": "I'm an adult",
   "game.card_left": "%NUMBER% cards left",
+  "game.card_owner": "'s card",
+  "game.done": "Done",
   "game.next": "Next",
   "game.no_more_question": "No more questions :(",
+  "game.player": "Player",
+  "game.player_names": "Give the player names",
 
   "image_alt.card": "Card",
   "image_alt.english": "English",

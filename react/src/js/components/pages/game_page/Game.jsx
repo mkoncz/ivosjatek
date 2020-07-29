@@ -4,6 +4,10 @@ import React, { Component } from "react"
 // Import question resources.
 import * as questions from "./../../../../locales/questions.json"
 
+// Import React Helmet for handling <head> attributes dinamically.
+import { Helmet } from "react-helmet";
+
+// Import local Card component.
 import Card from "./Card"
 
 // Import custom styles.
@@ -11,8 +15,6 @@ import "./../../../../css/style.css";
 // Import animation styles.
 import "./../../../../css/animate.css";
 
-// Import React Helmet for handling <head> attributes dinamically.
-import { Helmet } from "react-helmet";
 
 /**
  * The page contains the Game with the current Card.
@@ -56,7 +58,6 @@ export default class Game extends Component {
         <Card
           i18n={i18n}
           currentLanguage={this.props.currentLanguage}
-          reloadLanguage={this.props.reloadLanguage}
           setNewQuestion={this.setNewQuestion}
           currentQuestionModel={this.state.currentQuestion}
         >
