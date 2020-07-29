@@ -23,7 +23,7 @@ const PostJuly3 = () => {
             </Helmet>
             <h3 className="post-h">Biztosítást kötött a péniszére Keiran Lee pornófilmes színész/rendező</h3>
 
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <TwitterTweetEmbed
                     tweetId={'932265050479276032'}
                 />
@@ -35,7 +35,7 @@ const PostJuly3 = () => {
                 testrésze lett a biztosítás tárgya. Többek között biztosították már náluk Bruce Springsteen hangszálait és David Beckham lábát.
             </p>
 
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <TwitterTweetEmbed
                     tweetId={'938282441462112256'}
                 />
@@ -45,7 +45,7 @@ const PostJuly3 = () => {
                 Keiran Lee szerződésén sem kell meglepődnünk, hiszem már több, mint 3500 filmben szerepelt, így kimondhatjuk, hogy ez a testrésze adja a megélhetését.
             </h5>
 
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <TwitterTweetEmbed
                     tweetId={'709503340002942976'}
                 />
@@ -55,7 +55,7 @@ const PostJuly3 = () => {
                 A biztosítás csak a pénisz elvesztését fedezi, de a munkahelyi balesetet vagy a merevedési zavarokat nem.
             </h5>
 
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <TwitterTweetEmbed
                     tweetId={'1221117321529266176'}
                 />
@@ -66,12 +66,19 @@ const PostJuly3 = () => {
             </h5>
 
             <p className="post-p">
-                Első körben a feleségét emelte ki, akivel ugyan soha volt közös jelenete, a filmes szerepei közül pedig az elsőt nevezte meg kedvenceként.<br />
+                Első körben a feleségét emelte ki, aki szintén a felnőtt filmek iparában dolgozott.
+                A filmes szerepei közül pedig az egyik Brazzers-es munkáját nevezte meg kedvenceként.<br />
                 A jelenetben Lee négy másik nővel volt, amiben egy irodavezetőt játszott, aki gyakornoki programot indít.
-                A női szereplők: Riley Reid, Janice Griffith, Aidra Fox és Lana Rhoades volt.
+                A női szereplők Riley Reid, Janice Griffith, Aidra Fox és Lana Rhoades voltak.
             </p>
 
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
+                <TwitterTweetEmbed
+                    tweetId={'682717596731453440'}
+                />
+            </div>
+
+            <div className="post-social-media" align="center" >
                 <InstagramEmbed
                     url="https://www.instagram.com/p/B5yKzcGBKRa/?utm_source=ig_web_copy_link"
                     hideCaption={true}
@@ -85,7 +92,7 @@ const PostJuly3 = () => {
                 />
             </div>
 
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <InstagramEmbed
                     url="https://www.instagram.com/p/B2cgiitHjhU/?utm_source=ig_web_copy_link"
                     hideCaption={true}
@@ -99,7 +106,7 @@ const PostJuly3 = () => {
                 />
             </div>
 
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <InstagramEmbed
                     url="https://www.instagram.com/p/BprpGd7Bjkj/?utm_source=ig_web_copy_link"
                     hideCaption={true}
@@ -113,7 +120,7 @@ const PostJuly3 = () => {
                 />
             </div>
             
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <InstagramEmbed
                     url="https://www.instagram.com/p/B8774ndlFXf/?utm_source=ig_web_copy_link"
                     hideCaption={true}

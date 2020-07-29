@@ -67,7 +67,7 @@ const PostJuly2 = () => {
                 <br />Az egykori modell mellbőségét tavaly mérte a nemzeti rekordokat nyilvántartó
                 hivatal egyik képviselője Kijevben.
             </p>
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <InstagramEmbed
                     url="https://www.instagram.com/p/CBapDnMBJ81/?utm_source=ig_web_copy_link"
                     hideCaption={true}
@@ -84,7 +84,7 @@ const PostJuly2 = () => {
                 A tekintélyes méretű kebleket viselő hölgy 135,5 centiméteres mellbőségével és M-es kosárméretével
                 új nemzeti rekordot állított fel a legnagyobb természetes mell kategóriában.
             </h5>
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <InstagramEmbed
                     url="https://www.instagram.com/p/CBsTsRThhpp/?utm_source=ig_web_copy_link"
                     hideCaption={true}
@@ -103,7 +103,7 @@ const PostJuly2 = () => {
                 Szerinte a mérkőzései Ukrajna lenézettebb közdősport meccsei lennének, mivel már több, mint 600 ezer Instagram követője van.
             </h5>
 
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <InstagramEmbed
                     url="https://www.instagram.com/p/CC-9wXMh_nl/?utm_source=ig_web_copy_link"
                     hideCaption={true}
@@ -117,7 +117,7 @@ const PostJuly2 = () => {
                 />
             </div>
 
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <InstagramEmbed
                     url="https://www.instagram.com/p/CBfrtsbjGqM/?utm_source=ig_web_copy_link"
                     hideCaption={true}
@@ -131,7 +131,7 @@ const PostJuly2 = () => {
                 />
             </div>
 
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <InstagramEmbed
                     url="https://www.instagram.com/p/CBkyNPGBR8F/?utm_source=ig_web_copy_link"
                     hideCaption={true}
@@ -145,7 +145,7 @@ const PostJuly2 = () => {
                 />
             </div>
 
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <InstagramEmbed
                     url="https://www.instagram.com/p/CCip2tfhdCv/?utm_source=ig_web_copy_link"
                     hideCaption={true}
@@ -159,7 +159,7 @@ const PostJuly2 = () => {
                 />
             </div>
 
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <InstagramEmbed
                     url="https://www.instagram.com/p/B4SI-Rjhz3H/?utm_source=ig_web_copy_link"
                     hideCaption={true}
@@ -173,7 +173,7 @@ const PostJuly2 = () => {
                 />
             </div>
 
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <InstagramEmbed
                     url="https://www.instagram.com/p/B4wpNDWhAYf/?utm_source=ig_web_copy_link"
                     hideCaption={true}

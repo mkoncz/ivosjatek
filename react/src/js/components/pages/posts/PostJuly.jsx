@@ -73,7 +73,7 @@ const PostJuly = () => {
                 nő azonban mára nagyon megbánta, hogy hat évvel ezelőtt belekóstolt a pornózásba.
             </p>
 
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <InstagramEmbed
                     url="https://www.instagram.com/p/BvXHuuWFj8X/?utm_source=ig_web_copy_link"
                     hideCaption={true}
@@ -94,7 +94,7 @@ const PostJuly = () => {
                 Ennek a kizsákmányolásnak szeretne véget venni azzal, hogy leveteti összes videóját az internetről.
             </h5>
 
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <InstagramEmbed
                     url="https://www.instagram.com/p/BuIWvVzlmgJ/?utm_source=ig_web_copy_link"
                     hideCaption={true}
@@ -123,7 +123,7 @@ const PostJuly = () => {
                 Az ügyét már több mint 1,8 millió ember támogatta.
             </p>
 
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <InstagramEmbed
                     url="https://www.instagram.com/p/BrP0J7Zlhhm/?utm_source=ig_web_copy_link"
                     hideCaption={true}
