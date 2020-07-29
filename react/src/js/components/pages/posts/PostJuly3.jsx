@@ -46,21 +46,18 @@ const PostJuly3 = () => {
                 contentLabel="18 éves"
             >
                 <div className="post-card-big">
-                    <div className="txt-question">
-                        <div className="pre-card">
-                            <img className="adult_logo" src={adult_logo} alt="18" />
-                            <div className="question_block">
-                                <h5>Kérhetnék egy személyit?</h5>
-                                <p>Az IvósJáték egy 18 éven felülieknek készült játék.</p>
-                            </div>
-                            <button
-                                className="btn btn-warning btn-lg"
-                                onClick={() => { setIsOpen(false) }}>
-                                Felnőtt vagyok
-                            </button>
+                    <div className="pre-card">
+                        <img className="adult_logo" src={adult_logo} alt="18" />
+                        <div className="question_block">
+                            <h5>Kérhetnék egy személyit?</h5>
+                            <p>Az IvósJáték egy 18 éven felülieknek készült játék.</p>
                         </div>
+                        <button
+                            className="btn btn-warning btn-lg"
+                            onClick={() => { setIsOpen(false) }}>
+                            Felnőtt vagyok
+                        </button>
                     </div>
-
                 </div>
             </Modal>
             <h3 className="post-h">Biztosítást kötött a péniszére Keiran Lee pornófilmes színész/rendező</h3>
@@ -161,7 +158,7 @@ const PostJuly3 = () => {
                     onFailure={() => { }}
                 />
             </div>
-            
+
             <div className="post-social-media" align="center" >
                 <InstagramEmbed
                     url="https://www.instagram.com/p/B8774ndlFXf/?utm_source=ig_web_copy_link"

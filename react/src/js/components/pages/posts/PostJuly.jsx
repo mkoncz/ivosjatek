@@ -45,19 +45,17 @@ const PostJuly = () => {
                 contentLabel="18 éves"
             >
                 <div className="post-card-big">
-                    <div className="txt-question">
-                        <div className="pre-card">
-                            <img className="adult_logo" src={adult_logo} alt="18" />
-                            <div className="question_block">
-                                <h5>Kérhetnék egy személyit?</h5>
-                                <p>Az IvósJáték egy 18 éven felülieknek készült játék.</p>
-                            </div>
-                            <button
-                                className="btn btn-warning btn-lg"
-                                onClick={() => { setIsOpen(false) }}>
-                                Felnőtt vagyok
-                            </button>
+                    <div className="pre-card">
+                        <img className="adult_logo" src={adult_logo} alt="18" />
+                        <div className="question_block">
+                            <h5>Kérhetnék egy személyit?</h5>
+                            <p>Az IvósJáték egy 18 éven felülieknek készült játék.</p>
                         </div>
+                        <button
+                            className="btn btn-warning btn-lg"
+                            onClick={() => { setIsOpen(false) }}>
+                            Felnőtt vagyok
+                        </button>
                     </div>
                 </div>
             </Modal>
@@ -142,7 +140,7 @@ const PostJuly = () => {
             <h4 className="post-h">
                 A cikk a következő kártyákat inspirálta:
             </h4>
-            
+
             <div align="center">
                 <div className="post-card">
                     <div className="post-card-text">
