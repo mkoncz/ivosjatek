@@ -31,8 +31,6 @@ const customStyles = {
 const PostJuly = () => {
     const [modalIsOpen, setIsOpen] = React.useState(true);
 
-
-
     return (
         <div className="page-frame">
             <Helmet>
@@ -47,8 +45,8 @@ const PostJuly = () => {
                 contentLabel="18 éves"
             >
                 <div className="post-card-big">
-                    <div id="kerdes1" className="txt-question">
-                        <div className="age_check">
+                    <div className="txt-question">
+                        <div className="pre-card">
                             <img className="adult_logo" src={adult_logo} alt="18" />
                             <div className="question_block">
                                 <h5>Kérhetnék egy személyit?</h5>
@@ -57,7 +55,7 @@ const PostJuly = () => {
                             <button
                                 className="btn btn-warning btn-lg"
                                 onClick={() => { setIsOpen(false) }}>
-                                "Felnőtt vagyok"
+                                Felnőtt vagyok
                             </button>
                         </div>
                     </div>
@@ -73,7 +71,7 @@ const PostJuly = () => {
                 nő azonban mára nagyon megbánta, hogy hat évvel ezelőtt belekóstolt a pornózásba.
             </p>
 
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <InstagramEmbed
                     url="https://www.instagram.com/p/BvXHuuWFj8X/?utm_source=ig_web_copy_link"
                     hideCaption={true}
@@ -94,7 +92,7 @@ const PostJuly = () => {
                 Ennek a kizsákmányolásnak szeretne véget venni azzal, hogy leveteti összes videóját az internetről.
             </h5>
 
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <InstagramEmbed
                     url="https://www.instagram.com/p/BuIWvVzlmgJ/?utm_source=ig_web_copy_link"
                     hideCaption={true}
@@ -123,7 +121,7 @@ const PostJuly = () => {
                 Az ügyét már több mint 1,8 millió ember támogatta.
             </p>
 
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <InstagramEmbed
                     url="https://www.instagram.com/p/BrP0J7Zlhhm/?utm_source=ig_web_copy_link"
                     hideCaption={true}

@@ -17,8 +17,12 @@
   "game.age_check_2": "Az IvósJáték egy 18 éven felülieknek készült játék.",
   "game.age_check_button": "Felnőtt vagyok",
   "game.card_left": "Még %NUMBER% kártya",
+  "game.card_owner": " kártyája",
+  "game.done": "Kész",
   "game.next": "Következő",
   "game.no_more_question": "Elfogytak a kérdések :(",
+  "game.player": "Játékos",
+  "game.player_names": "Játékos nevek megadása",
 
   "image_alt.card": "Kártya",
   "image_alt.english": "Angol",

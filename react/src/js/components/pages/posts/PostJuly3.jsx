@@ -1,11 +1,27 @@
 // Import React module.
 import React from "react";
+import Modal from 'react-modal';
 
 // Import React Helmet for handling <head> attributes dinamically.
 import { Helmet } from "react-helmet";
 
 import InstagramEmbed from "react-instagram-embed";
 import { TwitterTweetEmbed } from 'react-twitter-embed';
+
+import adult_logo from "./../../../../img/18.png";
+
+const customStyles = {
+    content: {
+        top: '50%',
+        left: '50%',
+        right: 'auto',
+        bottom: 'auto',
+        marginRight: '-50%',
+        transform: 'translate(-50%, -50%)',
+        backgroundColor: "#000",
+        textAlign: "center"
+    }
+};
 
 /**
  * The page contains a post.
@@ -14,6 +30,8 @@ import { TwitterTweetEmbed } from 'react-twitter-embed';
  * http://www.borsonline.hu/celeb/4000-novel-fekudt-le-mar-a-pornos-elmondta-kivel-volt-a-legjobb/132231
  */
 const PostJuly3 = () => {
+    const [modalIsOpen, setIsOpen] = React.useState(true);
+
     return (
         <div className="page-frame">
             <Helmet>
@@ -21,9 +39,33 @@ const PostJuly3 = () => {
                 <meta name="description" content="1 millió dolláros (350 millió forintos) biztosítást kötött a péniszére ez a férfi" />
                 <link rel="canonical" href="https://ivosjatek.hu/p/biztositast_kotott_a_peniszere" />
             </Helmet>
+            <Modal
+                isOpen={modalIsOpen}
+                onRequestClose={() => { setIsOpen(false) }}
+                style={customStyles}
+                contentLabel="18 éves"
+            >
+                <div className="post-card-big">
+                    <div className="txt-question">
+                        <div className="pre-card">
+                            <img className="adult_logo" src={adult_logo} alt="18" />
+                            <div className="question_block">
+                                <h5>Kérhetnék egy személyit?</h5>
+                                <p>Az IvósJáték egy 18 éven felülieknek készült játék.</p>
+                            </div>
+                            <button
+                                className="btn btn-warning btn-lg"
+                                onClick={() => { setIsOpen(false) }}>
+                                Felnőtt vagyok
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </Modal>
             <h3 className="post-h">Biztosítást kötött a péniszére Keiran Lee pornófilmes színész/rendező</h3>
 
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <TwitterTweetEmbed
                     tweetId={'932265050479276032'}
                 />
@@ -35,7 +77,7 @@ const PostJuly3 = () => {
                 testrésze lett a biztosítás tárgya. Többek között biztosították már náluk Bruce Springsteen hangszálait és David Beckham lábát.
             </p>
 
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <TwitterTweetEmbed
                     tweetId={'938282441462112256'}
                 />
@@ -45,7 +87,7 @@ const PostJuly3 = () => {
                 Keiran Lee szerződésén sem kell meglepődnünk, hiszem már több, mint 3500 filmben szerepelt, így kimondhatjuk, hogy ez a testrésze adja a megélhetését.
             </h5>
 
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <TwitterTweetEmbed
                     tweetId={'709503340002942976'}
                 />
@@ -55,7 +97,7 @@ const PostJuly3 = () => {
                 A biztosítás csak a pénisz elvesztését fedezi, de a munkahelyi balesetet vagy a merevedési zavarokat nem.
             </h5>
 
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <TwitterTweetEmbed
                     tweetId={'1221117321529266176'}
                 />
@@ -66,12 +108,19 @@ const PostJuly3 = () => {
             </h5>
 
             <p className="post-p">
-                Első körben a feleségét emelte ki, akivel ugyan soha volt közös jelenete, a filmes szerepei közül pedig az elsőt nevezte meg kedvenceként.<br />
+                Első körben a feleségét emelte ki, aki szintén a felnőtt filmek iparában dolgozott.
+                A filmes szerepei közül pedig az egyik Brazzers-es munkáját nevezte meg kedvenceként.<br />
                 A jelenetben Lee négy másik nővel volt, amiben egy irodavezetőt játszott, aki gyakornoki programot indít.
-                A női szereplők: Riley Reid, Janice Griffith, Aidra Fox és Lana Rhoades volt.
+                A női szereplők Riley Reid, Janice Griffith, Aidra Fox és Lana Rhoades voltak.
             </p>
 
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
+                <TwitterTweetEmbed
+                    tweetId={'682717596731453440'}
+                />
+            </div>
+
+            <div className="post-social-media" align="center" >
                 <InstagramEmbed
                     url="https://www.instagram.com/p/B5yKzcGBKRa/?utm_source=ig_web_copy_link"
                     hideCaption={true}
@@ -85,7 +134,7 @@ const PostJuly3 = () => {
                 />
             </div>
 
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <InstagramEmbed
                     url="https://www.instagram.com/p/B2cgiitHjhU/?utm_source=ig_web_copy_link"
                     hideCaption={true}
@@ -99,7 +148,7 @@ const PostJuly3 = () => {
                 />
             </div>
 
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <InstagramEmbed
                     url="https://www.instagram.com/p/BprpGd7Bjkj/?utm_source=ig_web_copy_link"
                     hideCaption={true}
@@ -113,7 +162,7 @@ const PostJuly3 = () => {
                 />
             </div>
             
-            <div className="post-social-media" >
+            <div className="post-social-media" align="center" >
                 <InstagramEmbed
                     url="https://www.instagram.com/p/B8774ndlFXf/?utm_source=ig_web_copy_link"
                     hideCaption={true}

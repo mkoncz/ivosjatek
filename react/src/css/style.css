@@ -103,7 +103,7 @@ a:hover {
 /* front pane, placed above back */
 .back img {
     width: 47%;
-    padding-top: 47%;
+    padding-top: 35%;
 }
 
 /****** SPONSORS  ****/
@@ -350,30 +350,38 @@ a:hover {
     transform: translateY(-50%);
 }
 
+.special-card {
+    color: black;
+    font-size: 26px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+}
+
 .left-card-label {
     font-weight: bold;
     font-size: 1.3em;
     margin-top: 0.8em;
 }
 
-.age_check {
+.pre-card {
     font-size: 17px;
 }
 
-.age_check img {
-    margin: 120px 0 30px 0;
+.pre-card img {
+    margin: 30px 0 30px 0;
 }
 
-.age_check p {
+.pre-card p {
     padding: 0px;
     margin: 0px 40px;
 }
 
-.age_check .question_block {
+.pre-card .question_block {
     margin: 10px 0 80px 0;
 }
 
-.age_check button {
+.pre-card button {
     margin: 0px;
     background-color: #1a1a1a !important;
     color: white;
@@ -383,8 +391,32 @@ a:hover {
     background-color: #1a1a1a;
 }
 
-.age_check button:hover {
+.pre-card button:hover {
     color: #ddd !important;
+}
+
+.pre-card .fa-icon {
+    font-size: 2.3em;
+    float: left;
+    margin-right: 0.4em;
+    margin-top: 0.1em;
+}
+
+.pre-card input {
+    width: 67%
+}
+
+.pre-card form label {
+    margin-bottom: 1px;
+}
+
+.pre-card .players-header {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.pre-card .add-button {
+    margin-top: 10px;
 }
 
 @media only screen and (max-width: 321px) {
@@ -550,4 +582,10 @@ a:hover {
 
 .center-404 {
     text-align: center;
+}
+
+.player-name {
+    text-align: center;
+    font-size: 20px;
+    color: black;
 }
