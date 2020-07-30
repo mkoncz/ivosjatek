@@ -403,7 +403,8 @@ a:hover {
 }
 
 .pre-card input {
-    width: 67%
+    width: 67%;
+    height: 33px;
 }
 
 .pre-card form label {
@@ -553,6 +554,11 @@ a:hover {
 
 .post-p{
     margin-top: 20px;
+    margin-bottom: 20px;
+} 
+
+.post-source-p{
+    margin-top: 3px;
     margin-bottom: 20px;
 } 
 

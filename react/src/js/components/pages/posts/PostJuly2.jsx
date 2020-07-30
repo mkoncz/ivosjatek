@@ -48,7 +48,7 @@ const PostJuly2 = () => {
                         <img className="adult_logo" src={adult_logo} alt="18" />
                         <div className="question_block">
                             <h5>Kérhetnék egy személyit?</h5>
-                            <p>Az IvósJáték egy 18 éven felülieknek készült játék.</p>
+                            <p>Az ivosjatek.hu 18 éven felülieknek készült.</p>
                         </div>
                         <button
                             className="btn btn-warning btn-lg"
