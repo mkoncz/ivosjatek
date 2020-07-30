@@ -29,22 +29,8 @@ const CardBack = props => {
     return cocktailIconResource;
   }
 
-  /**
-   * Gets the imported image resource based on the logo keyword.
-   * @param {string} keyword Logo field of the question JSON element. 
-   */
-  const getRandomName = () => {
-    let names = JSON.parse(sessionStorage.getItem("players"));
-    if(names !=null && names.length!=0){
-      return <p className="player-name">{names[Math.floor(Math.random() * names.length)]}{props.i18n.t("game.card_owner")}</p>;
-    } else {
-      return "";
-    }
-  }
-
   return (
     <div className={`back ${props.logo}`} >
-      {getRandomName()}
       <img src={getImageResource(props.logo)} alt={props.i18n.t("image_alt.hungarian")} />
     </div>
   );

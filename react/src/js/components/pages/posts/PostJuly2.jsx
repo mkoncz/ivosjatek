@@ -44,19 +44,17 @@ const PostJuly2 = () => {
                 contentLabel="18 éves"
             >
                 <div className="post-card-big">
-                    <div className="txt-question">
-                        <div className="pre-card">
-                            <img className="adult_logo" src={adult_logo} alt="18" />
-                            <div className="question_block">
-                                <h5>Kérhetnék egy személyit?</h5>
-                                <p>Az IvósJáték egy 18 éven felülieknek készült játék.</p>
-                            </div>
-                            <button
-                                className="btn btn-warning btn-lg"
-                                onClick={() => { setIsOpen(false) }}>
-                                Felnőtt vagyok
-                            </button>
+                    <div className="pre-card">
+                        <img className="adult_logo" src={adult_logo} alt="18" />
+                        <div className="question_block">
+                            <h5>Kérhetnék egy személyit?</h5>
+                            <p>Az ivosjatek.hu 18 éven felülieknek készült.</p>
                         </div>
+                        <button
+                            className="btn btn-warning btn-lg"
+                            onClick={() => { setIsOpen(false) }}>
+                            Felnőtt vagyok
+                        </button>
                     </div>
 
                 </div>
