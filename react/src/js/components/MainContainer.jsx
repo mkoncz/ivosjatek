@@ -19,6 +19,7 @@ import Posts from "./pages/posts/Posts";
 import PostJuly from "./pages/posts/PostJuly";
 import PostJuly2 from "./pages/posts/PostJuly2";
 import PostJuly3 from "./pages/posts/PostJuly3";
+import PostJuly4 from "./pages/posts/PostJuly4";
 
 // Import module that redirects http requests to https.
 import HttpsRedirect from "react-https-redirect";
@@ -151,6 +152,9 @@ export default class MainContainer extends Component {
               />
             </Route>
             { /* SEO */}
+            <Route path="/p/pornosnak-allt-az-autoversenyzono">
+              <PostJuly4 />
+            </Route>
             <Route path="/p/biztositast_kotott_a_peniszere">
               <PostJuly3 />
             </Route>

@@ -48,6 +48,16 @@ const Posts = props => {
           </h4>
         </div>
       </a>
+      <div className="post-separator"></div>
+      <a className="post-a" href="/p/pornosnak-allt-az-autoversenyzono">
+        <img src="https://instagram.fbud5-1.fna.fbcdn.net/v/t51.2885-15/e35/p1080x1080/103390422_170880257756271_1324934774843271870_n.jpg?_nc_ht=instagram.fbud5-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=Z0R62PPNWwAAX8t-EC_&oh=a0a337cf51e59f3fc0c5302c0ed5746e&oe=5F51DEFD" 
+        className="post-thumbnail" alt={props.i18n.t("nav.posts")} />
+        <div className="post-thumbnail-title-container" >
+          <h4 className="post-thumbnail-title">
+          Pornósnak állt az autóversenyzőnő, mert abban sokkal több a pénz
+          </h4>
+        </div>
+      </a>
 
     </div>
   );
