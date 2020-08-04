@@ -6,7 +6,6 @@ import Modal from 'react-modal';
 import { Helmet } from "react-helmet";
 
 import InstagramEmbed from "react-instagram-embed";
-import { TwitterTweetEmbed } from 'react-twitter-embed';
 
 import adult_logo from "./../../../../img/18.png";
 
