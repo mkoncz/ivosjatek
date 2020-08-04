@@ -93,7 +93,7 @@ const PostJuly3 = () => {
             </div>
             <h5 className="post-h">
                 Az új munkáját a rajongói segítségével találta meg.
-                Tőlük hallott az OnlyFans nevű oldalról, és döntött, ő maga is kipróbálja.
+                Tőlük hallott az OnlyFans nevű oldalról, és úgy döntött, ő maga is kipróbálja.
             </h5>
             <img width="100%" src="https://instagram.fbud5-1.fna.fbcdn.net/v/t51.2885-15/e35/p1080x1080/85177697_611790616339729_5624231337082637946_n.jpg?_nc_ht=instagram.fbud5-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=ueVAHdKe0OIAX9Xwx3i&oh=2e967c6c5dfedd4d0168ab6174eda3ce&oe=5F530D77"></img>
             <p className="post-source-p">
