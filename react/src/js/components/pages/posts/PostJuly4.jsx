@@ -37,6 +37,8 @@ const PostJuly3 = () => {
                 <title>Pornósnak állt az autóversenyzőnő, mert abban sokkal több a pénz</title>
                 <meta name="description" content="Pornósnak állt az autóversenyzőnő, mert abban sokkal több a pénz" />
                 <link rel="canonical" href="https://ivosjatek.hu/p/pornosnak-allt-az-autoversenyzono" />
+                <meta name="twitter:title" content="Pornósnak állt az autóversenyzőnő, mert abban sokkal több a pénz" />
+                <meta name="twitter:description" content="Pornósnak állt az autóversenyzőnő, mert abban sokkal több a pénz" />
                 <meta property="og:type" content="website"/>
                 <meta property="og:url" content="https://ivosjatek.hu/p/pornosnak-allt-az-autoversenyzono" />
                 <meta property="og:title" content="Pornósnak állt az autóversenyzőnő, mert abban sokkal több a pénz" />
