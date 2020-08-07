@@ -36,6 +36,8 @@ const PostJuly2 = () => {
                 <title>MMA harcos lesz Ukrajna legnagyobb mellű nője</title>
                 <meta name="description" content="MMA harcos lesz Ukrajna legnagyobb mellű nője" />
                 <link rel="canonical" href="https://ivosjatek.hu/p/ketrecharcos-lesz-ukrajna-legnagyobb-mellu-noje" />
+                <meta name="twitter:title" content="MMA harcos lesz Ukrajna legnagyobb mellű nője" />
+                <meta name="twitter:description" content="MMA harcos lesz Ukrajna legnagyobb mellű nője" />
                 <meta property="og:type" content="website"/>
                 <meta property="og:url" content="https://ivosjatek.hu/p/ketrecharcos-lesz-ukrajna-legnagyobb-mellu-noje" />
                 <meta property="og:title" content="MMA harcos lesz Ukrajna legnagyobb mellű nője" />
