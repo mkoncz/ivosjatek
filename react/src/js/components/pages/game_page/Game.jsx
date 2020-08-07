@@ -50,12 +50,17 @@ export default class Game extends Component {
           <title>{this.props.i18n.t("nav.home")} | {this.props.i18n.t("nav.title")}</title>
           <meta name="description" content={this.props.i18n.t("desc.game")} />
           <link rel="canonical" href={`https://ivosjatek.hu/${this.props.currentLanguage === "en" ? "en" : ""}`} />
+          <meta property="og:type" content="website"/>
+          <meta property="og:url" content={`https://ivosjatek.hu/${this.props.currentLanguage === "en" ? "en" : ""}`} />
+          <meta property="og:title" content={`${this.props.i18n.t("nav.home")} | ${this.props.i18n.t("nav.title")}`} />
+          <meta property="og:description" content={this.props.i18n.t("desc.game")} />
+          <meta property="og:locale" content={this.props.currentLanguage === "en" ? "en_US" : "hu_HU"} />
         </Helmet>
         <h1 className="left-card-label animated fadeIn">
           {
             (JSON.parse(sessionStorage.getItem("players")) == null || JSON.parse(sessionStorage.getItem("players")).length == 0)
-            ? (i18n.t("game.card_left_no_player").replace("%NUMBER%", number_of_left_cards))
-            : i18n.t("game.card_left").replace("%PLAYER%", this.getRandomName()).replace("%NUMBER%", number_of_left_cards)
+              ? (i18n.t("game.card_left_no_player").replace("%NUMBER%", number_of_left_cards))
+              : i18n.t("game.card_left").replace("%PLAYER%", this.getRandomName()).replace("%NUMBER%", number_of_left_cards)
           }
         </h1>
         <Card

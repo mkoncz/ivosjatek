@@ -37,6 +37,11 @@ const PostJuly = () => {
                 <title>A legnépszerűbb ex-felnőttfilmes videói törlését kéri</title>
                 <meta name="description" content="A legnépszerűbb felnőttfilmes megbánta volt, hogy erre az útra lépett. Most a videói törlését kéri." />
                 <link rel="canonical" href="https://ivosjatek.hu/p/felnottfilmes-keri-a-videoi-torleset" />
+                <meta property="og:type" content="website"/>
+                <meta property="og:url" content="https://ivosjatek.hu/p/felnottfilmes-keri-a-videoi-torleset" />
+                <meta property="og:title" content="A legnépszerűbb ex-felnőttfilmes videói törlését kéri" />
+                <meta property="og:description" content="A legnépszerűbb felnőttfilmes megbánta volt, hogy erre az útra lépett. Most a videói törlését kéri." />
+                <meta property="og:locale" content="hu_HU" />
             </Helmet>
             <Modal
                 isOpen={modalIsOpen}

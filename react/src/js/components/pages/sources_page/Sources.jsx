@@ -38,6 +38,11 @@ export default class Sources extends Component {
           <title>{this.props.i18n.t("nav.sources")} | {this.props.i18n.t("nav.title")}</title>
           <meta name="description" content={this.props.i18n.t("desc.sources")} />
           <link rel="canonical" href={`https://ivosjatek.hu/${this.props.currentLanguage === "en" ? "en/" : ""}sources`} />
+          <meta property="og:type" content="website"/>
+          <meta property="og:url" content={`https://ivosjatek.hu/${this.props.currentLanguage === "en" ? "en/" : ""}sources`} />
+          <meta property="og:title" content={`${this.props.i18n.t("nav.sources")} | ${this.props.i18n.t("nav.title")}`} />
+          <meta property="og:description" content={this.props.i18n.t("desc.sources")} />
+          <meta property="og:locale" content={this.props.currentLanguage === "en" ? "en_US" : "hu_HU"} />
         </Helmet>
         <h4>{this.props.i18n.t("source.sources_title")}:</h4>
         <ul>

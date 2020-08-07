@@ -16,6 +16,11 @@ const Posts = props => {
         <title>{props.i18n.t("nav.posts")} | {props.i18n.t("nav.title")}</title>
         <meta name="description" content={props.i18n.t("desc.posts")} />
         <link rel="canonical" href="https://ivosjatek.hu/posts" />
+        <meta property="og:type" content="website"/>
+          <meta property="og:url" content="https://ivosjatek.hu/posts"/>
+          <meta property="og:title" content={`${this.props.i18n.t("nav.posts")} | ${this.props.i18n.t("nav.title")}`} />
+          <meta property="og:description" content={props.i18n.t("desc.posts")} />
+          <meta property="og:locale" content={this.props.currentLanguage === "en" ? "en_US" : "hu_HU"} />
       </Helmet>
       <h1>{props.i18n.t("nav.posts")}</h1>
 

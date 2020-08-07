@@ -37,6 +37,11 @@ const PostJuly3 = () => {
                 <title>Biztosítást kötött a péniszére ez a férfi</title>
                 <meta name="description" content="1 millió dolláros (350 millió forintos) biztosítást kötött a péniszére ez a férfi" />
                 <link rel="canonical" href="https://ivosjatek.hu/p/biztositast_kotott_a_peniszere" />
+                <meta property="og:type" content="website"/>
+                <meta property="og:url" content="https://ivosjatek.hu/p/biztositast_kotott_a_peniszere" />
+                <meta property="og:title" content="Biztosítást kötött a péniszére ez a férfi"/>
+                <meta property="og:description" content="1 millió dolláros (350 millió forintos) biztosítást kötött a péniszére ez a férfi"  />
+                <meta property="og:locale" content="hu_HU" />
             </Helmet>
             <Modal
                 isOpen={modalIsOpen}
