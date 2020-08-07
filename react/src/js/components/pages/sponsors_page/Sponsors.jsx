@@ -55,6 +55,8 @@ export default class Sponsors extends Component {
           <title> {this.props.i18n.t("nav.sponsors")} | {this.props.i18n.t("nav.title")}</title>
           <meta name="description" content={this.props.i18n.t("desc.sponsors")} />
           <link rel="canonical" href={`https://ivosjatek.hu/${this.props.currentLanguage === "en" ? "en/" : ""}sponsors`} />
+          <meta name="twitter:title" content={`${this.props.i18n.t("nav.sponsors")}`} />
+          <meta name="twitter:description" content={this.props.i18n.t("desc.sponsors")} />
           <meta property="og:type" content="website"/>
           <meta property="og:url" content={`https://ivosjatek.hu/${this.props.currentLanguage === "en" ? "en/" : ""}sponsors`} />
           <meta property="og:title" content={`${this.props.i18n.t("nav.sponsors")} | ${this.props.i18n.t("nav.title")}`} />
