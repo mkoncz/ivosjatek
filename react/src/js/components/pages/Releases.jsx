@@ -42,6 +42,8 @@ export default class Contact extends Component {
           <title>{this.props.i18n.t("nav.release_notes")} | {this.props.i18n.t("nav.title")}</title>
           <meta name="description" content={this.props.i18n.t("desc.release_notes")} />
           <link rel="canonical" href={`https://ivosjatek.hu/${this.props.currentLanguage === "en" ? "en/" : ""}releases`} />
+          <meta name="twitter:title" content={`${this.props.i18n.t("nav.release_notes")}`} />
+          <meta name="twitter:description" content={this.props.i18n.t("desc.release_notes")} />
           <meta property="og:type" content="website"/>
           <meta property="og:url" content={`https://ivosjatek.hu/${this.props.currentLanguage === "en" ? "en/" : ""}releases`} />
           <meta property="og:title" content={`${this.props.i18n.t("nav.release_notes")} | ${this.props.i18n.t("nav.title")}`} />
