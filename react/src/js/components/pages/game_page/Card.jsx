@@ -32,7 +32,8 @@ export default class Card extends Component {
     this.cookies = new Cookies();
 
     this.state = {
-      flipClasses: "animated bounceInLeft"
+      flipClasses: "animated bounceInLeft",
+      name: ""
     };
 
     this.input1 = React.createRef();
@@ -77,9 +78,9 @@ export default class Card extends Component {
     } else if (null == sessionStorage.getItem("players")) {
       content = this.createModeSelectorCard();
       specialCard = true;
-    } 
+    }
     else {
-      content = this.props.currentQuestionModel[this.props.currentLanguage];
+      content = this.props.currentQuestionModel[this.props.currentLanguage].replace("%NAME%", this.state.name);
       if (this.props.currentQuestionModel.logo !== "") {
         logo = this.props.currentQuestionModel.logo;
       }
@@ -126,7 +127,8 @@ export default class Card extends Component {
     // Bounces in the new card.
     setTimeout(() => {
       this.setState({
-        flipClasses: "animated bounceInLeft"
+        flipClasses: "animated bounceInLeft",
+        name: this.getRandomName()
       });
     }, 450);
 
@@ -174,37 +176,37 @@ export default class Card extends Component {
       <div className="pre-card">
         <h5 className="players-header"><b>{this.props.i18n.t("game.player_names")}</b></h5>
         <form>
-        <label>{this.props.i18n.t("game.player")} 1: &nbsp;
+          <label>{this.props.i18n.t("game.player")} 1: &nbsp;
           <input type="text" ref={this.input1}></input>
-        </label>
-        <label> {this.props.i18n.t("game.player")} 2: &nbsp;
+          </label>
+          <label> {this.props.i18n.t("game.player")} 2: &nbsp;
           <input type="text" ref={this.input2}></input>
-        </label>
-        <label> {this.props.i18n.t("game.player")} 3: &nbsp;
+          </label>
+          <label> {this.props.i18n.t("game.player")} 3: &nbsp;
           <input type="text" ref={this.input3}></input>
-        </label>
-        <label> {this.props.i18n.t("game.player")} 4: &nbsp;
+          </label>
+          <label> {this.props.i18n.t("game.player")} 4: &nbsp;
           <input type="text" ref={this.input4}></input>
-        </label>
-        <label> {this.props.i18n.t("game.player")} 5: &nbsp;
+          </label>
+          <label> {this.props.i18n.t("game.player")} 5: &nbsp;
           <input type="text" ref={this.input5}></input>
-        </label>
-        <label> {this.props.i18n.t("game.player")} 6: &nbsp;
+          </label>
+          <label> {this.props.i18n.t("game.player")} 6: &nbsp;
           <input type="text" ref={this.input6}></input>
-        </label>
-        <label> {this.props.i18n.t("game.player")} 7: &nbsp;
+          </label>
+          <label> {this.props.i18n.t("game.player")} 7: &nbsp;
           <input type="text" ref={this.input7}></input>
-        </label>
-        <label> {this.props.i18n.t("game.player")} 8: &nbsp;
+          </label>
+          <label> {this.props.i18n.t("game.player")} 8: &nbsp;
           <input type="text" ref={this.input8}></input>
-        </label>
-        <label> {this.props.i18n.t("game.player")} 9: &nbsp;
+          </label>
+          <label> {this.props.i18n.t("game.player")} 9: &nbsp;
           <input type="text" ref={this.input9}></input>
-        </label>
-        <label> {this.props.i18n.t("game.player")} X: &nbsp;
+          </label>
+          <label> {this.props.i18n.t("game.player")} X: &nbsp;
           <input type="text" ref={this.input10}></input>
-        </label>
-         
+          </label>
+
         </form>
         <button
           className="btn btn-warning btn-lg add-button"
@@ -223,16 +225,16 @@ export default class Card extends Component {
     // Timeout needed because render() immediately replaces content and the bouncing is not done yet.
     setTimeout(() => {
       var players = [];
-      if(this.input1.current.value!=="") players.push(this.input1.current.value);
-      if(this.input2.current.value!=="") players.push(this.input2.current.value);
-      if(this.input3.current.value!=="") players.push(this.input3.current.value);
-      if(this.input4.current.value!=="") players.push(this.input4.current.value);
-      if(this.input5.current.value!=="") players.push(this.input5.current.value);
-      if(this.input6.current.value!=="") players.push(this.input6.current.value);
-      if(this.input7.current.value!=="") players.push(this.input7.current.value);
-      if(this.input8.current.value!=="") players.push(this.input8.current.value);
-      if(this.input9.current.value!=="") players.push(this.input9.current.value);
-      if(this.input10.current.value!=="") players.push(this.input10.current.value);
+      if (this.input1.current.value !== "") players.push(this.input1.current.value);
+      if (this.input2.current.value !== "") players.push(this.input2.current.value);
+      if (this.input3.current.value !== "") players.push(this.input3.current.value);
+      if (this.input4.current.value !== "") players.push(this.input4.current.value);
+      if (this.input5.current.value !== "") players.push(this.input5.current.value);
+      if (this.input6.current.value !== "") players.push(this.input6.current.value);
+      if (this.input7.current.value !== "") players.push(this.input7.current.value);
+      if (this.input8.current.value !== "") players.push(this.input8.current.value);
+      if (this.input9.current.value !== "") players.push(this.input9.current.value);
+      if (this.input10.current.value !== "") players.push(this.input10.current.value);
       sessionStorage.setItem("players", JSON.stringify(players));
       console.log(JSON.parse(sessionStorage.getItem("players")));
     }, 450);
@@ -248,6 +250,19 @@ export default class Card extends Component {
     setTimeout(() => {
       sessionStorage.setItem("isAdult", true)
     }, 450);
+  }
+
+  /**
+  * Gets the imported image resource based on the logo keyword.
+  * @param {string} keyword Logo field of the question JSON element. 
+  */
+  getRandomName = () => {
+    let names = JSON.parse(sessionStorage.getItem("players"));
+    if (names != null && names.length != 0) {
+      return names[Math.floor(Math.random() * names.length)];
+    } else {
+      return "";
+    }
   }
 
 }
