@@ -16,13 +16,13 @@ const Posts = props => {
         <title>{props.i18n.t("nav.posts")} | {props.i18n.t("nav.title")}</title>
         <meta name="description" content={props.i18n.t("desc.posts")} />
         <link rel="canonical" href="https://ivosjatek.hu/posts" />
-        <meta name="twitter:title" content={`${this.props.i18n.t("nav.posts")}`} />
-        <meta name="twitter:description" content={this.props.i18n.t("desc.posts")} />
+        <meta name="twitter:title" content={props.i18n.t("nav.posts")} />
+        <meta name="twitter:description" content={props.i18n.t("desc.posts")} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://ivosjatek.hu/posts" />
-        <meta property="og:title" content={`${this.props.i18n.t("nav.posts")} | ${this.props.i18n.t("nav.title")}`} />
+        <meta property="og:title" content={`${props.i18n.t("nav.posts")} | ${props.i18n.t("nav.title")}`} />
         <meta property="og:description" content={props.i18n.t("desc.posts")} />
-        <meta property="og:locale" content={this.props.currentLanguage === "en" ? "en_US" : "hu_HU"} />
+        <meta property="og:locale" content={props.currentLanguage === "en" ? "en_US" : "hu_HU"} />
       </Helmet>
       <h1>{props.i18n.t("nav.posts")}</h1>
 
@@ -62,6 +62,26 @@ const Posts = props => {
         <div className="post-thumbnail-title-container" >
           <h4 className="post-thumbnail-title">
             Pornósnak állt az autóversenyzőnő, mert abban sokkal több a pénz
+          </h4>
+        </div>
+      </a>
+      <div className="post-separator"></div>
+      <a className="post-a" href="/p/megvettek-mia-khalifa-szemuveget">
+        <img src="https://instagram.fbud4-1.fna.fbcdn.net/v/t51.2885-15/e35/p1080x1080/117313314_464886431139434_3748052878640087362_n.jpg?_nc_ht=instagram.fbud4-1.fna.fbcdn.net&_nc_cat=1&_nc_ohc=n_xYb40bbU0AX8IN_7L&oh=95da63349844fd36ac02ffd1fe490b82&oe=5F64F723"
+          className="post-thumbnail" alt={props.i18n.t("nav.posts")} />
+        <div className="post-thumbnail-title-container" >
+          <h4 className="post-thumbnail-title">
+            Elárverezte szemüvegét az expornós Mia Khalifa – a befolyt összeget jótékony célra ajánlotta
+          </h4>
+        </div>
+      </a>
+      <div className="post-separator"></div>
+      <a className="post-a" href="/p/a-vilag-legdragabb-italai">
+        <img src="http://www.gasztromagazin.hu/wp-content/uploads/2017/12/Billionaire-Vodka-Worlds-Most-Expensive-Alcohol-2018.jpg"
+          className="post-thumbnail" alt={props.i18n.t("nav.posts")} />
+        <div className="post-thumbnail-title-container" >
+          <h4 className="post-thumbnail-title">
+            A világ legdrágább italai - a királyok, nemesek, mágnások kiváltságai
           </h4>
         </div>
       </a>
