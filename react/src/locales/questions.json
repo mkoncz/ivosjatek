@@ -2569,7 +2569,7 @@
     },
     {
         "type": "dare_or_drink_18",
-        "hu": "%NAME%: Puszild meg a szemben \u00fcl\u0151 j\u00e1t\u00e9kos, ahol \u0151 akarja, vagy iszol egy r\u00f6videt!",
+        "hu": "%NAME%: Puszild meg a szemben \u00fcl\u0151 j\u00e1t\u00e9kost, ahol \u0151 akarja, vagy iszol egy r\u00f6videt!",
         "en": "%NAME%: Kiss your right neighbour on any place or drink a shot.",
         "logo": ""
     },
@@ -2743,49 +2743,49 @@
     },
     {
         "type": "vote",
-        "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! %NAME%: Ha v\u00e1lasztanod kellene, hogy kivel fek\u00fcdj le Natalie Portman vagy Jennifer Aniston, melyiket v\u00e1lasztan\u00e1d? Aki rosszul tippel, az iszik.",
+        "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! %NAME%: Ha v\u00e1lasztanod kellene, hogy kivel fek\u00fcdj le: Natalie Portman vagy Jennifer Aniston, melyiket v\u00e1lasztan\u00e1d? Aki rosszul tippel, az iszik.",
         "en": "%NAME%: If you had to choose: would you sleep with Natalie Portman or Jennifer Aniston? The other players guess. Who is wrong, has to drink.",
         "logo": ""
     },
     {
         "type": "vote",
-        "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! %NAME%: Ha v\u00e1lasztanod kellene, hogy kivel fek\u00fcdj le Emma Watson vagy Mila Kunis, melyiket v\u00e1lasztan\u00e1d? Aki rosszul tippel, az iszik.",
+        "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! %NAME%: Ha v\u00e1lasztanod kellene, hogy kivel fek\u00fcdj le: Emma Watson vagy Mila Kunis, melyiket v\u00e1lasztan\u00e1d? Aki rosszul tippel, az iszik.",
         "en": "%NAME%: If you had to choose: would you sleep with Emma Watson or Mila Kunis? The other players guess. Who is wrong, has to drink.",
         "logo": ""
     },
     {
         "type": "vote",
-        "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! %NAME%: Ha v\u00e1lasztanod kellene, hogy kivel fek\u00fcdj le Brad Pitt vagy Jason Momoa, melyiket v\u00e1lasztan\u00e1d? Aki rosszul tippel, az iszik.",
+        "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! %NAME%: Ha v\u00e1lasztanod kellene, hogy kivel fek\u00fcdj le: Brad Pitt vagy Jason Momoa, melyiket v\u00e1lasztan\u00e1d? Aki rosszul tippel, az iszik.",
         "en": "%NAME%: If you had to choose: would you sleep with Brad Pitt or Jason Momoa? The other players guess. Who is wrong, has to drink.",
         "logo": ""
     },
     {
         "type": "vote",
-        "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! %NAME%: Ha v\u00e1lasztanod kellene, hogy kivel fek\u00fcdj le Ryan Reynolds vagy Bradley Cooper, melyiket v\u00e1lasztan\u00e1d? Aki rosszul tippel, az iszik.",
+        "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! %NAME%: Ha v\u00e1lasztanod kellene, hogy kivel fek\u00fcdj le: Ryan Reynolds vagy Bradley Cooper, melyiket v\u00e1lasztan\u00e1d? Aki rosszul tippel, az iszik.",
         "en": "%NAME%: If you had to choose: would you sleep with Ryan Reynolds or Bradley Cooper? The other players guess. Who is wrong, has to drink.",
         "logo": ""
     },
     {
         "type": "vote",
-        "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! %NAME%: Ha v\u00e1lasztanod kellene, hogy kivel fek\u00fcdj le Hugh Jackman vagy Johnny Depp, melyiket v\u00e1lasztan\u00e1d? Aki rosszul tippel, az iszik.",
+        "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! %NAME%: Ha v\u00e1lasztanod kellene, hogy kivel fek\u00fcdj le: Hugh Jackman vagy Johnny Depp, melyiket v\u00e1lasztan\u00e1d? Aki rosszul tippel, az iszik.",
         "en": "%NAME%: If you had to choose: would you sleep with Hugh Jackman or Johnny Depp? The other players guess. Who is wrong, has to drink.",
         "logo": ""
     },
     {
         "type": "vote",
-        "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! %NAME%: Ha v\u00e1lasztanod kellene, hogy kivel fek\u00fcdj le Ryan Reynolds vagy Bradley Cooper, melyiket v\u00e1lasztan\u00e1d? Aki rosszul tippel, az iszik.",
+        "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! %NAME%: Ha v\u00e1lasztanod kellene, hogy kivel fek\u00fcdj le: Ryan Reynolds vagy Bradley Cooper, melyiket v\u00e1lasztan\u00e1d? Aki rosszul tippel, az iszik.",
         "en": "%NAME%: If you had to choose: would you sleep with Ryan Reynolds or Bradley Cooper? The other players guess. Who is wrong, has to drink.",
         "logo": ""
     },
     {
         "type": "vote",
-        "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! %NAME%: Ha v\u00e1lasztanod kellene, hogy kivel fek\u00fcdj le Channing Tatum vagy Chris Hemsworth, melyiket v\u00e1lasztan\u00e1d? Aki rosszul tippel, az iszik.",
+        "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! %NAME%: Ha v\u00e1lasztanod kellene, hogy kivel fek\u00fcdj le: Channing Tatum vagy Chris Hemsworth, melyiket v\u00e1lasztan\u00e1d? Aki rosszul tippel, az iszik.",
         "en": "%NAME%: If you had to choose: would you sleep with Channing Tatum or Chris Hemsworth? The other players guess. Who is wrong, has to drink.",
         "logo": ""
     },
     {
         "type": "vote",
-        "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! %NAME%: Ha v\u00e1lasztanod kellene, hogy kivel fek\u00fcdj le David Beckham vagy The Rock, melyiket v\u00e1lasztan\u00e1d? Aki rosszul tippel, az iszik.",
+        "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! %NAME%: Ha v\u00e1lasztanod kellene, hogy kivel fek\u00fcdj le: David Beckham vagy The Rock, melyiket v\u00e1lasztan\u00e1d? Aki rosszul tippel, az iszik.",
         "en": "%NAME%: If you had to choose: would you sleep with David Beckham or The Rock? The other players guess. Who is wrong, has to drink.",
         "logo": ""
     },
