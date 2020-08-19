@@ -59,11 +59,7 @@ export default class Game extends Component {
           <meta property="og:locale" content={this.props.currentLanguage === "en" ? "en_US" : "hu_HU"} />
         </Helmet>
         <h1 className="left-card-label animated fadeIn">
-          {
-            (JSON.parse(sessionStorage.getItem("players")) == null || JSON.parse(sessionStorage.getItem("players")).length == 0)
-              ? (i18n.t("game.card_left_no_player").replace("%NUMBER%", number_of_left_cards))
-              : i18n.t("game.card_left").replace("%PLAYER%", this.getRandomName()).replace("%NUMBER%", number_of_left_cards)
-          }
+              {i18n.t("game.card_left").replace("%NUMBER%", number_of_left_cards)}
         </h1>
         <Card
           i18n={i18n}
@@ -116,16 +112,4 @@ export default class Game extends Component {
     return randomQuestion;
   }
 
-  /**
-  * Gets the imported image resource based on the logo keyword.
-  * @param {string} keyword Logo field of the question JSON element. 
-  */
-  getRandomName = () => {
-    let names = JSON.parse(sessionStorage.getItem("players"));
-    if (names != null && names.length != 0) {
-      return names[Math.floor(Math.random() * names.length)];
-    } else {
-      return "";
-    }
-  }
 }

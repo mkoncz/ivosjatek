@@ -1,5 +1,7 @@
-#!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
+
+# install: pip3 install excel2json-3
+# run: sh run_excel_to_json_generation.sh
 
 from excel2json import convert_from_file 
 
