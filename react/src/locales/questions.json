@@ -37,18 +37,6 @@
     },
     {
         "type": "outer_quality",
-        "hu": "25 \u00e9v felettiek isznak.",
-        "en": "Drink if you are older than 25.",
-        "logo": ""
-    },
-    {
-        "type": "outer_quality",
-        "hu": "25 \u00e9v alattiak isznak.",
-        "en": "Drink if you are younger than 25.",
-        "logo": ""
-    },
-    {
-        "type": "outer_quality",
         "hu": "V\u00f6r\u00f6s haj\u00faak isznak.",
         "en": "Drink if you have red hair.",
         "logo": "peakybarbers"
@@ -241,6 +229,18 @@
     },
     {
         "type": "inner_quality",
+        "hu": "25 \u00e9v felettiek isznak.",
+        "en": "Drink if you are older than 25.",
+        "logo": ""
+    },
+    {
+        "type": "inner_quality",
+        "hu": "25 \u00e9v alattiak isznak.",
+        "en": "Drink if you are younger than 25.",
+        "logo": ""
+    },
+    {
+        "type": "inner_quality",
         "hu": "30 felettiek isznak.",
         "en": "The players over 30 years drink.",
         "logo": ""
@@ -254,7 +254,7 @@
     {
         "type": "inner_quality",
         "hu": "A v\u00edz\u00f6nt\u0151k isznak.",
-        "en": "Drink if you are Aquarius.",
+        "en": "Drink if you are an Aquarius.",
         "logo": ""
     },
     {
@@ -289,7 +289,7 @@
     },
     {
         "type": "outfit",
-        "hu": "Az iszik, aki sapk\u00e1t vagy kalapot hord.",
+        "hu": "Az iszik, akin sapka vagy kalap van.",
         "en": "Drink if you wear a hat or cap.",
         "logo": ""
     },
@@ -310,6 +310,12 @@
         "hu": "Az iszik, akinek van piercingje.",
         "en": "Drink if you have a piencing.",
         "logo": ""
+    },
+    {
+        "type": "outfit",
+        "hu": "Igyon egyet, akin van valami \u00e9kszer!",
+        "en": "Drink if you wear any jewelry.",
+        "logo": "georgecobbler"
     },
     {
         "type": "outfit",
@@ -367,13 +373,25 @@
     },
     {
         "type": "ownership",
+        "hu": "Az iszik, akinek fekete telefonja van.",
+        "en": "Drink if you have a black phone.",
+        "logo": ""
+    },
+    {
+        "type": "ownership",
+        "hu": "Az iszik, akinek feh\u00e9r telefonja van.",
+        "en": "Drink if you have a white phone.",
+        "logo": ""
+    },
+    {
+        "type": "ownership",
         "hu": "Az iszik, akinek Androidja van.",
         "en": "Drink if you have Android.",
         "logo": ""
     },
     {
         "type": "ownership",
-        "hu": "Az iszik, akinek van diplom\u00e1ja",
+        "hu": "Az iszik, akinek van diplom\u00e1ja.",
         "en": "Drink if you have university degree.",
         "logo": ""
     },
@@ -423,6 +441,42 @@
         "type": "habit",
         "hu": "Az iszik, aki veget\u00e1ri\u00e1nus.",
         "en": "Drink if you are vegan.",
+        "logo": ""
+    },
+    {
+        "type": "skill",
+        "hu": "Az iszik, aki nem tud \u00faszni.",
+        "en": "Drink if you can swim.",
+        "logo": ""
+    },
+    {
+        "type": "skill",
+        "hu": "Az iszik, aki meg b\u00edr csin\u00e1lni 30 fekv\u0151t\u00e1maszt.",
+        "en": "Drink if you can do 30 push-ups.",
+        "logo": ""
+    },
+    {
+        "type": "skill",
+        "hu": "Az iszik, aki ki tud nyomni 100kg-t fekpadon.",
+        "en": "Drink if you can press 100kg/200lbs.",
+        "logo": ""
+    },
+    {
+        "type": "skill",
+        "hu": "Az iszik, aki tud motort vezetni.",
+        "en": "Drink if you can drive a motorcycle.",
+        "logo": ""
+    },
+    {
+        "type": "skill",
+        "hu": "Az iszik, aki tud sakkozni.",
+        "en": "Drink if you can play chess.",
+        "logo": ""
+    },
+    {
+        "type": "skill",
+        "hu": "Az iszik, aki j\u00e1tszik valamilyen hangszeren.",
+        "en": "Drink if you can play any musical instrument.",
         "logo": ""
     },
     {
@@ -787,6 +841,12 @@
     },
     {
         "type": "according_to_you",
+        "hu": "%NAME%: Az iszik, aki szerinted a legkevesebb ideig b\u00edrja az \u00e1gyban. ",
+        "en": "%NAME%: The least \"long-lasting\" male player according to you has to drink.",
+        "logo": ""
+    },
+    {
+        "type": "according_to_you",
         "hu": "%NAME%: Az iszik, aki szerinted a legtov\u00e1bb b\u00edrja az \u00e1gyban. ",
         "en": "%NAME%: The most \"long-lasting\" male player according to you has to drink.",
         "logo": ""
@@ -867,6 +927,18 @@
         "type": "have_you_ever",
         "hu": "Az iszik, aki f\u00fcvezett m\u00e1r.",
         "en": "Drink if you have ever smoked weed.",
+        "logo": ""
+    },
+    {
+        "type": "have_you_ever",
+        "hu": "Az iszik, aki pr\u00f3b\u00e1ld m\u00e1r kem\u00e9ny ki valamilyen hallucinug\u00e9n drogot.",
+        "en": "Drink if you have ever tried acid.",
+        "logo": ""
+    },
+    {
+        "type": "have_you_ever",
+        "hu": "Az iszik, aki pr\u00f3b\u00e1ld m\u00e1r kem\u00e9ny ki valamilyen kem\u00e9ny drogot.",
+        "en": "Drink if you have ever tried any hard hard drugs.",
         "logo": ""
     },
     {
@@ -1021,6 +1093,12 @@
     },
     {
         "type": "have_you_ever",
+        "hu": "Az iszik, akinek t\u00f6rt m\u00e1r le a foga.",
+        "en": "Drink if you have ever broken your teeth.",
+        "logo": ""
+    },
+    {
+        "type": "have_you_ever",
         "hu": "Az iszik, akinek t\u00f6rt m\u00e1r el a l\u00e1ba.",
         "en": "Drink if you have ever broken your leg.",
         "logo": ""
@@ -1053,7 +1131,7 @@
         "type": "have_you_ever",
         "hu": "Aki v\u00e1gta m\u00e1r meg mag\u00e1t borotv\u00e1val, iszik.",
         "en": "Drink if you have ever cut yourself accidentaly while shaving.",
-        "logo": ""
+        "logo": "peakybarbers"
     },
     {
         "type": "have_you_ever",
@@ -1201,6 +1279,12 @@
     },
     {
         "type": "have_you_ever_18",
+        "hu": "Az iszik, akit kaptak m\u00e1r rajta porn\u00f3 n\u00e9z\u00e9s k\u00f6zben.",
+        "en": "Drink if you have ever been caught watching porn.",
+        "logo": ""
+    },
+    {
+        "type": "have_you_ever_18",
         "hu": "Az iszik, akit kaptak m\u00e1r rajta maszturb\u00e1l\u00e1son.",
         "en": "Drink if you have ever been caught during masturbating.",
         "logo": ""
@@ -1251,6 +1335,12 @@
         "type": "have_you_ever_18",
         "hu": "Az iszik, aki megcs\u00f3kolta m\u00e1r egy bar\u00e1tja/bar\u00e1tn\u0151je tes\u00f3j\u00e1t.",
         "en": "Drink if you have ever kissed your friends sister.",
+        "logo": ""
+    },
+    {
+        "type": "have_you_ever_18",
+        "hu": "Az iszik, aki t\u00e1ncolt m\u00e1r puc\u00e9ran valaki m\u00e1s el\u0151tt.",
+        "en": "Drink if you have ever danced naked in front of someone else.",
         "logo": ""
     },
     {
@@ -1357,7 +1447,7 @@
     },
     {
         "type": "have_you_ever_18",
-        "hu": "Igyon egyet, aki volt m\u00e1r egy\u00fctt 25 cm vagy hosszabb p\u00e9nisz\u0171 f\u00e9rfival.",
+        "hu": "Igyon egyet, aki volt m\u00e1r egy\u00fctt 25 cm-n\u00e9l hosszabb p\u00e9nisz\u0171 f\u00e9rfival.",
         "en": "Drink if you have ever been with a man who had a longer penis than 25 cm.",
         "logo": ""
     },
@@ -1435,6 +1525,12 @@
     },
     {
         "type": "have_you_ever_18",
+        "hu": "Igyon egyet, aki szexelt m\u00e1r r\u00e9szegen!",
+        "en": "Drink if you have ever has sex while being drunk.",
+        "logo": ""
+    },
+    {
+        "type": "have_you_ever_18",
         "hu": "Igyon egyet, aki szexelt m\u00e1r bef\u00fcvezve!",
         "en": "Drink if you have ever has sex while being high.",
         "logo": ""
@@ -1473,6 +1569,18 @@
         "type": "have_you_ever_18",
         "hu": "Igyon egyet, aki szexelt m\u00e1r \u00f3vszer n\u00e9lk\u00fcl!",
         "en": "Drink if you have ever had sex without a condom.",
+        "logo": ""
+    },
+    {
+        "type": "have_you_ever_18",
+        "hu": "Igyon egyet, aki kavart m\u00e1r egy munkat\u00e1rs\u00e1val!",
+        "en": "Drink if you have ever kissed a coworker.",
+        "logo": ""
+    },
+    {
+        "type": "have_you_ever_18",
+        "hu": "Igyon egyet, aki kavart m\u00e1r a f\u0151n\u00f6k\u00e9vel!",
+        "en": "Drink if you have ever kissed their boss.",
         "logo": ""
     },
     {
@@ -1520,7 +1628,7 @@
     {
         "type": "have_you_ever_18",
         "hu": "Igyon egyet, aki pr\u00f3b\u00e1lta m\u00e1r a 69-es p\u00f3zt!",
-        "en": "Drink if you have ever tried the 89 position.",
+        "en": "Drink if you have ever tried the 69 position.",
         "logo": ""
     },
     {
@@ -1887,6 +1995,24 @@
         "type": "sex_partner",
         "hu": "Az iszik, aki b\u00e1nta m\u00e1r meg, hogy lefek\u00fcdt valakivel.",
         "en": "Drink if you have ever regretted that had sex with someone.",
+        "logo": ""
+    },
+    {
+        "type": "sex_partner",
+        "hu": "%NAME%: Mennyit fizetn\u00e9l, hogy lefek\u00fcdhess a jobbra \u00fcl\u0151 j\u00e1t\u00e9kossal?",
+        "en": "%NAME%: How much money would you pay to sleep with the player on your right?",
+        "logo": ""
+    },
+    {
+        "type": "sex_partner",
+        "hu": "%NAME%: Mennyit fizetn\u00e9l, hogy lefek\u00fcdhess a balra \u00fcl\u0151 j\u00e1t\u00e9kossal?",
+        "en": "%NAME%: How much money would you pay to sleep with the player on your left?",
+        "logo": ""
+    },
+    {
+        "type": "sex_partner",
+        "hu": "%NAME%: Ha v\u00e1lasztanod kellene, melyik h\u00edress\u00e9ggel fek\u00fcdn\u00e9l le?",
+        "en": "%NAME%: If you could have sex with a celebrity, who would it be?",
         "logo": ""
     },
     {
