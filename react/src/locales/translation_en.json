@@ -22,6 +22,7 @@
   "game.no_more_question": "No more questions :(",
   "game.player": "Player",
   "game.player_names": "Give the player names",
+  "game.please_add_player_name": "Please add at least one player name.",
 
   "image_alt.card": "Card",
   "image_alt.english": "English",
