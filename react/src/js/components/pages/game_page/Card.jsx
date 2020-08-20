@@ -36,16 +36,12 @@ export default class Card extends Component {
       name: ""
     };
 
-    this.input1 = React.createRef();
-    this.input2 = React.createRef();
-    this.input3 = React.createRef();
-    this.input4 = React.createRef();
-    this.input5 = React.createRef();
-    this.input6 = React.createRef();
-    this.input7 = React.createRef();
-    this.input8 = React.createRef();
-    this.input9 = React.createRef();
-    this.input10 = React.createRef();
+    this.inputs = [this.input1, this.input2, this.input3, this.input4, this.input5,
+    this.input6, this.input7, this.input8, this.input9, this.input10];
+
+    this.inputs = this.inputs.map((item) => {
+      return React.createRef();
+    })
   }
 
   componentDidMount() {
@@ -176,37 +172,10 @@ export default class Card extends Component {
       <div className="pre-card">
         <h5 className="players-header"><b>{this.props.i18n.t("game.player_names")}</b></h5>
         <form>
-          <label>{this.props.i18n.t("game.player")} 1: &nbsp;
-          <input type="text" ref={this.input1}></input>
-          </label>
-          <label> {this.props.i18n.t("game.player")} 2: &nbsp;
-          <input type="text" ref={this.input2}></input>
-          </label>
-          <label> {this.props.i18n.t("game.player")} 3: &nbsp;
-          <input type="text" ref={this.input3}></input>
-          </label>
-          <label> {this.props.i18n.t("game.player")} 4: &nbsp;
-          <input type="text" ref={this.input4}></input>
-          </label>
-          <label> {this.props.i18n.t("game.player")} 5: &nbsp;
-          <input type="text" ref={this.input5}></input>
-          </label>
-          <label> {this.props.i18n.t("game.player")} 6: &nbsp;
-          <input type="text" ref={this.input6}></input>
-          </label>
-          <label> {this.props.i18n.t("game.player")} 7: &nbsp;
-          <input type="text" ref={this.input7}></input>
-          </label>
-          <label> {this.props.i18n.t("game.player")} 8: &nbsp;
-          <input type="text" ref={this.input8}></input>
-          </label>
-          <label> {this.props.i18n.t("game.player")} 9: &nbsp;
-          <input type="text" ref={this.input9}></input>
-          </label>
-          <label> {this.props.i18n.t("game.player")} X: &nbsp;
-          <input type="text" ref={this.input10}></input>
-          </label>
-
+          {this.inputs.map((input, index) => 
+          <label key={index}>{this.props.i18n.t("game.player")} {index+1}: &nbsp;
+            <input type="text" ref={input} ></input>
+          </label>)}
         </form>
         <button
           className="btn btn-warning btn-lg add-button"
@@ -221,22 +190,23 @@ export default class Card extends Component {
    * Creates card with age check question and next button.
    */
   addPlayers = () => {
+    let that = this;
     this.replaceCard(true);
     // Timeout needed because render() immediately replaces content and the bouncing is not done yet.
     setTimeout(() => {
       var players = [];
-      if (this.input1.current.value !== "") players.push(this.input1.current.value);
-      if (this.input2.current.value !== "") players.push(this.input2.current.value);
-      if (this.input3.current.value !== "") players.push(this.input3.current.value);
-      if (this.input4.current.value !== "") players.push(this.input4.current.value);
-      if (this.input5.current.value !== "") players.push(this.input5.current.value);
-      if (this.input6.current.value !== "") players.push(this.input6.current.value);
-      if (this.input7.current.value !== "") players.push(this.input7.current.value);
-      if (this.input8.current.value !== "") players.push(this.input8.current.value);
-      if (this.input9.current.value !== "") players.push(this.input9.current.value);
-      if (this.input10.current.value !== "") players.push(this.input10.current.value);
+      that.inputs.forEach((item, index) => {
+        if (item.current.value !== "") {
+          players.push(item.current.value);
+        }
+      })
+
+      // If the user does not give any player names, we add some default ones.
+      if (players.length === 0) {
+        alert(this.props.i18n.t("game.please_add_player_name"));
+        return;
+      }
       sessionStorage.setItem("players", JSON.stringify(players));
-      console.log(JSON.parse(sessionStorage.getItem("players")));
     }, 450);
   }
 
