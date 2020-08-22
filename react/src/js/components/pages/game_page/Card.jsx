@@ -33,7 +33,7 @@ export default class Card extends Component {
 
     this.state = {
       flipClasses: "animated bounceInLeft",
-      name: ""
+      name: this.getRandomName()
     };
 
     this.inputs = [this.input1, this.input2, this.input3, this.input4, this.input5,
@@ -71,8 +71,8 @@ export default class Card extends Component {
     if (null == sessionStorage.getItem("isAdult")) {
       content = this.createAgeCheckCard();
       specialCard = true;
-    } else if (null == sessionStorage.getItem("players")) {
-      content = this.createModeSelectorCard();
+    } else if (null == sessionStorage.getItem("players") || sessionStorage.getItem("players").length === 0) {
+      content = this.createPlayerSelectorCard();
       specialCard = true;
     }
     else {
@@ -153,6 +153,7 @@ export default class Card extends Component {
         <div className="question_block">
           <h5>{this.props.i18n.t("game.age_check_1")}</h5>
           <p>{this.props.i18n.t("game.age_check_2")}</p>
+          <p>{this.props.i18n.t("game.age_check_3")}</p>
         </div>
         <button
           className="btn btn-warning btn-lg"
@@ -166,16 +167,16 @@ export default class Card extends Component {
   /**
    * Creates card with age check question and next button.
    */
-  createModeSelectorCard = () => {
+  createPlayerSelectorCard = () => {
 
     return (
       <div className="pre-card">
         <h5 className="players-header"><b>{this.props.i18n.t("game.player_names")}</b></h5>
         <form>
-          {this.inputs.map((input, index) => 
-          <label key={index}>{this.props.i18n.t("game.player")} {index+1}: &nbsp;
+          {this.inputs.map((input, index) =>
+            <label key={index}>{this.props.i18n.t("game.player")} {index + 1}: &nbsp;
             <input type="text" ref={input} ></input>
-          </label>)}
+            </label>)}
         </form>
         <button
           className="btn btn-warning btn-lg add-button"

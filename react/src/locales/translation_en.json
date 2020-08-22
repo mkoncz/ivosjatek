@@ -2,9 +2,6 @@
   "404": "Not valid page. Let's go back to the home page.",
   "contact.contact": "Contact:",
 
-  "cookie.accept": "Accept",
-  "cookie.question": "This website uses cookies to store selected language.",
-  
   "desc.contact": "Contains the contact details. The main communication platform is Instagram.",
   "desc.game": "Make the night unforgettable. This drinking game is a great tool to cheer up the party.",
   "desc.posts": "Various posts from the internet that inspired cards for this game. They are not always relevant to the drinking.",
@@ -14,7 +11,8 @@
   "desc.sponsors": "The sponsoring possibilities are shown on this page. You can also be the owner of the game.",
 
   "game.age_check_1": "Can we see some ID please? ",
-  "game.age_check_2": "It's part of our commitment to responsible drinking.  ",
+  "game.age_check_2": "It's part of our commitment to responsible drinking.",
+  "game.age_check_3": "The page uses cookies.",
   "game.age_check_button": "I'm an adult",
   "game.card_left": "%NUMBER% cards left",
   "game.done": "Done",

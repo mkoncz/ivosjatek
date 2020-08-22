@@ -30,7 +30,6 @@ import HttpsRedirect from "react-https-redirect";
 import i18n from "../i18n";
 
 // Import modules for cookie handling.
-import CookieConsent from "react-cookie-consent";
 import Cookies from "universal-cookie";
 
 // Import React Helmet for handling <head> attributes dinamically.
@@ -186,15 +185,6 @@ export default class MainContainer extends Component {
               />
             </Route>
           </Switch>
-          <CookieConsent
-            location="bottom"
-            buttonText={i18n.t("cookie.accept")}
-            style={{ background: "#2B373B" }}
-            buttonStyle={{ backgroundColor: "rgb(211, 244, 47)", fontSize: "13px" }}
-            expires={150}
-          >
-            {i18n.t("cookie.question")}
-          </CookieConsent>
         </BrowserRouter>
       </HttpsRedirect>
     );
@@ -207,7 +197,7 @@ export default class MainContainer extends Component {
    */
   reloadLanguage = (lang) => {
     // Change cookie value of language.
-    this.cookies.set("lang", lang, { path: "/" });
+    this.cookies.set("lang", lang, { path: "/" , "secure": true});
     // Changes the selected language in the i18n module.
     i18n.changeLanguage(lang);
     // Change sthe current language triggers the uploading of child components.
