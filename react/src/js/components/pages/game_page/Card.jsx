@@ -33,7 +33,7 @@ export default class Card extends Component {
 
     this.state = {
       flipClasses: "animated bounceInLeft",
-      name: ""
+      name: this.getRandomName()
     };
 
     this.inputs = [this.input1, this.input2, this.input3, this.input4, this.input5,
@@ -71,7 +71,7 @@ export default class Card extends Component {
     if (null == sessionStorage.getItem("isAdult")) {
       content = this.createAgeCheckCard();
       specialCard = true;
-    } else if (null == sessionStorage.getItem("players")) {
+    } else if (null == sessionStorage.getItem("players") || sessionStorage.getItem("players").length === 0) {
       content = this.createModeSelectorCard();
       specialCard = true;
     }
@@ -172,10 +172,10 @@ export default class Card extends Component {
       <div className="pre-card">
         <h5 className="players-header"><b>{this.props.i18n.t("game.player_names")}</b></h5>
         <form>
-          {this.inputs.map((input, index) => 
-          <label key={index}>{this.props.i18n.t("game.player")} {index+1}: &nbsp;
+          {this.inputs.map((input, index) =>
+            <label key={index}>{this.props.i18n.t("game.player")} {index + 1}: &nbsp;
             <input type="text" ref={input} ></input>
-          </label>)}
+            </label>)}
         </form>
         <button
           className="btn btn-warning btn-lg add-button"
