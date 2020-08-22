@@ -72,7 +72,7 @@ export default class Card extends Component {
       content = this.createAgeCheckCard();
       specialCard = true;
     } else if (null == sessionStorage.getItem("players") || sessionStorage.getItem("players").length === 0) {
-      content = this.createModeSelectorCard();
+      content = this.createPlayerSelectorCard();
       specialCard = true;
     }
     else {
@@ -153,6 +153,7 @@ export default class Card extends Component {
         <div className="question_block">
           <h5>{this.props.i18n.t("game.age_check_1")}</h5>
           <p>{this.props.i18n.t("game.age_check_2")}</p>
+          <p>{this.props.i18n.t("game.age_check_3")}</p>
         </div>
         <button
           className="btn btn-warning btn-lg"
@@ -166,7 +167,7 @@ export default class Card extends Component {
   /**
    * Creates card with age check question and next button.
    */
-  createModeSelectorCard = () => {
+  createPlayerSelectorCard = () => {
 
     return (
       <div className="pre-card">
