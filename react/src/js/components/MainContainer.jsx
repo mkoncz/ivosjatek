@@ -207,7 +207,7 @@ export default class MainContainer extends Component {
    */
   reloadLanguage = (lang) => {
     // Change cookie value of language.
-    this.cookies.set("lang", lang, { path: "/" });
+    this.cookies.set("lang", lang, { path: "/" , "secure": true});
     // Changes the selected language in the i18n module.
     i18n.changeLanguage(lang);
     // Change sthe current language triggers the uploading of child components.
