@@ -3,7 +3,7 @@
   "contact.contact": "Kapcsolat:",
 
   "desc.contact": "Az oldal elérhetőségeit tartalmazza. Az Instagram a készítő fő kommunikációs csatornája.",
-  "desc.game": "Alapozd meg az estét vagy pörgesd fel a bulit egy izgalmas piás kártya játékkal. Ez az ivós játék garantáltan szuper lehetőség a közös szórakozásra.",
+  "desc.game": "Alapozd meg az estét vagy pörgesd fel a bulit egy izgalmas online piás kártya játékkal. Ez az ivós játék garantáltan szuper lehetőség a közös szórakozásra.",
   "desc.posts": "Cikkek az internet világából, amelyek bizonyos kártyákat inspiráltak a játékhoz.",
   "desc.release_notes": "Az Ivós Játék újításai és javításai kerülnek listázásra havi felbontásban.",
   "desc.rules": "Az Ivós Játék használatát korlátozó megkötések, illetve a játék menetét leíró szabályzat.",
@@ -15,7 +15,6 @@
   "game.age_check_3": "(Ez az online játék sütiket is használ.)",
   "game.age_check_button": "Felnőtt vagyok",
   "game.card_left": "Még %NUMBER% kártya",
-  "game.card_owner": " kártyája",
   "game.done": "Kész",
   "game.next": "Következő",
   "game.no_more_question": "Elfogytak a kérdések :(",
