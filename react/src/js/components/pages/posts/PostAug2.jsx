@@ -5,7 +5,6 @@ import Modal from 'react-modal';
 // Import React Helmet for handling <head> attributes dinamically.
 import { Helmet } from "react-helmet";
 // Import Instagram Embed tool.
-import InstagramEmbed from "react-instagram-embed";
 
 import adult_logo from "./../../../../img/18.png";
 
@@ -83,7 +82,7 @@ const PostAug = () => {
                 A borszakértő Robert Parker ezt a bort a tökéletes 100-asnak ítélte.
                 Ahogy a mondás tartja, borban az öregebb a jobb! Alapvetően tehát emiatt lehetett részese a legdrágább italok felsorolásának.
             </p>
-            <img width="100%" src="https://www.worldstopmost.com/wp-content/uploads/2016/08/1811-Chateau-d%E2%80%99Yquem-Worlds-Most-Expensive-Alcohol-2016.jpg"></img>
+            <img width="100%" className="post-image" alt="drink" src="https://www.worldstopmost.com/wp-content/uploads/2016/08/1811-Chateau-d%E2%80%99Yquem-Worlds-Most-Expensive-Alcohol-2016.jpg"></img>
             <p className="post-source-p">
                 Forrás: worldstopmost.com
             </p>
@@ -94,7 +93,7 @@ const PostAug = () => {
             <p className="post-p">
                 De ha Ön jobb szereti a vöröset, a Penfolds Ampoule a jó választás! Ez a világ legdrágább vörösbora, ára 170 ezer dollár! Mindössze 12 palackot gyártottak és a világhírű bútorkészítő, Andrew Bartlett fadobozában vásárolható. Királyi megjelenés a királyi borhoz!
             </p>
-            <img width="100%" src="https://www.worldstopmost.com/wp-content/uploads/2016/08/Penfolds-Ampoule-Worlds-Most-Expensive-Alcohol-2017.jpg"></img>
+            <img width="100%" className="post-image" alt="drink" src="https://www.worldstopmost.com/wp-content/uploads/2016/08/Penfolds-Ampoule-Worlds-Most-Expensive-Alcohol-2017.jpg"></img>
             <p className="post-source-p">
                 Forrás: worldstopmost.com
             </p>
@@ -106,7 +105,7 @@ const PostAug = () => {
                 Prémium minőségű gin 200 000 dollárért. Egyedi ízét a felhasznált tízféle növényi összetevő adja.
                 A Karim Rashid megrendelésére készített öt kristálypalack metszett zafírokkal és gyémántokkal van díszítve. Az áttetsző kék palack könnyen felismerhetővé teszi.
             </p>
-            <img width="100%" src="http://www.gasztromagazin.hu/wp-content/uploads/2017/12/Bombay-Sapphire-Revelation-Worlds-Most-Expensive-Alcohol-2016.jpg"></img>
+            <img width="100%" className="post-image" alt="drink" src="https://www.worldstopmost.com/wp-content/uploads/2016/08/Bombay-Sapphire-Revelation-Worlds-Most-Expensive-Alcohol-2016.jpg"></img>
             <p className="post-source-p">
                 Forrás: worldstopmost.com
             </p>
@@ -119,7 +118,7 @@ const PostAug = () => {
                 Ez a whisky a Royal Salute legritkább tételeinek keveréke, melyek közül a legifjabb is 45 éves!
                 A palackról is érdemes szót ejteni: 400 fehér és fekete gyémánt ragyog a felületén….
             </p>
-            <img width="100%" src="http://www.gasztromagazin.hu/wp-content/uploads/2017/12/Royal-Salute-Tribute-to-Honor-Worlds-Most-Expensive-Alcohol-2018.jpg"></img>
+            <img width="100%" className="post-image" alt="drink" src="https://www.worldstopmost.com/wp-content/uploads/2016/08/Royal-Salute-Tribute-to-Honor-Worlds-Most-Expensive-Alcohol-2018.jpg"></img>
             <p className="post-source-p">
                 Forrás: worldstopmost.com
             </p>
@@ -132,7 +131,7 @@ const PostAug = () => {
                 A Dalmore 62 maga a megtestesült luxus a scotch whisky rajongói számára, egyike a világ legdrágább whiskyjeinek.
                 A szerelmeseknek azonban tudniuk kell, hogy mindössze 12 palack van a Dalmore 62-ből – érdemes sietni a vásárlással!
              </p>
-            <img width="100%" src="http://www.gasztromagazin.hu/wp-content/uploads/2017/12/Dalmore-62-Worlds-Most-Expensive-Alcohol-2017.jpg"></img>
+            <img width="100%" className="post-image" alt="drink" src="https://www.worldstopmost.com/wp-content/uploads/2016/08/Dalmore-62-Worlds-Most-Expensive-Alcohol-2017.jpg"></img>
             <p className="post-source-p">
                 Forrás: worldstopmost.com
             </p>
@@ -146,7 +145,7 @@ const PostAug = () => {
                 Az egyedülállóan hatalmas palack tökéletes azoknak, akik egy egész éjszakás mulatságra vágynak!
                 Pompás pezsgőt, valakinek?
             </p>
-            <img width="100%" src="http://www.gasztromagazin.hu/wp-content/uploads/2017/12/Armand-de-Brignac-Midas-Worlds-Most-Expensive-Alcohol-2017.jpg"></img>
+            <img width="100%" className="post-image" alt="drink" src="https://www.worldstopmost.com/wp-content/uploads/2016/08/Armand-de-Brignac-Midas-Worlds-Most-Expensive-Alcohol-2017.jpg"></img>
             <p className="post-source-p">
                 Forrás: worldstopmost.com
             </p>
@@ -158,7 +157,7 @@ const PostAug = () => {
                 Ez a whisky a valaha eladott legdrágább whisky, a maga nemében első a Guiness Rekordok Könyvében!
                 A Macallan ma Skócia egyik legismertebb márkája. Ritka, roppant idős whiskyjeinek gyűjteménye világhírű.
             </p>
-            <img width="100%" src="http://www.gasztromagazin.hu/wp-content/uploads/2017/12/Macallan-64-Year-Old-in-Lalique-Worlds-Most-Expensive-Alcohol-2016.jpg"></img>
+            <img width="100%" className="post-image" alt="drink" src="https://www.worldstopmost.com/wp-content/uploads/2016/08/Macallan-64-Year-Old-in-Lalique-Worlds-Most-Expensive-Alcohol-2016.jpg"></img>
             <p className="post-source-p">
                 Forrás: worldstopmost.com
             </p>
@@ -172,7 +171,7 @@ const PostAug = () => {
                 Ha rácsodálkozik a magas árra, el kell mondanunk, hogy az ár tükrözi az ital példátlanul finom ízét. Ez a vodka természetes forrásvízből készül, gyémántokon szűrik át és végül a kristályokkal töltött üvegpalackban kínálják.
                 A vodka szerelmesei megőrülnének egy kortyáért!
             </p>
-            <img width="100%" src="http://www.gasztromagazin.hu/wp-content/uploads/2017/12/Diva-Vodka-Worlds-Most-Expensive-Alcohol-2018.jpg"></img>
+            <img width="100%" className="post-image" alt="drink" src="https://www.worldstopmost.com/wp-content/uploads/2016/08/Diva-Vodka-Worlds-Most-Expensive-Alcohol-2018.jpg"></img>
             <p className="post-source-p">
                 Forrás: worldstopmost.com
             </p>
@@ -184,7 +183,7 @@ const PostAug = () => {
                 Remek lehetőség azoknak a gazdagoknak, akik nem is elsősorban az ital minőségéért, mint inkább a megjelenéséért fizetnek. A három és fél millió dolláros ár a kifogástalanul megtervezett butélia miatt alakult ki.
                 A tequila egy tökéletes alakú, gyémántokkal gazdagon dekorált, platinából készült tartályba kerül….
                </p>
-            <img width="100%" src="https://www.worldstopmost.com/wp-content/uploads/2016/08/Tequila-Ley-.925-Worlds-Most-Expensive-Alcohol-2017.jpg"></img>
+            <img width="100%" className="post-image" alt="drink" src="https://www.worldstopmost.com/wp-content/uploads/2016/08/Tequila-Ley-.925-Worlds-Most-Expensive-Alcohol-2017.jpg"></img>
             <p className="post-source-p">
                 Forrás: worldstopmost.com
             </p>
@@ -200,7 +199,7 @@ const PostAug = () => {
                 Elérhetetlen italok, de ne is erre vágyjunk! Jó, ha ismerjük ezeket a híreket. Jó, ha rácsodálkoznk az árakra, a palackok kivitelezésére.
                 De ha egy palack pezsgővel vagy tokaji aszúval ünnepelünk Családunkkal, Barátainkkal, lehetünk mi mégis sokkal boldogabbak a Billionare tulajdonosánál…
             </p>
-            <img width="100%" src="http://www.gasztromagazin.hu/wp-content/uploads/2017/12/Billionaire-Vodka-Worlds-Most-Expensive-Alcohol-2018.jpg"></img>
+            <img width="100%" className="post-image" alt="drink" src="https://www.worldstopmost.com/wp-content/uploads/2016/08/Billionaire-Vodka-Worlds-Most-Expensive-Alcohol-2018.jpg"></img>
             <p className="post-source-p">
                 Forrás: worldstopmost.com
             </p>
