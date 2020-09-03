@@ -10,6 +10,10 @@ import {
   Nav,
   NavItem,
   NavLink,
+  Dropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem
 } from "reactstrap";
 
 // Import national flags of Hungary and Great Britain.
@@ -24,45 +28,60 @@ import en_logo from "./../../img/en_flag.png"; // https://www.publicdomainpictur
  */
 const NavBar = props => {
 
-  // isOpen is a state of the NavBar.
-  // setIsOpen sets the isOpen state.
-  const [isOpen, setIsOpen] = useState(false);
+  // isNavbarOpen is a state of the NavBar.
+  // setNavbarOpen sets the isNavbarOpen state.
+  const [isNavbarOpen, setNavbarOpen] = useState(false);
+
+  const [dropdownOpen, setDropdownOpen] = useState(false);
 
   /**
-   * Inverts the isOpen state.
+   * Inverts the isNavbarOpen state.
    */
-  const toggleHamburger = () => setIsOpen(!isOpen);
+  const toggleHamburger = () => setNavbarOpen(!isNavbarOpen);
+  const toggleDropdown = () => setDropdownOpen(!dropdownOpen);
 
-  const closeHamburger = () => setIsOpen(false);
+  const closeHamburger = () => setNavbarOpen(false);
 
   return (
     <Navbar color="dark" dark expand="md" >
       <NavbarBrand href="/">{props.i18n.t("nav.title")}</NavbarBrand>
       <NavbarToggler onClick={toggleHamburger} />
-      <Collapse isOpen={isOpen} navbar >
+      <Collapse isOpen={isNavbarOpen} navbar >
         <Nav className="mr-auto centered" navbar>
           <NavItem>
             <NavLink href="/" onClick={closeHamburger}>{props.i18n.t("nav.game")}</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/rules" onClick={closeHamburger}>{props.i18n.t("nav.rules")}</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="/releases" onClick={closeHamburger}>{props.i18n.t("nav.release_notes")}</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="/sources" onClick={closeHamburger}>{props.i18n.t("nav.sources")}</NavLink>
+            <NavLink href="/sponsors" onClick={closeHamburger}>{props.i18n.t("nav.sponsors")}</NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="/contact" onClick={closeHamburger}>{props.i18n.t("nav.contact")}</NavLink>
           </NavItem>
-          <NavItem>
-            <NavLink href="/sponsors" onClick={closeHamburger}>{props.i18n.t("nav.sponsors")}</NavLink>
-          </NavItem>
+          <Dropdown isOpen={dropdownOpen} toggle={toggleDropdown}>
+            <DropdownToggle caret className="nav-dropdown" >
+              {props.i18n.t("nav.other")}
+            </DropdownToggle>
+            <DropdownMenu className="bg-dark">
+              <DropdownItem className="nav-dropdown-item">
+                <NavItem>
+                  <NavLink href="/sources" onClick={closeHamburger}>{props.i18n.t("nav.sources")}</NavLink>
+                </NavItem></DropdownItem>
+              <DropdownItem className="nav-dropdown-item">
+                <NavItem>
+                  <NavLink href="/releases" onClick={closeHamburger}>{props.i18n.t("nav.release_notes")}</NavLink>
+                </NavItem>
+              </DropdownItem>
+              <DropdownItem className="nav-dropdown-item">
+                <NavItem>
+                  <NavLink href="/rules" onClick={closeHamburger}>{props.i18n.t("nav.rules")}</NavLink>
+                </NavItem>
+              </DropdownItem>
+            </DropdownMenu>
+          </Dropdown>
           <NavItem>
             <NavLink>
-              <img onClick={() => {props.reloadLanguage("en")}} className="lang-logo" src={en_logo} alt={props.i18n.t("image_alt.english")} />
-              <img onClick={() => {props.reloadLanguage("hu")}} className="lang-logo" src={hu_logo} alt={props.i18n.t("image_alt.hungarian")} />
+              <img onClick={() => { props.reloadLanguage("en") }} className="lang-logo" src={en_logo} alt={props.i18n.t("image_alt.english")} />
+              <img onClick={() => { props.reloadLanguage("hu") }} className="lang-logo" src={hu_logo} alt={props.i18n.t("image_alt.hungarian")} />
             </NavLink>
           </NavItem>
         </Nav>

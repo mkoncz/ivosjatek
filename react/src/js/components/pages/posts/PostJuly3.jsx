@@ -69,7 +69,7 @@ const PostJuly3 = () => {
             <h3 className="post-h">Biztosítást kötött a péniszére Keiran Lee pornófilmes színész/rendező</h3>
 
 
-            <img width="100%" src="https://scontent.fbud5-1.fna.fbcdn.net/v/t1.0-9/91511753_103366491325073_6363818790119014400_n.jpg?_nc_cat=107&_nc_sid=85a577&_nc_ohc=e04H-z1OwOgAX9uKFv1&_nc_ht=scontent.fbud5-1.fna&oh=f540f2440dc72c4af900ff46324acc51&oe=5F47AE4A"></img>
+            <img width="100%" alt="post" className="post-image" src="https://scontent.fbud5-1.fna.fbcdn.net/v/t1.0-9/91511753_103366491325073_6363818790119014400_n.jpg?_nc_cat=107&_nc_sid=85a577&_nc_ohc=aoFdlIIQmFsAX-3uhWG&_nc_ht=scontent.fbud5-1.fna&oh=a95929c8b73ee9ac61fcc98cb8bbc9e9&oe=5F77244A"></img>
             <p className="post-p">
                 Forrás: Facebook
            </p>
@@ -81,7 +81,7 @@ const PostJuly3 = () => {
                 testrésze lett a biztosítás tárgya. Többek között biztosították már náluk Bruce Springsteen hangszálait és David Beckham lábát.
             </p>
 
-            <img width="100%" src="https://scontent.fbud5-1.fna.fbcdn.net/v/t1.0-9/32714377_1811771389132661_1099474356049805312_o.jpg?_nc_cat=111&_nc_sid=8024bb&_nc_ohc=7ZMRoMgS-3QAX_-DDTQ&_nc_ht=scontent.fbud5-1.fna&oh=a4c4d959307e8457f307712bc6cd811f&oe=5F45BA88"></img>
+            <img width="100%" alt="post" className="post-image" src="https://scontent.fbud5-1.fna.fbcdn.net/v/t1.0-9/91873717_114993923495663_195530009648037888_n.jpg?_nc_cat=101&_nc_sid=110474&_nc_ohc=taOsMdFmZn8AX-HlYCo&_nc_ht=scontent.fbud5-1.fna&oh=fa9401e4c027618d2ceaaa86484821b8&oe=5F75777D"></img>
             <p className="post-source-p">
                 Forrás: Facebook
            </p>
@@ -91,7 +91,7 @@ const PostJuly3 = () => {
                 Keiran Lee szerződésén sem kell meglepődnünk, hiszen már több, mint 3500 filmben szerepelt, így kimondhatjuk, hogy ez a testrésze adja a megélhetését.
             </h5>
 
-            <img width="100%" src="https://scontent.fbud5-1.fna.fbcdn.net/v/t1.0-9/165906_258848257548820_278449251_n.jpg?_nc_cat=104&_nc_sid=a61e81&_nc_ohc=XwU0uUmVkKkAX9D3O8J&_nc_ht=scontent.fbud5-1.fna&oh=a056d3b7e809df82793fed1aef65b598&oe=5F45C511"></img>
+            <img width="100%" alt="post" className="post-image" src="https://scontent.fbud5-1.fna.fbcdn.net/v/t1.0-9/98287957_132533131741742_5726789086157471744_o.jpg?_nc_cat=101&_nc_sid=110474&_nc_ohc=QKuYy9J0G9sAX96JuBF&_nc_ht=scontent.fbud5-1.fna&oh=58e2f6d6f1d62cc1d1bcff3879f6377a&oe=5F771AC9"></img>
             <p className="post-source-p">
                 Forrás: Facebook
            </p>
@@ -100,11 +100,6 @@ const PostJuly3 = () => {
                 A biztosítás csak a pénisz elvesztését fedezi, de a munkahelyi balesetet vagy a merevedési zavarokat nem.
             </h5>
 
-            <img width="100%" src="https://scontent.fbud5-1.fna.fbcdn.net/v/t1.0-9/33964690_113711632850869_4465948406455468032_n.jpg?_nc_cat=102&_nc_sid=dd9801&_nc_ohc=boCifjTUdNgAX_eD-9n&_nc_ht=scontent.fbud5-1.fna&oh=0d2dd5972387420d1c2bd52df8e822af&oe=5F474E22"></img>
-            <p className="post-source-p">
-                Forrás: Facebook
-           </p>
-
             <h5 className="post-h">
                 A színész már több, mint 4000 nővel feküdt le, ezért a Daily Star feltette neki a nagy kérdést: kivel érezte magát a legjobban?
             </h5>
@@ -112,10 +107,6 @@ const PostJuly3 = () => {
             <p className="post-p">
                 Első körben a feleségét emelte ki, aki szintén a felnőtt filmek iparában dolgozott Kirsten Price néven.
             </p>
-            <img width="100%" src="https://scontent.fbud5-1.fna.fbcdn.net/v/t1.0-9/34748236_117549679141664_8975592508805349376_n.jpg?_nc_cat=107&_nc_sid=85a577&_nc_ohc=gIwiNmM4og8AX8OeR_Z&_nc_ht=scontent.fbud5-1.fna&oh=464f77cbb27e7680b258e45628a68435&oe=5F47C7EF"></img>
-            <p className="post-source-p">
-                Forrás: Facebook
-           </p>
             <p className="post-p">
                 A filmes szerepei közül pedig az egyik Brazzers-es munkáját nevezte meg kedvenceként.<br />
                 A jelenetben Lee négy másik nővel volt, amiben egy irodavezetőt játszott, aki gyakornoki programot indít.

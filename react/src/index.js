@@ -2,10 +2,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Modal from 'react-modal';
 
 import './css/index.css';
 import * as serviceWorker from './js/serviceWorker';
 import MainContainer from './js/components/MainContainer';
 
+Modal.setAppElement('#root')
 ReactDOM.render(<MainContainer />, document.getElementById('root'));
+
 serviceWorker.unregister();

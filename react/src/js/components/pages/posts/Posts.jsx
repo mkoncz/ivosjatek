@@ -27,7 +27,7 @@ const Posts = props => {
       <h1>{props.i18n.t("nav.posts")}</h1>
 
       <a href="/p/felnottfilmes-keri-a-videoi-torleset">
-        <img src="https://instagram.fbud4-1.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/91972246_115766546750301_8183436718060852579_n.jpg?_nc_ht=instagram.fbud4-1.fna.fbcdn.net&_nc_cat=1&_nc_ohc=fWhQs2hcIxgAX8oec7m&oh=88b32a6890cff1219e3a4dec4e2d09ca&oe=5F47580B"
+        <img src="https://instagram.fbud4-1.fna.fbcdn.net/v/t51.2885-15/e35/p1080x1080/117313314_464886431139434_3748052878640087362_n.jpg?_nc_ht=instagram.fbud4-1.fna.fbcdn.net&_nc_cat=1&_nc_ohc=n_xYb40bbU0AX8IN_7L&oh=95da63349844fd36ac02ffd1fe490b82&oe=5F64F723"
           className="post-thumbnail" alt={props.i18n.t("nav.posts")} />
         <div className="post-thumbnail-title-container" >
           <h4 className="post-thumbnail-title">
@@ -37,7 +37,7 @@ const Posts = props => {
       </a>
       <div className="post-separator"></div>
       <a className="post-a" href="/p/ketrecharcos-lesz-ukrajna-legnagyobb-mellu-noje">
-        <img src="https://instagram.fbud4-1.fna.fbcdn.net/v/t51.2885-15/e35/103877492_298962061477741_2945378977191134397_n.jpg?_nc_ht=instagram.fbud4-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=Qe3_2q5STXkAX-bLSSN&oh=d2b91f5f890eff4e7fbbdedc7a046419&oe=5F47B146"
+        <img src="https://scontent.fbud5-1.fna.fbcdn.net/v/t1.0-0/cp0/e15/q65/p320x320/61822127_2448520568533903_2356604974282047488_o.jpg?_nc_cat=106&_nc_sid=85a577&_nc_ohc=XR_ZFOjHTN8AX_DgrmI&_nc_ht=scontent.fbud5-1.fna&tp=3&oh=c0081426da90f2f5cd062657db2115a2&oe=5F7866C1"
           className="post-thumbnail" alt={props.i18n.t("nav.posts")} />
         <div className="post-thumbnail-title-container" >
           <h4 className="post-thumbnail-title">
@@ -47,7 +47,7 @@ const Posts = props => {
       </a>
       <div className="post-separator"></div>
       <a className="post-a" href="/p/biztositast_kotott_a_peniszere">
-        <img src="https://instagram.fbud4-1.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/109352985_2660633004202600_6221325164259584362_n.jpg?_nc_ht=instagram.fbud4-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=sqs7AR79OqcAX8B6bDi&oh=1d4f08de9980ba8f0f1d0bbe456ae197&oe=5F49092F"
+        <img src="https://scontent.fbud5-1.fna.fbcdn.net/v/t1.0-9/91511753_103366491325073_6363818790119014400_n.jpg?_nc_cat=107&_nc_sid=85a577&_nc_ohc=aoFdlIIQmFsAX-3uhWG&_nc_ht=scontent.fbud5-1.fna&oh=a95929c8b73ee9ac61fcc98cb8bbc9e9&oe=5F77244A"
           className="post-thumbnail" alt={props.i18n.t("nav.posts")} />
         <div className="post-thumbnail-title-container" >
           <h4 className="post-thumbnail-title">
@@ -77,7 +77,7 @@ const Posts = props => {
       </a>
       <div className="post-separator"></div>
       <a className="post-a" href="/p/a-vilag-legdragabb-italai">
-        <img src="http://www.gasztromagazin.hu/wp-content/uploads/2017/12/Billionaire-Vodka-Worlds-Most-Expensive-Alcohol-2018.jpg"
+        <img src="https://www.worldstopmost.com/wp-content/uploads/2016/08/Penfolds-Ampoule-Worlds-Most-Expensive-Alcohol-2017.jpg"
           className="post-thumbnail" alt={props.i18n.t("nav.posts")} />
         <div className="post-thumbnail-title-container" >
           <h4 className="post-thumbnail-title">

@@ -22,10 +22,6 @@ import { Helmet } from "react-helmet";
  */
 export default class Sources extends Component {
 
-  constructor() {
-    super();
-  }
-
   componentDidMount() {
     this.props.reloadLanguage(this.props.currentLanguage);
   }
