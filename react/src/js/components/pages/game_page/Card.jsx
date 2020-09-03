@@ -229,7 +229,7 @@ export default class Card extends Component {
   */
   getRandomName = () => {
     let names = JSON.parse(sessionStorage.getItem("players"));
-    if (names != null && names.length != 0) {
+    if (names != null && names.length !== 0) {
       return names[Math.floor(Math.random() * names.length)];
     } else {
       return "";
