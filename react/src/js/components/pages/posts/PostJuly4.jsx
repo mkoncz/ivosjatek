@@ -102,7 +102,7 @@ const PostJuly3 = () => {
                 Az új munkáját a rajongói segítségével találta meg.
                 Tőlük hallott az OnlyFans nevű oldalról, és úgy döntött, ő maga is kipróbálja.
             </h5>
-            <img width="100%" src="https://instagram.fbud5-1.fna.fbcdn.net/v/t51.2885-15/e35/p1080x1080/85177697_611790616339729_5624231337082637946_n.jpg?_nc_ht=instagram.fbud5-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=ueVAHdKe0OIAX9Xwx3i&oh=2e967c6c5dfedd4d0168ab6174eda3ce&oe=5F530D77"></img>
+            <img width="100%" alt="post" src="https://instagram.fbud5-1.fna.fbcdn.net/v/t51.2885-15/e35/p1080x1080/85177697_611790616339729_5624231337082637946_n.jpg?_nc_ht=instagram.fbud5-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=ueVAHdKe0OIAX9Xwx3i&oh=2e967c6c5dfedd4d0168ab6174eda3ce&oe=5F530D77"></img>
             <p className="post-source-p">
                 Forrás: Instagram
            </p>
@@ -111,7 +111,7 @@ const PostJuly3 = () => {
                  A karantén időszakban sok pornós ebben találta meg az üzleti lehetőséget, mert a forgatások
                  leálltak. Renee Gracie hamar sikeres lett, így aztán rendesen kaszál a dologgal.
             </p>
-            <img width="100%" src="https://instagram.fbud5-1.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/89469910_504415236909147_3590977226518286581_n.jpg?_nc_ht=instagram.fbud5-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=AOkoXgLKxm0AX_xPaxc&oh=245f9efe584a79032f0e1e7b5fd92f59&oe=5F5396FF"></img>
+            <img width="100%" alt="post" src="https://instagram.fbud5-1.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/89469910_504415236909147_3590977226518286581_n.jpg?_nc_ht=instagram.fbud5-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=AOkoXgLKxm0AX_xPaxc&oh=245f9efe584a79032f0e1e7b5fd92f59&oe=5F5396FF"></img>
             <p className="post-source-p">
                 Forrás: Instagram
            </p>
@@ -119,7 +119,7 @@ const PostJuly3 = () => {
                 Az ausztrál lány eleinte csak meztelen képeket töltött fel az
                 oldalra, de felbuzdulva hirtelen jött népszerűségén, ma már szexvideókat is csinál.
             </h5>
-            <img width="100%" src="https://instagram.fbud5-1.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/93450510_3306145919404255_7053680524420074949_n.jpg?_nc_ht=instagram.fbud5-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=nSFuxxMpp1oAX_7glJH&oh=02a4ed6d5542aae7badf74b8fabd86fa&oe=5F51DEA2"></img>
+            <img width="100%" alt="post" src="https://instagram.fbud5-1.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/93450510_3306145919404255_7053680524420074949_n.jpg?_nc_ht=instagram.fbud5-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=nSFuxxMpp1oAX_7glJH&oh=02a4ed6d5542aae7badf74b8fabd86fa&oe=5F51DEA2"></img>
             <p className="post-source-p">
                 Forrás: Instagram
            </p>
@@ -127,7 +127,7 @@ const PostJuly3 = () => {
                 Renne a legrosszabb esetben is megkeres havi 50 ezer fontot (20 millió forintot).
             </h5>
 
-            <img width="100%" src="https://instagram.fbud5-1.fna.fbcdn.net/v/t51.2885-15/e35/p1080x1080/94721708_158839568944872_5527489680538316493_n.jpg?_nc_ht=instagram.fbud5-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=WDtY_MCm8xwAX9Po12D&oh=14c88dc80a50cb113deb3e9a26f1da21&oe=5F52D588"></img>
+            <img width="100%" alt="post" src="https://instagram.fbud5-1.fna.fbcdn.net/v/t51.2885-15/e35/p1080x1080/94721708_158839568944872_5527489680538316493_n.jpg?_nc_ht=instagram.fbud5-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=WDtY_MCm8xwAX9Po12D&oh=14c88dc80a50cb113deb3e9a26f1da21&oe=5F52D588"></img>
             <p className="post-source-p">
                 Forrás: Instagram
            </p>
@@ -148,10 +148,6 @@ const PostJuly3 = () => {
                     onFailure={() => { }}
                 />
             </div>
-
-
-
-
             <br />
             <h4 className="post-h">
                 A cikk a következő kártyákat inspirálta:
