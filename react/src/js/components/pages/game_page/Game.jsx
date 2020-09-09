@@ -11,7 +11,7 @@ import { Helmet } from "react-helmet";
 import Card from "./Card"
 
 // Import custom styles.
-import "./../../../../css/style.css";
+import "./../../../../css/pages/card.css";
 // Import animation styles.
 import "./../../../../css/animate.css";
 

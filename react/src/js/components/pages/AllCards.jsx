@@ -1,12 +1,14 @@
 // Import ReactJS module.
 import React, { Component } from "react";
 
-
 // Import React Helmet for handling <head> attributes dinamically.
 import { Helmet } from "react-helmet";
 
 // Import question resources.
 import * as questions from "./../../../locales/questions.json"
+
+// Import cards style classes.
+import "./../../../css/pages/cards.css";
 
 /**
  * All cards listed.
