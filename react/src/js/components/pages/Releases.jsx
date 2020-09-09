@@ -2,12 +2,13 @@
 import React, { Component } from "react";
 
 
+// Import React Helmet for handling <head> attributes dinamically.
+import { Helmet } from "react-helmet";
+
 // Import localized questions.
 import * as hun_note_resource from "./../../../locales/release_notes_hu.json"
 import * as en_note_resource from "./../../../locales/release_notes_en.json"
 
-// Import React Helmet for handling <head> attributes dinamically.
-import { Helmet } from "react-helmet";
 
 /**
  * Release notes of the application.

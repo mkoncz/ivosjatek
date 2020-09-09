@@ -1,6 +1,11 @@
 // Import ReactJS module.
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
+
+// Import React Helmet for handling <head> attributes dinamically.
+import { Helmet } from "react-helmet";
+
+// Import FA modules.
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faCameraRetro, faPiggyBank, faCommentDots, faCopy, faBeer, faShoppingCart,
@@ -17,9 +22,8 @@ import barBrownImageResource from "./../../../../img/sponsors_page/bar_brown.jpg
 import kingImageResource from "./../../../../img/sponsors_page/king.jpg";
 import whiskeyImageResource from "./../../../../img/sponsors_page/whiskey.jpg";
 
-
-// Import React Helmet for handling <head> attributes dinamically.
-import { Helmet } from "react-helmet";
+// Import sponsors style classes.
+import "./../../../../css/pages/sponsors.css";
 
 /**
  * Sponsors of the game.
