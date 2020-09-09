@@ -23,6 +23,9 @@ import "./../../../../css/animate.css";
  * 
  * @param {Object} props.i18n Configured i18next object. It is used for the localization.
  * @param {string} props.currentLanguage Shortened version of the language. Changing the currentLanguage property triggers an update at the language change.
+ * @param {string} props.setNewQuestion Replaces the read question with a new question.
+ * @param {string} props.currentQuestionModel.logo Logo of the current card.
+ * @param {string} props.currentQuestionModel.color Background color of the current card.
  */
 export default class Card extends Component {
 
