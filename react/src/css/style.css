@@ -216,6 +216,12 @@ a:hover {
     float: left;
 }
 
+.white-card {
+    background-color: white;
+    color: black;
+    padding-top: 5%;
+}
+
 .sponsor-cards-row {
     justify-content: center;
     padding-top: 6em;

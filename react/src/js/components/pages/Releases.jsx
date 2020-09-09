@@ -31,9 +31,8 @@ export default class Contact extends Component {
   
   // Localized list of the release notes.
   // Note entries contain a title and a list of changes.
-  
-  // Iterates and prints release notes. 
   // Listing starts from the newest entry.
+  // Iterates and prints release notes. 
   render() {
     let notes = this.props.currentLanguage === "hu" ? [...hun_note_resource.notes] : [...en_note_resource.notes];
     return (

@@ -2,6 +2,7 @@
   "404": "Not valid page. Let's go back to the home page.",
   "contact.contact": "Contact:",
 
+  "desc.cards": "All cards listed here with their localized question. The name of the player is shown as PLAYER.",
   "desc.contact": "Contains the contact details. The main communication platform is Instagram.",
   "desc.game": "Make the night unforgettable. This drinking game is a great tool to cheer up the party.",
   "desc.posts": "Various posts from the internet that inspired cards for this game. They are not always relevant to the drinking.",
@@ -26,6 +27,7 @@
   "image_alt.english": "English",
   "image_alt.hungarian": "Hungarian",
 
+  "nav.cards": "Cards",
   "nav.contact": "Contact",
   "nav.game": "Game",
   "nav.home": "Home Page",
