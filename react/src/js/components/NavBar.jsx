@@ -73,7 +73,7 @@ const NavBar = props => {
               </DropdownItem>
               <DropdownItem className="nav-dropdown-item">
                 <NavItem>
-                  <NavLink href="/rules" onClick={closeHamburger}>{props.i18n.t("nav.rules")}</NavLink>
+                  <NavLink href="/rules" onClick={closeHamburger}>{props.i18n.t("nav.cards")}</NavLink>
                 </NavItem>
               </DropdownItem>
               <DropdownItem className="nav-dropdown-item">
