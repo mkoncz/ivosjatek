@@ -1,13 +1,15 @@
 // Import ReactJS module.
 import React, { Component } from "react";
 
-// Instagram icon iamge resource.
-import instagramImageResource from "./../../../img/insta.png";
-import linkedinImageResource from "./../../../img/linkedin.png";
-
 // Import React Helmet for handling <head> attributes dinamically.
 import { Helmet } from "react-helmet";
 
+// Instagram icon image resource.
+import instagramImageResource from "./../../../img/insta.png";
+import linkedinImageResource from "./../../../img/linkedin.png";
+
+// Import contact style classes.
+import "./../../../css/pages/contact.css";
 
 /**
  * The page contains the contact e-mail address of the creator.
