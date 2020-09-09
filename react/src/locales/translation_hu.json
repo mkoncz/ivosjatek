@@ -2,6 +2,7 @@
   "404": "Nem létező webcím. Próbálkozz a főoldallal.",
   "contact.contact": "Kapcsolat:",
 
+  "desc.cards": "Minden kártya kilistázva. A kártyák fel vannak fordítva és a választott nyelven megjelennek a kérdések. ",
   "desc.contact": "Az oldal elérhetőségeit tartalmazza. Az Instagram a készítő fő kommunikációs csatornája.",
   "desc.game": "Alapozd meg az estét vagy pörgesd fel a bulit egy izgalmas online piás kártya játékkal. Ez az ivós játék garantáltan szuper lehetőség a közös szórakozásra.",
   "desc.posts": "Cikkek az internet világából, amelyek bizonyos kártyákat inspiráltak a játékhoz.",
@@ -26,6 +27,7 @@
   "image_alt.english": "Angol",
   "image_alt.hungarian": "Magyar",
 
+  "nav.cards": "Kártyák",
   "nav.contact": "Kapcsolat",
   "nav.game": "Játék",
   "nav.home": "HÚZZ EGY LAPOT",
