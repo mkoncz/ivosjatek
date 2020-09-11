@@ -23,6 +23,7 @@ import PostJuly3 from "./pages/posts/PostJuly3";
 import PostJuly4 from "./pages/posts/PostJuly4";
 import PostAug from "./pages/posts/PostAug";
 import PostAug2 from "./pages/posts/PostAug2";
+import PostSept1 from "./pages/posts/PostSept1";
 
 // Import module that redirects http requests to https.
 import HttpsRedirect from "react-https-redirect";
@@ -187,6 +188,9 @@ export default class MainContainer extends Component {
             </Route>
             <Route path="/p/megvettek-mia-khalifa-szemuveget">
               <PostAug />
+            </Route>
+            <Route path="/p/ukran-pizza-reklam">
+              <PostSept1 />
             </Route>
             <Route path="/p">
               <Posts
