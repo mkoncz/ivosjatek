@@ -4,6 +4,10 @@ import React from "react";
 // Import React Helmet for handling <head> attributes dinamically.
 import { Helmet } from "react-helmet";
 
+// Import post style classes.
+import "./../../../../css/pages/posts.css";
+
+
 /**
  * The page contains the list of posts.
  * 

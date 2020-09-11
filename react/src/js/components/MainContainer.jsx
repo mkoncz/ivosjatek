@@ -36,6 +36,8 @@ import Cookies from "universal-cookie";
 // Import React Helmet for handling <head> attributes dinamically.
 import { Helmet } from "react-helmet";
 
+// Import common style classes.
+import "./../../css/common.css";
 
 /**
  * The main container of the page.

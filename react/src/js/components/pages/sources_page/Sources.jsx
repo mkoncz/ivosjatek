@@ -1,6 +1,8 @@
 // Import ReactJS module.
 import React, { Component } from "react";
 
+// Import React Helmet for handling <head> attributes dinamically.
+import { Helmet } from "react-helmet";
 
 // Import Source component.
 import SourceDetail from "./SourceDetail";
@@ -8,9 +10,8 @@ import SourceDetail from "./SourceDetail";
 // Import GitHub logo.
 import githubImageResource from "./../../../../img/github_logo.png";
 
-
-// Import React Helmet for handling <head> attributes dinamically.
-import { Helmet } from "react-helmet";
+// Import sources style classes.
+import "./../../../../css/pages/sources.css";
 
 /**
  * The page contains the list of used sources.
@@ -36,7 +37,7 @@ export default class Sources extends Component {
           <link rel="canonical" href={`https://ivosjatek.hu/${this.props.currentLanguage === "en" ? "en/" : ""}sources`} />
           <meta name="twitter:title" content={`${this.props.i18n.t("nav.sources")}`} />
           <meta name="twitter:description" content={this.props.i18n.t("desc.sources")} />
-          <meta property="og:type" content="website"/>
+          <meta property="og:type" content="website" />
           <meta property="og:url" content={`https://ivosjatek.hu/${this.props.currentLanguage === "en" ? "en/" : ""}sources`} />
           <meta property="og:title" content={`${this.props.i18n.t("nav.sources")} | ${this.props.i18n.t("nav.title")}`} />
           <meta property="og:description" content={this.props.i18n.t("desc.sources")} />
@@ -137,7 +138,7 @@ export default class Sources extends Component {
           <br />
           <br />
           <a href="/p">
-            <p>Cikkek</p>
+            <p>{this.props.i18n.t("nav.posts")}</p>
           </a>
         </div>
       </div>

@@ -1,21 +1,14 @@
 // Import React modules.
 import React, { Component } from "react"
 
-
 // Import module for cookie handling.
 import Cookies from "universal-cookie";
 
-// Import adult logo.
-import adult_logo from "./../../../../img/18.png";
-
+// Import CardBack component.
 import CardBack from "./CardBack"
 
-// Import custom styles.
-import "./../../../../css/style.css";
-// Import animation styles.
-import "./../../../../css/animate.css";
-
-
+// Import adult logo.
+import adult_logo from "./../../../../img/18.png";
 
 
 /**
@@ -39,8 +32,18 @@ export default class Card extends Component {
       name: this.getRandomName()
     };
 
-    this.inputs = [this.input1, this.input2, this.input3, this.input4, this.input5,
-    this.input6, this.input7, this.input8, this.input9, this.input10];
+    this.inputs = [
+      this.input1, 
+      this.input2, 
+      this.input3, 
+      this.input4, 
+      this.input5,
+      this.input6, 
+      this.input7, 
+      this.input8, 
+      this.input9, 
+      this.input10
+    ];
 
     this.inputs = this.inputs.map((item) => {
       return React.createRef();
@@ -65,24 +68,33 @@ export default class Card extends Component {
 
   render() {
 
+    // Set default value of specialCard to false.
+    // Special cards are the "age check card" and the "players names card". 
     let specialCard = false;
     let content;
 
-    var logo = "cocktail.svg";
+    // Set default logo.
+    var logo = "cocktail.svg"; 
+    // Set default background color.
     let bgColor = "#d3f42f";
 
+    // If the game does not asked about age in this session, it creates an "age check card".
     if (null == sessionStorage.getItem("isAdult")) {
       content = this.createAgeCheckCard();
       specialCard = true;
-    } else if (null == sessionStorage.getItem("players") || sessionStorage.getItem("players").length === 0) {
+    // If the game does not asked about player names, it creates an "player names card".
+  } else if (null == sessionStorage.getItem("players") || sessionStorage.getItem("players").length === 0) {
       content = this.createPlayerSelectorCard();
       specialCard = true;
     }
     else {
+      // The %NAME% wildcard is replaced with a random user's name.
       content = this.props.currentQuestionModel[this.props.currentLanguage].replace("%NAME%", this.state.name);
+      // If the current question has a sporsor, the logo is overridden.
       if (this.props.currentQuestionModel.logo !== "") {
         logo = this.props.currentQuestionModel.logo;
       }
+      // If the current question has a sporsor, the background color is overridden.
       if (this.props.currentQuestionModel.color !== "") {
         bgColor = this.props.currentQuestionModel.color;
       }

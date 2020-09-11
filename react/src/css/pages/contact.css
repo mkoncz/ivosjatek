@@ -1,0 +1,16 @@
+.insta-icon {
+    height: 3em;
+    margin-bottom: 0.3em;
+    margin-left: 0.3em;
+    margin-right: 0.2em;
+}
+
+.linkedin-contact-icon {
+    height: 3.5em;
+    margin-bottom: 0.3em;
+}
+
+.insta-ref,
+.github-ref {
+    color: rgba(255, 255, 255, .5)
+}

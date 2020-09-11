@@ -20,6 +20,10 @@ import {
 import hu_logo from "./../../img/hu_flag.png"; // https://www.flickr.com/photos/80497449@N04/7378164364
 import en_logo from "./../../img/en_flag.png"; // https://www.publicdomainpictures.net/hu/view-image.php?image=136202
 
+// Import navbar style classes.
+import "./../../css/navbar.css";
+
+
 /**
  * List of the rules.
  * 

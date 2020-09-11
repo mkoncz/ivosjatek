@@ -1,0 +1,87 @@
+.post-modal {
+    top: '50%';
+    left: '50%';
+    right: 'auto';
+    bottom: 'auto';
+    margin-right: '-50%';
+    transform: 'translate(-50%, -50%)';
+    background-color: "#000";
+    text-align: "center";
+}
+
+.post-image {
+    width: 100%;
+    max-width: 500px;
+}
+
+.post-thumbnail {
+    width: 50%;
+    max-width: 200px;
+    float: left;
+}
+
+.post-thumbnail-title-container {
+    width: 50%;
+    margin-left: 20px;
+    float: left;
+}
+
+.post-thumbnail-title {
+    width: 50%;
+}
+
+.post-link {
+    clear: both;
+}
+
+.post-card {
+    background-color: white;
+    color: black;
+    width: 240px;
+    height: 340px;
+    text-align: center;
+    border-radius: 7px;
+    margin: 15px;
+}
+
+.post-card-text {
+    color: black;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+    top: 20%;
+}
+
+.post-p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+
+.post-source-p{
+    margin-top: 3px;
+    margin-bottom: 20px;
+} 
+
+.post-h{
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+
+.post-social-media {
+    width: 85% !important;
+}
+
+.post-separator{
+    clear: left;
+} 
+
+.post-card-big {
+    background-color: white;
+    color: black;
+    width: 320px;
+    height: 480px;
+    text-align: center;
+    border-radius: 7px;
+    margin: 15px;
+}

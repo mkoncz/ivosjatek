@@ -1,6 +1,9 @@
 // Import ReactJS module.
 import React, { Component } from "react";
 
+// Import 404 style classes.
+import "./../../../css/pages/404.css";
+
 /**
  * 404 page
  */

@@ -1,27 +1,19 @@
-// Import React module.
+// Import React modules.
 import React from "react";
 import Modal from 'react-modal';
 
 // Import React Helmet for handling <head> attributes dinamically.
 import { Helmet } from "react-helmet";
+
 // Import Instagram Embed tool.
 import InstagramEmbed from "react-instagram-embed";
 
+// Import adult logo.
 import adult_logo from "./../../../../img/18.png";
 
+// Import post style classes.
+import "./../../../../css/pages/posts.css";
 
-const customStyles = {
-    content: {
-        top: '50%',
-        left: '50%',
-        right: 'auto',
-        bottom: 'auto',
-        marginRight: '-50%',
-        transform: 'translate(-50%, -50%)',
-        backgroundColor: "#000",
-        textAlign: "center"
-    }
-};
 
 /**
  * The page contains a post.
@@ -48,7 +40,7 @@ const PostAug = () => {
             <Modal
                 isOpen={modalIsOpen}
                 onRequestClose={() => { setIsOpen(false) }}
-                style={customStyles}
+                style="post-modal"
                 contentLabel="18 éves"
             >
                 <div className="post-card-big">

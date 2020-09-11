@@ -1,0 +1,201 @@
+/****** SPONSORS  ****/
+
+.sponsors-container {
+    background-color: #1a1a1a !important;
+    color: rgba(255, 255, 255, .55);
+}
+
+.sponsors-container a,
+.sponsors-container a:visited {
+    color: rgba(255, 255, 255, .55);
+}
+
+.sponsors-how-row {
+    text-align: center;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsors-100-beers-row,
+.owner-contact-me-row {
+    text-align: center;
+    height: 25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsors-100-beers-row div,
+.owner-contact-me-row div {
+    font-size: 3em;
+}
+
+.sponsors-why-row {
+    text-align: center;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsors-how-row div,
+.sponsors-why-row div,
+.owner-why-row div,
+.current-sponsors-row div {
+    font-size: 5em;
+}
+
+.sponsors-why-logos-row {
+    text-align: center;
+    padding: 2em;
+    font-size: 1em;
+    height: auto;
+    padding: 6em 6em 6em 6em;
+}
+
+.sponsor-logos {
+    font-size: 4em;
+}
+
+.sponsor-reason {
+    padding: 2.5em;
+}
+
+.owner-how-row {
+    text-align: center;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.owner-how-row div {
+    font-size: 4em;
+}
+
+.owner-why-row {
+    text-align: center;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.current-sponsors-row {
+    text-align: center;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsors-container .background-layout-spacer {
+    width: 100%;
+}
+
+.sponsors-container .absolute-position {
+    position: absolute;
+}
+
+
+.sponsor-card {
+    width: 240px;
+    height: 340px;
+    text-align: center;
+    border-radius: 7px;
+    margin: 15px;
+    float: left;
+}
+
+.sponsor-cards-row {
+    justify-content: center;
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+.sponsor-card.cobbler,
+.back.cobbler {
+    background-color: black;
+    /* border and box-shadow is same as default */
+}
+
+.sponsor-card.viztorony,
+.back.viztorony {
+    background-color: #415854;
+    border: 1px solid #415854;
+    box-shadow: 0 -2px 10px #415854;
+}
+
+.sponsor-card.peakybarbers,
+.back.peakybarbers {
+    background-color: #060604;
+    border: 1px solid #060604;
+    box-shadow: 0 -2px 10px #060604;
+}
+
+.sponsor-card img {
+    width: 65%;
+    padding-top: 23%;
+}
+
+.sponsor-cards {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1190px) {
+
+    .sponsors-100-beers-row,
+    .owner-contact-me-row {
+        height: 15em;
+    }
+
+    .sponsors-100-beers-row div,
+    .owner-contact-me-row div {
+        font-size: 6vw;
+    }
+
+    .sponsors-how-row div,
+    .sponsors-why-row div,
+    .owner-why-row div,
+    .owner-how-row div,
+    .current-sponsors-row div {
+        font-size: 8vw;
+    }
+
+    .sponsors-why-logos-row {
+        padding: 2em;
+        font-size: 1em;
+        height: auto;
+    }
+
+    .sponsor-logos {
+        font-size: 4em;
+    }
+
+    .sponsor-reason {
+        padding: 2em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .sponsors-how-row,
+    .sponsors-why-row,
+    .owner-how-row,
+    .owner-why-row,
+    .current-sponsors-row {
+        height: 15em;
+        overflow: hidden;
+    }
+
+    .background-layout-spacer {
+        width: auto;
+        height: 100%;
+    }
+
+}
