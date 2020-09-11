@@ -71,11 +71,20 @@ const Posts = props => {
       </a>
       <div className="post-separator"></div>
       <a className="post-a" href="/p/megvettek-mia-khalifa-szemuveget">
-        <img src="https://instagram.fbud4-1.fna.fbcdn.net/v/t51.2885-15/e35/p1080x1080/117313314_464886431139434_3748052878640087362_n.jpg?_nc_ht=instagram.fbud4-1.fna.fbcdn.net&_nc_cat=1&_nc_ohc=n_xYb40bbU0AX8IN_7L&oh=95da63349844fd36ac02ffd1fe490b82&oe=5F64F723"
+        <img src="https://i.kym-cdn.com/entries/icons/mobile/000/024/210/mia.jpg"
           className="post-thumbnail" alt={props.i18n.t("nav.posts")} />
         <div className="post-thumbnail-title-container" >
           <h4 className="post-thumbnail-title">
             Elárverezte szemüvegét az expornós Mia Khalifa – a befolyt összeget jótékony célra ajánlotta
+          </h4>
+        </div>
+      </a>
+      <a className="post-a" href="/p/ukran-pizza-reklam">
+        <img src="https://i.kym-cdn.com/photos/images/newsfeed/001/449/412/c10.jpg"
+          className="post-thumbnail" alt={props.i18n.t("nav.posts")} />
+        <div className="post-thumbnail-title-container" >
+          <h4 className="post-thumbnail-title">
+              Ukrán pizza reklám készült a mémmé Piper Perri film mintájára. Erre ki tennétek a 18-as karikát?
           </h4>
         </div>
       </a>
