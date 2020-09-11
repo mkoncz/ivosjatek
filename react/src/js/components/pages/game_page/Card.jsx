@@ -89,7 +89,7 @@ export default class Card extends Component {
     }
     else {
       // The %NAME% wildcard is replaced with a random user's name.
-      content = this.props.currentQuestionModel[this.props.currentLanguage].replace("%NAME%", this.state.name);
+      content = this.props.currentQuestionModel[this.props.currentLanguage].replace("%NAME%", this.state.name===""?this.getRandomName():this.state.name);
       // If the current question has a sporsor, the logo is overridden.
       if (this.props.currentQuestionModel.logo !== "") {
         logo = this.props.currentQuestionModel.logo;
@@ -127,14 +127,17 @@ export default class Card extends Component {
    * Uses the animations of the animate.css.
    */
   replaceCard = (newQuestion) => {
-
+    
+    if (newQuestion || newQuestion == null) {
+      this.props.setNewQuestion();
+    }
     // Bounces out the current card.
     setTimeout(() => {
       this.setState({
         flipClasses: "active animated bounceOutRight"
       });
     }, 25);
-
+    
     // Bounces in the new card.
     setTimeout(() => {
       this.setState({
@@ -142,10 +145,6 @@ export default class Card extends Component {
         name: this.getRandomName()
       });
     }, 450);
-
-    if (newQuestion || newQuestion == null) {
-      this.props.setNewQuestion();
-    }
   };
 
   /**
