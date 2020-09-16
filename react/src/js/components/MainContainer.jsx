@@ -32,6 +32,7 @@ import { Helmet } from "react-helmet";
 
 // Import common style classes.
 import "./../../css/common.css";
+import DrinkingGames from "./pages/drinking-games/DrinkingGames";
 
 /**
  * The main container of the page.
@@ -116,6 +117,12 @@ export default class MainContainer extends Component {
                 reloadLanguage={this.reloadLanguage}
               />
             </Route>
+            <Route path={["/games", "/hu/games", "/games/:game"]}>
+              <DrinkingGames
+                i18n={i18n}
+                currentLanguage={this.state.currentLanguage}
+              />
+            </Route>
             <Route path="/en/contact">
               <Contact
                 i18n={i18n}
@@ -144,8 +151,15 @@ export default class MainContainer extends Component {
                 reloadLanguage={this.reloadLanguage}
               />
             </Route>
-            <Route path="/en/cards">
+            <Route path="/en/games">
               <AllCards
+                i18n={i18n}
+                currentLanguage="en"
+                reloadLanguage={this.reloadLanguage}
+              />
+            </Route>
+            <Route path="/en/cards">
+              <DrinkingGames
                 i18n={i18n}
                 currentLanguage="en"
                 reloadLanguage={this.reloadLanguage}
@@ -165,7 +179,10 @@ export default class MainContainer extends Component {
             </Route>
             { /* SEO */}
             <Route path={["/p", "/p/:post"]}>
-              <Posts i18n={i18n} />
+              <Posts 
+                i18n={i18n} 
+                currentLanguage={this.state.currentLanguage}
+              />
             </Route>
             { /* END SEO */}
             <Route path={["/", "/hu"]}>
