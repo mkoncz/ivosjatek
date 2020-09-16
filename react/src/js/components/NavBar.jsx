@@ -85,6 +85,11 @@ const NavBar = props => {
                   <NavLink href="/rules" onClick={closeHamburger}>{props.i18n.t("nav.rules")}</NavLink>
                 </NavItem>
               </DropdownItem>
+              <DropdownItem className="nav-dropdown-item">
+                <NavItem>
+                  <NavLink href="/games" onClick={closeHamburger}>{props.i18n.t("nav.games")}</NavLink>
+                </NavItem>
+              </DropdownItem>
             </DropdownMenu>
           </Dropdown>
           <NavItem>
