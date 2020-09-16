@@ -3,8 +3,8 @@
     [
       {
         "type": "meta",
-        "slug": "Kings-Cup",
-        "img": "https://images.pexels.com/photos/189528/pexels-photo-189528.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "slug": "kings-cup",
+        "img": "https://images.pexels.com/photos/189528/pexels-photo-189528.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=260",
         "title": "Kings Cup",
         "desc": "Kings Cup"
       },
@@ -30,8 +30,8 @@
     [
       {
         "type": "meta",
-        "slug": "Thumper",
-        "img": "https://images.pexels.com/photos/4124314/pexels-photo-4124314.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "slug": "thumper",
+        "img": "https://images.pexels.com/photos/4124314/pexels-photo-4124314.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=260",
         "title": "Thumper",
         "desc": "Thumper"
       },
@@ -57,8 +57,8 @@
     [
       {
         "type": "meta",
-        "slug": "Rezzenestelen-arc",
-        "img": "https://images.pexels.com/photos/326576/pexels-photo-326576.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "slug": "rezzenestelen-arc",
+        "img": "https://images.pexels.com/photos/326576/pexels-photo-326576.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=260",
         "title": "Rezzenéstelen arc",
         "desc": "Rezzenéstelen arc"
       },
@@ -84,7 +84,7 @@
     [
       {
         "type": "meta",
-        "slug": "Flip-Cup",
+        "slug": "flip-cup",
         "img": "https://images.pexels.com/photos/544988/pexels-photo-544988.jpeg?cs=srgb&dl=pexels-burst-544988.jpg&fm=jpg",
         "title": "Flip Cup",
         "desc": "Flip Cup"
@@ -111,8 +111,8 @@
     [
       {
         "type": "meta",
-        "slug": "Bumm",
-        "img": "https://images.pexels.com/photos/1061136/pexels-photo-1061136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "slug": "bumm",
+        "img": "https://images.pexels.com/photos/1061136/pexels-photo-1061136.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=260",
         "title": "Bumm",
         "desc": "Bumm"
       },
@@ -133,6 +133,320 @@
       {
         "type": "img",
         "url": "https://images.pexels.com/photos/1061136/pexels-photo-1061136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      }
+    ],
+    [
+      {
+        "type": "meta",
+        "slug": "legvaloszinubb",
+        "img": "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=260",
+        "title": "Legvalószínűbb",
+        "desc": "Legvalószínűbb"
+      },
+      {
+        "type": "header",
+        "level": 1,
+        "text": "Legvalószínűbb"
+      },
+      {
+        "type": "header",
+        "level": 5,
+        "text": "Ami kell hozzá: italok"
+      },
+      {
+        "type": "par",
+        "text": "A játékosok körben ülnek és feltesznek egy 'legvalószínűbb' kérdést. Például: 'Ki a legvalószínűbb, hogy elbújna idegenek elől?' Ezután háromra mindenki arra a személyre mutat, aki szerinte a legvalószínűbb. Akire a legtöbben mutatnak, az iszik és annyit, ahányan mutattak rá."
+      },
+      {
+        "type": "img",
+        "url": "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      }
+    ],
+    [
+      {
+        "type": "meta",
+        "slug": "vedd-fel-a-taskat",
+        "img": "https://images.pexels.com/photos/1666067/pexels-photo-1666067.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=260",
+        "title": "Vedd fel a táskát",
+        "desc": "Vedd fel a táskát"
+      },
+      {
+        "type": "header",
+        "level": 1,
+        "text": "Vedd fel a táskát"
+      },
+      {
+        "type": "header",
+        "level": 5,
+        "text": "Ami kell hozzá: italok, papírtáska"
+      },
+      {
+        "type": "par",
+        "text": " Ez egy nagyon szórakoztató játék, akár már ezen a hétvégén kipróbálhatjátok. Tegyetek egy papírtáskát a földre, majd próbáljátok felvenni. Na de hol a csavar? Csak a szátokat használhatjátok hozzá, semmi mást. Akinek nem sikerül felvenni a táskát, iszik."
+      },
+      {
+        "type": "img",
+        "url": "https://images.pexels.com/photos/1666067/pexels-photo-1666067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      }
+    ],
+    [
+      {
+        "type": "meta",
+        "slug": "ivos-jenga",
+        "img": "https://images.pexels.com/photos/4009761/pexels-photo-4009761.jpeg?auto=compress&cs=tinysrgb&dpr=3&w=260",
+        "title": "Ivós Jenga",
+        "desc": "Ivós Jenga"
+      },
+      {
+        "type": "header",
+        "level": 1,
+        "text": "Ivós Jenga"
+      },
+      {
+        "type": "header",
+        "level": 5,
+        "text": "Ami kell hozzá: italok, Jenga"
+      },
+      {
+        "type": "par",
+        "text": " A részeg Jenga olyan, mint a normál Jenga, de vicces és őrült kihívásokkal, amelyek a Jenga fakockákon szerepelnek. Miután felépítettétek a tornyot, húzzatok ki sorban egy-egy kockát, majd helyezzétek a tetejére, ezután pedig teljesítsétek az adott kockán lévő kihívást. Ha a torony összedől, a kihívást duplán kell teljesíteni. Írhattok a fadarabokra ti is, vagy vásároljatok ivós-jengát."
+      },
+      {
+        "type": "par",
+        "text": "Próbálj meg kihúzni egyet és reménykedj"
+      },
+      {
+        "type": "par",
+        "text": "Ez a játék az előbbire nagyon hasonlít. A különbség csak annyi, hogy jenga elemekre kell az utasításokat felírni és értelemszerűen a kihúzott darabkán lévő szabály érvényesül. Na de mi van, ha ledöntöd az egész tornyot? Hát, reménykedj, hogy kevés italod maradt, mert mindet meg kell innod, mielőtt a következő kör elkezdődik."
+      },
+      {
+        "type": "img",
+        "url": "https://images.pexels.com/photos/4009761/pexels-photo-4009761.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+      }
+    ],
+    [
+      {
+        "type": "meta",
+        "slug": "osszeragadva",
+        "img": "https://images.pexels.com/photos/1671217/pexels-photo-1671217.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=260",
+        "title": "Összeragadva",
+        "desc": "Összeragadva"
+      },
+      {
+        "type": "header",
+        "level": 1,
+        "text": "Összeragadva"
+      },
+      {
+        "type": "header",
+        "level": 5,
+        "text": "Ez a játék szó szerint közelebb hoz titeket."
+      },
+      {
+        "type": "par",
+        "text": "Kettesével vagytok párban, és úgy kell végrehajtanotok bizonyos feladatokat, hogy egy-egy testrészetek össze van kötve. Ha ez nem sikerül, akkor bizony mindketten isztok."
+      },
+      {
+        "type": "img",
+        "url": "https://images.pexels.com/photos/1671217/pexels-photo-1671217.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      }
+    ],
+    [
+      {
+        "type": "meta",
+        "slug": "en-meg-soha",
+        "img": "https://images.pexels.com/photos/5842/people-vintage-photo-memories.jpg?auto=compress&cs=tinysrgb&dpr=2&w=260",
+        "title": "Én még soha",
+        "desc": "Én még soha"
+      },
+      {
+        "type": "header",
+        "level": 1,
+        "text": "Én még soha"
+      },
+      {
+        "type": "header",
+        "level": 5,
+        "text": "Ami kell hozzá: italok"
+      },
+      {
+        "type": "par",
+        "text": " Az én még soha nem játék nagyszerű lehetőség arra, hogy megismerhesd a barátaid titkait. Ossz meg valamit a többiekkel, amit még soha nem tettél meg. Ha valaki megtette a jelen lévők közül, neki innia kell. Például, ha azt mondod: 'engem még soha nem igazoltattak', akkor mindazok, akiket már igen, isznak. A legfontosabb, hogy a barátaid elismerjék a ciki sztorikat is, így gondold meg, mit mondasz."
+      },
+      {
+        "type": "img",
+        "url": "https://images.pexels.com/photos/5842/people-vintage-photo-memories.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      }
+    ],
+    [
+      {
+        "type": "meta",
+        "slug": "sorpong",
+        "img": "https://user-images.githubusercontent.com/10238687/92872629-81a0c680-f406-11ea-941d-dbd2a1bacd37.jpg",
+        "title": "Sör –és fröccspong",
+        "desc": "Sör –és fröccspong"
+      },
+      {
+        "type": "header",
+        "level": 1,
+        "text": "Sör –és fröccspong"
+      },
+      {
+        "type": "header",
+        "level": 5,
+        "text": "Egyszerűek a szabályok és a játék is."
+      },
+      {
+        "type": "par",
+        "text": "Két csapat játszik egymás ellen, a lényeg, hogy az ellenfél poharába beledobj egy pingponglabdát, és ha ez sikerült, meg kell inniuk a pohár tartalmát. Két fajta szituációban jobb ez a játék, mint az átlagos sörpong. Ha valaki nem szereti a sört, az is nyugodtan játszhat és ha keverjük a piát, hamarabb beüthet a bódulás & ájulás. Ha a labda visszapattan a ti térfeletekre, újra dobhattok, viszont arra ügyeljetek, hogy mindig legyen a közelben egy pohár víz, amit a labda öblítésére szántok. Elég kellemetlen tud lenni, amikor a hideg sört kortyolva egy hajszál ölelgeti a nyelvcsapodat, meg amúgy is, sokkal higiénikusabb így. A poharak elrendezése ugyanaz, mint a sörpongnál, viszont a fröccs és a sör aránya csakis rajtatok áll."
+      },
+      {
+        "type": "img",
+        "url": "https://images.pexels.com/photos/544988/pexels-photo-544988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      },
+      {
+        "type": "img",
+        "url": "https://user-images.githubusercontent.com/10238687/92872629-81a0c680-f406-11ea-941d-dbd2a1bacd37.jpg"
+      }
+    ],
+    [
+      {
+        "type": "meta",
+        "slug": "t-rex",
+        "img": "https://images.pexels.com/photos/3689634/pexels-photo-3689634.jpeg?auto=compress&cs=tinysrgb&dpr=2&&w=260",
+        "title": "T-Rex",
+        "desc": "T-Rex"
+      },
+      {
+        "type": "header",
+        "level": 1,
+        "text": "T-Rex"
+      },
+      {
+        "type": "header",
+        "level": 5,
+        "text": " egy egész éjszakán át tartó, nagyon idegesítő játék"
+      },
+      {
+        "type": "par",
+        "text": "Mindig amikor iszol, a könyöködet az oldaladhoz kell szorítanod, mint egy T-Rex, ha ezt elfelejted és nem tudod (vagy akarod) elsunnyogni, újra innod kell."
+      },
+      {
+        "type": "img",
+        "url": "https://images.pexels.com/photos/3689634/pexels-photo-3689634.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      }
+    ],
+    [
+      {
+        "type": "meta",
+        "slug": "halal-kor",
+        "img": "https://images.pexels.com/photos/209620/pexels-photo-209620.jpeg?cs=srgb&dl=pexels-pixabay-209620.jpg&fm=jpg",
+        "title": "A Halálkör",
+        "desc": "A Halálkör"
+      },
+      {
+        "type": "header",
+        "level": 1,
+        "text": "A Halálkör"
+      },
+      {
+        "type": "header",
+        "level": 5,
+        "text": "A Halálkör az egyik legegyszerűbb itatós kártyajáték: "
+      },
+      {
+        "type": "par",
+        "text": "Bizonyos laptípusoknál bizonyos csoportok isznak (pl. pirosnál a lapot húzó, hetesnél a férfiak, nyolcasnál a nők stb.). Kilencesnél egy szót kell bemondani, és mindenkinek kell rá mondani egy rímet. Aki nem tud, iszik."
+      },
+      {
+        "type": "img",
+        "url": "https://images.pexels.com/photos/209620/pexels-photo-209620.jpeg?cs=srgb&dl=pexels-pixabay-209620.jpg&fm=jpg"
+      }
+    ],
+    [
+      {
+        "type": "meta",
+        "slug": "huzz-egyet-remenykedj",
+        "img": "https://images.pexels.com/photos/1236730/pexels-photo-1236730.jpeg?cs=srgb&dl=pexels-leo-cardelli-1236730.jpg&fm=jpg",
+        "title": "Húzz egyet és reménykedj",
+        "desc": "Húzz egyet és reménykedj"
+      },
+      {
+        "type": "header",
+        "level": 1,
+        "text": "Húzz egyet és reménykedj"
+      },
+      {
+        "type": "header",
+        "level": 5,
+        "text": "A Halálkör az egyik legegyszerűbb itatós kártyajáték: "
+      },
+      {
+        "type": "par",
+        "text": "Ehhez a játékhoz nem kell más, csak egy pakli kártya, haverok és pia. Keverjétek meg a paklit alaposan, és már kezdődhet is a játék. Minden körben sorban húztok egy-egy lapot, és a lapnak tulajdonított feladat érvényesül: (A játékban szereplő lapok: 7, 8, 9, 10, J, Q, K, A)"
+      },
+      {
+        "type": "par",
+        "text": "7 - Csak te iszol"
+      },
+      {
+        "type": "par",
+        "text": "8: Csak a fiúk isznak"
+      },
+      {
+        "type": "par",
+        "text": "9: Csak a lányok isznak"
+      },
+      {
+        "type": "par",
+        "text": "10: Mindenki iszik"
+      },
+      {
+        "type": "par",
+        "text": "J: Akik melletted ülnek, isznak"
+      },
+      {
+        "type": "par",
+        "text": "Q: Kijelölhetsz valakit, aki igyon"
+      },
+      {
+        "type": "par",
+        "text": "K: Ez a legizgalmasabb lap. Kijelölhetsz valakit, hogy minden alkalommal, amikor neked innod kell, ő is igyon. Ez az áldás (vagy átok) addig tart, amíg a pakli összes lapját el nem használjátok."
+      },
+      {
+        "type": "par",
+        "text": "A: Válassz egyet a lapok funkciói közül (kivéve: K)"
+      },
+      {
+        "type": "img",
+        "url": "https://images.pexels.com/photos/1236730/pexels-photo-1236730.jpeg?cs=srgb&dl=pexels-leo-cardelli-1236730.jpg&fm=jpg"
+      }
+    ],
+    [
+      {
+        "type": "meta",
+        "slug": "bottle-can",
+        "img": "https://images.pexels.com/photos/1003103/pexels-photo-1003103.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=260",
+        "title": "Bottle-Can",
+        "desc": "Bottle-Can "
+      },
+      {
+        "type": "header",
+        "level": 1,
+        "text": "Bottle-Can"
+      },
+      {
+        "type": "header",
+        "level": 5,
+        "text": "Nagy társasággal érdemes játszani ezt a számolós játékot. "
+      },
+      {
+        "type": "par",
+        "text": "A szabály a következő: minden játékos az óramutató járásával megegyező irányban elkezd felfele számolni: egy, kettő, három, négy... azonban az ötös és a hetes szám helyett egy-egy előre meghatározott szót kell mondani. Én külföldiektől úgy tanultam, hogy az ötöst a “Bottle” a hetest pedig a “Can” szóval helyettesítjük, de a hazai hagyományoknak megfelelően nehezebben kimondható, de azért rövid szavakat használjunk, mint a hajolaj vagy a dzsibuti. Az ötös helyett tehát hajolajat mondunk, a hetes helyett pedig dzsibutit és így számolunk felfele."
+      },
+      {
+        "type": "img",
+        "url": "https://images.pexels.com/photos/1003103/pexels-photo-1003103.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
       }
     ]
   ]
