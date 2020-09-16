@@ -12,7 +12,8 @@ import "./../../../../css/pages/posts.css";
 import adult_logo from "./../../../../img/18.png";
 
 // Import post content
-import * as posts_objects from "./../../../../locales/posts_hu.json"
+import * as posts_objects_hu from "./../../../../locales/posts_hu.json"
+import * as posts_objects_en from "./../../../../locales/posts_en.json"
 
 
 import Post from "./Post"
@@ -27,19 +28,19 @@ const Posts = props => {
   const [modalIsOpen, setIsOpen] = React.useState(true);
 
   const postModalStyle = {
-      content: {
-          top: '50%',
-          left: '50%',
-          right: 'auto',
-          bottom: 'auto',
-          marginRight: '-50%',
-          transform: 'translate(-50%, -50%)',
-          backgroundColor: "#000",
-          textAlign: "center"
-      }
+    content: {
+      top: '50%',
+      left: '50%',
+      right: 'auto',
+      bottom: 'auto',
+      marginRight: '-50%',
+      transform: 'translate(-50%, -50%)',
+      backgroundColor: "#000",
+      textAlign: "center"
+    }
   }
 
-  let posts = posts_objects.default.all_posts;
+  let posts = props.currentLanguage === "hu" ? posts_objects_hu.default.all_posts : posts_objects_en.default.all_posts;
 
   for (var i = posts.length - 1; i > 0; i--) {
     var j = Math.floor(Math.random() * (i + 1));
@@ -63,7 +64,7 @@ const Posts = props => {
     return post;
   }
 
-  // Returns the opened post
+  // Returns the thumbnail of all posts
   const getAllThumbs = () => {
     return posts.map(element => {
       return (
@@ -101,14 +102,14 @@ const Posts = props => {
           <div className="pre-card">
             <img className="adult_logo" src={adult_logo} alt="18" />
             <div className="question_block">
-              <h5>Kérhetnék egy személyit?</h5>
-              <p>Az ivosjatek.hu 18 éven felülieknek készült.</p>
+              <h5>{props.i18n.t("game.age_check_1")}</h5>
+              <p>{props.i18n.t("game.age_check_v2")}</p>
             </div>
             <button
               className="btn btn-warning btn-lg"
               onClick={() => { setIsOpen(false) }}>
-              Felnőtt vagyok
-                        </button>
+              {props.i18n.t("game.age_check_button")}
+            </button>
           </div>
         </div>
       </Modal>
