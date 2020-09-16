@@ -2,7 +2,7 @@
 import React, { Component } from "react"
 
 // Import question resources.
-import * as questions from "./../../../../locales/questions.json"
+import * as questions from "../../../../locales/questions.json"
 
 // Import React Helmet for handling <head> attributes dinamically.
 import { Helmet } from "react-helmet";
@@ -50,12 +50,6 @@ export default class Game extends Component {
           <title>{this.props.i18n.t("nav.home")} | {this.props.i18n.t("nav.title")}</title>
           <meta name="description" content={this.props.i18n.t("desc.game")} />
           <link rel="canonical" href={`https://ivosjatek.hu/${this.props.currentLanguage === "en" ? "en" : ""}`} />
-          <meta name="twitter:title" content={`${this.props.i18n.t("nav.home")}`} />
-          <meta name="twitter:description" content={this.props.i18n.t("desc.game")}/>
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content={`https://ivosjatek.hu/${this.props.currentLanguage === "en" ? "en" : ""}`} />
-          <meta property="og:title" content={`${this.props.i18n.t("nav.home")} | ${this.props.i18n.t("nav.title")}`} />
-          <meta property="og:description" content={this.props.i18n.t("desc.game")} />
           <meta property="og:locale" content={this.props.currentLanguage === "en" ? "en_US" : "hu_HU"} />
         </Helmet>
         <h1 className="left-card-label animated fadeIn">

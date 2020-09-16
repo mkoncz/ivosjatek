@@ -26,12 +26,6 @@ export default class AllCards extends Component {
           <title>{this.props.i18n.t("nav.cards")} | {this.props.i18n.t("nav.title")}</title>
           <meta name="description" content={this.props.i18n.t("desc.cards")} />
           <link rel="canonical" href={`https://ivosjatek.hu/${this.props.currentLanguage === "en" ? "en/" : ""}releases`} />
-          <meta name="twitter:title" content={`${this.props.i18n.t("nav.cards")}`} />
-          <meta name="twitter:description" content={this.props.i18n.t("desc.cards")} />
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content={`https://ivosjatek.hu/${this.props.currentLanguage === "en" ? "en/" : ""}releases`} />
-          <meta property="og:title" content={`${this.props.i18n.t("nav.cards")} | ${this.props.i18n.t("nav.title")}`} />
-          <meta property="og:description" content={this.props.i18n.t("desc.cards")} />
           <meta property="og:locale" content={this.props.currentLanguage === "en" ? "en_US" : "hu_HU"} />
         </Helmet>
         {questions.default.map((question, index) => {

@@ -33,12 +33,6 @@ export default class Rules extends Component {
           <title>{this.props.i18n.t("nav.rules")} | {this.props.i18n.t("nav.title")}</title>
           <meta name="description" content={this.props.i18n.t("desc.rules")} />
           <link rel="canonical" href={`https://ivosjatek.hu/${this.props.currentLanguage === "en" ? "en/" : ""}rules`} />
-          <meta name="twitter:title" content={`${this.props.i18n.t("nav.rules")}`} />
-          <meta name="twitter:description" content={this.props.i18n.t("desc.rules")} />
-          <meta property="og:type" content="website"/>
-          <meta property="og:url" content={`https://ivosjatek.hu/${this.props.currentLanguage === "en" ? "en/" : ""}rules`} />
-          <meta property="og:title" content={`${this.props.i18n.t("nav.rules")} | ${this.props.i18n.t("nav.title")}`} />
-          <meta property="og:description" content={this.props.i18n.t("desc.rules")} />
           <meta property="og:locale" content={this.props.currentLanguage === "en" ? "en_US" : "hu_HU"} />
         </Helmet>
         <h4>{this.props.i18n.t("rules:terms_title")}</h4>

@@ -6,9 +6,8 @@ import Cookies from "universal-cookie";
 
 // Import CardBack component.
 import CardBack from "./CardBack"
-
-// Import adult logo.
-import adult_logo from "./../../../../img/18.png";
+import PlayerNameCard from "./PlayerNameCard"
+import ConfirmCard from "./ConfirmCard"
 
 
 /**
@@ -32,22 +31,11 @@ export default class Card extends Component {
       name: this.getRandomName()
     };
 
-    this.inputs = [
-      this.input1, 
-      this.input2, 
-      this.input3, 
-      this.input4, 
-      this.input5,
-      this.input6, 
-      this.input7, 
-      this.input8, 
-      this.input9, 
-      this.input10
-    ];
+    this.inputs = [];
 
-    this.inputs = this.inputs.map((item) => {
-      return React.createRef();
-    })
+    for (let i = 0; i < 10; i++) {
+      this.inputs.push(React.createRef())
+    }
   }
 
   componentDidMount() {
@@ -74,7 +62,7 @@ export default class Card extends Component {
     let content;
 
     // Set default logo.
-    var logo = "cocktail.svg"; 
+    var logo = "cocktail.svg";
     // Set default background color.
     let bgColor = "#d3f42f";
 
@@ -82,14 +70,14 @@ export default class Card extends Component {
     if (null == sessionStorage.getItem("isAdult")) {
       content = this.createAgeCheckCard();
       specialCard = true;
-    // If the game does not asked about player names, it creates an "player names card".
-  } else if (null == sessionStorage.getItem("players") || sessionStorage.getItem("players").length === 0) {
+      // If the game does not asked about player names, it creates an "player names card".
+    } else if (null == sessionStorage.getItem("players") || sessionStorage.getItem("players").length === 0) {
       content = this.createPlayerSelectorCard();
       specialCard = true;
     }
     else {
       // The %NAME% wildcard is replaced with a random user's name.
-      content = this.props.currentQuestionModel[this.props.currentLanguage].replace("%NAME%", this.state.name===""?this.getRandomName():this.state.name);
+      content = this.props.currentQuestionModel[this.props.currentLanguage].replace("%NAME%", this.state.name === "" ? this.getRandomName() : this.state.name);
       // If the current question has a sporsor, the logo is overridden.
       if (this.props.currentQuestionModel.logo !== "") {
         logo = this.props.currentQuestionModel.logo;
@@ -127,7 +115,7 @@ export default class Card extends Component {
    * Uses the animations of the animate.css.
    */
   replaceCard = (newQuestion) => {
-    
+
     if (newQuestion || newQuestion == null) {
       this.props.setNewQuestion();
     }
@@ -137,7 +125,7 @@ export default class Card extends Component {
         flipClasses: "active animated bounceOutRight"
       });
     }, 25);
-    
+
     // Bounces in the new card.
     setTimeout(() => {
       this.setState({
@@ -162,19 +150,10 @@ export default class Card extends Component {
   createAgeCheckCard = () => {
 
     return (
-      <div className="pre-card">
-        <img className="adult_logo" src={adult_logo} alt="18" />
-        <div className="question_block">
-          <h5>{this.props.i18n.t("game.age_check_1")}</h5>
-          <p>{this.props.i18n.t("game.age_check_2")}</p>
-          <p>{this.props.i18n.t("game.age_check_3")}</p>
-        </div>
-        <button
-          className="btn btn-warning btn-lg"
-          onClick={this.confirmAdult}>
-          {this.props.i18n.t("game.age_check_button")}
-        </button>
-      </div>
+      <ConfirmCard
+        i18n={this.props.i18n}
+        replaceCard={this.replaceCard}
+      />
     )
   }
 
@@ -184,58 +163,13 @@ export default class Card extends Component {
   createPlayerSelectorCard = () => {
 
     return (
-      <div className="pre-card">
-        <h5 className="players-header"><b>{this.props.i18n.t("game.player_names")}</b></h5>
-        <form>
-          {this.inputs.map((input, index) =>
-            <label key={index}>{this.props.i18n.t("game.player")} {index + 1}: &nbsp;
-            <input type="text" ref={input} ></input>
-            </label>)}
-        </form>
-        <button
-          className="btn btn-warning btn-lg add-button"
-          onClick={() => { this.addPlayers() }}>
-          {this.props.i18n.t("game.done")}
-        </button>
-      </div>
+      <PlayerNameCard
+        i18n={this.props.i18n}
+        replaceCard={this.replaceCard}
+      />
     )
   }
 
-  /**
-   * Creates card with age check question and next button.
-   */
-  addPlayers = () => {
-    let that = this;
-    this.replaceCard(true);
-    // Timeout needed because render() immediately replaces content and the bouncing is not done yet.
-    setTimeout(() => {
-      var players = [];
-      that.inputs.forEach((item, index) => {
-        if (item.current.value !== "") {
-          players.push(item.current.value);
-        }
-      })
-
-      // If the user does not give any player names, we add some default ones.
-      if (players.length === 0) {
-        alert(this.props.i18n.t("game.please_add_player_name"));
-        return;
-      }
-      sessionStorage.setItem("players", JSON.stringify(players));
-    }, 450);
-  }
-
-  /**
-   * Confirms that the user is an adult.
-   * Stores the decition in sessionStorage.
-   */
-  confirmAdult = () => {
-    this.replaceCard(true);
-    // Timeout needed because render() immediately replaces content and the bouncing is not done yet.
-    setTimeout(() => {
-      sessionStorage.setItem("isAdult", true)
-    }, 450);
-  }
 
   /**
   * Gets the imported image resource based on the logo keyword.

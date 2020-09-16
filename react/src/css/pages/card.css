@@ -122,6 +122,10 @@
     color: black;
 }
 
+.player-name-label {
+    width: 110px;
+}
+
 @media only screen and (max-width: 321px) {
     .flip-container {
         padding-left: 0px !important;

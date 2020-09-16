@@ -10,20 +10,13 @@ import {
 import NavBar from "./NavBar";
 import AllCards from "./pages/AllCards";
 import Contact from "./pages/Contact";
-import Game from "./pages/game_page/Game";
+import Game from "./pages/game-page/Game";
 import Releases from "./pages/Releases";
 import Rules from "./pages/Rules";
-import Sources from "./pages/sources_page/Sources";
-import Sponsors from "./pages/sponsors_page/Sponsors";
+import Sources from "./pages/sources-page/Sources";
+import Sponsors from "./pages/sponsors-page/Sponsors";
 import Page404 from "./pages/Page404";
 import Posts from "./pages/posts/Posts";
-import PostJuly from "./pages/posts/PostJuly";
-import PostJuly2 from "./pages/posts/PostJuly2";
-import PostJuly3 from "./pages/posts/PostJuly3";
-import PostJuly4 from "./pages/posts/PostJuly4";
-import PostAug from "./pages/posts/PostAug";
-import PostAug2 from "./pages/posts/PostAug2";
-import PostSept1 from "./pages/posts/PostSept1";
 
 // Import module that redirects http requests to https.
 import HttpsRedirect from "react-https-redirect";
@@ -39,6 +32,7 @@ import { Helmet } from "react-helmet";
 
 // Import common style classes.
 import "./../../css/common.css";
+import DrinkingGames from "./pages/drinking-games/DrinkingGames";
 
 /**
  * The main container of the page.
@@ -123,6 +117,12 @@ export default class MainContainer extends Component {
                 reloadLanguage={this.reloadLanguage}
               />
             </Route>
+            <Route path={["/games", "/hu/games", "/games/:game"]}>
+              <DrinkingGames
+                i18n={i18n}
+                currentLanguage={this.state.currentLanguage}
+              />
+            </Route>
             <Route path="/en/contact">
               <Contact
                 i18n={i18n}
@@ -151,8 +151,15 @@ export default class MainContainer extends Component {
                 reloadLanguage={this.reloadLanguage}
               />
             </Route>
-            <Route path="/en/cards">
+            <Route path="/en/games">
               <AllCards
+                i18n={i18n}
+                currentLanguage="en"
+                reloadLanguage={this.reloadLanguage}
+              />
+            </Route>
+            <Route path="/en/cards">
+              <DrinkingGames
                 i18n={i18n}
                 currentLanguage="en"
                 reloadLanguage={this.reloadLanguage}
@@ -171,30 +178,10 @@ export default class MainContainer extends Component {
               />
             </Route>
             { /* SEO */}
-            <Route path="/p/pornosnak-allt-az-autoversenyzono">
-              <PostJuly4 />
-            </Route>
-            <Route path="/p/biztositast_kotott_a_peniszere">
-              <PostJuly3 />
-            </Route>
-            <Route path="/p/ketrecharcos-lesz-ukrajna-legnagyobb-mellu-noje">
-              <PostJuly2 />
-            </Route>
-            <Route path="/p/felnottfilmes-keri-a-videoi-torleset">
-              <PostJuly />
-            </Route>
-            <Route path="/p/a-vilag-legdragabb-italai">
-              <PostAug2 />
-            </Route>
-            <Route path="/p/megvettek-mia-khalifa-szemuveget">
-              <PostAug />
-            </Route>
-            <Route path="/p/ukran-pizza-reklam">
-              <PostSept1 />
-            </Route>
-            <Route path="/p">
-              <Posts
-                i18n={i18n}
+            <Route path={["/p", "/p/:post"]}>
+              <Posts 
+                i18n={i18n} 
+                currentLanguage={this.state.currentLanguage}
               />
             </Route>
             { /* END SEO */}
@@ -218,7 +205,7 @@ export default class MainContainer extends Component {
    */
   reloadLanguage = (lang) => {
     // Change cookie value of language.
-    this.cookies.set("lang", lang, { path: "/" , "secure": true});
+    this.cookies.set("lang", lang, { path: "/", "secure": true });
     // Changes the selected language in the i18n module.
     i18n.changeLanguage(lang);
     // Change sthe current language triggers the uploading of child components.
