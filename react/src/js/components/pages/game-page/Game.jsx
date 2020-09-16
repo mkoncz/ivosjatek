@@ -2,7 +2,7 @@
 import React, { Component } from "react"
 
 // Import question resources.
-import * as questions from "./../../../../locales/questions.json"
+import * as questions from "../../../../locales/questions.json"
 
 // Import React Helmet for handling <head> attributes dinamically.
 import { Helmet } from "react-helmet";
