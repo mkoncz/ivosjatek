@@ -10,11 +10,11 @@ import {
 import NavBar from "./NavBar";
 import AllCards from "./pages/AllCards";
 import Contact from "./pages/Contact";
-import Game from "./pages/game_page/Game";
+import Game from "./pages/game-page/Game";
 import Releases from "./pages/Releases";
 import Rules from "./pages/Rules";
-import Sources from "./pages/sources_page/Sources";
-import Sponsors from "./pages/sponsors_page/Sponsors";
+import Sources from "./pages/sources-page/Sources";
+import Sponsors from "./pages/sponsors-page/Sponsors";
 import Page404 from "./pages/Page404";
 import Posts from "./pages/posts/Posts";
 
