@@ -1,0 +1,139 @@
+{
+  "all_games": [
+    [
+      {
+        "type": "meta",
+        "slug": "Kings-Cup",
+        "img": "https://images.pexels.com/photos/189528/pexels-photo-189528.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "title": "Kings Cup",
+        "desc": "Kings Cup"
+      },
+      {
+        "type": "header",
+        "level": 1,
+        "text": "Kings Cup"
+      },
+      {
+        "type": "header",
+        "level": 5,
+        "text": "Ami kell hozzá: italok, franciakártyák."
+      },
+      {
+        "type": "par",
+        "text": "A Kings Cupot bármennyien játszhatjátok. A lényeg, hogy készítetek egy listát, hogy milyen kártyához milyen ivós feladatot rendeltek, majd húztok a kártyapakliból. Minden alkalommal azt kell tenned, ami a listán az adott kártya mellett szerepel. Minél jobban belebonyolódtok a játékba, annál izgalmasabb. Ha letöltöd a Kings Cup nevű ingyenes applikációt, akkor a kártyák felett megjelennek a szabályok is, így nem kell neked kitalálnod őket."
+      },
+      {
+        "type": "img",
+        "url": "https://images.pexels.com/photos/189528/pexels-photo-189528.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      }
+    ],
+    [
+      {
+        "type": "meta",
+        "slug": "Thumper",
+        "img": "https://images.pexels.com/photos/4124314/pexels-photo-4124314.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "title": "Thumper",
+        "desc": "Thumper"
+      },
+      {
+        "type": "header",
+        "level": 1,
+        "text": "Thumper"
+      },
+      {
+        "type": "header",
+        "level": 5,
+        "text": "Ez egy gyors és egyszerű, hangos és csapkodós játék."
+      },
+      {
+        "type": "par",
+        "text": "Körbeültök egy asztalt, ezután pedig mindenki elkezd lassan tapsolni: kettőt az asztalra csaptok, kettőt tapsoltok. Az asztalra csapásokat és a tapsolást is hanggal nyomatékosítjátok. Ezután mindenki mutat egy egyéni jelet, mondjuk meghúzza a fülét vagy betakarja a szemét. Miközben mindenki tapsol a ritmus szerint, az első játékos mutatja a saját jelét, majd egy másikét. Ezt a másiknak észre kell vennie, majd ugyanúgy mutatnia a saját, majd egy harmadik játékos jelét, és így tovább. Aki nem reagál gyorsan és helyesen, annak meg kell innia a pohara teljes tartalmát."
+      },
+      {
+        "type": "img",
+        "url": "https://images.pexels.com/photos/4124314/pexels-photo-4124314.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      }
+    ],
+    [
+      {
+        "type": "meta",
+        "slug": "Rezzenestelen-arc",
+        "img": "https://images.pexels.com/photos/326576/pexels-photo-326576.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "title": "Rezzenéstelen arc",
+        "desc": "Rezzenéstelen arc"
+      },
+      {
+        "type": "header",
+        "level": 1,
+        "text": "Rezzenéstelen arc"
+      },
+      {
+        "type": "header",
+        "level": 5,
+        "text": "Ami kell hozzá: italok, papír, toll"
+      },
+      {
+        "type": "par",
+        "text": "Amikor isztok, nehéz rezzenéstelen arccal ülni, így ez a játék remek kihívás. Vicces vagy figyelemfelkeltő mondatokat ír egyikőtök jól olvashatóan papírcetlikre, miközben mindenki rezzenéstelen arccal ül. Ezután minden játékos felvesz egy papírt és megpróbálja megőrizni rezzenéstelen arckifejezését. Akinek nem sikerül vagy bármilyen reakciót mutat, innia kell."
+      },
+      {
+        "type": "img",
+        "url": "https://images.pexels.com/photos/326576/pexels-photo-326576.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      }
+    ],
+    [
+      {
+        "type": "meta",
+        "slug": "Flip-Cup",
+        "img": "https://images.pexels.com/photos/544988/pexels-photo-544988.jpeg?cs=srgb&dl=pexels-burst-544988.jpg&fm=jpg",
+        "title": "Flip Cup",
+        "desc": "Flip Cup"
+      },
+      {
+        "type": "header",
+        "level": 1,
+        "text": "Flip Cup"
+      },
+      {
+        "type": "header",
+        "level": 5,
+        "text": "Ami kell hozzá: italok, fél literes műanyagpoharak"
+      },
+      {
+        "type": "par",
+        "text": " A Flip Cup az egyik legjobb ivós játék kezdőknek. Két csapat versenyez egymással. A két csapat egymásnak ellentétes oldalon áll, és a poharakat az italokkal az asztal szélén tartja. Amelyik csapat előbb issza ki a poharak tartalmát és pöccinti fejtetőre a poharakat, az nyer."
+      },
+      {
+        "type": "img",
+        "url": "https://images.pexels.com/photos/544988/pexels-photo-544988.jpeg?cs=srgb&dl=pexels-burst-544988.jpg&fm=jpg"
+      }
+    ],
+    [
+      {
+        "type": "meta",
+        "slug": "Bumm",
+        "img": "https://images.pexels.com/photos/1061136/pexels-photo-1061136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "title": "Bumm",
+        "desc": "Bumm"
+      },
+      {
+        "type": "header",
+        "level": 1,
+        "text": "Bumm"
+      },
+      {
+        "type": "header",
+        "level": 5,
+        "text": "Ami kell hozzá: italok"
+      },
+      {
+        "type": "par",
+        "text": " Az egyik legegyszerűbb ivós játék. Minden játékos mond egy számot hangosan, sorban, 1-től kezdve, kivéve a 7-et, annak többszöröseit és amiben benne van a szám (pl. 17). Ebben az esetben azt mondja: bumm. Aki elhibázza, iszik. Ilyen egyszerű."
+      },
+      {
+        "type": "img",
+        "url": "https://images.pexels.com/photos/1061136/pexels-photo-1061136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      }
+    ]
+  ]
+}
