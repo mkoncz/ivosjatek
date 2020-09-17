@@ -1,9 +1,6 @@
 // Import React modules.
 import React from "react";
 
-// Import React Helmet for handling <head> attributes dinamically.
-import { Helmet } from "react-helmet";
-
 // Import Instagram Embed tool.
 import InstagramEmbed from "react-instagram-embed";
 
@@ -105,11 +102,6 @@ const Post = (props) => {
 
     return (
         <div className="page-frame">
-            <Helmet>
-                <title>{props.postObjects[0].title}</title>
-                <meta name="description" content={props.postObjects[0].desc} />
-            </Helmet>
-
             {props.postObjects.map((postObject, index) => {
                 if (postObject.type === 'header') {
                     return createHeader(postObject, index);

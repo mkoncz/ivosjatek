@@ -27,9 +27,6 @@ import i18n from "../i18n";
 // Import modules for cookie handling.
 import Cookies from "universal-cookie";
 
-// Import React Helmet for handling <head> attributes dinamically.
-import { Helmet } from "react-helmet";
-
 // Import common style classes.
 import "./../../css/common.css";
 import DrinkingGames from "./pages/drinking-games/DrinkingGames";
@@ -57,9 +54,6 @@ export default class MainContainer extends Component {
     return (
       <HttpsRedirect>
         <BrowserRouter>
-          <Helmet>
-            <title>{i18n.t("nav.title")}</title>
-          </Helmet>
           <div className="animated nav-bar">
             <NavBar
               i18n={i18n}

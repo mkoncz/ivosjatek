@@ -1,9 +1,6 @@
 // Import ReactJS module.
 import React from "react";
 
-// Import React Helmet for handling <head> attributes dinamically.
-import { Helmet } from "react-helmet";
-
 // Import post style classes.
 import "./../../../../css/pages/posts.css";
 
@@ -67,13 +64,6 @@ const DrinkingGames = props => {
 
   return (
     <div className="page-frame">
-      <Helmet>
-        <title>{props.i18n.t("nav.games")} | {props.i18n.t("nav.title")}</title>
-        <meta name="description" content={props.i18n.t("desc.game")} />
-        <link rel="canonical" href="https://ivosjatek.hu/games" />
-        <meta property="og:locale" content={props.currentLanguage === "en" ? "en_US" : "hu_HU"} />
-      </Helmet>
-     
       <h1>{props.i18n.t("nav.games")}</h1>
 
       {getCurrentGame()}
