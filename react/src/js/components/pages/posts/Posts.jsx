@@ -83,12 +83,6 @@ const Posts = props => {
 
   return (
     <div className="page-frame">
-      <Helmet>
-        <title>{props.i18n.t("nav.posts")} | {props.i18n.t("nav.title")}</title>
-        <meta name="description" content={props.i18n.t("desc.posts")} />
-        <link rel="canonical" href="https://ivosjatek.hu/posts" />
-        <meta property="og:locale" content={props.currentLanguage === "en" ? "en_US" : "hu_HU"} />
-      </Helmet>
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={() => { setIsOpen(false) }}
