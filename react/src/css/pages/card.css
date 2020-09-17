@@ -126,6 +126,11 @@
     width: 110px;
 }
 
+.player-name-input {
+    width: 165px;
+    height: 33px;
+}
+
 @media only screen and (max-width: 321px) {
     .flip-container {
         padding-left: 0px !important;

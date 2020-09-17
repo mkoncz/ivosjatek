@@ -1,10 +1,6 @@
 // Import ReactJS module.
 import React, { Component } from "react";
 
-
-// Import React Helmet for handling <head> attributes dinamically.
-import { Helmet } from "react-helmet";
-
 // Import localized questions.
 import * as hun_note_resource from "./../../../locales/release_notes_hu.json"
 import * as en_note_resource from "./../../../locales/release_notes_en.json"
@@ -38,12 +34,6 @@ export default class Contact extends Component {
     let notes = this.props.currentLanguage === "hu" ? [...hun_note_resource.notes] : [...en_note_resource.notes];
     return (
       <div className="page-frame">
-        <Helmet>
-          <title>{this.props.i18n.t("nav.release_notes")} | {this.props.i18n.t("nav.title")}</title>
-          <meta name="description" content={this.props.i18n.t("desc.release_notes")} />
-          <link rel="canonical" href={`https://ivosjatek.hu/${this.props.currentLanguage === "en" ? "en/" : ""}releases`} />
-          <meta property="og:locale" content={this.props.currentLanguage === "en" ? "en_US" : "hu_HU"} />
-      </Helmet>
         {notes.reverse().map((release) => {
           return (
             <div key={release.title}>

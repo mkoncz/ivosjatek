@@ -4,9 +4,6 @@ import React, { Component } from "react"
 // Import question resources.
 import * as questions from "../../../../locales/questions.json"
 
-// Import React Helmet for handling <head> attributes dinamically.
-import { Helmet } from "react-helmet";
-
 // Import local Card component.
 import Card from "./Card"
 
@@ -46,12 +43,6 @@ export default class Game extends Component {
 
     return (
       <div align="center" className="page-frame game-view" width="100%">
-        <Helmet>
-          <title>{this.props.i18n.t("nav.home")} | {this.props.i18n.t("nav.title")}</title>
-          <meta name="description" content={this.props.i18n.t("desc.game")} />
-          <link rel="canonical" href={`https://ivosjatek.hu/${this.props.currentLanguage === "en" ? "en" : ""}`} />
-          <meta property="og:locale" content={this.props.currentLanguage === "en" ? "en_US" : "hu_HU"} />
-        </Helmet>
         <h1 className="left-card-label animated fadeIn">
               {i18n.t("game.card_left").replace("%NUMBER%", number_of_left_cards)}
         </h1>

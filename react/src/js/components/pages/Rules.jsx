@@ -1,9 +1,6 @@
 // Import ReactJS module.
 import React, { Component } from "react";
 
-// Import React Helmet for handling <head> attributes dinamically.
-import { Helmet } from "react-helmet";
-
 /**
  * List of the rules.
  * 
@@ -29,12 +26,6 @@ export default class Rules extends Component {
   render() {
     return (
       <div className="page-frame">
-        <Helmet>
-          <title>{this.props.i18n.t("nav.rules")} | {this.props.i18n.t("nav.title")}</title>
-          <meta name="description" content={this.props.i18n.t("desc.rules")} />
-          <link rel="canonical" href={`https://ivosjatek.hu/${this.props.currentLanguage === "en" ? "en/" : ""}rules`} />
-          <meta property="og:locale" content={this.props.currentLanguage === "en" ? "en_US" : "hu_HU"} />
-        </Helmet>
         <h4>{this.props.i18n.t("rules:terms_title")}</h4>
         <ul>
           <li>{this.props.i18n.t("rules:term_1")}</li>

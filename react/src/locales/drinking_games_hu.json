@@ -445,8 +445,97 @@
         "text": "A szabály a következő: minden játékos az óramutató járásával megegyező irányban elkezd felfele számolni: egy, kettő, három, négy... azonban az ötös és a hetes szám helyett egy-egy előre meghatározott szót kell mondani. Én külföldiektől úgy tanultam, hogy az ötöst a “Bottle” a hetest pedig a “Can” szóval helyettesítjük, de a hazai hagyományoknak megfelelően nehezebben kimondható, de azért rövid szavakat használjunk, mint a hajolaj vagy a dzsibuti. Az ötös helyett tehát hajolajat mondunk, a hetes helyett pedig dzsibutit és így számolunk felfele."
       },
       {
+        "type": "par",
+        "text": "Na de! A hetesnél, azaz a dzsibutinál megfordul a kör, és az óramutató járásával ellentétesen kell folytatni tovább. Valamint nem csupán az olyan számoknál kell hajolajat vagy dzsibutit mondanod, amelyekben az ötös vagy hetes szám szerepel (tizenöt, tizenhét, huszonöt, huszonhét stb.), hanem a többszöröseiknél is: (tíz, tizennégy, húsz, huszonegy) is. Tehát ha addig nem hibázik senki (ami elég ritka), akkor harmincöt helyett hajolaj-dzsibutit mondasz, mert öttel és héttel is osztható."
+      },
+      {
+        "type": "par",
+        "text": "Nagyon egyszerű elrontani: ötöst vagy hetest mondasz, túl sokáig gondolkozol, elfelejted, hogy megfordult a sorrend vagy épp összekevered a hajolajat a dzsibutival. Aki hibázik, annak le kell húznia egy pohár előre kitöltött italt, ami lehet rövid is..."
+      },
+      {
         "type": "img",
         "url": "https://images.pexels.com/photos/1003103/pexels-photo-1003103.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      }
+    ],
+    [
+      {
+        "type": "meta",
+        "slug": "igaz-hamis",
+        "img": "https://images.pexels.com/photos/4629626/pexels-photo-4629626.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
+        "title": "Egy igaz, egy hamis",
+        "desc": "Egy igaz, egy hamis "
+      },
+      {
+        "type": "header",
+        "level": 1,
+        "text": "Egy igaz, egy hamis"
+      },
+      {
+        "type": "header",
+        "level": 5,
+        "text": "Nagy társasággal érdemes játszani ezt a számolós játékot. "
+      },
+      {
+        "type": "par",
+        "text": "Ezt a régi, jól bevált játékot olyan társaságoknak ajánljuk, akik még kevéssé ismerik egymást – tehát lehet egy randi is. A játék menete nagyon egyszerű: valaki elmesél két történetet. Ezek közül az egyik igaz, a másik pedig hamis. Miután meghallgattátok a két történetet, tippelnetek kell, vajon melyik igaz, és melyik kamu. A rosszul tippelőknek le kell húzniuk, ami előttük van (lehet sör, bor, tömény is). Ha azonban mindenki rájött az igazságra, akkor a bénán kamuzó mesélőnek kell a pohara fenekére néznie."
+      },
+      {
+        "type": "img",
+        "url": "https://images.pexels.com/photos/4629626/pexels-photo-4629626.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      }
+    ],
+    [
+      {
+        "type": "meta",
+        "slug": "tarsasjatekok",
+        "img": "https://images.pexels.com/photos/278918/pexels-photo-278918.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
+        "title": "Társasjátékok",
+        "desc": "Társasjátékok"
+      },
+      {
+        "type": "header",
+        "level": 1,
+        "text": "Társasjátékok"
+      },
+      {
+        "type": "header",
+        "level": 5,
+        "text": "Alkoholi és Részegedj Okosan!"
+      },
+      {
+        "type": "par",
+        "text": " két legismertebb ivós társasjáték, amelyeket meg is vásárolhatsz, de elkészítheted magad is. Ha jól megnézed a képet, minden magyarázat feleslegessé válik a játék brutalitását illetően."
+      },
+      {
+        "type": "img",
+        "url": "https://images.pexels.com/photos/278918/pexels-photo-278918.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      }
+    ],
+    [
+      {
+        "type": "meta",
+        "slug": "orosz-rulett",
+        "img": "https://images.pexels.com/photos/3894215/pexels-photo-3894215.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=100",
+        "title": "Rövidező játék: orosz rulett",
+        "desc": "Rövidező játék: orosz rulett"
+      },
+      {
+        "type": "header",
+        "level": 1,
+        "text": "Rövidező játék: orosz rulett"
+      },
+      {
+        "type": "header",
+        "level": 5,
+        "text": "Kell hozzá: felespoharak, ital"
+      },
+      {
+        "type": "par",
+        "text": "Ahányan vagytok, annyi feleses pohárra és valamilyen átlátszó röviditalra (eredetileg vodkára, de lehet gin, fehérrum vagy pálinka) lesz szükségetek. Minden poharat megtöltötök vízzel, kivéve egyet, amibe az említett röviditalt töltitek. A poharakat összekeveritek, majd mindenki lehúz egyet, és nézitek, vajon ki kapta a golyót."
+      },
+      {
+        "type": "img",
+        "url": "https://images.pexels.com/photos/3894215/pexels-photo-3894215.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
       }
     ]
   ]

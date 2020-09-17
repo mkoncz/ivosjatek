@@ -1,9 +1,6 @@
 // Import ReactJS module.
 import React, { Component } from "react";
 
-// Import React Helmet for handling <head> attributes dinamically.
-import { Helmet } from "react-helmet";
-
 // Instagram icon image resource.
 import instagramImageResource from "./../../../img/insta.png";
 import linkedinImageResource from "./../../../img/linkedin.png";
@@ -35,12 +32,6 @@ export default class Contact extends Component {
   render() {
     return (
       <div className="page-frame">
-        <Helmet>
-          <title>{this.props.i18n.t("nav.contact")} | {this.props.i18n.t("nav.title")}</title>
-          <meta name="description" content={this.props.i18n.t("desc.contact")} />
-          <link rel="canonical" href={`https://ivosjatek.hu/${this.props.currentLanguage === "en" ? "en/" : ""}contact`} />
-          <meta property="og:locale" content={this.props.currentLanguage === "en" ? "en_US" : "hu_HU"} />
-        </Helmet>
         <h3>{this.props.i18n.t("contact.contact")}</h3><br></br>
         <div>
           <a href="https://www.instagram.com/ivosjatek.hu/" className="insta-ref" target="_blank" rel="noopener noreferrer">
