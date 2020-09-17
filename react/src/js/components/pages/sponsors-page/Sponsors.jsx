@@ -2,9 +2,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 
-// Import React Helmet for handling <head> attributes dinamically.
-import { Helmet } from "react-helmet";
-
 // Import FA modules.
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
@@ -55,12 +52,6 @@ export default class Sponsors extends Component {
   render() {
     return (
       <Container fluid className="sponsors-container">
-        <Helmet>
-          <title> {this.props.i18n.t("nav.sponsors")} | {this.props.i18n.t("nav.title")}</title>
-          <meta name="description" content={this.props.i18n.t("desc.sponsors")} />
-          <link rel="canonical" href={`https://ivosjatek.hu/${this.props.currentLanguage === "en" ? "en/" : ""}sponsors`} />
-          <meta property="og:locale" content={this.props.currentLanguage === "en" ? "en_US" : "hu_HU"} />
-        </Helmet>
         <div className={`${this.state.loaded ? "" : "hidden"}`}>
           <Row className="sponsors-how-row">
             <img src={beersImageResource} className="background-layout-spacer" onLoad={this.setLoaded} alt="" />
