@@ -30,12 +30,6 @@ export default class Card extends Component {
       flipClasses: "animated bounceInLeft",
       name: this.getRandomName()
     };
-
-    this.inputs = [];
-
-    for (let i = 0; i < 10; i++) {
-      this.inputs.push(React.createRef())
-    }
   }
 
   componentDidMount() {

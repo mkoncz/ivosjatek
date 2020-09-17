@@ -18,22 +18,12 @@ export default class PlayerNameCard extends Component {
 
     this.cookies = new Cookies();
 
-    this.inputs = [
-      this.input1,
-      this.input2,
-      this.input3,
-      this.input4,
-      this.input5,
-      this.input6,
-      this.input7,
-      this.input8,
-      this.input9,
-      this.input10
-    ];
 
-    this.inputs = this.inputs.map((item) => {
-      return React.createRef();
-    })
+    this.inputs = [];
+
+    for (let i = 0; i < 10; i++) {
+      this.inputs.push(React.createRef())
+    }
   }
 
   render() {
@@ -59,7 +49,7 @@ export default class PlayerNameCard extends Component {
       {this.inputs.map((input, index) => {
         return (<div>
           <label key={index} className="player-name-label">{this.props.i18n.t("game.player")} {index + 1}: &nbsp; </label>
-          <input type="text" ref={input} ></input>
+          <input type="text" className="player-name-input" ref={input} ></input>
         </div>)
       })}
     </form>
