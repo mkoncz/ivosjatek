@@ -35,11 +35,16 @@ const Post = (props) => {
     const createParagraph = (postObject, index) => {
         let text = postObject.text;
         return <p key={`p-${index}`} className="post-p">{text}</p>
+
     }
 
     const createSource = (postObject, index) => {
         let text = postObject.text;
-        return <p key={`p-${index}`} className="post-source-p">{text}</p>
+
+        return (
+            <div align="center">
+                <p key={`p-${index}`} className="post-source-p">{text}</p>
+            </div>)
     }
 
     const createLink = (postObject, index) => {
@@ -65,7 +70,8 @@ const Post = (props) => {
     }
 
     const createCards = (postObject, index) => {
-        return <div key={index} align="center">
+        return (
+        <div key={index} align="center">
             {postObject.cards.map((card, cardIndex) => {
                 return <div key={cardIndex} className="post-card">
                     <div className="post-card-text">
@@ -76,7 +82,7 @@ const Post = (props) => {
             <div>
                 Ivósjáték: <a href="/">katt ide</a>
             </div>
-        </div>
+        </div>)
     }
 
     const createImage = (postObject) => {
