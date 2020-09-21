@@ -51,7 +51,7 @@ const DrinkingGames = props => {
             <img width="100%" src={element[0].img}
               className="post-thumbnail" alt={props.i18n.t("nav.games")} />
             <div className="post-thumbnail-title-container" >
-              <h4 className="post-thumbnail-title">
+              <h4>
                 {element[0].title}
               </h4>
             </div>

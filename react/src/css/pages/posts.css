@@ -14,20 +14,20 @@
     max-width: 500px;
 }
 
-.post-thumbnail {
+img.post-thumbnail {
     width: 50%;
     max-width: 200px;
     float: left;
 }
 
 .post-thumbnail-title-container {
-    width: 50%;
-    margin-left: 20px;
+    width: 46%;
+    margin-left: 4%;
     float: left;
 }
 
-.post-thumbnail-title {
-    width: 50%;
+.post-thumbnail-title-container h4{
+   font-size: 19px;
 }
 
 .post-link {
