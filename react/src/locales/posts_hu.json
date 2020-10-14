@@ -702,7 +702,7 @@
       },
       {
         "type": "par",
-        "text": "A Twitteren sokan feltették a kérdést, hogy biztosan jó-e ez a fekete közösségnek, mivel az efféle videókban sokszor megaláznak, megvernek és megerőszakolnak fiatal fekete nőket fehér férfiak, ráadsul sokan kifejezetten a „rabszolga pornó” kifejezésre keresnek rá, ez pedig így a szöges ellentéte annak, amit a Pornhub el akar érni a fekete héttel."
+        "text": "A Twitteren sokan feltették a kérdést, hogy biztosan jó-e ez a fekete közösségnek, mivel az efféle videókban sokszor megaláznak fiatal fekete nőket fehér férfiak, ráadásul sokan kifejezetten a „rabszolga pornó” kifejezésre keresnek rá, ez pedig így a szöges ellentéte annak, amit a Pornhub el akar érni a fekete héttel."
       },
       
       {
@@ -715,10 +715,17 @@
       },
       {
         "type": "par",
-        "level": 4,
         "text": "Az egész akció körül elég nagy felhajtás lett, egyre többen adtak hangot a nemtetszésüknek, ezért a Pornhub végül úgy döntött, hogy nem tartja meg a fekete hetet."
       },
-      
+      {
+        "type": "par",
+        "text": "Forrás: 24.hu - "
+      },
+      {
+        "type": "link",
+        "url": "https:/24.hu",
+        "text": "24.hu "
+      },
       {
         "type": "header",
         "level": 4,
@@ -727,9 +734,9 @@
       {
         "type": "cards",
         "cards": [
-          "Igyon egyet, aki szexelt már legalább 2 emberrel egyszerre!",
-          "Mindenki mond egy vodka márkát. A jobbra ülő kezd, és addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-          "Az iszik, aki szerint a pizza jobb, mint a mekis sajtburger."
+          "Akinek volt már fekete szexpartnere, iszik.",
+          "Énekelj valamit Fekete Pákótól! Ha nem tudsz, igyál egy rövidet!",
+          "Mindenki mond egy pornószínésznőt. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik."
         ]
       }
     ]
