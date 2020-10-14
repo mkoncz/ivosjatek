@@ -52,9 +52,12 @@ const Posts = props => {
     posts.forEach(element => {
       if (element[0].type === 'meta') {
         if (window.location.pathname.includes(element[0].slug)) {
-          post = <Post
-            postObjects={element}>
-          </Post>
+          post = (
+            <Post
+              postObjects={element}
+            >
+            </Post>
+          )
         }
       }
     });
@@ -65,7 +68,7 @@ const Posts = props => {
   const getAllThumbs = () => {
     return posts.map(element => {
       return (
-        <div>
+        <div key={element[0].slug}>
           <a href={`/p/${element[0].slug}`}>
             <img width="100%" src={element[0].img}
               className="post-thumbnail" alt={props.i18n.t("nav.posts")} />
@@ -104,9 +107,9 @@ const Posts = props => {
           </div>
         </div>
       </Modal>
-      <h1>{props.i18n.t("nav.posts")}</h1>
 
       {getCurrentPost()}
+      <h1>{props.i18n.t("nav.posts")}</h1>
       {getAllThumbs()}
 
     </div>
