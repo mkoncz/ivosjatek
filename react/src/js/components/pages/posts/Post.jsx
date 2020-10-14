@@ -42,8 +42,8 @@ const Post = (props) => {
         let text = postObject.text;
 
         return (
-            <div align="center">
-                <p key={`p-${index}`} className="post-source-p">{text}</p>
+            <div align="center" key={`p-${index}`}>
+                <p  className="post-source-p">{text}</p>
             </div>)
     }
 
@@ -71,23 +71,23 @@ const Post = (props) => {
 
     const createCards = (postObject, index) => {
         return (
-        <div key={index} align="center">
-            {postObject.cards.map((card, cardIndex) => {
-                return <div key={cardIndex} className="post-card">
-                    <div className="post-card-text">
-                        {card}
+            <div key={index} align="center">
+                {postObject.cards.map((card, cardIndex) => {
+                    return <div key={cardIndex} className="post-card">
+                        <div className="post-card-text">
+                            {card}
+                        </div>
                     </div>
+                })}
+                <div>
+                    Ivósjáték: <a href="/">katt ide</a>
                 </div>
-            })}
-            <div>
-                Ivósjáték: <a href="/">katt ide</a>
-            </div>
-        </div>)
+            </div>)
     }
 
-    const createImage = (postObject) => {
+    const createImage = (postObject, index) => {
         return (
-            <div align="center">
+            <div align="center" key={`img-${index}`}>
                 <img
                     width="100%"
                     className="post-image"
@@ -100,7 +100,7 @@ const Post = (props) => {
     const createRedditCard = (postObject) => {
         return (
             <blockquote class="reddit-card">
-                <a href={postObject.url}></a>
+                <a href={postObject.url}>link</a>
             </blockquote>
         )
     }
@@ -133,6 +133,7 @@ const Post = (props) => {
                 else if (postObject.type === 'reddit') {
                     return createRedditCard(postObject, index);
                 }
+                return "";
             })}
         </div>
     );

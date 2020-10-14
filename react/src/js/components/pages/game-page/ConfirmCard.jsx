@@ -13,10 +13,6 @@ import adult_logo from "./../../../../img/18.png";
  */
 export default class PlayerNameCard extends Component {
 
-  constructor() {
-    super();
-  }
-
   render() {
 
     return (

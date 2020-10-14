@@ -91,7 +91,7 @@ const DrinkingGame = (props) => {
     const createRedditCard = (postObject) => {
         return (
             <blockquote class="reddit-card">
-                <a href={postObject.url}></a>
+                <a href={postObject.url}>link</a>
             </blockquote>
         )
     }
@@ -124,6 +124,7 @@ const DrinkingGame = (props) => {
                 else if (postObject.type === 'reddit') {
                     return createRedditCard(postObject, index);
                 }
+                return "";
             })}
         </div>
     );
