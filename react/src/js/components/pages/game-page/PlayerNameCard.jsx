@@ -60,22 +60,22 @@ export default class PlayerNameCard extends Component {
    */
   addPlayersToSessionStorage = () => {
     let that = this;
-    this.props.replaceCard(true);
     // Timeout needed because render() immediately replaces content and the bouncing is not done yet.
-    setTimeout(() => {
-      var players = [];
-      that.inputs.forEach((item, index) => {
-        if (item.current.value !== "") {
-          players.push(item.current.value);
-        }
-      })
-
-      // If the user does not give any player names, we add some default ones.
-      if (players.length === 0) {
-        alert(this.props.i18n.t("game.please_add_player_name"));
-        return;
+    var players = [];
+    that.inputs.forEach((item, index) => {
+      if (item.current.value !== "") {
+        players.push(item.current.value);
       }
-      sessionStorage.setItem("players", JSON.stringify(players));
-    }, 450);
+    })
+    if (players.length === 0) {
+      alert(this.props.i18n.t("game.please_add_player_name"));
+      return;
+    }else {
+      this.props.replaceCard(true);
+      setTimeout(() => {
+        // If the user does not give any player names, we add some default ones.
+        sessionStorage.setItem("players", JSON.stringify(players));
+      }, 450);
+    }
   }
 }
