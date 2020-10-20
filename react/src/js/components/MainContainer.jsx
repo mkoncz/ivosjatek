@@ -8,7 +8,7 @@ import {
 
 // Import the local components.
 import NavBar from "./NavBar";
-import AllCards from "./pages/AllCards";
+import CardGroups from "./pages/CardGroups";
 import Contact from "./pages/Contact";
 import Game from "./pages/game-page/Game";
 import Releases from "./pages/Releases";
@@ -105,7 +105,7 @@ export default class MainContainer extends Component {
               />
             </Route>
             <Route path={["/cards", "/hu/cards"]}>
-              <AllCards
+              <CardGroups
                 i18n={i18n}
                 currentLanguage={this.state.currentLanguage}
                 reloadLanguage={this.reloadLanguage}
@@ -146,14 +146,14 @@ export default class MainContainer extends Component {
               />
             </Route>
             <Route path="/en/games">
-              <AllCards
+              <DrinkingGames
                 i18n={i18n}
                 currentLanguage="en"
                 reloadLanguage={this.reloadLanguage}
               />
             </Route>
             <Route path="/en/cards">
-              <DrinkingGames
+              <CardGroups
                 i18n={i18n}
                 currentLanguage="en"
                 reloadLanguage={this.reloadLanguage}
@@ -173,8 +173,8 @@ export default class MainContainer extends Component {
             </Route>
             { /* SEO */}
             <Route path={["/p", "/p/:post"]}>
-              <Posts 
-                i18n={i18n} 
+              <Posts
+                i18n={i18n}
                 currentLanguage={this.state.currentLanguage}
               />
             </Route>
