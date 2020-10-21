@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 
 // Import the local components.
-import NavBar from "./NavBar";
+import NavBar from "./navbar/NavBar";
 import CardGroups from "./pages/CardGroups";
 import Contact from "./pages/Contact";
 import Game from "./pages/game-page/Game";
