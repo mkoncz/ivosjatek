@@ -53,7 +53,7 @@ const NavBar = props => {
       <Collapse isOpen={isNavbarOpen} navbar >
         <Nav className="mr-auto centered" navbar>
           <NavItem>
-            <NavLink href="/" onClick={closeHamburger}>{props.i18n.t("nav.game")}</NavLink>
+            <NavLink href="/game" onClick={closeHamburger}>{props.i18n.t("nav.game")}</NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="/sponsors" onClick={closeHamburger}>{props.i18n.t("nav.sponsors")}</NavLink>

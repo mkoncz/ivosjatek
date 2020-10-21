@@ -1,0 +1,31 @@
+.half-block {
+    height: 40vh;
+    border-radius: 15px;
+    margin: 5px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.55);
+    text-align: center;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.55);
+}
+
+.welcome a:hover
+{
+    text-decoration: none;
+}
+
+.welcome-text-block {
+    padding: 2em;
+    position: absolute;
+}
+
+.upper-block {
+    background: url("../../img/sponsors_page/whiskey.jpg");
+}
+
+.lower-block {
+    background: url("../../img/sponsors_page/beers.jpg");
+}
