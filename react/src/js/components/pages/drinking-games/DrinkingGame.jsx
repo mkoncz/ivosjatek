@@ -76,9 +76,9 @@ const DrinkingGame = (props) => {
         </div>
     }
 
-    const createImage = (postObject) => {
+    const createImage = (postObject, index) => {
         return (
-            <div align="center">
+            <div key={index} align="center">
                 <img
                     width="100%"
                     className="post-image"
@@ -90,15 +90,14 @@ const DrinkingGame = (props) => {
 
     const createRedditCard = (postObject) => {
         return (
-            <blockquote class="reddit-card">
+            <blockquote postObjectsclass="reddit-card">
                 <a href={postObject.url}>link</a>
             </blockquote>
         )
     }
 
-
     return (
-        <div className="page-frame">
+        <div key={props.postObjects[0].slug} className="page-frame">
             {props.postObjects.map((postObject, index) => {
                 if (postObject.type === 'header') {
                     return createHeader(postObject, index);

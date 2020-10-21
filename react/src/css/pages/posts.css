@@ -20,6 +20,30 @@ img.post-thumbnail {
     float: left;
 }
 
+img.game-thumbnail {
+    max-width: 250px;
+    width: 100%;
+}
+
+.game-thumbnail-container {
+    max-width: 300px;
+    width: 100%;
+    border: 2px solid rgba(255, 255, 255, 0.55);
+    margin: 4px;
+    border-radius: 3px;
+    padding: 4px;
+    float: left;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-title {
+    margin-top: 15px;
+    text-align: center;
+}
+
 .post-thumbnail-title-container {
     width: 46%;
     margin-left: 4%;
