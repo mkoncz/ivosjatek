@@ -108,6 +108,11 @@
   "sponsors.technicalSupport": "1 évig ingyen biztosítom az oldal karbantartását.",
   "sponsors.sponsorTitle": "Támogatók",
   "sponsors.whyToBeOwner": "Miért válj tulajdonossá?",
-  "sponsors.whyToBeSponsor": "Miért legyél támogató?"
+  "sponsors.whyToBeSponsor": "Miért legyél támogató?",
+
+  "welcome.online_game": "Online ivós játék",
+  "welcome.online_game_desc": "Pörgesd fel a bulit egy izgalmas online kártyajátékkal",
+  "welcome.other_games": "Egyéb ivós játékok",
+  "welcome.other_games_desc": "A legjobb ivós játékok szabályai magyar kártya, francia kártya, jenga vagy csupán szavak segítségével"
 }
   
