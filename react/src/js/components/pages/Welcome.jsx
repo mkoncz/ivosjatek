@@ -33,16 +33,16 @@ export default class Welcome extends Component {
           <a href="/game">
             <div class="half-block upper-block">
               <div class="welcome-text-block ">
-                <h1>Online ivós játék</h1>
-                <h4>Pörgesd fel a bulit egy izgalmas online kártyajátékkal</h4>
+                <h1>{this.props.i18n.t("welcome.online_game")}</h1>
+                <h4>{this.props.i18n.t("welcome.online_game_desc")}</h4>
               </div>
             </div>
           </a>
           <a href="/games">
             <div class="half-block lower-block">
               <div class="welcome-text-block ">
-                <h1>Egyéb ivós játékok</h1>
-                <h4>A legjobb ivós játékok szabályai magyar kártya, francia kártya, jenga vagy csupán szavak segítségével</h4>
+                <h1>{this.props.i18n.t("welcome.other_games")}</h1>
+                <h4>{this.props.i18n.t("welcome.other_games_desc")}</h4>
               </div>
             </div>
           </a>
