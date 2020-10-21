@@ -111,6 +111,14 @@ export default class Sources extends Component {
             licenceURL="https://pixabay.com/service/license/"
             licenceType="Pixabay Licence"
           />
+          <SourceDetail
+            i18n={this.props.i18n}
+            localizedName={this.props.i18n.t("source.drinking_game_images")}
+            sourceURL="https://www.pexels.com"
+            sourceName="PEXEL"
+            licenceURL="https://www.pexels.com/license/"
+            licenceType="PEXELS Licence"
+          />
         </ul>
         <div>
           <h4>GitHub:</h4>

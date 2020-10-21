@@ -33,9 +33,11 @@ const DrinkingGames = props => {
     games.forEach(element => {
       if (element[0].type === 'meta') {
         if (window.location.pathname.includes(element[0].slug)) {
-          post = <DrinkingGame
-            postObjects={element}>
-          </DrinkingGame>
+          post = <div key={element[0].slug}>
+            <DrinkingGame
+              postObjects={element}>
+            </DrinkingGame>
+          </div>
         }
       }
     });
@@ -44,13 +46,16 @@ const DrinkingGames = props => {
 
   // Returns all thumbnail of all games
   const getAllThumbs = () => {
+    const images = require.context('../../../../img/games_page', true);
+    
     return games.map(element => {
+      let img = images('./' + element[0].img);
       return (
-        <div>
+        <div key={element[0].slug} className="game-thumbnail-container">
           <a href={`/games/${element[0].slug}`}>
-            <img width="100%" src={element[0].img}
-              className="post-thumbnail" alt={props.i18n.t("nav.games")} />
-            <div className="post-thumbnail-title-container" >
+            <img src={img}
+              className="game-thumbnail" alt={props.i18n.t("nav.games")} />
+            <div className="game-title" >
               <h4>
                 {element[0].title}
               </h4>
@@ -64,9 +69,9 @@ const DrinkingGames = props => {
 
   return (
     <div className="page-frame">
-      <h1>{props.i18n.t("nav.games")}</h1>
 
       {getCurrentGame()}
+      <h1>{props.i18n.t("nav.games")}</h1>
       {getAllThumbs()}
 
     </div>

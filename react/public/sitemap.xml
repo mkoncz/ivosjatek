@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+
   <url>
     <loc>https://ivosjatek.hu</loc>
     <lastmod>2020-10-20</lastmod>
@@ -12,6 +13,7 @@
     <loc>https://ivosjatek.hu/en</loc>
     <lastmod>2020-10-20</lastmod>
   </url>
+
   <url>
     <loc>https://ivosjatek.hu/rules</loc>
     <lastmod>2020-10-20</lastmod>
@@ -24,18 +26,7 @@
     <loc>https://ivosjatek.hu/en/rules</loc>
     <lastmod>2020-10-20</lastmod>
   </url>
-  <url>
-    <loc>https://ivosjatek.hu/cards</loc>
-    <lastmod>2020-10-20</lastmod>
-  </url>
-  <url>
-    <loc>https://ivosjatek.hu/hu/cards</loc>
-    <lastmod>2020-10-20</lastmod>
-  </url>
-  <url>
-    <loc>https://ivosjatek.hu/en/cards</loc>
-    <lastmod>2020-10-20</lastmod>
-  </url>
+
   <url>
     <loc>https://ivosjatek.hu/contact</loc>
     <lastmod>2020-10-20</lastmod>
@@ -48,6 +39,7 @@
     <loc>https://ivosjatek.hu/en/contact</loc>
     <lastmod>2020-10-20</lastmod>
   </url>
+
   <url>
     <loc>https://ivosjatek.hu/releases</loc>
     <lastmod>2020-10-20</lastmod>
@@ -60,6 +52,7 @@
     <loc>https://ivosjatek.hu/en/releases</loc>
     <lastmod>2020-10-20</lastmod>
   </url>
+
   <url>
     <loc>https://ivosjatek.hu/sources</loc>
     <lastmod>2020-10-20</lastmod>
@@ -72,6 +65,7 @@
     <loc>https://ivosjatek.hu/en/sources</loc>
     <lastmod>2020-10-20</lastmod>
   </url>
+
   <url>
     <loc>https://ivosjatek.hu/sponsors</loc>
     <lastmod>2020-10-20</lastmod>
@@ -84,6 +78,7 @@
     <loc>https://ivosjatek.hu/en/sponsors</loc>
     <lastmod>2020-10-20</lastmod>
   </url>
+
   <url>
     <loc>https://ivosjatek.hu/games/osszeragadva</loc>
     <lastmod>2020-10-20</lastmod>
@@ -161,6 +156,28 @@
     <lastmod>2020-10-20</lastmod>
   </url>
   <url>
+    <loc>https://ivosjatek.hu/hu/games</loc>
+    <lastmod>2020-10-20</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/games</loc>
+    <lastmod>2020-10-20</lastmod>
+  </url>
+
+  <url>
+    <loc>https://ivosjatek.hu/hu/game</loc>
+    <lastmod>2020-10-20</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/en/game</loc>
+    <lastmod>2020-10-20</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/game</loc>
+    <lastmod>2020-10-20</lastmod>
+  </url>
+
+  <url>
     <loc>https://ivosjatek.hu/p</loc>
     <lastmod>2020-10-20</lastmod>
   </url>
@@ -194,6 +211,20 @@
   </url>
   <url>
     <loc>https://ivosjatek.hu/p/pornhub-fekete-het</loc>
+    <lastmod>2020-10-20</lastmod>
+  </url>
+
+
+  <url>
+    <loc>https://ivosjatek.hu/cards</loc>
+    <lastmod>2020-10-20</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/hu/cards</loc>
+    <lastmod>2020-10-20</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/en/cards</loc>
     <lastmod>2020-10-20</lastmod>
   </url>
   <url>
@@ -312,8 +343,10 @@
     <loc>https://ivosjatek.hu/cards/fastest_one</loc>
     <lastmod>2020-10-20</lastmod>
   </url>
+
   <url>
     <loc>https://ivosjatek.hu/404</loc>
     <lastmod>2020-10-20</lastmod>
   </url>
+
 </urlset>

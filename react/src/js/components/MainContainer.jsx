@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 
 // Import the local components.
-import NavBar from "./NavBar";
+import NavBar from "./navbar/NavBar";
 import CardGroups from "./pages/CardGroups";
 import Contact from "./pages/Contact";
 import Game from "./pages/game-page/Game";
@@ -17,6 +17,7 @@ import Sources from "./pages/sources-page/Sources";
 import Sponsors from "./pages/sponsors-page/Sponsors";
 import Page404 from "./pages/Page404";
 import Posts from "./pages/posts/Posts";
+import Welcome from "./pages/Welcome";
 
 // Import module that redirects http requests to https.
 import HttpsRedirect from "react-https-redirect";
@@ -160,6 +161,13 @@ export default class MainContainer extends Component {
               />
             </Route>
             <Route path="/en">
+              <Welcome
+                i18n={i18n}
+                currentLanguage="en"
+                reloadLanguage={this.reloadLanguage}
+              />
+            </Route>
+            <Route path="/game/en">
               <Game
                 i18n={i18n}
                 currentLanguage="en"
@@ -179,8 +187,15 @@ export default class MainContainer extends Component {
               />
             </Route>
             { /* END SEO */}
-            <Route path={["/", "/hu"]}>
+            <Route path={["/game", "/game/hu"]}>
               <Game
+                i18n={i18n}
+                currentLanguage={this.state.currentLanguage}
+                reloadLanguage={this.reloadLanguage}
+              />
+            </Route>
+            <Route path={["/", "/hu"]}>
+              <Welcome
                 i18n={i18n}
                 currentLanguage={this.state.currentLanguage}
                 reloadLanguage={this.reloadLanguage}

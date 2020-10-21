@@ -65,6 +65,32 @@
         "The ivosjatek.hu domain is on the first page of the hungarian search results.",
         "Security issues fixed."
       ]
+    },
+    {
+      "title": "August 2020",
+      "changes": [
+        "Minor bugfixes.",
+        "Wired Instagram, LinkedIn, Twitter profiles.",
+        "Player name selector cards.",
+        "Secure cookies."
+      ]
+    },
+    {
+      "title": "September 2020",
+      "changes": [
+        "Blogposts for SEO",
+        "Dropdown menu on the navigation bar.",
+        "New page for all cards.",
+        "Code refactoring.",
+        "New page for other drinking games."
+      ]
+    },
+    {
+      "title": "October 2020",
+      "changes": [
+        "Image size optimization.",
+        "New welcome page."
+      ]
     }
   ]
 }

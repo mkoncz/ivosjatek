@@ -73,6 +73,7 @@
   "nav.sponsors": "Sponsors",
   "nav.title": "Drinking Game",
   
+  "source.drinking_game_images": "Thumbnails of drinking games",
   "source.licence": "Licensed by",
   "source.library": "library",
   "source.source": "source",
@@ -106,5 +107,10 @@
   "sponsors.sponsorTitle": "Sponsors",
   "sponsors.technicalSupport": "You get 1 year of free technical support from me.",
   "sponsors.whyToBeOwner": "Why to be the owner?",
-  "sponsors.whyToBeSponsor": "Why to be a sponsor?"
+  "sponsors.whyToBeSponsor": "Why to be a sponsor?",
+
+  "welcome.online_game": "Online drinking game",
+  "welcome.online_game_desc": "Make the night unforgettable. This drinking game is a great tool to cheer up the party.",
+  "welcome.other_games": "Other drinking games",
+  "welcome.other_games_desc": "The rules of the best offline drinking games with cards, jenga or just words"
 }
