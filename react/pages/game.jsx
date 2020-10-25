@@ -1,6 +1,9 @@
 // Import React modules.
 import React, { Component } from "react";
 
+// Import module for cookie handling.
+import Cookies from "universal-cookie";
+
 // Import local Card component.
 import Card from "../components/game-page/Card";
 import NavBar from "../components/navbar/NavBar";
@@ -9,10 +12,16 @@ import NavBar from "../components/navbar/NavBar";
 import * as questions from "../locales/questions.json";
 import { t } from "../i18n";
 
+
 export default class Game extends Component {
 
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
+    this.cookies = new Cookies();
+    if (this.cookies.get("lang")) {
+      this.cookies.set("lang", "hu");
+    }
+
     this.questions = questions.default;
 
     this.state = {
@@ -26,13 +35,12 @@ export default class Game extends Component {
 
     return (
       <div>
-        <NavBar/>
+        <NavBar />
         <div align="center" className="page-frame game-view" width="100%">
           <h1 className="left-card-label animated fadeIn">
             {t("game.card_left").replace("%NUMBER%", number_of_left_cards)}
           </h1>
           <Card
-            currentLanguage={this.props.currentLanguage}
             setNewQuestion={this.setNewQuestion}
             currentQuestionModel={this.state.currentQuestion}
           >

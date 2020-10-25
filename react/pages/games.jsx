@@ -20,6 +20,9 @@ export default class DrinkingGames extends React.Component {
   constructor() {
     super();
     this.cookies = new Cookies();
+    if (this.cookies.get("lang")==null) {
+      this.cookies.set("lang", "hu");
+    }
     this.games = this.cookies.get("lang") === "hu" ? drinking_objects_hu.default.all_games : drinking_objects_en.default.all_games;
     for (var i = this.games.length - 1; i > 0; i--) {
       var j = Math.floor(Math.random() * (i + 1));

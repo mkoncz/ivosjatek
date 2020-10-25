@@ -1,10 +1,22 @@
 // Import ReactJS module.
 import React, { Component } from "react";
 
+// Import module for cookie handling.
+import Cookies from "universal-cookie";
+
 import NavBar from "./../components/navbar/NavBar";
 import { t } from "../i18n";
 
+
 export default class Welcome extends Component {
+
+  constructor(){
+    super();
+    this.cookies = new Cookies();
+    if (this.cookies.get("lang")==null) {
+      this.cookies.set("lang", "hu");
+    }
+  }
 
   render() {
     return (

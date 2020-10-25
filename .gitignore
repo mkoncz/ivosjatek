@@ -5,3 +5,4 @@ venv
 *.pyc
 .vscode
 readme.dev.md
+.next
