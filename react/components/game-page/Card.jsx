@@ -25,7 +25,10 @@ export default class Card extends Component {
     super();
 
     this.cookies = new Cookies();
-
+    if (this.cookies.get("lang")==null) {
+      this.cookies.set("lang", "hu");
+    }
+ 
     this.state = {
       flipClasses: "animated bounceInLeft",
       name: ""
