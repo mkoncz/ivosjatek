@@ -1,5 +1,6 @@
 // Import React modules.
 import React, { Component } from "react";
+import Head from 'next/head';
 
 // Import module for cookie handling.
 import Cookies from "universal-cookie";
@@ -35,6 +36,9 @@ export default class Game extends Component {
 
     return (
       <div>
+        <Head>
+          <title>{t("nav.game")} | {t("nav.title")}</title>
+        </Head>
         <NavBar />
         <div align="center" className="page-frame game-view" width="100%">
           <h1 className="left-card-label animated fadeIn">
