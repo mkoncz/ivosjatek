@@ -1,5 +1,6 @@
 // Import ReactJS module.
 import React from "react";
+import Head from 'next/head';
 
 import Cookies from "universal-cookie";
 
@@ -20,7 +21,7 @@ export default class DrinkingGames extends React.Component {
   constructor() {
     super();
     this.cookies = new Cookies();
-    if (this.cookies.get("lang")==null) {
+    if (this.cookies.get("lang") == null) {
       this.cookies.set("lang", "hu");
     }
     this.games = this.cookies.get("lang") === "hu" ? drinking_objects_hu.default.all_games : drinking_objects_en.default.all_games;
@@ -55,6 +56,9 @@ export default class DrinkingGames extends React.Component {
   render() {
     return (
       <div>
+        <Head>
+          <title>{t("nav.games")} | {t("nav.title")}</title>
+        </Head>
         <NavBar />
         <div className="page-frame">
           <h1>{t("nav.games")}</h1>

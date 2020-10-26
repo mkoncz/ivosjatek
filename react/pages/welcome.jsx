@@ -1,5 +1,6 @@
 // Import ReactJS module.
 import React, { Component } from "react";
+import Head from 'next/head';
 
 // Import module for cookie handling.
 import Cookies from "universal-cookie";
@@ -21,6 +22,9 @@ export default class Welcome extends Component {
   render() {
     return (
       <div>
+        <Head>
+          <title>{t("nav.game")} | {t("nav.title")}</title>
+        </Head>
         <NavBar />
         <div className="page-frame">
           <div class="welcome">

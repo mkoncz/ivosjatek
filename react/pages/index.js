@@ -1,4 +1,3 @@
-
 import Welcome from './welcome';
 
 const Homepage = () => (
