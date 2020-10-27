@@ -1,14 +1,14 @@
 // Import ReactJS module.
 import React from "react";
-import Head from 'next/head';
 
 import Cookies from "universal-cookie";
 
 // Import game content
-import * as drinking_objects_hu from "../locales/drinking_games_hu.json"
-import * as drinking_objects_en from "../locales/drinking_games_en.json"
+import * as drinking_objects_hu from "../locales/drinking_games_hu.json";
+import * as drinking_objects_en from "../locales/drinking_games_en.json";
 
 import NavBar from "./../components/navbar/NavBar";
+import CustomHead from "../components/head/CustomHead";
 
 import { t } from "./../i18n";
 
@@ -56,9 +56,10 @@ export default class DrinkingGames extends React.Component {
   render() {
     return (
       <div>
-        <Head>
-          <title>{t("nav.games")} | {t("nav.title")}</title>
-        </Head>
+        <CustomHead
+          title={t("nav.home")}
+          desc={t("desc.game")}
+        />
         <NavBar />
         <div className="page-frame">
           <h1>{t("nav.games")}</h1>
