@@ -5,6 +5,7 @@ import React, { Component } from "react";
 import SourceDetail from "./../components/sources-page/Source";
 
 import NavBar from "./../components/navbar/NavBar";
+import CustomHead from "../components/head/CustomHead";
 
 import { t } from "./../i18n";
 
@@ -18,6 +19,10 @@ export default class Sources extends Component {
 
     return (
       <div>
+        <CustomHead
+          title={t("nav.sources")}
+          desc={t("desc.sources")}
+        />
         <NavBar />
         <div className="page-frame">
           <h4>{t("source.sources_title")}:</h4>

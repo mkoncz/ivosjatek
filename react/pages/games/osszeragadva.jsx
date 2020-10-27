@@ -1,8 +1,10 @@
 // Import ReactJS module.
 import React from "react";
 
-import NavBar from "../../components/navbar/NavBar";
 import Cookies from "universal-cookie";
+
+import NavBar from "../../components/navbar/NavBar";
+import CustomHead from "./../../components/head/CustomHead";
 
 import DrinkingGame from "../../components/drinking-games/DrinkingGame";
 
@@ -63,8 +65,11 @@ export default class DrinkingGames extends React.Component {
 
   render() {
     return (
-      <div>
         <div>
+                  <CustomHead
+          title="Összeragadva"
+          desc="Ez a játék szó szerint közelebb hoz titeket."
+        />
           <NavBar />
           <div className="page-frame">
             {this.getCurrentGame("osszeragadva")}
@@ -72,7 +77,6 @@ export default class DrinkingGames extends React.Component {
             {this.getAllThumbs()}
           </div>
         </div>
-      </div>
     );
   }
 }

@@ -2,6 +2,7 @@
 import React, { Component } from "react";
 
 import NavBar from "./../components/navbar/NavBar";
+import CustomHead from "../components/head/CustomHead";
 
 import { t } from "./../i18n";
 
@@ -14,6 +15,10 @@ export default class Contact extends Component {
   render() {
     return (
       <div>
+        <CustomHead
+          title={t("nav.contact")}
+          desc={t("desc.contact")}
+        />
         <NavBar />
         <div className="page-frame">
           <h3>{t("contact.contact")}</h3><br></br>

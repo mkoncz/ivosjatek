@@ -1,8 +1,10 @@
 // Import ReactJS module.
 import React from "react";
 
-import NavBar from "../../components/navbar/NavBar";
 import Cookies from "universal-cookie";
+
+import NavBar from "../../components/navbar/NavBar";
+import CustomHead from "./../../components/head/CustomHead";
 
 import DrinkingGame from "../../components/drinking-games/DrinkingGame";
 
@@ -64,13 +66,15 @@ export default class DrinkingGames extends React.Component {
   render() {
     return (
       <div>
-        <div>
-          <NavBar />
-          <div className="page-frame">
-            {this.getCurrentGame("tarsasjatekok")}
-            <h1>{t("nav.games")}</h1>
-            {this.getAllThumbs()}
-          </div>
+        <CustomHead
+          title="Társasjátékok"
+          desc="Alkoholi és Részegedj Okosan!Egy egész éjszakán át tartó, nagyon idegesítő játék"
+        />
+        <NavBar />
+        <div className="page-frame">
+          {this.getCurrentGame("tarsasjatekok")}
+          <h1>{t("nav.games")}</h1>
+          {this.getAllThumbs()}
         </div>
       </div>
     );

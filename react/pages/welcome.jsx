@@ -1,11 +1,12 @@
 // Import ReactJS module.
 import React, { Component } from "react";
-import Head from 'next/head';
 
 // Import module for cookie handling.
 import Cookies from "universal-cookie";
 
 import NavBar from "./../components/navbar/NavBar";
+import CustomHead from "../components/head/CustomHead";
+
 import { t } from "../i18n";
 
 
@@ -22,9 +23,10 @@ export default class Welcome extends Component {
   render() {
     return (
       <div>
-        <Head>
-          <title>{t("nav.game")} | {t("nav.title")}</title>
-        </Head>
+        <CustomHead
+          title={t("nav.home")}
+          desc={t("desc.game")}
+        />
         <NavBar />
         <div className="page-frame">
           <div class="welcome">

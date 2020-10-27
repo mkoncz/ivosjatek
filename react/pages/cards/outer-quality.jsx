@@ -6,7 +6,8 @@ import Cookies from "universal-cookie";
 // Import question resources.
 import * as questions from "./../../locales/questions.json"
 
-import NavBar from "./../../components/navbar/NavBar";
+import NavBar from "../../components/navbar/NavBar";
+import CustomHead from "./../../components/head/CustomHead";
 
 import { t } from "./../../i18n";
 
