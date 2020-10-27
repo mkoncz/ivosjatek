@@ -1,8 +1,10 @@
 // Import ReactJS module.
 import React from "react";
 
-import NavBar from "../../components/navbar/NavBar";
 import Cookies from "universal-cookie";
+
+import NavBar from "../../components/navbar/NavBar";
+import CustomHead from "./../../components/head/CustomHead";
 
 import DrinkingGame from "../../components/drinking-games/DrinkingGame";
 
@@ -64,7 +66,11 @@ export default class DrinkingGames extends React.Component {
   render() {
     return (
       <div>
-        <div>
+        <div>        
+          <CustomHead
+            title="Bumm"
+            desc=" Az egyik legegyszerűbb ivós játék. Minden játékos mond egy számot hangosan, sorban, 1-től kezdve, kivéve a 7-et, annak többszöröseit és amiben benne van a szám (pl. 17). Ebben az esetben azt mondja: bumm. Aki elhibázza, iszik. Ilyen egyszerű."
+          />
           <NavBar />
           <div className="page-frame">
             {this.getCurrentGame("bumm")}

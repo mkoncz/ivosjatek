@@ -7,6 +7,7 @@ import Cookies from "universal-cookie";
 import * as questions from "./../locales/questions.json"
 
 import NavBar from "./../components/navbar/NavBar";
+import CustomHead from "../components/head/CustomHead";
 
 import { t } from "./../i18n";
 
@@ -43,6 +44,10 @@ export default class CardGroups extends Component {
 
     return (
       <div>
+        <CustomHead
+          title={t("nav.cards")}
+          desc={t("desc.cards")}
+        />
         <NavBar />
         <div className="page-frame">
 

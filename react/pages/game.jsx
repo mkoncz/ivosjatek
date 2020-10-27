@@ -1,6 +1,5 @@
 // Import React modules.
 import React, { Component } from "react";
-import Head from 'next/head';
 
 // Import module for cookie handling.
 import Cookies from "universal-cookie";
@@ -8,6 +7,7 @@ import Cookies from "universal-cookie";
 // Import local Card component.
 import Card from "../components/game-page/Card";
 import NavBar from "../components/navbar/NavBar";
+import CustomHead from "../components/head/CustomHead";
 
 // Import question resources.
 import * as questions from "../locales/questions.json";
@@ -36,9 +36,10 @@ export default class Game extends Component {
 
     return (
       <div>
-        <Head>
-          <title>{t("nav.game")} | {t("nav.title")}</title>
-        </Head>
+        <CustomHead
+          title={t("nav.game")}
+          desc={t("desc.game")}
+        />  
         <NavBar />
         <div align="center" className="page-frame game-view" width="100%">
           <h1 className="left-card-label animated fadeIn">

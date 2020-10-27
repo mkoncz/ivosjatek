@@ -57,7 +57,7 @@ export default class DrinkingGames extends React.Component {
     return (
       <div>
         <CustomHead
-          title={t("nav.home")}
+          title={t("nav.games")}
           desc={t("desc.game")}
         />
         <NavBar />

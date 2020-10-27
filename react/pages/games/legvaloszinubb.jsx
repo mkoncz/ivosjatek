@@ -1,8 +1,10 @@
 // Import ReactJS module.
 import React from "react";
 
-import NavBar from "../../components/navbar/NavBar";
 import Cookies from "universal-cookie";
+
+import NavBar from "../../components/navbar/NavBar";
+import CustomHead from "./../../components/head/CustomHead";
 
 import DrinkingGame from "../../components/drinking-games/DrinkingGame";
 
@@ -42,7 +44,7 @@ export default class DrinkingGames extends React.Component {
   }
 
   // Returns the thumbnail and title of all games.
-  getAllThumbs = (games) => {
+  getAllThumbs = () => {
     return this.games.map(element => {
       return (
         <div key={element[0].slug} className="game-thumbnail-container">
@@ -64,13 +66,15 @@ export default class DrinkingGames extends React.Component {
   render() {
     return (
       <div>
-        <div>
-          <NavBar />
-          <div className="page-frame">
-            {this.getCurrentGame("legvaloszinubb")}
-            <h1>{t("nav.games")}</h1>
-            {this.getAllThumbs()}
-          </div>
+        <CustomHead
+          title="Legvalószínűbb"
+          desc="A játékosok körben ülnek és feltesznek egy 'legvalószínűbb' kérdést."
+        />
+        <NavBar />
+        <div className="page-frame">
+          {this.getCurrentGame("legvaloszinubb")}
+          <h1>{t("nav.games")}</h1>
+          {this.getAllThumbs()}
         </div>
       </div>
     );

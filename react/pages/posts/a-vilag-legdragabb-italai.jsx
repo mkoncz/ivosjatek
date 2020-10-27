@@ -8,10 +8,10 @@ import Cookies from "universal-cookie";
 import * as posts_objects_hu from "./../../locales/posts_hu.json"
 import * as posts_objects_en from "./../../locales/posts_en.json"
 
-
 import Post from "./../../components/posts-page/Post"
 
 import NavBar from "./../../components/navbar/NavBar";
+import CustomHead from "./../../components/head/CustomHead";
 
 import { t } from "./../../i18n";
 /**
@@ -85,6 +85,10 @@ const Posts = props => {
 
   return (
     <div>
+      <CustomHead
+        title={t("nav.posts")}
+        desc={t("desc.posts")}
+      />
       <NavBar />
       <div className="page-frame">
         <Modal

@@ -10,6 +10,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons"
 
 import NavBar from "./../components/navbar/NavBar";
+import CustomHead from "../components/head/CustomHead";
 
 import { t } from "./../i18n";
 
@@ -21,6 +22,10 @@ export default class Sponsors extends Component {
   render() {
     return (
       <div>
+        <CustomHead
+          title={t("nav.sponsors")}
+          desc={t("desc.sponsors")}
+        />
         <NavBar />
         <Container fluid className="sponsors-container">
           <div>

@@ -1,12 +1,16 @@
 // Import ReactJS module.
 import React, { Component } from "react";
 
+import Cookies from "universal-cookie";
+
 // Import localized entries of releases.
 import * as hun_note_resource from "../locales/release_notes_hu.json"
 import * as en_note_resource from "../locales/release_notes_en.json"
 
 import NavBar from "./../components/navbar/NavBar";
-import Cookies from "universal-cookie";
+import CustomHead from "../components/head/CustomHead";
+
+import { t } from "./../i18n";
 
 /**
  * Release notes of the application.
@@ -26,6 +30,10 @@ export default class Contact extends Component {
     let notes = this.cookies.get("lang") === "hu" ? [...hun_note_resource.notes] : [...en_note_resource.notes];
     return (
       <div>
+        <CustomHead
+          title={t("nav.release_notes")}
+          desc={t("desc.release_notes")}
+        />
         <NavBar />
         <div className="page-frame">
           {notes.reverse().map((release) => {

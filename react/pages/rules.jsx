@@ -2,6 +2,7 @@
 import React, { Component } from "react";
 
 import NavBar from "./../components/navbar/NavBar";
+import CustomHead from "../components/head/CustomHead";
 
 import { t } from "./../i18n";
 
@@ -14,6 +15,10 @@ export default class Rules extends Component {
   render() {
     return (
       <div>
+        <CustomHead
+          title={t("nav.rules")}
+          desc={t("desc.rules")}
+        />
         <NavBar/>
         <div className="page-frame">
         <h4>{t("rules.terms_title")}</h4>
