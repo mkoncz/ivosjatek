@@ -114,13 +114,6 @@ export default class Sources extends Component {
               licenceType="PEXELS Licence"
             />
           </ul>
-          <div>
-            <h4>GitHub:</h4>
-            <a href="https://github.com/matthewkoncz/ivosjatek" className="github-ref" target="_blank" rel="noopener noreferrer">
-              <img src="/img/github_logo.png" className="github-icon" alt="Github" />
-              <div className="github-label" >IVOSJATEK</div>
-            </a>
-          </div>
         </div>
       </div>
     );

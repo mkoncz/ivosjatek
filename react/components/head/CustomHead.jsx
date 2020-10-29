@@ -56,7 +56,7 @@ const CustomHead = props => {
             "https://www.instagram.com/ivosjatek.hu",
             "https://www.linkedin.com/company/ivosjatek",
             "https://twitter.com/ivosjatek",
-            "https://www.facebook.com/mate.ko.92167"
+            "https://www.facebook.com/ivosjatek.hu"
           ]
         }
       `}
