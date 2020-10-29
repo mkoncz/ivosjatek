@@ -10,7 +10,6 @@ import '../styles/pages/cards.css'
 import '../styles/pages/contact.css'
 import '../styles/pages/game.css'
 import '../styles/pages/posts.css'
-import '../styles/pages/sources.css'
 import '../styles/pages/sponsors.css'
 import '../styles/pages/welcome.css'
 
