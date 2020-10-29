@@ -1,17 +1,29 @@
 // Import ReactJS module.
 import React, { Component } from "react";
 
-import NavBar from "./../components/navbar/NavBar";
-import CustomHead from "../components/head/CustomHead";
+// Import module for cookie handling.
+import Cookies from "universal-cookie";
 
+// Import components.
+import NavBar from "./../components/navbar/NavBar";
+import CustomHead from "./../components/head/CustomHead";
+
+// Import translate function.
 import { t } from "./../i18n";
 
 /**
  * List of the rules.
- * 
  */
 export default class Rules extends Component {
 
+  constructor() {
+    super();
+    this.cookies = new Cookies();
+    if (this.cookies.get("lang") == null) {
+      this.cookies.set("lang", "hu");
+    }
+  }
+  
   render() {
     return (
       <div>

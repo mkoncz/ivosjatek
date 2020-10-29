@@ -1,23 +1,26 @@
 // Import ReactJS module.
-import React, {Component} from "react";
+import React, { Component } from "react";
 
 // Import module for cookie handling.
 import Cookies from "universal-cookie";
 
 // Import components.
-import NavBar from "./../components/navbar/NavBar";
-import CustomHead from "./../components/head/CustomHead";
+import NavBar from "./../navbar/NavBar";
+import CustomHead from "./../head/CustomHead";
 
 // Import translate function.
-import { t } from "./../i18n";
+import { t } from "./../../i18n";
+
+// Import question resources.
+import * as questions from "./../../locales/questions.json";
 
 /**
- * The card categories listed.
+ * The cards of the selected category listed.
  */
-export default class CardGroups extends Component {
-  
-  constructor() {
-    super();
+export default class CardGroupList extends Component {
+
+  constructor(props) {
+    super(props);
     this.cookies = new Cookies();
     if (this.cookies.get("lang") == null) {
       this.cookies.set("lang", "hu");
@@ -25,6 +28,10 @@ export default class CardGroups extends Component {
   }
 
   render() {
+    let filteredList = questions.default.filter((question) => {
+      return question.t === this.props.group;
+    })
+
     return (
       <div>
         <CustomHead
@@ -33,6 +40,15 @@ export default class CardGroups extends Component {
         />
         <NavBar />
         <div className="page-frame">
+          {this.props.title != null ? (
+            <div> <h2>{this.title}</h2>
+              {filteredList.map((question, index) => {
+                return (
+                  <div key={index} className="sponsor-card white-card">
+                    <h4>{question[this.cookies.get("lang") === "hu" ? "hu" : "en"].replace("%NAME%", t("game.player").toUpperCase())}</h4>
+                  </div>
+                )
+              })} </div>) : null}
           <h2 style={{ clear: "both", paddingTop: "40px" }}>{t("cards.categories")}</h2>
           <a href="/cards/outer-quality">
             <div className="sponsor-card white-card">

@@ -1,21 +1,25 @@
-// Import ReactJS module.
+// Import React modules.
 import React, { Component } from "react";
 
 // Import module for cookie handling.
 import Cookies from "universal-cookie";
 
+// Import components.
 import NavBar from "./../components/navbar/NavBar";
-import CustomHead from "../components/head/CustomHead";
+import CustomHead from "./../components/head/CustomHead";
 
-import { t } from "../i18n";
+// Import translate function.
+import { t } from "./../i18n";
 
-
+/**
+ * Welcome page.
+ */
 export default class Welcome extends Component {
 
-  constructor(){
+  constructor() {
     super();
     this.cookies = new Cookies();
-    if (this.cookies.get("lang")==null) {
+    if (this.cookies.get("lang") == null) {
       this.cookies.set("lang", "hu");
     }
   }
@@ -29,18 +33,18 @@ export default class Welcome extends Component {
         />
         <NavBar />
         <div className="page-frame">
-          <div class="welcome">
+          <div className="welcome">
             <a href="/game">
-              <div class="half-block upper-block">
-                <div class="welcome-text-block ">
+              <div className="half-block upper-block">
+                <div className="welcome-text-block ">
                   <h1>{t("welcome.online_game")}</h1>
                   <h4>{t("welcome.online_game_desc")}</h4>
                 </div>
               </div>
             </a>
             <a href="/games">
-              <div class="half-block lower-block">
-                <div class="welcome-text-block ">
+              <div className="half-block lower-block">
+                <div className="welcome-text-block ">
                   <h1>{t("welcome.other_games")}</h1>
                   <h4>{t("welcome.other_games_desc")}</h4>
                 </div>
@@ -48,7 +52,6 @@ export default class Welcome extends Component {
             </a>
           </div>
         </div>
-
       </div>
     );
   }

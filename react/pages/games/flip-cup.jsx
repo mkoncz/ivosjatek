@@ -1,28 +1,32 @@
 // Import ReactJS module.
-import React from "react";
+import React, {Component} from "react";
 
+// Import module for cookie handling.
 import Cookies from "universal-cookie";
 
-import NavBar from "../../components/navbar/NavBar";
+// Import components.
+import NavBar from "./../../components/navbar/NavBar";
 import CustomHead from "./../../components/head/CustomHead";
+import DrinkingGame from "./../../components/drinking-games/DrinkingGame";
 
-import DrinkingGame from "../../components/drinking-games/DrinkingGame";
+// Import translate function.
+import { t } from "./../../i18n";
 
-// Import game content
-import * as drinking_objects_hu from "../../locales/drinking_games_hu.json"
-import * as drinking_objects_en from "../../locales/drinking_games_en.json"
-
-import { t } from "../../i18n";
-
+// Import game rules resource.
+import * as drinking_objects_hu from "./../../locales/drinking_games_hu.json"
+import * as drinking_objects_en from "./../../locales/drinking_games_en.json"
 
 /**
- * The page contains the list of posts.
+ * The page contains a selected drinking game.
  */
-export default class DrinkingGames extends React.Component {
+export default class SelectedDrinkingGame extends Component {
 
   constructor() {
     super();
     this.cookies = new Cookies();
+    if (this.cookies.get("lang") == null) {
+      this.cookies.set("lang", "hu");
+    }
     this.games = this.cookies.get("lang") === "hu" ? drinking_objects_hu.default.all_games : drinking_objects_en.default.all_games;
   }
 

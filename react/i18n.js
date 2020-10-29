@@ -8,7 +8,7 @@ var cookies = new Cookies();
 
 var lang = null != cookies.get("lang") ? cookies.get("lang") : "hu";
 
-export function t(key) {
+export const t = (key) => {
   let entries = lang === "hu" ? localized_entries_hu.entries : localized_entries_en.entries;
 
   for (const [entry_key, value] of Object.entries(entries)) {
@@ -19,8 +19,7 @@ export function t(key) {
   return "";
 }
 
-export function reloadLanguage(selectedLanguage) {
-  lang = selectedLanguage
-  cookies.set("lang", lang, { path: "/", "secure": true });
+export const reloadLanguage = (selectedLanguage) => {
+  cookies.set("lang", selectedLanguage, { path: "/", "secure": true });
   window.location.reload();
 }

@@ -1,6 +1,11 @@
-// Import ReactJS module.
+// Import React modules.
 import React, { Component } from "react";
+
+// Import React version of Bootstap library.
 import { Container, Row, Col } from "reactstrap";
+
+// Import module for cookie handling.
+import Cookies from "universal-cookie";
 
 // Import FA modules.
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -9,15 +14,25 @@ import {
   faFileSignature, faPalette, faTrashAlt, faWrench, faHashtag
 } from "@fortawesome/free-solid-svg-icons"
 
+// Import components.
 import NavBar from "./../components/navbar/NavBar";
-import CustomHead from "../components/head/CustomHead";
+import CustomHead from "./../components/head/CustomHead";
 
+// Import translate function.
 import { t } from "./../i18n";
 
 /**
  * Sponsors of the game.
  */
 export default class Sponsors extends Component {
+
+  constructor() {
+    super();
+    this.cookies = new Cookies();
+    if (this.cookies.get("lang") == null) {
+      this.cookies.set("lang", "hu");
+    }
+  }
 
   render() {
     return (

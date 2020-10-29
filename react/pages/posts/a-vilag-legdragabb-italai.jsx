@@ -1,25 +1,31 @@
-// Import ReactJS module.
-import React from "react";
+// Import ReactJS modules.
+import React, {Component} from "react";
 import Modal from 'react-modal';
 
+// Import module for cookie handling.
 import Cookies from "universal-cookie";
 
-// Import post content
-import * as posts_objects_hu from "./../../locales/posts_hu.json"
-import * as posts_objects_en from "./../../locales/posts_en.json"
-
-import Post from "./../../components/posts-page/Post"
-
+// Import components.
 import NavBar from "./../../components/navbar/NavBar";
 import CustomHead from "./../../components/head/CustomHead";
+import Post from "./../../components/posts-page/Post"
 
+// Import post content
+import * as posts_objects_hu from "./../../locales/posts_hu.json";
+import * as posts_objects_en from "./../../locales/posts_en.json";
+
+// Import translate function.
 import { t } from "./../../i18n";
+
 /**
  * The page contains the list of posts.
  */
-const Posts = props => {
+const SelectedPost = () => {
 
   let cookies = new Cookies();
+  if (cookies.get("lang") == null) {
+    cookies.set("lang", "hu");
+  }
 
   const [modalIsOpen, setIsOpen] = React.useState(true);
 
@@ -36,21 +42,16 @@ const Posts = props => {
     }
   }
 
-  let posts = cookies.get("lang") ? posts_objects_hu.default.all_posts : posts_objects_en.default.all_posts;
+  let postSlug = "a-vilag-legdragabb-italai";
 
-  for (var i = posts.length - 1; i > 0; i--) {
-    var j = Math.floor(Math.random() * (i + 1));
-    var temp = posts[i];
-    posts[i] = posts[j];
-    posts[j] = temp;
-  }
+  let posts = cookies.get("lang") ? posts_objects_hu.default.all_posts : posts_objects_en.default.all_posts;
 
   // Returns the opened post
   const getCurrentPost = () => {
     let post;
     posts.forEach(element => {
       if (element[0].type === 'meta') {
-        if (window.location.pathname.includes(element[0].slug)) {
+        if (postSlug === element[0].slug) {
           post = (
             <Post
               postObjects={element}
@@ -121,4 +122,4 @@ const Posts = props => {
 }
 
 // Export component.
-export default Posts;
+export default SelectedPost;

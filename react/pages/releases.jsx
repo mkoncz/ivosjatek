@@ -1,25 +1,31 @@
 // Import ReactJS module.
 import React, { Component } from "react";
 
+// Import module for cookie handling.
 import Cookies from "universal-cookie";
 
-// Import localized entries of releases.
-import * as hun_note_resource from "../locales/release_notes_hu.json"
-import * as en_note_resource from "../locales/release_notes_en.json"
-
+// Import components.
 import NavBar from "./../components/navbar/NavBar";
-import CustomHead from "../components/head/CustomHead";
+import CustomHead from "./../components/head/CustomHead";
 
+// Import translate function.
 import { t } from "./../i18n";
+
+// Import localized entries of releases.
+import * as hun_note_resource from "./../locales/release_notes_hu.json"
+import * as en_note_resource from "./../locales/release_notes_en.json"
 
 /**
  * Release notes of the application.
  */
-export default class Contact extends Component {
+export default class Releases extends Component {
 
-  constructor(){
+  constructor() {
     super();
     this.cookies = new Cookies();
+    if (this.cookies.get("lang") == null) {
+      this.cookies.set("lang", "hu");
+    }
   }
 
   // Localized list of the release notes.

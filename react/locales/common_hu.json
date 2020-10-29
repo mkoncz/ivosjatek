@@ -2,7 +2,9 @@
   "entries": 
     {
       "404": "Nem létező webcím. Próbálkozz a főoldallal.",
+    
       "contact.contact": "Kapcsolat:",
+    
       "cards.according_to_you": "Szerinted",
       "cards.actual": "Aktuális",
       "cards.cards": "Kártyák",
@@ -34,6 +36,7 @@
       "cards.tell_a": "Mondj egy ...",
       "cards.you_drink": "Te iszol",
       "cards.vote": "Szavazás",
+
       "desc.cards": "Minden kártya kilistázva. A kártyák fel vannak fordítva és a választott nyelven megjelennek a kérdések. ",
       "desc.contact": "Az oldal elérhetőségeit tartalmazza. Az Instagram a készítő fő kommunikációs csatornája.",
       "desc.game": "Alapozd meg az estét vagy pörgesd fel a bulit egy izgalmas online piás kártya játékkal. Ez az ivós játék garantáltan szuper lehetőség a közös szórakozásra.",
@@ -42,6 +45,7 @@
       "desc.rules": "Az Ivós Játék használatát korlátozó megkötések, illetve a játék menetét leíró szabályzat.",
       "desc.sources": "Az Ivós Játék által felhasznált képek, ikonok és más források listája, illetve a GitHub projekt linkje.",
       "desc.sponsors": "A támogatási és szponzorációs lehetőségek leírása. A jelenlegi támogatók felsorolása és kártyáik kinézete.",
+    
       "game.age_check_1": "Kérhetnék egy személyit?",
       "game.age_check_2": "Az Ivós Játék egy 18 éven felülieknek készült játék.",
       "game.age_check_3": "(Ez az online játék sütiket is használ.)",
@@ -54,9 +58,11 @@
       "game.player": "Játékos",
       "game.player_names": "Játékos nevek megadása",
       "game.please_add_player_name": "Kérlek adj meg legalább egy játékos nevet.",
+    
       "image_alt.card": "Kártya",
       "image_alt.english": "Angol",
       "image_alt.hungarian": "Magyar",
+     
       "nav.cards": "Kártyák",
       "nav.contact": "Kapcsolat",
       "nav.game": "Játék",
@@ -69,6 +75,7 @@
       "nav.sources": "Források",
       "nav.sponsors": "Támogatók",
       "nav.title": "Ivós Játék",
+    
       "rules.rule_1": "Kattints/koppints a kártya hátlapjára.",
       "rules.rule_2": "Olvasd fel a kártya előlapján lévő feladatot.",
       "rules.rule_3": "A játékosok hajtsák végre a feladatot (ha szeretnék).",
@@ -80,6 +87,7 @@
       "rules.term_4": "Alkoholfogyasztás esetén minden résztvevő törekedjen a mértékletes alkoholfogyasztásra!",
       "rules.term_5": "A feladatok végrehajtása nem kötelező.",
       "rules.terms_title": "Megkötések",
+    
       "source.drinking_game_images": "Ivós játék oldal illusztrációk",
       "source.licence": "Felhasználási jogok",
       "source.library": "könyvtár",
@@ -94,6 +102,7 @@
       "source.source_king": "Király szobor héttérkép",
       "source.source_whiskey": "Whiskey háttérkép",
       "source.sources_title": "Források",
+ 
       "sponsors.addAndRemoveQuestions": "Közös megegyezés alapján hozzáadunk vagy törölhetünk kérdéseket.",
       "sponsors.chooseBackpage": "Kiválaszthatod a kártya hátlapját.",
       "sponsors.chooseBackside": "Kiválaszthatod a hátlapon lévő logókat.",
@@ -115,6 +124,7 @@
       "sponsors.sponsorTitle": "Támogatók",
       "sponsors.whyToBeOwner": "Miért válj tulajdonossá?",
       "sponsors.whyToBeSponsor": "Miért legyél támogató?",
+     
       "welcome.online_game": "Online ivós játék",
       "welcome.online_game_desc": "Pörgesd fel a bulit egy izgalmas online kártyajátékkal",
       "welcome.other_games": "Egyéb ivós játékok",
