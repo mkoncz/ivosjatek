@@ -58,6 +58,16 @@ const NavBar = () => {
             <DropdownMenu className="bg-dark">
               <DropdownItem className="nav-dropdown-item">
                 <NavItem>
+                  <NavLink href="/games" onClick={closeHamburger}>{t("nav.games")}</NavLink>
+                </NavItem>
+              </DropdownItem>
+              <DropdownItem className="nav-dropdown-item">
+                <NavItem>
+                  <NavLink href="/rules" onClick={closeHamburger}>{t("nav.rules")}</NavLink>
+                </NavItem>
+              </DropdownItem>
+              <DropdownItem className="nav-dropdown-item">
+                <NavItem>
                   <NavLink href="/sources" onClick={closeHamburger}>{t("nav.sources")}</NavLink>
                 </NavItem>
               </DropdownItem>
@@ -73,12 +83,7 @@ const NavBar = () => {
               </DropdownItem>
               <DropdownItem className="nav-dropdown-item">
                 <NavItem>
-                  <NavLink href="/rules" onClick={closeHamburger}>{t("nav.rules")}</NavLink>
-                </NavItem>
-              </DropdownItem>
-              <DropdownItem className="nav-dropdown-item">
-                <NavItem>
-                  <NavLink href="/games" onClick={closeHamburger}>{t("nav.games")}</NavLink>
+                  <NavLink href="/posts" onClick={closeHamburger}>{t("nav.posts")}</NavLink>
                 </NavItem>
               </DropdownItem>
             </DropdownMenu>

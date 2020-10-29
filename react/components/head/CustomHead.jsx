@@ -10,7 +10,7 @@ import Cookies from "universal-cookie";
 const CustomHead = props => {
 
   let cookies = new Cookies();
-  let lang = cookies.get("lang") === "hu" ? "hu_HU" : "en_US";
+  let lang = cookies.get("lang") === "en" ? "en_US" : "hu_HU";
 
   return (
     <Head>
@@ -40,10 +40,11 @@ const CustomHead = props => {
       <meta property="og:description" content={props.desc} />
       <meta property="og:locale" content={lang} />
       <meta property="og:image" content={props.imgPath == null ? "/img/yellow_logo.png" : props.imgPath} />
-      <script async src="//embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script>
+
+      {props.hasInstagram ?  <script async src="//embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script>  : null}
+      {props.hasReddit ? <script async src="//www.instagram.com/embed.js"></script> : null}
+
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168599391-1"></script>
-      <script async src="//www.instagram.com/embed.js"></script>
-      <script async src="//embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script>
       <script type="application/ld+json">{`
         {
           "@context":"https://schema.org/",
@@ -73,8 +74,6 @@ const CustomHead = props => {
     </Head>
   );
 }
-
-//default props
 
 // Export component.
 export default CustomHead;

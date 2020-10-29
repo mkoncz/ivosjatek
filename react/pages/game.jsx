@@ -1,25 +1,29 @@
-// Import React modules.
-import React, { Component } from "react";
+// Import ReactJS module.
+import React, {Component} from "react";
 
 // Import module for cookie handling.
 import Cookies from "universal-cookie";
 
-// Import local Card component.
+// Import components.
+import NavBar from "./../components/navbar/NavBar";
+import CustomHead from "./../components/head/CustomHead";
 import Card from "../components/game-page/Card";
-import NavBar from "../components/navbar/NavBar";
-import CustomHead from "../components/head/CustomHead";
+
+// Import translate function.
+import { t } from "./../i18n";
 
 // Import question resources.
 import * as questions from "../locales/questions.json";
-import { t } from "../i18n";
 
-
+/**
+ * The online drinking game.
+ */
 export default class Game extends Component {
 
   constructor() {
     super();
     this.cookies = new Cookies();
-    if (this.cookies.get("lang")) {
+    if (this.cookies.get("lang") == null) {
       this.cookies.set("lang", "hu");
     }
 
@@ -59,7 +63,6 @@ export default class Game extends Component {
    * Sets the question text on the new card.
    */
   setNewQuestion = () => {
-
     // Sets the text of the new card.
     if (this.questions.length !== 0) {
 

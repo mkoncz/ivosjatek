@@ -1,22 +1,31 @@
 // Import ReactJS module.
 import React, { Component } from "react";
 
-// Import Source component.
+// Import module for cookie handling.
+import Cookies from "universal-cookie";
+
+// Import components.
+import NavBar from "./../components/navbar/NavBar";
+import CustomHead from "./../components/head/CustomHead";
 import SourceDetail from "./../components/sources-page/Source";
 
-import NavBar from "./../components/navbar/NavBar";
-import CustomHead from "../components/head/CustomHead";
-
+// Import translate function.
 import { t } from "./../i18n";
-
 
 /**
  * The page contains the list of used sources.
  */
 export default class Sources extends Component {
 
-  render() {
+  constructor() {
+    super();
+    this.cookies = new Cookies();
+    if (this.cookies.get("lang") == null) {
+      this.cookies.set("lang", "hu");
+    }
+  }
 
+  render() {
     return (
       <div>
         <CustomHead
@@ -28,7 +37,6 @@ export default class Sources extends Component {
           <h4>{t("source.sources_title")}:</h4>
           <ul>
             <SourceDetail
-              i18n={this.props.i18n}
               localizedName={t("source.source_cocktail")}
               sourceURL="https://www.onlinewebfonts.com/icon/480147"
               sourceName="Icon Fonts"
@@ -36,7 +44,6 @@ export default class Sources extends Component {
               licenceType="CC BY 3.0"
             />
             <SourceDetail
-              i18n={this.props.i18n}
               localizedName={t("source.source_hu_flag")}
               sourceURL="https://www.flickr.com/photos/80497449@N04/7378164364"
               sourceName="Nicolas Raymond"
@@ -44,7 +51,6 @@ export default class Sources extends Component {
               licenceType="CC BY 2.0"
             />
             <SourceDetail
-              i18n={this.props.i18n}
               localizedName={t("source.source_en_flag")}
               sourceURL="https://www.publicdomainpictures.net/hu/view-image.php?image=136202"
               sourceName="Dawn Hudson"
@@ -52,7 +58,6 @@ export default class Sources extends Component {
               licenceType="CC BY 1.0"
             />
             <SourceDetail
-              i18n={this.props.i18n}
               localizedName={t("source.source_18")}
               sourceURL="https://www.shareicon.net/cinema-adult-number-age-movies-shapes-711363"
               sourceName="SHAREICON.NET"
@@ -60,7 +65,6 @@ export default class Sources extends Component {
               licenceType="Flaticon Basic Licence"
             />
             <SourceDetail
-              i18n={this.props.i18n}
               localizedName={"Animate.css " + t("source.library")}
               sourceURL="https://daneden.github.io/animate.css/"
               sourceName="Daniel Eden"
@@ -68,7 +72,6 @@ export default class Sources extends Component {
               licenceType="MIT Licence"
             />
             <SourceDetail
-              i18n={this.props.i18n}
               localizedName={t("source.source_king")}
               sourceURL="https://www.peakpx.com/478241/king-on-robe-statue"
               sourceName="PEAKPX"
@@ -76,7 +79,6 @@ export default class Sources extends Component {
               licenceType="CC0 1.0 Universal"
             />
             <SourceDetail
-              i18n={this.props.i18n}
               localizedName={t("source.source_bottles")}
               sourceURL="https://www.peakpx.com/581703/2-brown-label-bottles"
               sourceName="PEAKPX"
@@ -84,7 +86,6 @@ export default class Sources extends Component {
               licenceType="CC0 1.0 Universal"
             />
             <SourceDetail
-              i18n={this.props.i18n}
               localizedName={t("source.source_bar_v1")}
               sourceURL="https://www.peakpx.com/478886/bar-desk"
               sourceName="PEAKPX"
@@ -92,7 +93,6 @@ export default class Sources extends Component {
               licenceType="CC0 1.0 Universal"
             />
             <SourceDetail
-              i18n={this.props.i18n}
               localizedName={t("source.source_bar_v2")}
               sourceURL="https://www.peakpx.com/562004/bar-store-set"
               sourceName="PEAKPX"
@@ -100,7 +100,6 @@ export default class Sources extends Component {
               licenceType="CC0 1.0 Universal"
             />
             <SourceDetail
-              i18n={this.props.i18n}
               localizedName={t("source.source_whiskey")}
               sourceURL="https://pixabay.com/photos/alcohol-party-style-drink-1961542/"
               sourceName="PIXABAY"
@@ -108,7 +107,6 @@ export default class Sources extends Component {
               licenceType="Pixabay Licence"
             />
             <SourceDetail
-              i18n={this.props.i18n}
               localizedName={t("source.drinking_game_images")}
               sourceURL="https://www.pexels.com"
               sourceName="PEXEL"
@@ -121,13 +119,6 @@ export default class Sources extends Component {
             <a href="https://github.com/matthewkoncz/ivosjatek" className="github-ref" target="_blank" rel="noopener noreferrer">
               <img src="/img/github_logo.png" className="github-icon" alt="Github" />
               <div className="github-label" >IVOSJATEK</div>
-            </a>
-          </div>
-          <div className="post-link">
-            <br />
-            <br />
-            <a href="/posts">
-              <p>{t("nav.posts")}</p>
             </a>
           </div>
         </div>

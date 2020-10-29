@@ -65,18 +65,18 @@ export default class DrinkingGames extends React.Component {
 
   render() {
     return (
-        <div>
-                  <CustomHead
+      <div>
+        <CustomHead
           title="Összeragadva"
           desc="Ez a játék szó szerint közelebb hoz titeket."
         />
-          <NavBar />
-          <div className="page-frame">
-            {this.getCurrentGame("osszeragadva")}
-            <h1>{t("nav.games")}</h1>
-            {this.getAllThumbs()}
-          </div>
+        <NavBar />
+        <div className="page-frame">
+          {this.getCurrentGame("osszeragadva")}
+          <h1>{t("nav.games")}</h1>
+          {this.getAllThumbs()}
         </div>
+      </div>
     );
   }
 }
