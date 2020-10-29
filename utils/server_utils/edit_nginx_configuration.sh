@@ -1,0 +1,1 @@
+joe /etc/nginx/sites-available/ivosjatek.nginx
