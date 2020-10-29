@@ -1,20 +1,22 @@
 // Import ReactJS module.
 import React from "react";
 
+// Import module for cookie handling.
 import Cookies from "universal-cookie";
 
-// Import game content
-import * as drinking_objects_hu from "../locales/drinking_games_hu.json";
-import * as drinking_objects_en from "../locales/drinking_games_en.json";
-
+// Import components.
 import NavBar from "./../components/navbar/NavBar";
-import CustomHead from "../components/head/CustomHead";
+import CustomHead from "./../components/head/CustomHead";
 
+// Import translate function.
 import { t } from "./../i18n";
 
+// Import game content.
+import * as drinking_objects_hu from "./../locales/drinking_games_hu.json";
+import * as drinking_objects_en from "./../locales/drinking_games_en.json";
 
 /**
- * The page contains the list of posts.
+ * The page contains the list of drinking games.
  */
 export default class DrinkingGames extends React.Component {
 
@@ -25,12 +27,6 @@ export default class DrinkingGames extends React.Component {
       this.cookies.set("lang", "hu");
     }
     this.games = this.cookies.get("lang") === "hu" ? drinking_objects_hu.default.all_games : drinking_objects_en.default.all_games;
-    for (var i = this.games.length - 1; i > 0; i--) {
-      var j = Math.floor(Math.random() * (i + 1));
-      var temp = this.games[i];
-      this.games[i] = this.games[j];
-      this.games[j] = temp;
-    }
   }
 
   // Returns the thumbnail and title of all games.
@@ -47,7 +43,6 @@ export default class DrinkingGames extends React.Component {
               </h4>
             </div>
           </a>
-          <div className="post-separator"></div>
         </div>
       )
     });
