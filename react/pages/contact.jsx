@@ -30,6 +30,7 @@ export default class Contact extends Component {
         <CustomHead
           title={t("nav.contact")}
           desc={t("desc.contact")}
+          url={"https://ivosjatek.hu/contact"}
         />
         <NavBar />
         <div className="page-frame">

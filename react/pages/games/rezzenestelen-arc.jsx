@@ -73,6 +73,8 @@ export default class SelectedDrinkingGame extends Component {
         <CustomHead
           title="Rezzenéstelen arc"
           desc="Ami kell hozzá: italok, papír, toll"
+          url="https://ivosjatek.hu/rezzenestelen-arc"
+          imgPath="/img/games_page/arc.jpg"
         />
         <NavBar />
         <div className="page-frame">

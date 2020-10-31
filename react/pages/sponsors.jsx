@@ -40,6 +40,7 @@ export default class Sponsors extends Component {
         <CustomHead
           title={t("nav.sponsors")}
           desc={t("desc.sponsors")}
+          url={"https://ivosjatek.hu/sponsors"}
         />
         <NavBar />
         <Container fluid className="sponsors-container">

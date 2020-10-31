@@ -39,6 +39,7 @@ export default class Releases extends Component {
         <CustomHead
           title={t("nav.release_notes")}
           desc={t("desc.release_notes")}
+          url={"https://ivosjatek.hu/releases"}
         />
         <NavBar />
         <div className="page-frame">

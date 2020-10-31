@@ -30,6 +30,7 @@ export default class Welcome extends Component {
         <CustomHead
           title={t("nav.home")}
           desc={t("desc.game")}
+          url={"https://ivosjatek.hu"}
         />
         <NavBar />
         <div className="page-frame">

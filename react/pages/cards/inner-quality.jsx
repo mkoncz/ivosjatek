@@ -14,10 +14,6 @@ export default class SelectedCardGroup extends Component {
 
   render() {
 
-    if (!this.mounted) {
-      return <div></div>;
-    }
-
     let group = "inner_quality";
     let title = t("cards.inner_quality");
 

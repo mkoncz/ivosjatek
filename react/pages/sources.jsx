@@ -31,6 +31,7 @@ export default class Sources extends Component {
         <CustomHead
           title={t("nav.sources")}
           desc={t("desc.sources")}
+          url={"https://ivosjatek.hu/sources"}
         />
         <NavBar />
         <div className="page-frame">

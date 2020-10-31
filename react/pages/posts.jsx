@@ -53,6 +53,7 @@ const Posts = () => {
       <CustomHead
         title={t("nav.posts")}
         desc={t("desc.posts")}
+        url={"https://ivosjatek.hu/posts"}
       />
       <NavBar />
       <div className="page-frame">

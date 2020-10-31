@@ -43,6 +43,7 @@ export default class Game extends Component {
         <CustomHead
           title={t("nav.game")}
           desc={t("desc.game")}
+          url={"https://ivosjatek.hu/game"}
         />  
         <NavBar />
         <div align="center" className="page-frame game-view" width="100%">
