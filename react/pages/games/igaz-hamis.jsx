@@ -73,7 +73,7 @@ export default class SelectedDrinkingGame extends Component {
         <CustomHead
           title="Igaz hamis"
           desc="Nagy társasággal érdemes játszani ezt a számolós játékot."
-          url="https://ivosjatek.hu/igaz-hamis"
+          url="https://ivosjatek.hu/games/igaz-hamis"
           imgPath="/img/games_page/percent.jpg"
         />
         <NavBar />
