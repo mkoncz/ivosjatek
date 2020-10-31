@@ -12,7 +12,9 @@ const CustomHead = props => {
   let cookies = new Cookies();
   let lang = cookies.get("lang") === "en" ? "en_US" : "hu_HU";
 
-  let imgPath = props.imgPath != null &&  props.imgPath.startsWith("/") ? "https://ivosjatek.hu/" + props.imgPath : props.imgPath;
+  let imgPath = props.imgPath != null &&  props.imgPath.startsWith("/") ? "https://ivosjatek.hu" + props.imgPath : props.imgPath;
+
+  let title = props.title + "|" + t("nav.title");
 
   return (
     <Head>
@@ -23,14 +25,14 @@ const CustomHead = props => {
       <link rel="home" href="https://ivosjatek.hu" />
       <link rel="canonical" href={props.url} />
 
-      <title>{props.title} | {t("nav.title")}</title>
+      <title>{title}</title>
       <meta name="description" content={props.desc} />
 
       <link rel="shortcut icon" href="/img/favicon.ico" />
       <link rel="apple-touch-icon" href="/img/favicon.ico" />
 
       <meta name="twitter:creator" content="@ivosjatek" />
-      <meta name="twitter:title" content={`${props.title} | ${t("nav.title")}`} />
+      <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={props.desc} />
       <meta name="twitter:card" content="summary"></meta>
       <meta name="twitter:site" content="@ivosjatek" />
@@ -38,7 +40,7 @@ const CustomHead = props => {
 
       <meta property="og:type" content="website" />
       <meta property="og:url" content={props.url} />
-      <meta property="og:title" content={`${props.title} | ${t("nav.title")}`} />
+      <meta property="og:title" content={title} />
       <meta property="og:description" content={props.desc} />
       <meta property="og:locale" content={lang} />
       <meta property="og:image" content={props.imgPath == null ? "/img/yellow_logo.png" : imgPath} />
