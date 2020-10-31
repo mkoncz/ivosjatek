@@ -12,7 +12,7 @@ const CustomHead = props => {
   let cookies = new Cookies();
   let lang = cookies.get("lang") === "en" ? "en_US" : "hu_HU";
 
-  let imgPath = pros.imgPath.startsWith("/") ? "https://ivosjatek.hu/" + pros.imgPath : props.imgPath;
+  let imgPath = props.imgPath.startsWith("/") ? "https://ivosjatek.hu/" + props.imgPath : props.imgPath;
 
   return (
     <Head>
