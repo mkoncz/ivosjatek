@@ -73,7 +73,8 @@ export default class SelectedDrinkingGame extends Component {
         <CustomHead
           title="Legvalószínűbb"
           desc="A játékosok körben ülnek és feltesznek egy 'legvalószínűbb' kérdést."
-          url={"https://ivosjatek.hu/legvaloszinubb"}
+          url="https://ivosjatek.hu/legvaloszinubb"
+          imgPath="/img/games_page/percent.jpg"
         />
         <NavBar />
         <div className="page-frame">

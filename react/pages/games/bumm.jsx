@@ -74,7 +74,8 @@ export default class SelectedDrinkingGame extends Component {
           <CustomHead
             title="Bumm"
             desc="Az egyik legegyszerűbb ivós játék. Minden játékos mond egy számot hangosan, sorban, 1-től kezdve, kivéve a 7-et, annak többszöröseit és amiben benne van a szám (pl. 17). Ebben az esetben azt mondja: bumm. Aki elhibázza, iszik. Ilyen egyszerű."
-            url={"https://ivosjatek.hu/bumm"}
+            url="https://ivosjatek.hu/bumm"
+            imgPath="/img/games_page/het.jpg"
           />
           <NavBar />
           <div className="page-frame">

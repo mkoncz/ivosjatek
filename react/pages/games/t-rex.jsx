@@ -73,7 +73,8 @@ export default class SelectedDrinkingGame extends Component {
         <CustomHead
           title="T-REX"
           desc="Egy egész éjszakán át tartó, nagyon idegesítő játék"
-          url={"https://ivosjatek.hu/t-rex"}
+          url="https://ivosjatek.hu/t-rex"
+          imgPath="/img/games_page/trex.jpg"
         />
         <NavBar />
         <div className="page-frame">

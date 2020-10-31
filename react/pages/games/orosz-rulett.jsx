@@ -73,7 +73,8 @@ export default class SelectedDrinkingGame extends Component {
         <CustomHead
           title="Orosz rulett"
           desc="Rövidező játék: orosz rulett"
-          url={"https://ivosjatek.hu/orosz-rulett"}
+          url="https://ivosjatek.hu/orosz-rulett"
+          imgPath="/img/games_page/rulett.jpg"
         />
         <NavBar />
         <div className="page-frame">
