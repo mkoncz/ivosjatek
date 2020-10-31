@@ -69,7 +69,7 @@ export default class DrinkingGames extends React.Component {
         <CustomHead
           title="Összeragadva"
           desc="Ez a játék szó szerint közelebb hoz titeket."
-          url="https://ivosjatek.hu/osszeragadva"
+          url="https://ivosjatek.hu/games/osszeragadva"
           imgPath="/img/games_page/ragadva.jpg"
         />
         <NavBar />

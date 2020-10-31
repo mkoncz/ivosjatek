@@ -73,7 +73,7 @@ export default class SelectedDrinkingGame extends Component {
         <CustomHead
           title="Társasjátékok"
           desc="Alkoholi és Részegedj Okosan!Egy egész éjszakán át tartó, nagyon idegesítő játék"
-          url="https://ivosjatek.hu/tarsasjatekok"
+          url="https://ivosjatek.hu/games/tarsasjatekok"
           imgPath="/img/games_page/tarsas.jpg"
         />
         <NavBar />
