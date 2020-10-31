@@ -14,7 +14,7 @@ const CustomHead = props => {
 
   let imgPath = props.imgPath != null &&  props.imgPath.startsWith("/") ? "https://ivosjatek.hu" + props.imgPath : props.imgPath;
 
-  let title = props.title + "|" + t("nav.title");
+  let title = props.title + " | " + t("nav.title");
 
   return (
     <Head>
