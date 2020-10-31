@@ -73,6 +73,7 @@ export default class SelectedDrinkingGame extends Component {
         <CustomHead
           title="Én még soha"
           desc="Az én még soha nem játék nagyszerű lehetőség arra, hogy megismerhesd a barátaid titkait."
+          url={"https://ivosjatek.hu/en-meg-soha"}
         />
         <NavBar />
         <div className="page-frame">

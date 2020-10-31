@@ -30,6 +30,7 @@ export default class Rules extends Component {
         <CustomHead
           title={t("nav.rules")}
           desc={t("desc.rules")}
+          url={"https://ivosjatek.hu/rules"}
         />
         <NavBar/>
         <div className="page-frame">

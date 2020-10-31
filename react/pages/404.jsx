@@ -30,6 +30,7 @@ export default class Page404 extends Component {
         <CustomHead
           title={"404"}
           desc={t("404")}
+          url={"https://ivosjatek.hu/404"}
         />
         <NavBar />
         <div className="page-frame">

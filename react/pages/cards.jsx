@@ -30,6 +30,7 @@ export default class CardGroups extends Component {
         <CustomHead
           title={t("nav.cards")}
           desc={t("desc.cards")}
+          url={"https://ivosjatek.hu/cards"}
         />
         <NavBar />
         <div className="page-frame">

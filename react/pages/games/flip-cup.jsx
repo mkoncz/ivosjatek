@@ -73,7 +73,8 @@ export default class SelectedDrinkingGame extends Component {
         <CustomHead
           title="Flip cup"
           desc="A Flip Cup az egyik legjobb ivós játék kezdőknek. Két csapat versenyez egymással. A két csapat egymásnak ellentétes oldalon áll, és a poharakat az italokkal az asztal szélén tartja. Amelyik csapat előbb issza ki a poharak tartalmát és pöccinti fejtetőre a poharakat, az nyer."
-        />
+          url={"https://ivosjatek.hu/flip-cup"}
+       />
         <NavBar />
         <div className="page-frame">
           {this.getCurrentGame("flip-cup")}

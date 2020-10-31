@@ -73,6 +73,7 @@ export default class SelectedDrinkingGame extends Component {
         <CustomHead
           title="Ivós jenga"
           desc="Próbálj meg kihúzni egyet és reménykedj."
+          url={"https://ivosjatek.hu/ivos-jenga"}
         />
         <NavBar />
         <div className="page-frame">

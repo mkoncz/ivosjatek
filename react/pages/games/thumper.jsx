@@ -73,6 +73,7 @@ export default class SelectedDrinkingGame extends Component {
         <CustomHead
           title="Thumper"
           desc="Ez egy gyors és egyszerű, hangos és csapkodós játék."
+          url={"https://ivosjatek.hu/thumper"}
         />
         <NavBar />
         <div className="page-frame">

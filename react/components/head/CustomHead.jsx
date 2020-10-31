@@ -19,7 +19,7 @@ const CustomHead = props => {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
 
       <link rel="home" href="https://ivosjatek.hu" />
-      <link rel="canonical" href="https://ivosjatek.hu" />
+      <link rel="canonical" href={props.url} />
 
       <title>{props.title} | {t("nav.title")}</title>
       <meta name="description" content={props.desc} />
@@ -35,7 +35,7 @@ const CustomHead = props => {
       <meta name="twitter:image" content={props.imgPath == null ? "/img/yellow_logo.png" : props.imgPath} />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://ivosjatek.hu/" />
+      <meta property="og:url" content={props.url} />
       <meta property="og:title" content={`${props.title} | ${t("nav.title")}`} />
       <meta property="og:description" content={props.desc} />
       <meta property="og:locale" content={lang} />

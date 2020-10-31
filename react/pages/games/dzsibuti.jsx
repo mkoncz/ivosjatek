@@ -73,6 +73,7 @@ export default class SelectedDrinkingGame extends Component {
         <CustomHead
           title="Dzsibuti"
           desc="Nagy társasággal érdemes játszani ezt a számolós játékot. "
+          url={"https://ivosjatek.hu/dzsibuti"}
         />
         <NavBar />
         <div className="page-frame">

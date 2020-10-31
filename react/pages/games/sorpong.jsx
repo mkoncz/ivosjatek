@@ -74,6 +74,7 @@ export default class SelectedDrinkingGame extends Component {
           <CustomHead
             title="Sörpong"
             desc="Egyszerűek a szabályok és a játék is."
+            url={"https://ivosjatek.hu/sorpong"}
           />
           <NavBar />
           <div className="page-frame">

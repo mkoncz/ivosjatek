@@ -73,6 +73,7 @@ export default class SelectedDrinkingGame extends Component {
         <CustomHead
           title="Húzz egyet"
           desc="Húzz egyet és reménykedj"
+          url={"https://ivosjatek.hu/huzz-egyet-remenykedj"}
         />
         <NavBar />
         <div className="page-frame">
