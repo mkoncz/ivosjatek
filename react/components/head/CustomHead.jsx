@@ -12,7 +12,7 @@ const CustomHead = props => {
   let cookies = new Cookies();
   let lang = cookies.get("lang") === "en" ? "en_US" : "hu_HU";
 
-  let imgPath = props.imgPath != null &&  props.imgPath.startsWith("/") ? "https://ivosjatek.hu" + props.imgPath : props.imgPath;
+  let imgPath = props.imgPath != null && props.imgPath.startsWith("/") ? "https://ivosjatek.hu" + props.imgPath : props.imgPath;
 
   let title = props.title + " | " + t("nav.title");
 
@@ -52,16 +52,18 @@ const CustomHead = props => {
       <script type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: `
-                @context: "https://schema.org/",
-                @type: "Organization",
-                name: "Ivós Játék",
-                url: "https://ivosjatek.hu",
-                sameAs: [
-                  "https://www.instagram.com/ivosjatek.hu",
-                  "https://www.linkedin.com/company/ivosjatek",
-                  "https://twitter.com/ivosjatek",
-                  "https://www.facebook.com/ivosjatek.hu"
-                ]
+                {
+                  "@context":"https://schema.org/",
+                  "@type": "Organization",
+                  "name": "Ivós Játék",
+                  "url": "https://ivosjatek.hu",
+                  "sameAs": [
+                    "https://www.instagram.com/ivosjatek.hu",
+                    "https://www.linkedin.com/company/ivosjatek",
+                    "https://twitter.com/ivosjatek",
+                    "https://www.facebook.com/ivosjatek.hu"
+                  ]
+                }
               `,
         }}
       />
