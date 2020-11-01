@@ -52,11 +52,11 @@ const CustomHead = props => {
       <script type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: `
-                "@context":"https://schema.org/",
-                "@type": "Organization",
-                "name": "Ivós Játék",
-                "url": "https://ivosjatek.hu",
-                "sameAs": [
+                @context: "https://schema.org/",
+                @type: "Organization",
+                name: "Ivós Játék",
+                url: "https://ivosjatek.hu",
+                sameAs: [
                   "https://www.instagram.com/ivosjatek.hu",
                   "https://www.linkedin.com/company/ivosjatek",
                   "https://twitter.com/ivosjatek",
