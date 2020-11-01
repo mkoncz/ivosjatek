@@ -49,22 +49,22 @@ const CustomHead = props => {
       {props.hasReddit ? <script async src="//www.instagram.com/embed.js"></script> : null}
 
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168599391-1"></script>
-      <script type="application/ld+json">{`
-        {
-          "@context":"https://schema.org/",
-          "@type": "Organization",
-          "name": "Ivós Játék",
-          "url": "https://ivosjatek.hu",
-          "address": "",
-          "sameAs": [
-            "https://www.instagram.com/ivosjatek.hu",
-            "https://www.linkedin.com/company/ivosjatek",
-            "https://twitter.com/ivosjatek",
-            "https://www.facebook.com/ivosjatek.hu"
-          ]
-        }
-      `}
-      </script>
+      <script type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: `
+                "@context":"https://schema.org/",
+                "@type": "Organization",
+                "name": "Ivós Játék",
+                "url": "https://ivosjatek.hu",
+                "sameAs": [
+                  "https://www.instagram.com/ivosjatek.hu",
+                  "https://www.linkedin.com/company/ivosjatek",
+                  "https://twitter.com/ivosjatek",
+                  "https://www.facebook.com/ivosjatek.hu"
+                ]
+              `,
+        }}
+      />
       <script
         dangerouslySetInnerHTML={{
           __html: `
