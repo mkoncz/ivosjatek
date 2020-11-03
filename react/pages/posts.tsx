@@ -7,10 +7,9 @@ import Cookies from "universal-cookie";
 // Import components.
 import NavBar from "./../components/navbar/NavBar";
 import CustomHead from "./../components/head/CustomHead";
-import Post from "./../components/posts-page/Post"
 
-// Import translate function.
-import { t } from "./../i18n";
+// Import i18n functions.
+import { t, initLanguageCookie } from "./../i18n";
 
 // Import post content
 import * as posts_objects_hu from "./../locales/posts_hu.json"
@@ -21,12 +20,11 @@ import * as posts_objects_en from "./../locales/posts_en.json"
  */
 const Posts = () => {
 
-  let cookies = new Cookies();
-  if (cookies.get("lang") == null) {
-    cookies.set("lang", "hu");
-  }
+  initLanguageCookie();
 
-  let posts = cookies.get("lang") ? posts_objects_hu.default.all_posts : posts_objects_en.default.all_posts;
+  let cookies = new Cookies();
+
+  let posts = cookies.get("lang") ? posts_objects_hu.all_posts : posts_objects_en.all_posts;
 
   // Returns the thumbnail of all posts.
   const getAllThumbs = () => {

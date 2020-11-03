@@ -5,23 +5,20 @@ import React, {Component} from "react";
 import Cookies from "universal-cookie";
 
 // Import components.
-import NavBar from "./../components/navbar/NavBar";
-import CustomHead from "./../components/head/CustomHead";
+import NavBar from "../components/navbar/NavBar";
+import CustomHead from "../components/head/CustomHead";
 
-// Import translate function.
-import { t } from "./../i18n";
+// Import i18n functions.
+import { t, initLanguageCookie } from "../i18n";
 
 /**
  * The card categories listed.
  */
 export default class CardGroups extends Component {
   
-  constructor() {
-    super();
-    this.cookies = new Cookies();
-    if (this.cookies.get("lang") == null) {
-      this.cookies.set("lang", "hu");
-    }
+  constructor(props) {
+    super(props);
+    initLanguageCookie();
   }
 
   render() {

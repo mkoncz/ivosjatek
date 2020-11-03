@@ -5,27 +5,24 @@ import React, { Component } from "react";
 import Cookies from "universal-cookie";
 
 // Import components.
-import NavBar from "./../components/navbar/NavBar";
-import CustomHead from "./../components/head/CustomHead";
+import NavBar from "../components/navbar/NavBar";
+import CustomHead from "../components/head/CustomHead";
 
-// Import translate function.
-import { t } from "./../i18n";
+// Import i18n functions.
+import { t, initLanguageCookie } from "../i18n";
 
 // Import localized entries of releases.
-import * as hun_note_resource from "./../locales/release_notes_hu.json"
-import * as en_note_resource from "./../locales/release_notes_en.json"
+import * as hun_note_resource from "../locales/release_notes_hu.json"
+import * as en_note_resource from "../locales/release_notes_en.json"
 
 /**
  * Release notes of the application.
  */
 export default class Releases extends Component {
 
-  constructor() {
-    super();
-    this.cookies = new Cookies();
-    if (this.cookies.get("lang") == null) {
-      this.cookies.set("lang", "hu");
-    }
+  constructor(props) {
+    super(props);
+    initLanguageCookie();
   }
 
   // Localized list of the release notes.
@@ -33,7 +30,8 @@ export default class Releases extends Component {
   // Listing starts from the newest entry.
   // Iterates and prints release notes. 
   render() {
-    let notes = this.cookies.get("lang") === "hu" ? [...hun_note_resource.notes] : [...en_note_resource.notes];
+    let cookies = new Cookies();
+    let notes = cookies.get("lang") === "hu" ? [...hun_note_resource.notes] : [...en_note_resource.notes];
     return (
       <div>
         <CustomHead

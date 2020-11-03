@@ -5,28 +5,28 @@ import React from "react";
 import Cookies from "universal-cookie";
 
 // Import components.
-import NavBar from "./../components/navbar/NavBar";
-import CustomHead from "./../components/head/CustomHead";
+import NavBar from "../components/navbar/NavBar";
+import CustomHead from "../components/head/CustomHead";
 
-// Import translate function.
-import { t } from "./../i18n";
+// Import i18n functions.
+import { t, initLanguageCookie } from "../i18n";
 
 // Import game content.
-import * as drinking_objects_hu from "./../locales/drinking_games_hu.json";
-import * as drinking_objects_en from "./../locales/drinking_games_en.json";
+import * as drinking_objects_hu from "../locales/drinking_games_hu.json";
+import * as drinking_objects_en from "../locales/drinking_games_en.json";
 
 /**
  * The page contains the list of drinking games.
  */
 export default class DrinkingGames extends React.Component {
 
-  constructor() {
-    super();
-    this.cookies = new Cookies();
-    if (this.cookies.get("lang") == null) {
-      this.cookies.set("lang", "hu");
-    }
-    this.games = this.cookies.get("lang") === "hu" ? drinking_objects_hu.default.all_games : drinking_objects_en.default.all_games;
+  games: Object[];
+
+  constructor(props) {
+    super(props);
+    initLanguageCookie();
+    let cookies = new Cookies();
+    this.games = cookies.get("lang") === "hu" ? drinking_objects_hu.all_games : drinking_objects_en.all_games;
   }
 
   // Returns the thumbnail and title of all games.

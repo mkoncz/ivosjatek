@@ -5,12 +5,12 @@ import React, {Component} from "react";
 import Cookies from "universal-cookie";
 
 // Import components.
-import NavBar from "./../components/navbar/NavBar";
-import CustomHead from "./../components/head/CustomHead";
+import NavBar from "../components/navbar/NavBar";
+import CustomHead from "../components/head/CustomHead";
 import Card from "../components/game-page/Card";
 
-// Import translate function.
-import { t } from "./../i18n";
+// Import i18n functions.
+import { t, initLanguageCookie } from "../i18n";
 
 // Import question resources.
 import * as questions from "../locales/questions.json";
@@ -20,14 +20,13 @@ import * as questions from "../locales/questions.json";
  */
 export default class Game extends Component {
 
-  constructor() {
-    super();
-    this.cookies = new Cookies();
-    if (this.cookies.get("lang") == null) {
-      this.cookies.set("lang", "hu");
-    }
+  questions: Object[];
 
-    this.questions = questions.default;
+  constructor(props) {
+    super(props);
+    initLanguageCookie();
+
+    this.questions = questions;
 
     this.state = {
       currentQuestion: this.getRandomQuestion()
@@ -36,7 +35,7 @@ export default class Game extends Component {
 
   render() {
     // Count the left cards.
-    const number_of_left_cards = this.questions.length;
+    let number_of_left_cards: string = this.questions.length + "";
 
     return (
       <div>
@@ -46,7 +45,7 @@ export default class Game extends Component {
           url={"https://ivosjatek.hu/game"}
         />  
         <NavBar />
-        <div align="center" className="page-frame game-view" width="100%">
+        <div className="page-frame game-view" >
           <h1 className="left-card-label animated fadeIn">
             {t("game.card_left").replace("%NUMBER%", number_of_left_cards)}
           </h1>
@@ -64,6 +63,7 @@ export default class Game extends Component {
    * Sets the question text on the new card.
    */
   setNewQuestion = () => {
+
     // Sets the text of the new card.
     if (this.questions.length !== 0) {
 
@@ -82,8 +82,8 @@ export default class Game extends Component {
     }
   }
 
-  getRandomQuestion = () => {
-    let randomQuestion = this.questions[Math.floor(Math.random() * this.questions.length)];
+  getRandomQuestion: Object = () => {
+    const randomQuestion = this.questions[Math.floor(Math.random() * this.questions.length)];
     // Removes used question from the question pack.
     for (var i = this.questions.length - 1; i >= 0; i--) {
       if (this.questions[i] === randomQuestion) {
@@ -96,7 +96,7 @@ export default class Game extends Component {
         break;
       }
     }
-    return randomQuestion;
+    return null;
   }
 
 }
