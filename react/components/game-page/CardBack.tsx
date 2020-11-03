@@ -1,8 +1,14 @@
 // Import ReactJS module.
 import React from "react";
 
+// Import translate function.
 import { t } from "../../i18n";
 
+// Interfaces for props and state.
+interface CardBackProps {
+  logo: string;
+  bgColor: string;
+}
 
 /**
  * Card Back page.
@@ -10,7 +16,7 @@ import { t } from "../../i18n";
  * @param {Object} props.logo Configured i18next object. It is used for the localization.
  * @param {string} props.bgColor Color of the backside of the card.
  */
-const CardBack = props => {
+const CardBack = (props: CardBackProps) => {
 
   /**
    * Gets the imported image resource based on the logo keyword.

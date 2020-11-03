@@ -1,13 +1,13 @@
 // Import ReactJS modules.
 import React from "react";
 
+// Import i18n functions.
 import {reloadLanguage, t} from "../../i18n";
-
 
 /**
  * List of the rules.
  */
-const LanguageBox = props => {
+const LanguageBox = () => {
 
   return (
     <div>

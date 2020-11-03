@@ -14,18 +14,16 @@ import { t, initLanguageCookie } from "../../i18n";
 // Import question resources.
 import * as questions from "../../locales/questions.json";
 
-/**
- * Type of props.
- */
+// Interface for props.
 interface CardGroupListProps {
-  group?: string;
-  title?: string;
+  group: string;
+  title: string;
 }
 
 /**
  * The cards of the selected category listed.
  */
-export default class CardGroupList extends React.Component<CardGroupListProps, {}>  {
+export default class CardGroupList extends React.Component<CardGroupListProps>  {
 
   cookies = new Cookies();
 

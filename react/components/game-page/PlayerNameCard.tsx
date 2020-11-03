@@ -1,16 +1,23 @@
 // Import React modules.
 import React, { Component } from "react"
 
+// Import translate function.
 import { t } from "../../i18n";
+
+// Interface for props.
+interface PlayerNameCardProps {
+  replaceCard(newQuestion: boolean): any;
+}
 
 /**
  * The page contains the actual Card.
  */
-export default class PlayerNameCard extends Component {
+export default class PlayerNameCard extends Component<PlayerNameCardProps> {
 
-  inputs:Object[];
+  inputs: any;
+  //inputs: LegacyRef<HTMLInputElement>[];
 
-  constructor(props) {
+  constructor(props: PlayerNameCardProps) {
     super(props);
 
     this.inputs = [];
@@ -50,7 +57,7 @@ export default class PlayerNameCard extends Component {
   }
 
   /**
-   * Creates card with age check question and next button.
+   * Stores player names in SessionStorage.
    */
   addPlayersToSessionStorage = () => {
     let that = this;

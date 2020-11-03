@@ -4,13 +4,18 @@ import React from "react";
 // Import Instagram Embed tool.
 import InstagramEmbed from "react-instagram-embed";
 
+// Interfaces for props and state.
+interface PostProps {
+    postObjects: any;
+}
+  
 
 /**
  * The page contains a post.
  * Posts are not really relevant for this website. 
  * They are needed because of SEO reasons.
  */
-const Post = (props) => {
+const Post = (props: PostProps) => {
 
     const createHeader = (postObject, index) => {
         let level = postObject.level;
@@ -42,7 +47,7 @@ const Post = (props) => {
         let text = postObject.text;
 
         return (
-            <div align="center" key={`p-${index}`}>
+            <div className="centered" key={`p-${index}`}>
                 <p  className="post-source-p">{text}</p>
             </div>)
     }
@@ -54,7 +59,7 @@ const Post = (props) => {
     }
 
     const createIGPost = (postObject, index) => {
-        return <div key={`ig-${index}`} className="post-social-media" align="center" >
+        return <div key={`ig-${index}`} className="post-social-media centered" >
             <InstagramEmbed
                 url={postObject.url}
                 hideCaption={true}
@@ -71,7 +76,7 @@ const Post = (props) => {
 
     const createCards = (postObject, index) => {
         return (
-            <div key={index} align="center">
+            <div key={index} className="centered">
                 {postObject.cards.map((card, cardIndex) => {
                     return <div key={cardIndex} className="post-card">
                         <div className="post-card-text">
@@ -87,7 +92,7 @@ const Post = (props) => {
 
     const createImage = (postObject, index) => {
         return (
-            <div align="center" key={`img-${index}`}>
+            <div className="centered" key={`img-${index}`}>
                 <img
                     width="100%"
                     className="post-image"
@@ -137,9 +142,7 @@ const Post = (props) => {
             })}
         </div>
     );
-
 }
-
 
 // Export component.
 export default Post;

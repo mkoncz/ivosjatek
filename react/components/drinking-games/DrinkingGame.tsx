@@ -4,21 +4,19 @@ import React from "react";
 // Import Instagram Embed tool.
 import InstagramEmbed from "react-instagram-embed";
 
-/**
- * Type of props.
- */
+// Interfaces for props.
 interface Post {
-    type?: string;
-    slug?: string;
+    type: string;
+    slug: string;
 }
 
 interface DrinkingGameProps {
-    postObjects?: Post[];
-    title?: string;
+    postObjects: Post[];
+    title: string;
 }
 
-  /**
- * The page contains a drinking game.
+/**
+ * The page describes a drinking game.
  */
 const DrinkingGame = (props: DrinkingGameProps) => {
 

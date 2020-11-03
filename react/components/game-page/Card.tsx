@@ -9,8 +9,24 @@ import CardBack from "./CardBack";
 import PlayerNameCard from "./PlayerNameCard";
 import ConfirmCard from "./ConfirmCard";
 
+// Import translate function.
 import { t } from "../../i18n";
 
+// Interfaces for props and state.
+interface CurrentQuestionModel {
+  logo: string;
+  color: string;
+}
+
+interface CardProps {
+  setNewQuestion(): any;
+  currentQuestionModel?: CurrentQuestionModel;
+}
+
+interface CardState {
+  name: string;
+  flipClasses: string;
+}
 
 /**
  * The page contains the actual Card.
@@ -19,16 +35,14 @@ import { t } from "../../i18n";
  * @param {string} props.currentQuestionModel.logo Logo of the current card.
  * @param {string} props.currentQuestionModel.color Background color of the current card.
  */
-export default class Card extends Component {
+export default class Card extends Component<CardProps, CardState> {
 
-  constructor() {
-    super();
+  mounted: boolean;
+  cookies = new Cookies();
 
-    this.cookies = new Cookies();
-    if (this.cookies.get("lang")==null) {
-      this.cookies.set("lang", "hu");
-    }
- 
+  constructor(props: CardProps) {
+    super(props);
+
     this.state = {
       flipClasses: "animated bounceInLeft",
       name: ""
@@ -95,10 +109,8 @@ export default class Card extends Component {
       }
     }
 
-
-
     return (
-      <div className={`flip-container ${this.state.flipClasses}`} align="center" onClick={this.cardClickHandler}>
+      <div className={`centered flip-container ${this.state.flipClasses}`} onClick={this.cardClickHandler}>
         <div className="flipper" >
           <CardBack
             logo={logo}
@@ -182,12 +194,10 @@ export default class Card extends Component {
   * @param {string} keyword Logo field of the question JSON element. 
   */
   getRandomName = () => {
-
     // If the component is not mounted, the sessionStorage is not defined yet.
     if (!this.mounted) {
       return "";
     }
-
     let names = JSON.parse(sessionStorage.getItem("players"));
     if (names != null && names.length !== 0) {
       return names[Math.floor(Math.random() * names.length)];

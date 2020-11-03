@@ -1,15 +1,20 @@
 // Import React modules.
 import React, { Component } from "react";
 
+// Import translate function.
 import { t } from "../../i18n";
 
+// Interfaces for props and state.
+interface ConfirmCardProps {
+  replaceCard(newQuestion: boolean): any;
+}
 
 /**
  * The page contains the actual Card.
  * 
  * @param {function} props.replaceCard Replaces the current card.
  */
-export default class PlayerNameCard extends Component {
+export default class ConfirmCard extends Component<ConfirmCardProps> {
 
   render() {
 
@@ -32,13 +37,13 @@ export default class PlayerNameCard extends Component {
 
   /**
    * Confirms that the user is an adult.
-   * Stores the decition in cookies.
+   * Stores the decition in SessionStorage.
    */
   confirmAdult = () => {
     this.props.replaceCard(false);
     // Timeout needed because render() immediately replaces content and the bouncing is not done yet.
     setTimeout(() => {
-      sessionStorage.setItem("isAdult", true)
+      sessionStorage.setItem("isAdult", "true");
     }, 450);
   }
 

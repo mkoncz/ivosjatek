@@ -1,13 +1,28 @@
-// Import ReactJS modules.
+// Import React and Next.js modules.
 import React from "react";
 import Head from 'next/head';
-import { t } from "../../i18n";
+
+// Import module for cookie handling.
 import Cookies from "universal-cookie";
+
+// Import translate function.
+import { t } from "../../i18n";
+
+
+// Interface for props.
+interface CustomHeadProps {
+  imgPath?: string;
+  title: string;
+  url: string;
+  desc: string;
+  hasInstagram?: boolean;
+  hasReddit?: boolean;
+}
 
 /**
  * List of the rules.
  */
-const CustomHead = props => {
+const CustomHead = (props: CustomHeadProps) => {
 
   let cookies = new Cookies();
   let lang = cookies.get("lang") === "en" ? "en_US" : "hu_HU";
@@ -18,7 +33,7 @@ const CustomHead = props => {
 
   return (
     <Head>
-      <meta charset="utf-8" />
+      <meta charSet="utf-8" />
       <meta name="theme-color" content="#000000" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -45,7 +60,7 @@ const CustomHead = props => {
       <meta property="og:locale" content={lang} />
       <meta property="og:image" content={props.imgPath == null ? "/img/yellow_logo.png" : imgPath} />
 
-      {props.hasInstagram ? <script async src="//embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script> : null}
+      {props.hasInstagram ? <script async src="//embed.redditmedia.com/widgets/platform.js" charSet="UTF-8"></script> : null}
       {props.hasReddit ? <script async src="//www.instagram.com/embed.js"></script> : null}
 
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168599391-1"></script>

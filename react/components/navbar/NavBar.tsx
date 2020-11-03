@@ -16,8 +16,10 @@ import {
   DropdownItem
 } from "reactstrap";
 
+// Import component.
 import LanguageBox from "./LanguageBox";
 
+// Import translate function.
 import { t } from "../../i18n";
 
 const NavBar = () => {
