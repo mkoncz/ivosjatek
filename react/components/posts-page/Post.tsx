@@ -97,9 +97,9 @@ const Post = (props) => {
             </div>)
     }
 
-    const createRedditCard = (postObject) => {
+    const createRedditCard = (postObject, index) => {
         return (
-            <blockquote class="reddit-card">
+            <blockquote key={index} className="reddit-card">
                 <a href={postObject.url}>link</a>
             </blockquote>
         )

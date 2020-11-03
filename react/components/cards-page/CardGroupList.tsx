@@ -1,34 +1,41 @@
 // Import ReactJS module.
-import React, { Component } from "react";
+import React from "react";
 
 // Import module for cookie handling.
 import Cookies from "universal-cookie";
 
 // Import components.
-import NavBar from "./../navbar/NavBar";
-import CustomHead from "./../head/CustomHead";
+import NavBar from "../navbar/NavBar";
+import CustomHead from "../head/CustomHead";
 
 // Import translate function.
-import { t } from "./../../i18n";
+import { t, initLanguageCookie } from "../../i18n";
 
 // Import question resources.
-import * as questions from "./../../locales/questions.json";
+import * as questions from "../../locales/questions.json";
+
+/**
+ * Type of props.
+ */
+interface CardGroupListProps {
+  group?: string;
+  title?: string;
+}
 
 /**
  * The cards of the selected category listed.
  */
-export default class CardGroupList extends Component {
+export default class CardGroupList extends React.Component<CardGroupListProps, {}>  {
 
-  constructor(props) {
+  cookies = new Cookies();
+
+  constructor(props: CardGroupListProps) {
     super(props);
-    this.cookies = new Cookies();
-    if (this.cookies.get("lang") == null) {
-      this.cookies.set("lang", "hu");
-    }
+    initLanguageCookie();
   }
 
   render() {
-    let filteredList = questions.default.filter((question) => {
+    let filteredList = questions.filter((question) => {
       return question.t === this.props.group;
     })
 
@@ -42,7 +49,7 @@ export default class CardGroupList extends Component {
         <NavBar />
         <div className="page-frame">
           {this.props.title != null ? (
-            <div> <h2>{this.title}</h2>
+            <div> <h2>{this.props.title}</h2>
               {filteredList.map((question, index) => {
                 return (
                   <div key={index} className="sponsor-card white-card">

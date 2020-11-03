@@ -1,15 +1,17 @@
 // Import React modules.
 import React, { Component } from "react"
 
-import { t } from "./../../i18n";
+import { t } from "../../i18n";
 
 /**
  * The page contains the actual Card.
  */
 export default class PlayerNameCard extends Component {
 
-  constructor() {
-    super();
+  inputs:Object[];
+
+  constructor(props) {
+    super(props);
 
     this.inputs = [];
 
@@ -54,7 +56,7 @@ export default class PlayerNameCard extends Component {
     let that = this;
     // Timeout needed because render() immediately replaces content and the bouncing is not done yet.
     var players = [];
-    that.inputs.forEach((item, index) => {
+    that.inputs.forEach((item) => {
       if (item.current.value !== "") {
         players.push(item.current.value);
       }

@@ -9,7 +9,7 @@ import CardBack from "./CardBack";
 import PlayerNameCard from "./PlayerNameCard";
 import ConfirmCard from "./ConfirmCard";
 
-import { t } from "./../../i18n";
+import { t } from "../../i18n";
 
 
 /**

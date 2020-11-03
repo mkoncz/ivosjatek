@@ -18,7 +18,7 @@ import {
 
 import LanguageBox from "./LanguageBox";
 
-import { t } from "./../../i18n";
+import { t } from "../../i18n";
 
 const NavBar = () => {
 

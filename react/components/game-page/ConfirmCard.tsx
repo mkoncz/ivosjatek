@@ -1,7 +1,7 @@
 // Import React modules.
 import React, { Component } from "react";
 
-import { t } from "./../../i18n";
+import { t } from "../../i18n";
 
 
 /**

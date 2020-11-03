@@ -1,7 +1,7 @@
 // Import ReactJS modules.
 import React from "react";
 
-import {reloadLanguage, t} from "./../../i18n";
+import {reloadLanguage, t} from "../../i18n";
 
 
 /**

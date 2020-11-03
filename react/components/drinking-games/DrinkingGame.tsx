@@ -5,9 +5,22 @@ import React from "react";
 import InstagramEmbed from "react-instagram-embed";
 
 /**
+ * Type of props.
+ */
+interface Post {
+    type?: string;
+    slug?: string;
+}
+
+interface DrinkingGameProps {
+    postObjects?: Post[];
+    title?: string;
+}
+
+  /**
  * The page contains a drinking game.
  */
-const DrinkingGame = (props) => {
+const DrinkingGame = (props: DrinkingGameProps) => {
 
     const createHeader = (postObject, index) => {
         let level = postObject.level;
@@ -46,7 +59,7 @@ const DrinkingGame = (props) => {
     }
 
     const createIGPost = (postObject, index) => {
-        return <div key={`ig-${index}`} className="post-social-media" align="center" >
+        return <div key={`ig-${index}`} className="post-social-media centered" >
             <InstagramEmbed
                 url={postObject.url}
                 hideCaption={true}
@@ -62,7 +75,7 @@ const DrinkingGame = (props) => {
     }
 
     const createCards = (postObject, index) => {
-        return <div key={index} align="center">
+        return <div key={index} className="centered">
             {postObject.cards.map((card, cardIndex) => {
                 return <div key={cardIndex} className="post-card">
                     <div className="post-card-text">
@@ -78,7 +91,7 @@ const DrinkingGame = (props) => {
 
     const createImage = (postObject, index) => {
         return (
-            <div key={index} align="center">
+            <div key={index} className="centered">
                 <img
                     width="100%"
                     className="post-image"
@@ -88,9 +101,9 @@ const DrinkingGame = (props) => {
             </div>)
     }
 
-    const createRedditCard = (postObject) => {
+    const createRedditCard = (postObject, index) => {
         return (
-            <blockquote postObjectsclass="reddit-card">
+            <blockquote key={index} className="reddit-card">
                 <a href={postObject.url}>link</a>
             </blockquote>
         )
