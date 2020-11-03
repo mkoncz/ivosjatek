@@ -23,3 +23,9 @@ export const reloadLanguage = (selectedLanguage) => {
   cookies.set("lang", selectedLanguage, { path: "/", "secure": true });
   window.location.reload();
 }
+
+export const initLanguageCookie = () => {
+  if(cookies.get("lang") == null){
+    cookies.set("lang", "hu", { path: "/", "secure": true });
+  }
+}
