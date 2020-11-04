@@ -52,8 +52,7 @@ export default class DrinkingGameTemplate extends Component<DrinkingGameTemplate
         if (this.props.game.includes(element[0].slug)) {
           post = <div key={element[0].slug}>
             <SelectedDrinkingGame
-              siteElements={element}>
-            </SelectedDrinkingGame>
+              siteElements={element}/>
           </div>
         }
       }
