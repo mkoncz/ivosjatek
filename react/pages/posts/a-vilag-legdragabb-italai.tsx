@@ -39,8 +39,7 @@ const SelectedPost = () => {
           post = (
             <Post
               postObjects={element}
-            >
-            </Post>
+            />
           )
         }
       }
