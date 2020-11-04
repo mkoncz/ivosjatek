@@ -59,13 +59,13 @@ img.game-thumbnail {
 }
 
 .post-card {
+    margin: auto;
     background-color: white;
     color: black;
     width: 240px;
     height: 340px;
     text-align: center;
     border-radius: 7px;
-    margin: 15px;
 }
 
 .post-card-text {
