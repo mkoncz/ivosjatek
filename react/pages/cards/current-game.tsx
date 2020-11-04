@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 
 // Import components.
-import CardGroupList from '../../components/cards-page/CardGroupList';
+import CardList from '../../components/cards-page/CardList';
 
 // Import translate function.
 import { t } from "../../i18n";
@@ -16,10 +16,13 @@ export default class SelectedCardGroup extends Component {
 
     let group = "current_game";
     let title = t("cards.current_game");
+    let url = "https://ivosjatek.hu/cards/current-game";
+
     return (
-      <CardGroupList
+      <CardList
         group={group}
         title={title}
+        url={url}
       />
     );
   }

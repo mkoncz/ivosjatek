@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 
 // Import components.
-import CardGroupList from './../../components/cards-page/CardGroupList';
+import CardList from './../../components/cards-page/CardList';
 
 // Import translate function.
 import { t } from "./../../i18n";
@@ -16,10 +16,13 @@ export default class SelectedCardGroup extends Component {
 
     let group = "give_name";
     let title = t("cards.give_name");
+    let url = "https://ivosjatek.hu/cards/give-name";
+
     return (
-      <CardGroupList
+      <CardList
         group={group}
         title={title}
+        url={url}
       />
     );
   }

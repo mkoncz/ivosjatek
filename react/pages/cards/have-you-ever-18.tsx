@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 
 // Import components.
-import CardGroupList from '../../components/cards-page/CardGroupList';
+import CardList from '../../components/cards-page/CardList';
 
 // Import translate function.
 import { t } from "../../i18n";
@@ -16,11 +16,13 @@ export default class SelectedCardGroup extends Component {
 
     let group = "have_you_ever_18";
     let title = t("cards.have_you_ever_18");
+    let url = "https://ivosjatek.hu/cards/have-you-ever-18";
 
     return (
-      <CardGroupList
+      <CardList
         group={group}
         title={title}
+        url={url}
       />
     );
   }
