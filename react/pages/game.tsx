@@ -15,18 +15,30 @@ import { t, initLanguageCookie } from "../i18n";
 // Import question resources.
 import * as questions from "../locales/questions.json";
 
+// Interface for  state.
+interface QuestionModel {
+  t: string, // type
+  hu: string, // Hungarian question
+  en: string, // English version of question
+  im: string // image keyword (logo)
+}
+
+interface GameState {
+  currentQuestion?: QuestionModel;
+}
+
 /**
  * The online drinking game.
  */
-export default class Game extends Component {
+export default class Game extends Component<{},GameState> {
 
-  questions: Object[];
+  questions: QuestionModel[];
 
   constructor(props) {
     super(props);
     initLanguageCookie();
 
-    this.questions = questions;
+    this.questions = questions['default'];
 
     this.state = {
       currentQuestion: this.getRandomQuestion()
@@ -77,12 +89,12 @@ export default class Game extends Component {
     } else {
       // Notifies the user if the card pack is empty.
       this.setState({
-        currentQuestion: t("game.no_more_question")
+        currentQuestion: this.getNoQuestionObject()
       });
     }
   }
 
-  getRandomQuestion: Object = () => {
+  getRandomQuestion = () => {
     const randomQuestion = this.questions[Math.floor(Math.random() * this.questions.length)];
     // Removes used question from the question pack.
     for (var i = this.questions.length - 1; i >= 0; i--) {
@@ -96,7 +108,16 @@ export default class Game extends Component {
         break;
       }
     }
-    return null;
+    return randomQuestion;
+  }
+
+  getNoQuestionObject = () => {
+    return {
+      hu: t("game.no_more_question"),
+      en: t("game.no_more_question"),
+      im: null,
+      t: null
+    };
   }
 
 }

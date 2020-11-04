@@ -15,6 +15,7 @@ import * as posts_objects_en from "../../locales/posts_en.json";
 
 // Import translate function.
 import { t, initLanguageCookie } from "../../i18n";
+import AdultConsent from "../../components/modal/AdultConsent";
 
 /**
  * The page contains the list of posts.
@@ -22,21 +23,6 @@ import { t, initLanguageCookie } from "../../i18n";
 const SelectedPost = () => {
 
   initLanguageCookie();
-
-  const [modalIsOpen, setIsOpen] = React.useState(true);
-
-  const postModalStyle = {
-    content: {
-      top: '50%',
-      left: '50%',
-      right: 'auto',
-      bottom: 'auto',
-      marginRight: '-50%',
-      transform: 'translate(-50%, -50%)',
-      backgroundColor: "#000",
-      textAlign: "center"
-    }
-  }
 
   let postSlug = "a-vilag-legdragabb-italai";
 
@@ -91,27 +77,7 @@ const SelectedPost = () => {
       />
       <NavBar />
       <div className="page-frame">
-        <Modal
-          isOpen={modalIsOpen}
-          onRequestClose={() => { setIsOpen(false) }}
-          style={postModalStyle}
-          contentLabel="18 éves"
-        >
-          <div className="post-card-big">
-            <div className="pre-card">
-              <img className="adult_logo" src="/img/18.png" alt="18" />
-              <div className="question_block">
-                <h5>{t("game.age_check_1")}</h5>
-                <p>{t("game.age_check_v2")}</p>
-              </div>
-              <button
-                className="btn btn-warning btn-lg"
-                onClick={() => { setIsOpen(false) }}>
-                {t("game.age_check_button")}
-              </button>
-            </div>
-          </div>
-        </Modal>
+        <AdultConsent/>
         {getCurrentPost()}
         <h1>{t("nav.posts")}</h1>
         {getAllThumbs()}

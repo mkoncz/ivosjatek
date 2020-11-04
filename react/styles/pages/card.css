@@ -19,6 +19,7 @@
 .back {
     width: 320px;
     height: 480px;
+    margin: auto;
 }
 
 /* flip speed goes here */

@@ -54,7 +54,7 @@ export default class DrinkingGames extends React.Component {
         <CustomHead
           title={t("nav.games")}
           desc={t("desc.game")}
-          url={"https://ivosjatek.hu/game"}
+          url={"https://ivosjatek.hu/games"}
         />
         <NavBar />
         <div className="page-frame">
