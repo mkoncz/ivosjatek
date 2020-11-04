@@ -1,7 +1,17 @@
-// Import ReactJS module.
+// Import React module.
 import React from "react";
 
-import { t } from "./../../i18n";
+// Import translate function.
+import { t } from "../../i18n";
+
+// Interfaces for props.
+interface SourceDetailProps {
+  localizedName: string;
+  sourceURL: string;
+  sourceName: string;
+  licenceType: string;
+  licenceURL: string;
+}
 
 /**
  * The page contains the contact e-mail address of the creator and the list of used sources.
@@ -12,7 +22,7 @@ import { t } from "./../../i18n";
  * @param {string} props.licenceType Usage rights of the resource.
  * @param {string} props.licenceURL URL of the licence type.
  */
-const SourceDetail = props => {
+const SourceDetail = (props:SourceDetailProps) => {
   return (
     <li>
       {`${props.localizedName} ${t("source.source")}: `} 

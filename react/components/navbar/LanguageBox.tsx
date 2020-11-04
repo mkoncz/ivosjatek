@@ -1,11 +1,11 @@
-// Import ReactJS modules.
+// Import React module.
 import React from "react";
 
 // Import i18n functions.
 import {reloadLanguage, t} from "../../i18n";
 
 /**
- * List of the rules.
+ * Component for language selection.
  */
 const LanguageBox = () => {
 

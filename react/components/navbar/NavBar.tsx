@@ -1,7 +1,7 @@
-// Import ReactJS modules.
+// Import React modules.
 import React, { useState } from "react";
 
-// Import Reactstrap (ReactJS version of Bootstrap).
+// Import Reactstrap (React version of Bootstrap).
 import {
   Collapse,
   Navbar,
@@ -22,20 +22,17 @@ import LanguageBox from "./LanguageBox";
 // Import translate function.
 import { t } from "../../i18n";
 
+/**
+ * Navition bar.
+ * Represented as Hamburger menu on mobile view.
+ */
 const NavBar = () => {
 
-  // isNavbarOpen is a state of the NavBar.
-  // setNavbarOpen sets the isNavbarOpen state.
+  // hooks
   const [isNavbarOpen, setNavbarOpen] = useState(false);
-
   const [dropdownOpen, setDropdownOpen] = useState(false);
-
-  /**
-   * Inverts the isNavbarOpen state.
-   */
   const toggleHamburger = () => setNavbarOpen(!isNavbarOpen);
   const toggleDropdown = () => setDropdownOpen(!dropdownOpen);
-
   const closeHamburger = () => setNavbarOpen(false);
 
   return (

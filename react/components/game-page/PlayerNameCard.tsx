@@ -28,7 +28,6 @@ export default class PlayerNameCard extends Component<PlayerNameCardProps> {
   }
 
   render() {
-
     return (
       <div className="pre-card">
         <h5 className="players-header"><b>{t("game.player_names")}</b></h5>

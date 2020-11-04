@@ -1,4 +1,4 @@
-// Import ReactJS module.
+// Import React module.
 import React from "react";
 
 // Import translate function.
@@ -7,7 +7,6 @@ import { t } from "../../i18n";
 // Interfaces for props and state.
 interface CardBackProps {
   logo: string;
-  bgColor: string;
 }
 
 /**

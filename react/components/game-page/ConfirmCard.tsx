@@ -46,5 +46,4 @@ export default class ConfirmCard extends Component<ConfirmCardProps> {
       sessionStorage.setItem("isAdult", "true");
     }, 450);
   }
-
 }

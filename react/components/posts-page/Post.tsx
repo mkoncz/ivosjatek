@@ -4,16 +4,13 @@ import React from "react";
 // Import Instagram Embed tool.
 import InstagramEmbed from "react-instagram-embed";
 
-// Interfaces for props and state.
+// Interfaces for props.
 interface PostProps {
     postObjects: any;
 }
-  
 
 /**
  * The page contains a post.
- * Posts are not really relevant for this website. 
- * They are needed because of SEO reasons.
  */
 const Post = (props: PostProps) => {
 
@@ -76,7 +73,7 @@ const Post = (props: PostProps) => {
 
     const createCards = (postObject, index) => {
         return (
-            <div key={index} className="centered">
+            <div key={index}>
                 {postObject.cards.map((card, cardIndex) => {
                     return <div key={cardIndex} className="post-card">
                         <div className="post-card-text">
@@ -109,7 +106,6 @@ const Post = (props: PostProps) => {
             </blockquote>
         )
     }
-
 
     return (
         <div className="page-frame">

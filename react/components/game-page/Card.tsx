@@ -13,14 +13,16 @@ import ConfirmCard from "./ConfirmCard";
 import { t } from "../../i18n";
 
 // Interfaces for props and state.
-interface CurrentQuestionModel {
-  logo: string;
-  color: string;
+interface QuestionModel {
+  t: string, // type
+  hu: string, // Hungarian question
+  en: string, // English version of question
+  im: string // image keyword (logo)
 }
 
 interface CardProps {
   setNewQuestion(): any;
-  currentQuestionModel?: CurrentQuestionModel;
+  currentQuestionModel?: QuestionModel;
 }
 
 interface CardState {
@@ -29,7 +31,7 @@ interface CardState {
 }
 
 /**
- * The page contains the actual Card.
+ * The component describes the actual Card.
  * 
  * @param {string} props.setNewQuestion Replaces the read question with a new question.
  * @param {string} props.currentQuestionModel.logo Logo of the current card.
@@ -84,8 +86,6 @@ export default class Card extends Component<CardProps, CardState> {
 
     // Set default logo.
     var logo = "cocktail.svg";
-    // Set default background color.
-    let bgColor = "#d3f42f";
 
     // If the game does not asked about age, it creates an "age check card".
     if (null == sessionStorage.getItem("isAdult")) {
@@ -100,24 +100,19 @@ export default class Card extends Component<CardProps, CardState> {
       // The %NAME% wildcard is replaced with a random user's name.
       content = this.props.currentQuestionModel[this.cookies.get("lang")].replace("%NAME%", this.state.name === "" ? this.getRandomName() : this.state.name);
       // If the current question has a sporsor, the logo is overridden.
-      if (this.props.currentQuestionModel.logo !== "") {
-        logo = this.props.currentQuestionModel.logo;
-      }
-      // If the current question has a sporsor, the background color is overridden.
-      if (this.props.currentQuestionModel.color !== "") {
-        bgColor = this.props.currentQuestionModel.color;
+      if (this.props.currentQuestionModel.im !== "") {
+        logo = this.props.currentQuestionModel.im;
       }
     }
 
     return (
-      <div className={`centered flip-container ${this.state.flipClasses}`} onClick={this.cardClickHandler}>
+      <div className={`flip-container ${this.state.flipClasses}`} onClick={this.cardClickHandler}>
         <div className="flipper" >
           <CardBack
             logo={logo}
-            bgColor={bgColor}
           />
           <div className="front">
-            <div className={!specialCard ? "txt-question" : "special-card"}>  {content} </div>
+            <div className={!specialCard ? "txt-question" : "special-card"}> {content} </div>
             <button
               className={`btn btn-warning btn-lg btn-card ${specialCard ? "hidden" : ""}`}
               onClick={this.replaceCard}>
@@ -188,10 +183,8 @@ export default class Card extends Component<CardProps, CardState> {
     )
   }
 
-
   /**
-  * Gets the imported image resource based on the logo keyword.
-  * @param {string} keyword Logo field of the question JSON element. 
+  * Gets a random name from the sessionStorage.
   */
   getRandomName = () => {
     // If the component is not mounted, the sessionStorage is not defined yet.
@@ -205,5 +198,4 @@ export default class Card extends Component<CardProps, CardState> {
       return "";
     }
   }
-
 }

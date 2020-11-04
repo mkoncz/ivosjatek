@@ -20,7 +20,7 @@ interface CustomHeadProps {
 }
 
 /**
- * List of the rules.
+ * Component for custom head element.
  */
 const CustomHead = (props: CustomHeadProps) => {
 
@@ -51,14 +51,14 @@ const CustomHead = (props: CustomHeadProps) => {
       <meta name="twitter:description" content={props.desc} />
       <meta name="twitter:card" content="summary"></meta>
       <meta name="twitter:site" content="@ivosjatek" />
-      <meta name="twitter:image" content={props.imgPath == null ? "/img/yellow_logo.png" : imgPath} />
+      <meta name="twitter:image" content={props.imgPath == null ? "https://ivosjatek.hu/img/yellow_logo.png" : imgPath} />
 
       <meta property="og:type" content="website" />
       <meta property="og:url" content={props.url} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={props.desc} />
       <meta property="og:locale" content={lang} />
-      <meta property="og:image" content={props.imgPath == null ? "/img/yellow_logo.png" : imgPath} />
+      <meta property="og:image" content={props.imgPath == null ? "https://ivosjatek.hu/img/yellow_logo.png" : imgPath} />
 
       {props.hasInstagram ? <script async src="//embed.redditmedia.com/widgets/platform.js" charSet="UTF-8"></script> : null}
       {props.hasReddit ? <script async src="//www.instagram.com/embed.js"></script> : null}
