@@ -111,6 +111,13 @@ export default class Sources extends Component {
               licenceURL="https://www.pexels.com/license/"
               licenceType="PEXELS Licence"
             />
+            <SourceDetail
+              localizedName={t("source.jenga")}
+              sourceURL="https://www.flaticon.com/free-icon/jenga_857232"
+              sourceName="Pause08"
+              licenceURL="https://www.freepikcompany.com/legal#nav-flaticon"
+              licenceType="Flaticon License"
+            />
           </ul>
         </div>
       </div>

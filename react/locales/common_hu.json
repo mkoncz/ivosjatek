@@ -65,8 +65,8 @@
      
       "nav.cards": "Kártyák",
       "nav.contact": "Kapcsolat",
-      "nav.game": "Játék",
-      "nav.games": "Más ivós játékok",
+      "nav.game": "Online Játék",
+      "nav.games": "Más Ivós Játékok",
       "nav.home": "HÚZZ EGY LAPOT",
       "nav.other": "Egyéb",
       "nav.posts": "Cikkek",
@@ -99,6 +99,7 @@
       "source.source_cocktail": "Koktél ikon",
       "source.source_en_flag": "Brit zászló",
       "source.source_hu_flag": "Magyar zászló",
+      "source.jenga": "Jenga ikon",
       "source.source_king": "Király szobor héttérkép",
       "source.source_whiskey": "Whiskey háttérkép",
       "source.sources_title": "Források",
