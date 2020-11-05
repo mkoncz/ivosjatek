@@ -135,6 +135,20 @@
     box-shadow: 0 -2px 10px #060604;
 }
 
+.sponsor-card.dugulasklinika,
+.back.dugulasklinika {
+    background-color: white;
+    border: 1px solid #060604;
+    box-shadow: 0 -2px 10px #060604;
+}
+
+.sponsor-card.anonim,
+.back.anonim {
+    background-color: white;
+    border: 1px solid #060604;
+    box-shadow: 0 -2px 10px #060604;
+}
+
 .sponsor-card img {
     width: 65%;
     padding-top: 23%;
