@@ -216,16 +216,22 @@
         "im": ""
     },
     {
+        "t": "have_you_ever",
+        "hu": "Az iszik, aki eg\u00e9sz \u00e9let\u00e9ben egy telep\u00fcl\u00e9sen \u00e9lt eddig.",
+        "en": "Drink if you lived your whole life in one town.",
+        "im": "anonim"
+    },
+    {
         "t": "inner_quality",
         "hu": "Az iszik, aki a legk\u00f6zelebb lakik.",
         "en": "The player with the closest home drinks.",
-        "im": ""
+        "im": "anonim"
     },
     {
         "t": "inner_quality",
         "hu": "Az iszik, aki a legmesszebb lakik.",
         "en": "The player with the furthest home drinks",
-        "im": ""
+        "im": "anonim"
     },
     {
         "t": "inner_quality",
@@ -627,7 +633,7 @@
         "t": "actual",
         "hu": "Igyon egyet, aki liftezett m\u00e1r ma!",
         "en": "Drink if you used an evelator today.",
-        "im": ""
+        "im": "anonim"
     },
     {
         "t": "actual",
@@ -759,7 +765,7 @@
         "t": "current_game",
         "hu": "Az iszik, aki legutolj\u00e1ra volt WC-n.",
         "en": "The last player who visited the toilet drinks.",
-        "im": ""
+        "im": "dugulasklinika"
     },
     {
         "t": "current_game",
@@ -993,7 +999,7 @@
         "t": "have_you_ever",
         "hu": "Az iszik, aki felejtette m\u00e1r el leh\u00fazni a WC-t.",
         "en": "Drink if you have ever forgot to flush the toilet.",
-        "im": ""
+        "im": "dugulasklinika"
     },
     {
         "t": "have_you_ever",
@@ -1029,12 +1035,6 @@
         "t": "have_you_ever",
         "hu": "Az iszik, aki t\u00f6bb, mint 3 telep\u00fcl\u00e9sen \u00e9lt eddig.",
         "en": "Drink if you have lived in more than 3 towns in your life.",
-        "im": ""
-    },
-    {
-        "t": "have_you_ever",
-        "hu": "Az iszik, aki eg\u00e9sz \u00e9let\u00e9ben egy telep\u00fcl\u00e9sen \u00e9lt eddig.",
-        "en": "Drink if you lived your whole life in one town.",
         "im": ""
     },
     {
@@ -1111,9 +1111,15 @@
     },
     {
         "t": "have_you_ever",
+        "hu": "Az iszik, aki dug\u00edtotta m\u00e1r el a WC-t.",
+        "en": "Drink if you have ever used clogged the toilet.",
+        "im": "dugulasklinika"
+    },
+    {
+        "t": "have_you_ever",
         "hu": "Az iszik, aki t\u00f6r\u00f6lte m\u00e1r ki WC pap\u00edron k\u00edv\u00fcl m\u00e1ssal.",
         "en": "Drink if you have ever used anything else than toilet paper for toilet paper purposes.",
-        "im": ""
+        "im": "dugulasklinika"
     },
     {
         "t": "have_you_ever",
@@ -2583,7 +2589,7 @@
         "t": "dare_or_drink",
         "hu": "%NAME%: Tekerd be az arcod WC pap\u00edrral 5 percre, musz\u00e1j! (Hagyj helyet l\u00e9legezni!)",
         "en": "%NAME%: Cover you face with toilet paper for 5 minutes. (leave out holes for oxigen)",
-        "im": ""
+        "im": "dugulasklinika"
     },
     {
         "t": "dare_or_drink",
@@ -2841,7 +2847,7 @@
         "t": "rule",
         "hu": "\u00daj szab\u00e1ly! Aki mostant\u00f3l az asztalhoz \u00e9r, iszik egyet.",
         "en": "%NAME%: New rule: if someone touches the table, they have to drink.",
-        "im": ""
+        "im": "anonim"
     },
     {
         "t": "rule",
