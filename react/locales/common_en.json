@@ -1,6 +1,7 @@
 {
   "entries": {
     "404": "Not valid page. Let's go back to the home page.",
+
     "contact.contact": "Contact:",
     "cards.according_to_you": "According to you",
     "cards.actual": "Actual",
@@ -33,6 +34,7 @@
     "cards.tell_a": "Tell a ...",
     "cards.you_drink": "You drink",
     "cards.vote": "Vote",
+
     "desc.cards": "All cards listed here with their localized question. The name of the player is shown as PLAYER.",
     "desc.contact": "Contains the contact details. The main communication platform is Instagram.",
     "desc.game": "Make the night unforgettable. This drinking game is a great tool to cheer up the party.",
@@ -41,6 +43,7 @@
     "desc.rules": "The rescrictions of the game are listed here. Also here can you read about the game rules.",
     "desc.sources": "The used images, logos and other resources are listed here. There is also a link for the GitHub project.",
     "desc.sponsors": "The sponsoring possibilities are shown on this page. You can also be the owner of the game.",
+
     "game.age_check_1": "Can we see some ID please? ",
     "game.age_check_2": "It's part of our commitment to responsible drinking.",
     "game.age_check_3": "The page uses cookies.",
@@ -53,21 +56,24 @@
     "game.player": "Player",
     "game.player_names": "Give the player names",
     "game.please_add_player_name": "Please add at least one player name.",
+
     "image_alt.card": "Card",
     "image_alt.english": "English",
     "image_alt.hungarian": "Hungarian",
+
     "nav.cards": "Cards",
     "nav.contact": "Contact",
-    "nav.game": "Game",
-    "nav.games": "Games",
+    "nav.game": "Online Game",
+    "nav.games": "Other Games",
     "nav.home": "Home Page",
     "nav.other": "Others",
     "nav.posts": "Posts",
     "nav.release_notes": "Release Notes",
-    "nav.rules": "Rules",
+    "nav.rules": "Game Rules",
     "nav.sources": "Sources",
     "nav.sponsors": "Sponsors",
     "nav.title": "Drinking Game",
+
     "rules.rule_1": "Click/knock on the card back.",
     "rules.rule_2": "Read out the question.",
     "rules.rule_3": "Fulfill the task.",
@@ -79,6 +85,7 @@
     "rules.term_4": "Ivosjatek.hu supports responsible drinking.",
     "rules.term_5": "Fulfilment of tasks is not mandatory.",
     "rules.terms_title": "Terms of use",
+
     "source.drinking_game_images": "Thumbnails of drinking games",
     "source.licence": "Licensed by",
     "source.library": "library",
@@ -90,9 +97,11 @@
     "source.source_cocktail": "Cocktail vector",
     "source.source_en_flag": "Brittish flag",
     "source.source_hu_flag": "Hungarian flag",
+    "source.jenga": "Jenga icon",
     "source.source_king": "King background",
     "source.source_whiskey": "Whiskey background",
     "source.sources_title": "Sources",
+
     "sponsors.addAndRemoveQuestions": "We can add/remove questions based on common agreement.",
     "sponsors.chooseBackside": "You can choose the backside logo of your cards.",
     "sponsors.chooseNameAndLogo": "You can choose new name and logo for the game.",
@@ -113,6 +122,7 @@
     "sponsors.technicalSupport": "You get 1 year of free technical support from me.",
     "sponsors.whyToBeOwner": "Why to be the owner?",
     "sponsors.whyToBeSponsor": "Why to be a sponsor?",
+    
     "welcome.online_game": "Online drinking game",
     "welcome.online_game_desc": "Make the night unforgettable. This drinking game is a great tool to cheer up the party.",
     "welcome.other_games": "Other drinking games",

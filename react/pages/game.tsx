@@ -1,9 +1,6 @@
 // Import ReactJS module.
 import React, {Component} from "react";
 
-// Import module for cookie handling.
-import Cookies from "universal-cookie";
-
 // Import components.
 import NavBar from "../components/navbar/NavBar";
 import CustomHead from "../components/head/CustomHead";

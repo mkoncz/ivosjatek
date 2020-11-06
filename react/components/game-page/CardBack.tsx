@@ -28,6 +28,10 @@ const CardBack = (props: CardBackProps) => {
       return "/img/card_backs/peaky.png";
     } else if (keyword === "viztorony") {
       return "/img/card_backs/viztorony.jpg";
+    } else if (keyword === "dugulasklinika") {
+      return "/img/card_backs/dugulasklinika.png";
+    } else if (keyword === "anonim") {
+      return "/img/card_backs/anonim.png";
     }
     return "/img/card_backs/cocktail.svg";
   }

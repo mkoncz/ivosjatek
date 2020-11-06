@@ -1,9 +1,6 @@
 // Import ReactJS module.
 import React, { Component } from "react";
 
-// Import module for cookie handling.
-import Cookies from "universal-cookie";
-
 // Import components.
 import NavBar from "../components/navbar/NavBar";
 import CustomHead from "../components/head/CustomHead";
@@ -111,6 +108,25 @@ export default class Sources extends Component {
               licenceURL="https://www.pexels.com/license/"
               licenceType="PEXELS Licence"
             />
+            <SourceDetail
+              localizedName={t("source.jenga")}
+              sourceURL="https://www.flaticon.com/free-icon/jenga_857232"
+              sourceName="Pause08"
+              licenceURL="https://www.freepikcompany.com/legal#nav-flaticon"
+              licenceType="Flaticon License"
+            />
+          </ul>
+          <h5>{t("source.sources_title")}:</h5>
+          <ul>
+            <li>
+              https://www.glamour.hu/geletstilus/10-szorakoztato-ivos-jatek-amit-a-kovetkezo-hazibuliban-ki-kell-probalnod-36291
+            </li>
+            <li>
+              https://www.nyu.hu/cikk/par_ivos_jatek_ami_feldobhat_egy_lapos_bulit
+            </li>
+            <li>
+              https://player.hu/eletmod/gasztro/ivos-jatekok/
+            </li>
           </ul>
         </div>
       </div>

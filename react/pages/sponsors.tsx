@@ -4,9 +4,6 @@ import React, { Component } from "react";
 // Import React version of Bootstap library.
 import { Container, Row, Col } from "reactstrap";
 
-// Import module for cookie handling.
-import Cookies from "universal-cookie";
-
 // Import FA modules.
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
@@ -136,6 +133,16 @@ export default class Sponsors extends Component {
               <a href="https://www.instagram.com/georgecobbler" target="_blank" rel="noopener noreferrer">
                 <div className="sponsor-card cobbler">
                   <img src="/img/card_backs/cobbler.png" alt="" />
+                </div>
+              </a>
+              <a href="https://www.facebook.com/dugulaselharitas.balkanybaneskornyeken" target="_blank" rel="noopener noreferrer">
+                <div className="sponsor-card dugulasklinika">
+                  <img src="/img/card_backs/dugulasklinika.png" alt="" />
+                </div>
+              </a>
+              <a href="https://hu.wikipedia.org/wiki/%C3%89p%C3%BClet" target="_blank" rel="noopener noreferrer">
+                <div className="sponsor-card anonim">
+                  <img src="/img/card_backs/anonim.png" alt="" />
                 </div>
               </a>
             </Row>
