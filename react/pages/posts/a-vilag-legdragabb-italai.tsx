@@ -1,6 +1,5 @@
 // Import ReactJS modules.
 import React, {Component} from "react";
-import Modal from 'react-modal';
 
 import Cookies from "universal-cookie";
 
