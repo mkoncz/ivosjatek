@@ -116,16 +116,16 @@ export default class Sources extends Component {
               licenceType="Flaticon License"
             />
           </ul>
-          <h5>{t("source.sources_title")}:</h5>
+          <h5>{t("nav.games")}:</h5>
           <ul>
             <li>
-              https://www.glamour.hu/geletstilus/10-szorakoztato-ivos-jatek-amit-a-kovetkezo-hazibuliban-ki-kell-probalnod-36291
+              <a href="https://www.glamour.hu/geletstilus/10-szorakoztato-ivos-jatek-amit-a-kovetkezo-hazibuliban-ki-kell-probalnod-36291">https://www.glamour.hu/geletstilus/10-szorakoztato-ivos-jatek-amit-a-kovetkezo-hazibuliban-ki-kell-probalnod-36291</a>
             </li>
             <li>
-              https://www.nyu.hu/cikk/par_ivos_jatek_ami_feldobhat_egy_lapos_bulit
+              <a href="https://www.nyu.hu/cikk/par_ivos_jatek_ami_feldobhat_egy_lapos_bulit">https://www.nyu.hu/cikk/par_ivos_jatek_ami_feldobhat_egy_lapos_bulit</a>
             </li>
             <li>
-              https://player.hu/eletmod/gasztro/ivos-jatekok/
+              <a href="https://player.hu/eletmod/gasztro/ivos-jatekok/">https://player.hu/eletmod/gasztro/ivos-jatekok/</a>
             </li>
           </ul>
         </div>
