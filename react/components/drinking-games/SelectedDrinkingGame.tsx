@@ -4,6 +4,7 @@ import React from "react";
 // Import Instagram Embed tool.
 import InstagramEmbed from "react-instagram-embed";
 
+// Interface for props.
 interface SiteElementModel {
     slug?: string; 
     type?: string; 
@@ -21,7 +22,7 @@ interface DrinkingGameProps {
 /**
  * The component describes a drinking game.
  */
-const DrinkingGame = (props: DrinkingGameProps) => {
+const SelectedDrinkingGame = (props: DrinkingGameProps) => {
 
     const createHeader = (siteObject, index) => {
         let level = siteObject.level;
@@ -141,4 +142,4 @@ const DrinkingGame = (props: DrinkingGameProps) => {
 }
 
 // Export component.
-export default DrinkingGame;
+export default SelectedDrinkingGame;
