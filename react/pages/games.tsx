@@ -12,21 +12,22 @@ import CustomHead from "../components/head/CustomHead";
 import { t, initLanguageCookie } from "../i18n";
 
 // Import game content.
-import * as drinking_objects_hu from "../locales/drinking_games_hu.json";
-import * as drinking_objects_en from "../locales/drinking_games_en.json";
+import * as drinking_objects from "../locales/drinking_games.json";
 
 /**
  * The page contains the list of drinking games.
  */
 export default class DrinkingGames extends React.Component {
 
-  games: Object[];
+  games: any[][];
+  localized_games: any[][];
 
   constructor(props) {
     super(props);
     initLanguageCookie();
     let cookies = new Cookies();
-    this.games = cookies.get("lang") === "hu" ? drinking_objects_hu.all_games : drinking_objects_en.all_games;
+    this.games = drinking_objects.all_games;
+    this.localized_games = this.games.filter(game => game[0].slug === cookies.get("lang"));
   }
 
   // Returns the thumbnail and title of all games.

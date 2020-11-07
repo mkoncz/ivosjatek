@@ -1,58 +1,65 @@
 // Import ReactJS module.
 import React, { Component } from "react";
+import { NextPageContext } from 'next'
 
 // Import module for cookie handling.
 import Cookies from "universal-cookie";
 
 // Import components.
 import NavBar from "../navbar/NavBar";
-import CustomHead from "../head/CustomHead";
 import SelectedDrinkingGame from "./SelectedDrinkingGame";
 
 // Import i18n functions.
 import { t, initLanguageCookie } from "../../i18n";
 
 // Import game rules resource.
-import * as drinking_objects_hu from "../../locales/drinking_games_hu.json"
-import * as drinking_objects_en from "../../locales/drinking_games_en.json"
+import * as drinking_objects from "../../locales/drinking_games.json"
 
 interface SiteElementModel {
-  slug?: string; 
-  type?: string; 
-  url?: string; 
-  text?: string; 
-  img?: string; 
-  desc?: string; 
-  level?: number; 
+  slug?: string;
+  type?: string;
+  url?: string;
+  text?: string;
+  img?: string;
+  desc?: string;
+  level?: number;
+  lang?: string;
 }
 
 interface DrinkingGameTemplateProps {
-  game: string; 
+  game: string;
 }
 
 /**
  * The page contains a selected drinking game.
  */
-export default class DrinkingGameTemplate extends Component<DrinkingGameTemplateProps,{}> {
+export default class DrinkingGameTemplate extends Component<DrinkingGameTemplateProps, {}> {
 
   games: any[][];
+  localized_games: any[][];
+  cookies = new Cookies()
 
   constructor(props) {
     super(props);
     initLanguageCookie();
-    let cookies = new Cookies();
-    this.games = cookies.get("lang") === "hu" ? drinking_objects_hu.all_games : drinking_objects_en.all_games;
+    this.games = drinking_objects.all_games;
+    this.localized_games = this.games.filter(game => game[0].lang === this.cookies.get("lang"));
   }
 
   // Returns the opened game.
   getCurrentGame = () => {
     let post = null;
     this.games.forEach((element: SiteElementModel[]) => {
+      // Do not render game if an other language is selected.
+      if(this.cookies.get("lang") !== element[0].lang ) {
+        return "";
+      }
+      // Create component for the current game.
       if (element[0].type === 'meta') {
-        if (this.props.game.includes(element[0].slug)) {
+        if (element[0].slug.includes(this.props.game)) {
           post = <div key={element[0].slug}>
             <SelectedDrinkingGame
-              siteElements={element}/>
+              siteElements={element} />
           </div>
         }
       }
@@ -62,7 +69,7 @@ export default class DrinkingGameTemplate extends Component<DrinkingGameTemplate
 
   // Returns the thumbnail and title of all games.
   getAllThumbs = () => {
-    return this.games.map(element => {
+    return this.localized_games.map(element => {
       return (
         <div key={element[0].slug} className="game-thumbnail-container">
           <a href={`/games/${element[0].slug}`}>
@@ -83,21 +90,14 @@ export default class DrinkingGameTemplate extends Component<DrinkingGameTemplate
   render() {
     return (
       <div>
-        <div>
-          <CustomHead
-            title="Bumm"
-            desc="Az egyik legegyszerűbb ivós játék. Minden játékos mond egy számot hangosan, sorban, 1-től kezdve, kivéve a 7-et, annak többszöröseit és amiben benne van a szám (pl. 17). Ebben az esetben azt mondja: bumm. Aki elhibázza, iszik. Ilyen egyszerű."
-            url="https://ivosjatek.hu/games/bumm"
-            imgPath="/img/games_page/het.jpg"
-          />
-          <NavBar />
-          <div className="page-frame">
-            {this.getCurrentGame()}
-            <h1>{t("nav.games")}</h1>
-            {this.getAllThumbs()}
-          </div>
+        <NavBar />
+        <div className="page-frame">
+          {this.getCurrentGame()}
+          <h1>{t("nav.games")}</h1>
+          {this.getAllThumbs()}
         </div>
       </div>
     );
   }
+
 }
