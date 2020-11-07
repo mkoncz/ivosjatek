@@ -32,20 +32,22 @@ export default class Welcome extends Component {
             <a href="/game">
               <div className="half-block upper-block">
                 <div className="welcome-text-block ">
-                  <h1>{t("welcome.online_game")}</h1>
-                  <h4>{t("welcome.online_game_desc")}</h4>
+                  <h1 className="welcome">{t("welcome.online_game")}</h1>
+                  <h2 className="welcome">{t("welcome.online_game_desc")}</h2>
                 </div>
               </div>
             </a>
             <a href="/games">
               <div className="half-block lower-block">
                 <div className="welcome-text-block ">
-                  <h1>{t("welcome.other_games")}</h1>
-                  <h4>{t("welcome.other_games_desc")}</h4>
+                  <h3 className="welcome">{t("welcome.other_games")}</h3>
+                  <h4 className="welcome">{t("welcome.other_games_desc")}</h4>
                 </div>
               </div>
             </a>
           </div>
+          <h5 className="welcome">{t("welcome.creator_support")}</h5>
+          <p className="welcome">{t("welcome.help")}: <a href={t("welcome.help_url")}> {t("welcome.help_title")}</a> </p>
         </div>
       </div>
     );

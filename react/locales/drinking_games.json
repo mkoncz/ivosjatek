@@ -6,7 +6,8 @@
         "slug": "kings-cup",
         "img": "king.jpg",
         "title": "Kings Cup",
-        "desc": "Kings Cup"
+        "desc": "Kings Cup",
+        "lang": "hu"
       },
       {
         "type": "header",
@@ -33,7 +34,8 @@
         "slug": "thumper",
         "img": "thumper.jpg",
         "title": "Thumper",
-        "desc": "Thumper"
+        "desc": "Thumper",
+        "lang": "hu"
       },
       {
         "type": "header",
@@ -60,7 +62,8 @@
         "slug": "rezzenestelen-arc",
         "img": "arc.jpg",
         "title": "Rezzenéstelen arc",
-        "desc": "Rezzenéstelen arc"
+        "desc": "Rezzenéstelen arc",
+        "lang": "hu"
       },
       {
         "type": "header",
@@ -87,7 +90,8 @@
         "slug": "flip-cup",
         "img": "pohar.jpg",
         "title": "Flip Cup",
-        "desc": "Flip Cup"
+        "desc": "Flip Cup",
+        "lang": "hu"
       },
       {
         "type": "header",
@@ -114,7 +118,8 @@
         "slug": "bumm",
         "img": "het.jpg",
         "title": "Bumm",
-        "desc": "Bumm"
+        "desc": "Bumm",
+        "lang": "hu"
       },
       {
         "type": "header",
@@ -141,7 +146,8 @@
         "slug": "legvaloszinubb",
         "img": "percent.jpg",
         "title": "Legvalószínűbb",
-        "desc": "Legvalószínűbb"
+        "desc": "Legvalószínűbb",
+        "lang": "hu"
       },
       {
         "type": "header",
@@ -168,7 +174,8 @@
         "slug": "vedd-fel-a-taskat",
         "img": "taska.jpg",
         "title": "Vedd fel a táskát",
-        "desc": "Vedd fel a táskát"
+        "desc": "Vedd fel a táskát",
+        "lang": "hu"
       },
       {
         "type": "header",
@@ -195,7 +202,8 @@
         "slug": "ivos-jenga",
         "img": "jenga.jpg",
         "title": "Ivós Jenga",
-        "desc": "Ivós Jenga"
+        "desc": "Ivós Jenga",
+        "lang": "hu"
       },
       {
         "type": "header",
@@ -230,7 +238,8 @@
         "slug": "osszeragadva",
         "img": "ragadva.jpg",
         "title": "Összeragadva",
-        "desc": "Összeragadva"
+        "desc": "Összeragadva",
+        "lang": "hu"
       },
       {
         "type": "header",
@@ -257,7 +266,8 @@
         "slug": "en-meg-soha",
         "img": "meg_soha.jpg",
         "title": "Én még soha",
-        "desc": "Én még soha"
+        "desc": "Én még soha",
+        "lang": "hu"
       },
       {
         "type": "header",
@@ -284,7 +294,8 @@
         "slug": "sorpong",
         "img": "sorpong.jpg",
         "title": "Sörpong, fröccspong",
-        "desc": "Sör –és fröccspong"
+        "desc": "Sör –és fröccspong",
+        "lang": "hu"
       },
       {
         "type": "header",
@@ -315,7 +326,8 @@
         "slug": "t-rex",
         "img": "trex.jpg",
         "title": "T-Rex",
-        "desc": "T-Rex"
+        "desc": "T-Rex",
+        "lang": "hu"
       },
       {
         "type": "header",
@@ -342,7 +354,8 @@
         "slug": "halal-kor",
         "img": "halalkor.jpg",
         "title": "A Halálkör",
-        "desc": "A Halálkör"
+        "desc": "A Halálkör",
+        "lang": "hu"
       },
       {
         "type": "header",
@@ -378,7 +391,8 @@
         "slug": "huzz-egyet-remenykedj",
         "img": "card.jpg",
         "title": "Húzz és reménykedj",
-        "desc": "Húzz egyet és reménykedj"
+        "desc": "Húzz egyet és reménykedj",
+        "lang": "hu"
       },
       {
         "type": "header",
@@ -432,7 +446,8 @@
         "slug": "dzsibuti",
         "img": "dzsibuti.jpg",
         "title": "Dzsibuti",
-        "desc": "Bottle-Can "
+        "desc": "Bottle-Can",
+        "lang": "hu"
       },
       {
         "type": "header",
@@ -467,7 +482,8 @@
         "slug": "igaz-hamis",
         "img": "hamis.jpg",
         "title": "Egy igaz, egy hamis",
-        "desc": "Egy igaz, egy hamis "
+        "desc": "Egy igaz, egy hamis",
+        "lang": "hu"
       },
       {
         "type": "header",
@@ -494,7 +510,8 @@
         "slug": "tarsasjatekok",
         "img": "tarsas.jpg",
         "title": "Társasjátékok",
-        "desc": "Társasjátékok"
+        "desc": "Társasjátékok",
+        "lang": "hu"
       },
       {
         "type": "header",
@@ -521,7 +538,8 @@
         "slug": "orosz-rulett",
         "img": "rulett.jpg",
         "title": "Orosz rulett",
-        "desc": "Rövidező játék: orosz rulett"
+        "desc": "Rövidező játék: orosz rulett",
+        "lang": "hu"
       },
       {
         "type": "header",
@@ -540,6 +558,34 @@
       {
         "type": "img",
         "url": "https://images.pexels.com/photos/3894215/pexels-photo-3894215.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      }
+    ],
+    [
+      {
+        "type": "meta",
+        "slug": "en/never-have-i-ever",
+        "img": "meg_soha.jpg",
+        "title": "Never Have I Ever",
+        "desc": "Never Have I Ever",
+        "lang": "en"
+      },
+      {
+        "type": "header",
+        "level": 1,
+        "text": "Never Have I Ever"
+      },
+      {
+        "type": "header",
+        "level": 5,
+        "text": "What you need: Drinks "
+      },
+      {
+        "type": "par",
+        "text": "Never Have I Ever is a great game to know your friends' secrets! You have to share something that you have never done before and the people who have will take a sip of their drink. For example, when I say, 'Never have I ever been arrested,' all those in the group who have been arrested will have a drink. The key here is to make your friends admit their embarrassing stories so watch out for what you say!"
+      },
+      {
+        "type": "img",
+        "url": "https://images.pexels.com/photos/5842/people-vintage-photo-memories.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
       }
     ]
   ]

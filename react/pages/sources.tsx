@@ -125,7 +125,10 @@ export default class Sources extends Component {
               <a href="https://www.nyu.hu/cikk/par_ivos_jatek_ami_feldobhat_egy_lapos_bulit">https://www.nyu.hu/cikk/par_ivos_jatek_ami_feldobhat_egy_lapos_bulit</a>
             </li>
             <li>
-              <a href="https://player.hu/eletmod/gasztro/ivos-jatekok/">https://player.hu/eletmod/gasztro/ivos-jatekok/</a>
+              <a href="https://player.hu/eletmod/gasztro/ivos-jatekok">https://player.hu/eletmod/gasztro/ivos-jatekok</a>
+            </li>
+            <li>
+              <a href="https://www.scoopwhoop.com/inothernews/fun-drinking-games">https://www.scoopwhoop.com/inothernews/fun-drinking-games</a>
             </li>
           </ul>
         </div>
