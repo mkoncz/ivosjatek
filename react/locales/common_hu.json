@@ -65,7 +65,7 @@
      
       "nav.cards": "Kártyák",
       "nav.contact": "Kapcsolat",
-      "nav.game": "Online Játék",
+      "nav.game": "Online App",
       "nav.games": "Más Ivós Játékok",
       "nav.home": "HÚZZ EGY LAPOT",
       "nav.other": "Egyéb",
@@ -126,9 +126,13 @@
       "sponsors.whyToBeOwner": "Miért válj tulajdonossá?",
       "sponsors.whyToBeSponsor": "Miért legyél támogató?",
      
+      "welcome.creator_support": "Az készítő nem támogatja a felelőtlen alkoholfogyaszást.",
+      "welcome.help": "Segítség",
+      "welcome.help_title": "Anonim alkoholisták",
+      "welcome.help_url": "https://www.anonimalkoholistak.hu",
       "welcome.online_game": "Online ivós játék",
       "welcome.online_game_desc": "Pörgesd fel a bulit egy izgalmas online kártyajátékkal",
       "welcome.other_games": "Egyéb ivós játékok",
-      "welcome.other_games_desc": "A legjobb ivós játékok szabályai magyar kártya, francia kártya, jenga vagy csupán szavak segítségével"
+      "welcome.other_games_desc": "A legjobb ivós játékok szabályai magyar kártya, francia kártya, stb használatával"
     }
 }
