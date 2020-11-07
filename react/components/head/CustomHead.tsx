@@ -88,7 +88,7 @@ const CustomHead = (props: CustomHeadProps) => {
                 window.dataLayer = window.dataLayer || [];
                 function gtag() { dataLayer.push(arguments); }
                 gtag("js", new Date());
-                gtag("config", "UA-168599391-1"), {cookie_flags: "SameSite=None;Secure"});
+                gtag("config", "UA-168599391-1", {cookie_flags: "SameSite=None;Secure"});
               `,
         }}
       />
