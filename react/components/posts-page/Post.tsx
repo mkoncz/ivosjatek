@@ -4,6 +4,9 @@ import React from "react";
 // Import Instagram Embed tool.
 import InstagramEmbed from "react-instagram-embed";
 
+// Import translate function.
+import { t } from "../../i18n";
+
 // Interfaces for props.
 interface PostProps {
     postObjects: any;
@@ -82,7 +85,7 @@ const Post = (props: PostProps) => {
                     </div>
                 })}
                 <div>
-                    Ivósjáték: <a href="/">katt ide</a>
+                    {t("posts.drinking_game")}: <a href="/">{t("posts.click_here")}</a>
                 </div>
             </div>)
     }

@@ -17,7 +17,6 @@ import GameTemplate from "../components/game-page/GameTemplate";
 export default class Game extends Component {
 
   render() {
-
     return (
       <div>
         <CustomHead

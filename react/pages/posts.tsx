@@ -12,23 +12,24 @@ import CustomHead from "./../components/head/CustomHead";
 import { t, initLanguageCookie } from "./../i18n";
 
 // Import post content
-import * as posts_objects_hu from "./../locales/posts_hu.json"
-import * as posts_objects_en from "./../locales/posts_en.json"
+import * as posts_objects from "./../locales/posts.json"
 
 /**
  * The page contains the list of posts.
  */
 const Posts = () => {
-
+  
   initLanguageCookie();
+  
+  const posts = posts_objects.all_posts;
 
-  let cookies = new Cookies();
+  const cookies = new Cookies();
 
-  let posts = cookies.get("lang") ? posts_objects_hu.all_posts : posts_objects_en.all_posts;
+  const localized_posts = posts.filter(post => post[0].lang === cookies.get("lang"));
 
   // Returns the thumbnail of all posts.
   const getAllThumbs = () => {
-    return posts.map(element => {
+    return localized_posts.map(element => {
       return (
         <div key={element[0].slug}>
           <a href={`/posts/${element[0].slug}`}>
