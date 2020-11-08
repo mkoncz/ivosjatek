@@ -27,7 +27,7 @@ export default class Game extends Component {
         />  
         <NavBar />
         <GameTemplate
-          light={false}
+          light={true}
         />
       </div>
     )

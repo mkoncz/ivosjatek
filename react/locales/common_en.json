@@ -63,7 +63,8 @@
 
     "nav.cards": "Cards",
     "nav.contact": "Contact",
-    "nav.game": "Online Game",
+    "nav.game_nav": "Online Game",
+    "nav.game_title": "Online Game",
     "nav.games": "Other Games",
     "nav.home": "Home Page",
     "nav.other": "Others",
