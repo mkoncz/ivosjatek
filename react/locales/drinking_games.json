@@ -3,7 +3,7 @@
     [
       {
         "type": "meta",
-        "slug": "kings-cup",
+        "slug": "hu/kings-cup",
         "img": "king.jpg",
         "title": "Kings Cup",
         "desc": "Kings Cup",
@@ -31,7 +31,7 @@
     [
       {
         "type": "meta",
-        "slug": "thumper",
+        "slug": "hu/thumper",
         "img": "thumper.jpg",
         "title": "Thumper",
         "desc": "Thumper",
@@ -59,7 +59,7 @@
     [
       {
         "type": "meta",
-        "slug": "rezzenestelen-arc",
+        "slug": "hu/rezzenestelen-arc",
         "img": "arc.jpg",
         "title": "Rezzenéstelen arc",
         "desc": "Rezzenéstelen arc",
@@ -87,7 +87,7 @@
     [
       {
         "type": "meta",
-        "slug": "flip-cup",
+        "slug": "hu/flip-cup",
         "img": "pohar.jpg",
         "title": "Flip Cup",
         "desc": "Flip Cup",
@@ -115,7 +115,7 @@
     [
       {
         "type": "meta",
-        "slug": "bumm",
+        "slug": "hu/bumm",
         "img": "het.jpg",
         "title": "Bumm",
         "desc": "Bumm",
@@ -143,7 +143,7 @@
     [
       {
         "type": "meta",
-        "slug": "legvaloszinubb",
+        "slug": "hu/legvaloszinubb",
         "img": "percent.jpg",
         "title": "Legvalószínűbb",
         "desc": "Legvalószínűbb",
@@ -171,7 +171,7 @@
     [
       {
         "type": "meta",
-        "slug": "vedd-fel-a-taskat",
+        "slug": "hu/vedd-fel-a-taskat",
         "img": "taska.jpg",
         "title": "Vedd fel a táskát",
         "desc": "Vedd fel a táskát",
@@ -199,7 +199,7 @@
     [
       {
         "type": "meta",
-        "slug": "ivos-jenga",
+        "slug": "hu/ivos-jenga",
         "img": "jenga.jpg",
         "title": "Ivós Jenga",
         "desc": "Ivós Jenga",
@@ -235,7 +235,7 @@
     [
       {
         "type": "meta",
-        "slug": "osszeragadva",
+        "slug": "hu/osszeragadva",
         "img": "ragadva.jpg",
         "title": "Összeragadva",
         "desc": "Összeragadva",
@@ -263,7 +263,7 @@
     [
       {
         "type": "meta",
-        "slug": "en-meg-soha",
+        "slug": "hu/en-meg-soha",
         "img": "meg_soha.jpg",
         "title": "Én még soha",
         "desc": "Én még soha",
@@ -291,7 +291,7 @@
     [
       {
         "type": "meta",
-        "slug": "sorpong",
+        "slug": "hu/sorpong",
         "img": "sorpong.jpg",
         "title": "Sörpong, fröccspong",
         "desc": "Sör –és fröccspong",
@@ -323,7 +323,7 @@
     [
       {
         "type": "meta",
-        "slug": "t-rex",
+        "slug": "hu/t-rex",
         "img": "trex.jpg",
         "title": "T-Rex",
         "desc": "T-Rex",
@@ -351,7 +351,7 @@
     [
       {
         "type": "meta",
-        "slug": "halal-kor",
+        "slug": "hu/halal-kor",
         "img": "halalkor.jpg",
         "title": "A Halálkör",
         "desc": "A Halálkör",
@@ -388,7 +388,7 @@
     [
       {
         "type": "meta",
-        "slug": "huzz-egyet-remenykedj",
+        "slug": "hu/huzz-egyet-remenykedj",
         "img": "card.jpg",
         "title": "Húzz és reménykedj",
         "desc": "Húzz egyet és reménykedj",
@@ -443,7 +443,7 @@
     [
       {
         "type": "meta",
-        "slug": "dzsibuti",
+        "slug": "hu/dzsibuti",
         "img": "dzsibuti.jpg",
         "title": "Dzsibuti",
         "desc": "Bottle-Can",
@@ -479,7 +479,7 @@
     [
       {
         "type": "meta",
-        "slug": "igaz-hamis",
+        "slug": "hu/igaz-hamis",
         "img": "hamis.jpg",
         "title": "Egy igaz, egy hamis",
         "desc": "Egy igaz, egy hamis",
@@ -507,7 +507,7 @@
     [
       {
         "type": "meta",
-        "slug": "tarsasjatekok",
+        "slug": "hu/tarsasjatekok",
         "img": "tarsas.jpg",
         "title": "Társasjátékok",
         "desc": "Társasjátékok",
@@ -535,7 +535,7 @@
     [
       {
         "type": "meta",
-        "slug": "orosz-rulett",
+        "slug": "hu/orosz-rulett",
         "img": "rulett.jpg",
         "title": "Orosz rulett",
         "desc": "Rövidező játék: orosz rulett",

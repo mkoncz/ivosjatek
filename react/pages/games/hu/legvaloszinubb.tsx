@@ -2,11 +2,11 @@
 import React, { Component } from "react";
 
 // Import components.
-import CustomHead from "../../components/head/CustomHead";
-import DrinkingGameTemplate from "../../components/drinking-games/DrinkingGameTemplate";
+import CustomHead from "../../../components/head/CustomHead";
+import DrinkingGameTemplate from "../../../components/drinking-games/DrinkingGameTemplate";
 
 // Import cookie initializer function.
-import { initLanguageCookie } from "../../i18n";
+import { initLanguageCookie } from "../../../i18n";
 
 /**
  * The page contains a selected drinking game.
@@ -22,13 +22,13 @@ export default class SelectedDrinkingGame extends Component {
     return (
       <div>
         <CustomHead
-          title="Igaz hamis"
-          desc="Nagy társasággal érdemes játszani ezt a számolós játékot."
-          url="https://ivosjatek.hu/games/igaz-hamis"
+          title="Legvalószínűbb"
+          desc="A játékosok körben ülnek és feltesznek egy 'legvalószínűbb' kérdést."
+          url="https://ivosjatek.hu/games/legvaloszinubb"
           imgPath="/img/games_page/percent.jpg"
         />
         <DrinkingGameTemplate
-          game="igaz-hamis"
+          game="legvaloszinubb"
         />
       </div>
     );
