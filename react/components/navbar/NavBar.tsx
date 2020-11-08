@@ -42,7 +42,7 @@ const NavBar = () => {
       <Collapse isOpen={isNavbarOpen} navbar >
         <Nav className="mr-auto centered" navbar>
           <NavItem>
-            <NavLink href="/game" onClick={closeHamburger}>{t("nav.game")}</NavLink>
+            <NavLink href="/game" onClick={closeHamburger}>{t("nav.game_nav")}</NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="/sponsors" onClick={closeHamburger}>{t("nav.sponsors")}</NavLink>
@@ -58,6 +58,11 @@ const NavBar = () => {
               <DropdownItem className="nav-dropdown-item">
                 <NavItem>
                   <NavLink href="/games" onClick={closeHamburger}>{t("nav.games")}</NavLink>
+                </NavItem>
+              </DropdownItem>
+              <DropdownItem className="nav-dropdown-item">
+                <NavItem>
+                  <NavLink href="/game-light" onClick={closeHamburger}>Light {t("nav.game_nav")}</NavLink>
                 </NavItem>
               </DropdownItem>
               <DropdownItem className="nav-dropdown-item">

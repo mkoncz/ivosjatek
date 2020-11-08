@@ -4,17 +4,16 @@ import React, {Component} from "react";
 import Cookies from "universal-cookie";
 
 // Import components.
-import NavBar from "../../components/navbar/NavBar";
-import CustomHead from "../../components/head/CustomHead";
-import Post from "../../components/posts-page/Post"
+import NavBar from "../../../components/navbar/NavBar";
+import CustomHead from "../../../components/head/CustomHead";
+import Post from "../../../components/posts-page/Post"
 
 // Import post content
-import * as posts_objects_hu from "../../locales/posts_hu.json";
-import * as posts_objects_en from "../../locales/posts_en.json";
+import * as posts_objects from "../../../locales/posts.json";
 
 // Import translate function.
-import { t, initLanguageCookie } from "../../i18n";
-import AdultConsent from "../../components/modal/AdultConsent";
+import { t, initLanguageCookie } from "../../../i18n";
+import AdultConsent from "../../../components/modal/AdultConsent";
 
 /**
  * The page contains the list of posts.
@@ -22,19 +21,21 @@ import AdultConsent from "../../components/modal/AdultConsent";
 const SelectedPost = () => {
 
   initLanguageCookie();
+  
+  const cookies = new Cookies();
+  
+  const posts = posts_objects.all_posts;
 
-  let postSlug = "a-vilag-legdragabb-italai";
+  const localized_posts = posts.filter(post => post[0].lang === cookies.get("lang"));
 
-  let cookies = new Cookies();
-
-  let posts = cookies.get("lang") ? posts_objects_hu.all_posts : posts_objects_en.all_posts;
+  const postSlug = "top-10-most-expensive-alcohol-in-the-world";
 
   // Returns the opened post
   const getCurrentPost = () => {
     let post;
-    posts.forEach(element => {
+    localized_posts.forEach(element => {
       if (element[0].type === 'meta') {
-        if (postSlug === element[0].slug) {
+        if (element[0].slug.includes(postSlug)) {
           post = (
             <Post
               postObjects={element}
@@ -48,7 +49,7 @@ const SelectedPost = () => {
 
   // Returns the thumbnail of all posts
   const getAllThumbs = () => {
-    return posts.map(element => {
+    return localized_posts.map(element => {
       return (
         <div key={element[0].slug}>
           <a href={`/posts/${element[0].slug}`}>

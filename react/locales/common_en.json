@@ -63,7 +63,8 @@
 
     "nav.cards": "Cards",
     "nav.contact": "Contact",
-    "nav.game": "Online Game",
+    "nav.game_nav": "Online Game",
+    "nav.game_title": "Online Game",
     "nav.games": "Other Games",
     "nav.home": "Home Page",
     "nav.other": "Others",
@@ -73,6 +74,9 @@
     "nav.sources": "Sources",
     "nav.sponsors": "Sponsors",
     "nav.title": "Drinking Game",
+
+    "posts.click_here": "click here",
+    "posts.drinking_game": "Drinking Game",
 
     "rules.rule_1": "Click/knock on the card back.",
     "rules.rule_2": "Read out the question.",

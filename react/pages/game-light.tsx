@@ -17,6 +17,7 @@ import GameTemplate from "../components/game-page/GameTemplate";
 export default class Game extends Component {
 
   render() {
+
     return (
       <div>
         <CustomHead
@@ -26,7 +27,7 @@ export default class Game extends Component {
         />  
         <NavBar />
         <GameTemplate
-          light={false}
+          light={true}
         />
       </div>
     )

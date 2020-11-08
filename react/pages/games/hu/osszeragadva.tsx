@@ -2,11 +2,11 @@
 import React, { Component } from "react";
 
 // Import components.
-import CustomHead from "../../components/head/CustomHead";
-import DrinkingGameTemplate from "../../components/drinking-games/DrinkingGameTemplate";
+import CustomHead from "../../../components/head/CustomHead";
+import DrinkingGameTemplate from "../../../components/drinking-games/DrinkingGameTemplate";
 
 // Import cookie initializer function.
-import { initLanguageCookie } from "../../i18n";
+import { initLanguageCookie } from "../../../i18n";
 
 /**
  * The page contains a selected drinking game.
@@ -22,13 +22,13 @@ export default class SelectedDrinkingGame extends Component {
     return (
       <div>
         <CustomHead
-          title="Kings Cup"
-          desc="A Kings Cupot bármennyien játszhatjátok."
-          url="https://ivosjatek.hu/games/kings-cup"
-          imgPath="/img/games_page/king.jpg"
+          title="Összeragadva"
+          desc="Ez a játék szó szerint közelebb hoz titeket."
+          url="https://ivosjatek.hu/games/osszeragadva"
+          imgPath="/img/games_page/ragadva.jpg"
         />
         <DrinkingGameTemplate
-          game="kings-cup"
+          game="osszeragadva"
         />
       </div>
     );

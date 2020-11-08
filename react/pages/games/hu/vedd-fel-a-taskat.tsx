@@ -2,11 +2,11 @@
 import React, { Component } from "react";
 
 // Import components.
-import CustomHead from "../../components/head/CustomHead";
-import DrinkingGameTemplate from "../../components/drinking-games/DrinkingGameTemplate";
+import CustomHead from "../../../components/head/CustomHead";
+import DrinkingGameTemplate from "../../../components/drinking-games/DrinkingGameTemplate";
 
 // Import cookie initializer function.
-import { initLanguageCookie } from "../../i18n";
+import { initLanguageCookie } from "../../../i18n";
 
 /**
  * The page contains a selected drinking game.

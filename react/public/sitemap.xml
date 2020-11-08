@@ -1,249 +1,272 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
 
+  <!-- PAGES -->
   <url>
     <loc>https://ivosjatek.hu</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
 
   <url>
     <loc>https://ivosjatek.hu/rules</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
 
   <url>
     <loc>https://ivosjatek.hu/contact</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
 
   <url>
     <loc>https://ivosjatek.hu/releases</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
 
   <url>
     <loc>https://ivosjatek.hu/sources</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
 
   <url>
     <loc>https://ivosjatek.hu/sponsors</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
 
-  <url>
-    <loc>https://ivosjatek.hu/games/osszeragadva</loc>
-    <lastmod>2020-10-27</lastmod>
-  </url>
-  <url>
-    <loc>https://ivosjatek.hu/games/kings-cup</loc>
-    <lastmod>2020-10-27</lastmod>
-  </url>
-  <url>
-    <loc>https://ivosjatek.hu/games/thumper</loc>
-    <lastmod>2020-10-27</lastmod>
-  </url>
-  <url>
-    <loc>https://ivosjatek.hu/games/rezzenestelen-arc</loc>
-    <lastmod>2020-10-27</lastmod>
-  </url>
-  <url>
-    <loc>https://ivosjatek.hu/games/flip-cup</loc>
-    <lastmod>2020-10-27</lastmod>
-  </url>
-  <url>
-    <loc>https://ivosjatek.hu/games/bumm</loc>
-    <lastmod>2020-10-27</lastmod>
-  </url>
-  <url>
-    <loc>https://ivosjatek.hu/games/legvaloszinubb</loc>
-    <lastmod>2020-10-27</lastmod>
-  </url>
-  <url>
-    <loc>https://ivosjatek.hu/games/vedd-fel-a-taskat</loc>
-    <lastmod>2020-10-27</lastmod>
-  </url>
-  <url>
-    <loc>https://ivosjatek.hu/games/ivos-jenga</loc>
-    <lastmod>2020-10-27</lastmod>
-  </url>
-  <url>
-    <loc>https://ivosjatek.hu/games/en-meg-soha</loc>
-    <lastmod>2020-10-27</lastmod>
-  </url>
-  <url>
-    <loc>https://ivosjatek.hu/games/sorpong</loc>
-    <lastmod>2020-10-27</lastmod>
-  </url>
-  <url>
-    <loc>https://ivosjatek.hu/games/t-rex</loc>
-    <lastmod>2020-10-27</lastmod>
-  </url>
-  <url>
-    <loc>https://ivosjatek.hu/games/halal-kor</loc>
-    <lastmod>2020-10-27</lastmod>
-  </url>
-  <url>
-    <loc>https://ivosjatek.hu/games/huzz-egyet-remenykedj</loc>
-    <lastmod>2020-10-27</lastmod>
-  </url>
-  <url>
-    <loc>https://ivosjatek.hu/games/bottle-can</loc>
-    <lastmod>2020-10-27</lastmod>
-  </url>
-  <url>
-    <loc>https://ivosjatek.hu/games/igaz-hamis</loc>
-    <lastmod>2020-10-27</lastmod>
-  </url>
-  <url>
-    <loc>https://ivosjatek.hu/games/tarsasjatekok</loc>
-    <lastmod>2020-10-27</lastmod>
-  </url>
-  <url>
-    <loc>https://ivosjatek.hu/games/orosz-rulett</loc>
-    <lastmod>2020-10-27</lastmod>
-  </url>
-  <url>
+    <url>
     <loc>https://ivosjatek.hu/games</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
 
   <url>
     <loc>https://ivosjatek.hu/game</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivosjatek.hu/game-light</loc>
+    <lastmod>2020-11-08</lastmod>
   </url>
 
   <url>
     <loc>https://ivosjatek.hu/posts</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
+  </url>
+
+    <url>
+    <loc>https://ivosjatek.hu/404</loc>
+    <lastmod>2020-11-08</lastmod>
+  </url>
+
+  <!-- GAMES -->
+  <url>
+    <loc>https://ivosjatek.hu/games/en/never-have-i-ever</loc>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
-    <loc>https://ivosjatek.hu/p/a-vilag-legdragabb-italai</loc>
-    <lastmod>2020-10-27</lastmod>
+    <loc>https://ivosjatek.hu/games/hu/osszeragadva</loc>
+    <lastmod>2020-11-08</lastmod>
   </url>
+  <url>
+    <loc>https://ivosjatek.hu/games/hu/kings-cup</loc>
+    <lastmod>2020-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/games/hu/thumper</loc>
+    <lastmod>2020-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/games/hu/rezzenestelen-arc</loc>
+    <lastmod>2020-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/games/hu/flip-cup</loc>
+    <lastmod>2020-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/games/hu/bumm</loc>
+    <lastmod>2020-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/games/hu/legvaloszinubb</loc>
+    <lastmod>2020-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/games/hu/vedd-fel-a-taskat</loc>
+    <lastmod>2020-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/games/hu/ivos-jenga</loc>
+    <lastmod>2020-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/games/hu/en-meg-soha</loc>
+    <lastmod>2020-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/games/hu/sorpong</loc>
+    <lastmod>2020-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/games/hu/t-rex</loc>
+    <lastmod>2020-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/games/hu/halal-kor</loc>
+    <lastmod>2020-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/games/hu/huzz-egyet-remenykedj</loc>
+    <lastmod>2020-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/games/hu/bottle-can</loc>
+    <lastmod>2020-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/games/hu/igaz-hamis</loc>
+    <lastmod>2020-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/games/hu/tarsasjatekok</loc>
+    <lastmod>2020-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/games/hu/orosz-rulett</loc>
+    <lastmod>2020-11-08</lastmod>
+  </url>
+
+  <!-- POSTS -->
+
+  <url>
+    <loc>https://ivosjatek.hu/p/en/top-10-most-expensive-alcohol-in-the-world</loc>
+    <lastmod>2020-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://ivosjatek.hu/p/hu/a-vilag-legdragabb-italai</loc>
+    <lastmod>2020-11-08</lastmod>
+  </url>
+
+  <!-- CARDS -->
 
   <url>
     <loc>https://ivosjatek.hu/cards</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/outer_quality</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/inner_quality</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/outfit</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/ownership</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/habit</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/skill</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/relationship</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/liked_thing</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/opinion</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/actual</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/current_game</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/according_to_you</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/have_you_ever</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/have_you_ever_18</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/nudes</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/naked</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/boobs</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/porn</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/sex_place</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/sex_partner</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/give_name</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/tell_a</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/do_or_drink</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/dare_or_drink</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/dare_or_drink_18</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/you_drink</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/rule</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/vote</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
   <url>
     <loc>https://ivosjatek.hu/cards/fastest_one</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-11-08</lastmod>
   </url>
-  <url>
-    <loc>https://ivosjatek.hu/404</loc>
-    <lastmod>2020-10-27</lastmod>
-  </url>
+
 </urlset>
