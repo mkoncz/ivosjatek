@@ -24,7 +24,7 @@ export default class SelectedDrinkingGame extends Component {
         <CustomHead
           title="Összeragadva"
           desc="Ez a játék szó szerint közelebb hoz titeket."
-          url="https://ivosjatek.hu/games/osszeragadva"
+          url="https://ivosjatek.hu/games/hu/osszeragadva"
           imgPath="/img/games_page/ragadva.jpg"
         />
         <DrinkingGameTemplate

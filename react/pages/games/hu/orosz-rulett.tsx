@@ -24,7 +24,7 @@ export default class SelectedDrinkingGame extends Component {
         <CustomHead
           title="Orosz rulett"
           desc="Rövidező játék: orosz rulett"
-          url="https://ivosjatek.hu/games/orosz-rulett"
+          url="https://ivosjatek.hu/games/hu/orosz-rulett"
           imgPath="/img/games_page/rulett.jpg"
         />
         <DrinkingGameTemplate

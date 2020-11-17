@@ -24,7 +24,7 @@ export default class SelectedDrinkingGame extends Component {
         <CustomHead
           title="Vedd fel a táskát"
           desc="Ez egy nagyon szórakoztató játék, akár már ezen a hétvégén kipróbálhatjátok."
-          url="https://ivosjatek.hu/games/vedd-fel-a-taskat"
+          url="https://ivosjatek.hu/games/hu/vedd-fel-a-taskat"
           imgPath="/img/games_page/taska.jpg"
         />
         <DrinkingGameTemplate

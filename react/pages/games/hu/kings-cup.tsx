@@ -24,7 +24,7 @@ export default class SelectedDrinkingGame extends Component {
         <CustomHead
           title="Kings Cup"
           desc="A Kings Cupot bármennyien játszhatjátok."
-          url="https://ivosjatek.hu/games/kings-cup"
+          url="https://ivosjatek.hu/games/hu/kings-cup"
           imgPath="/img/games_page/king.jpg"
         />
         <DrinkingGameTemplate

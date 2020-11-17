@@ -24,7 +24,7 @@ export default class SelectedDrinkingGame extends Component {
         <CustomHead
           title="Rezzenéstelen arc"
           desc="Ami kell hozzá: italok, papír, toll"
-          url="https://ivosjatek.hu/games/rezzenestelen-arc"
+          url="https://ivosjatek.hu/games/hu/rezzenestelen-arc"
           imgPath="/img/games_page/arc.jpg"
         />
         <DrinkingGameTemplate
