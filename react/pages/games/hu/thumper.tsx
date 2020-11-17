@@ -24,7 +24,7 @@ export default class SelectedDrinkingGame extends Component {
         <CustomHead
           title="Thumper"
           desc="Ez egy gyors és egyszerű, hangos és csapkodós játék."
-          url="https://ivosjatek.hu/games/thumper"
+          url="https://ivosjatek.hu/games/hu/thumper"
           imgPath="/img/games_page/thumper.jpg"
         />
         <DrinkingGameTemplate

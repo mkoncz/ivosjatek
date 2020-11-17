@@ -24,7 +24,7 @@ export default class SelectedDrinkingGame extends Component {
           <CustomHead
             title="Sörpong"
             desc="Egyszerűek a szabályok és a játék is."
-            url="https://ivosjatek.hu/games/sorpong"
+            url="https://ivosjatek.hu/games/hu/sorpong"
             imgPath="/img/games_page/sorpong.jpg"
           />
         <DrinkingGameTemplate

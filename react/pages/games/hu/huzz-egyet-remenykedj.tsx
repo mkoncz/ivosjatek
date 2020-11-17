@@ -24,7 +24,7 @@ export default class SelectedDrinkingGame extends Component {
         <CustomHead
           title="Húzz egyet"
           desc="Húzz egyet és reménykedj"
-          url="https://ivosjatek.hu/games/huzz-egyet-remenykedj"
+          url="https://ivosjatek.hu/games/hu/huzz-egyet-remenykedj"
           imgPath="/img/games_page/card.jpg"
         />
         <DrinkingGameTemplate
