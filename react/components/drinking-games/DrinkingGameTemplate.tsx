@@ -8,6 +8,7 @@ import Cookies from "universal-cookie";
 import NavBar from "../navbar/NavBar";
 import SelectedDrinkingGame from "./SelectedDrinkingGame";
 import AllDrinkingGameThumbnails from "./AllDrinkingGameThumbnails";
+import AdultConsent from "../../components/modal/AdultConsent";
 
 // Import i18n functions.
 import { t, initLanguageCookie } from "../../i18n";
@@ -73,6 +74,7 @@ export default class DrinkingGameTemplate extends Component<DrinkingGameTemplate
       <div>
         <NavBar />
         <div className="page-frame">
+          <AdultConsent/>
           {this.getCurrentGame()}
           <h1>{t("nav.games")}</h1>
           <AllDrinkingGameThumbnails/>

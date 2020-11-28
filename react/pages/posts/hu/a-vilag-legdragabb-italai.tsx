@@ -72,7 +72,7 @@ const SelectedPost = () => {
       <CustomHead
         title={t("nav.posts")}
         desc={t("desc.posts")}
-        url={"https://ivosjatek.hu/a-vliag-legdragabb-italai"}
+        url={"https://ivosjatek.hu/a-vilag-legdragabb-italai"}
       />
       <NavBar />
       <div className="page-frame">
