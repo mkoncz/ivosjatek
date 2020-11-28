@@ -23,6 +23,11 @@ export default class CardGroupList extends React.Component {
             <h4>"{t("cards.outer_quality")}" {t("cards.cards")}</h4>
           </div>
         </a>
+        <a href="/cards/outer-quality-18">
+          <div className="sponsor-card white-card">
+            <h4>"{t("cards.outer_quality") + " 18+"}" {t("cards.cards")}</h4>
+          </div>
+        </a>
         <a href="/cards/inner-quality">
           <div className="sponsor-card white-card">
             <h4>"{t("cards.inner_quality")}" {t("cards.cards")}</h4>
@@ -68,6 +73,11 @@ export default class CardGroupList extends React.Component {
             <h4>"{t("cards.actual")}" {t("cards.cards")}</h4>
           </div>
         </a>
+        <a href="/cards/actual-18">
+          <div className="sponsor-card white-card">
+            <h4>"{t("cards.actual") + " 18+"}" {t("cards.cards")}</h4>
+          </div>
+        </a>
         <a href="/cards/current-game">
           <div className="sponsor-card white-card">
             <h4>"{t("cards.current_game")}" {t("cards.cards")}</h4>
@@ -76,6 +86,11 @@ export default class CardGroupList extends React.Component {
         <a href="/cards/according-to-you">
           <div className="sponsor-card white-card">
             <h4>"{t("cards.according_to_you")}" {t("cards.cards")}</h4>
+          </div>
+        </a>
+        <a href="/cards/according-to-you-18">
+          <div className="sponsor-card white-card">
+            <h4>"{t("cards.according_to_you") + " 18+"}" {t("cards.cards")}</h4>
           </div>
         </a>
         <a href="/cards/have-you-ever">
