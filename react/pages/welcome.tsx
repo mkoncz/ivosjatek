@@ -8,14 +8,28 @@ import CustomHead from "../components/head/CustomHead";
 // Import i18n functions.
 import { t, initLanguageCookie } from "../i18n";
 
+// Interface for state.
+interface WelcomeState {
+  activeFrame: string, // category of question
+}
+
 /**
  * Welcome page.
  */
-export default class Welcome extends Component {
+export default class Welcome extends Component<{}, WelcomeState> {
 
   constructor(props) {
     super(props);
     initLanguageCookie();
+    this.state = {
+      activeFrame: "welcome"
+    };
+  }
+
+  selectMode = () => {
+    this.setState({
+      activeFrame: "modes"
+    });
   }
 
   render() {
@@ -29,14 +43,28 @@ export default class Welcome extends Component {
         <NavBar />
         <div className="page-frame">
           <div className="welcome">
-            <a href="/game">
-              <div className="half-block upper-block">
-                <div className="welcome-text-block ">
+            <div className={`half-block upper-block`}>
+              {this.state.activeFrame === "welcome" ?
+                <div className="welcome-text-block" onClick={this.selectMode}>
                   <h1 className="welcome">{t("welcome.online_game")}</h1>
                   <h2 className="welcome">{t("welcome.online_game_desc")}</h2>
+                </div> :
+                <div className="welcome-text-block mode-parent-block">
+                  <a href="/game">
+                    <div className="welcome mode-block">
+                      <h1 className="welcome">{t("welcome.all_cards")}</h1>
+                      <img src="/img/bra.png" />
+                    </div>
+                  </a>
+                  <a href="/game-light">
+                    <div className="welcome mode-block">
+                      <h1 className="welcome">{t("welcome.light_cards")}</h1>
+                      <img src="/img/no-bra.png" />
+                    </div>
+                  </a>
                 </div>
-              </div>
-            </a>
+              }
+            </div>
             <a href="/games">
               <div className="half-block lower-block">
                 <div className="welcome-text-block ">

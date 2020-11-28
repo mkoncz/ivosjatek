@@ -10,16 +10,7 @@
     justify-content: center;
     align-items: center;
     border: 2px solid rgba(255, 255, 255, 0.55);
-}
-
-@media only screen and (max-width: 501px) {
-    .half-block h1 {
-        font-size: 2em;
-     }
-    .half-block h4 {
-        padding: 0.3em;
-        font-size: 1.1em;
-     }
+    cursor: pointer;
 }
 
 .welcome a:hover
@@ -37,7 +28,7 @@
 }
 
 .lower-block {
-    background: url("/img/sponsors_page/bar_black.jpeg");
+    background: url("/img/sponsors_page/bar_black.jpg");
 }
 
 h1.welcome {
@@ -63,4 +54,43 @@ h5.welcome {
 
 p.welcome {
     font-size: 0.8em;
+}
+
+.mode-parent-block {
+    width: 100%;
+}
+
+.mode-block {
+    float: left;
+    width: 50%;
+    padding: 2em;
+}
+
+.mode-block img{
+    width: 25%;;
+}
+
+.mode-parent-block a {
+    color: rgba(255, 255, 255, 0.55);
+}
+
+
+@media only screen and (max-width: 501px) {
+    .half-block h1,
+    .half-block h3 {
+        font-size: 2em;
+     }
+    .half-block h2,
+    .half-block h4 {
+        padding: 0.3em;
+        font-size: 1.1em;
+     }
+     .mode-block h1,
+     .mode-block h3
+     {
+        font-size: 1.5rem;
+    }
+     .mode-block img{
+        width: 50%;
+    }
 }
