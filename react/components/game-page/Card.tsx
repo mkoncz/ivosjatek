@@ -14,10 +14,11 @@ import { t } from "../../i18n";
 
 // Interfaces for props and state.
 interface QuestionModel {
-  t: string, // type
+  type: string, // category of question
   hu: string, // Hungarian question
   en: string, // English version of question
-  im: string // image keyword (logo)
+  im: string, // image keyword (logo)
+  adult: string // is adult question
 }
 
 interface CardProps {

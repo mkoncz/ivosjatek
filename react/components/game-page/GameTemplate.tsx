@@ -10,12 +10,13 @@ import { t, initLanguageCookie } from "../../i18n";
 // Import question resources.
 import * as questions from "../../locales/questions.json";
 
-// Interface for  state.
+// Interface for state.
 interface QuestionModel {
-  t: string, // type
+  type: string, // category of question
   hu: string, // Hungarian question
   en: string, // English version of question
-  im: string // image keyword (logo)
+  im: string, // image keyword (logo)
+  adult: string // is adult question
 }
 
 interface GameState {
@@ -31,29 +32,6 @@ interface GameProps {
  */
 export default class GameTemplate extends Component<GameProps,GameState> {
 
-  lightSet: string[] =  [
-    "outfit",
-    "ownership",
-    "habit",
-    "skill",
-    "relationship",
-    "liked_thing",
-    "opinion",
-    "actual",
-    "current_game",
-    "according_to_you",
-    "have_you_ever",
-    "actual",
-    "give_name",
-    "tell_a",
-    "do_or_drink",
-    "dare_or_drink",
-    "you_drink",
-    "rule",
-    "vote",
-    "fastest_one"
-  ]
-
   questions: QuestionModel[];
   filtered_questions: QuestionModel[];
 
@@ -62,7 +40,7 @@ export default class GameTemplate extends Component<GameProps,GameState> {
     initLanguageCookie();
 
     this.questions = questions['default'];
-    this.filtered_questions = this.props.light ? this.questions.filter(question  => this.lightSet.includes(question.t)) : this.questions;
+    this.filtered_questions = this.props.light ? this.questions.filter(question  => question.adult !== "x") : this.questions;
 
 
     this.state = {
@@ -135,7 +113,8 @@ export default class GameTemplate extends Component<GameProps,GameState> {
       hu: t("game.no_more_question"),
       en: t("game.no_more_question"),
       im: null,
-      t: null
+      type: null,
+      adult: null
     };
   }
 
