@@ -89,7 +89,20 @@
       "title": "October 2020",
       "changes": [
         "Image size optimization.",
-        "New welcome page."
+        "New welcome page.",
+        "Code ported to Next.js"
+      ]
+    },
+    {
+      "title": "2020. november",
+      "changes": [
+        "Code ported to TypeScript.",
+        "Light version of the game.",
+        "Documentation updated.",
+        "Bugfixes.",
+        "Fixed typos.",
+        "English content added..",
+        "New cards."
       ]
     }
   ]
