@@ -220,14 +220,14 @@
         "type": "inner_quality",
         "hu": "Aki a legid\u0151sebb k\u00f6z\u00fcletek, az iszik.",
         "en": "The oldest player drinks.",
-        "im": "",
+        "im": "csillag",
         "adult": ""
     },
     {
         "type": "inner_quality",
         "hu": "Aki a legfiatalabb k\u00f6z\u00fcletek, az iszik.",
         "en": "The youngest player drinks.",
-        "im": "",
+        "im": "csillag",
         "adult": ""
     },
     {
@@ -248,14 +248,14 @@
         "type": "inner_quality",
         "hu": "Akinek van A bet\u0171 a nev\u00e9ben, az iszik.",
         "en": "Drink if you have 'A' letter in your name.",
-        "im": "",
+        "im": "csillag",
         "adult": ""
     },
     {
         "type": "inner_quality",
         "hu": "Akinek van S bet\u0171 a nev\u00e9ben, az iszik.",
         "en": "Drink if you have 'S' letter in your name.",
-        "im": "",
+        "im": "csillag",
         "adult": ""
     },
     {
@@ -283,63 +283,63 @@
         "type": "inner_quality",
         "hu": "25 \u00e9v felettiek isznak.",
         "en": "Drink if you are older than 25.",
-        "im": "",
+        "im": "csillag",
         "adult": ""
     },
     {
         "type": "inner_quality",
         "hu": "25 \u00e9v alattiak isznak.",
         "en": "Drink if you are younger than 25.",
-        "im": "",
+        "im": "csillag",
         "adult": ""
     },
     {
         "type": "inner_quality",
         "hu": "30 felettiek isznak.",
         "en": "The players over 30 years drink.",
-        "im": "",
+        "im": "csillag",
         "adult": ""
     },
     {
         "type": "inner_quality",
         "hu": "Az iszik, aki t\u00f6bb, mint 50 km-re sz\u00fcletett innen.",
         "en": "Drink if you were born more than 50 km away from here.",
-        "im": "",
+        "im": "csillag",
         "adult": ""
     },
     {
         "type": "inner_quality",
         "hu": "A v\u00edz\u00f6nt\u0151k isznak.",
         "en": "Drink if you are an Aquarius.",
-        "im": "",
+        "im": "csillag",
         "adult": ""
     },
     {
         "type": "inner_quality",
         "hu": "Ha a sz\u00fclet\u00e9snapod p\u00e1ratlan sz\u00e1mra esik, igy\u00e1l egyet!",
         "en": "Drink if your birthday is an odd number.",
-        "im": "",
+        "im": "csillag",
         "adult": ""
     },
     {
         "type": "inner_quality",
         "hu": "Ha a sz\u00fclet\u00e9snapod p\u00e1ros sz\u00e1mra esik, igy\u00e1l egyet!",
         "en": "Drink if your birthday is an even number.",
-        "im": "",
+        "im": "csillag",
         "adult": ""
     },
     {
         "type": "inner_quality",
         "hu": "Ha a sz\u00fclet\u00e9si \u00e9ved p\u00e1ratlan sz\u00e1mra esik, igy\u00e1l egyet!",
         "en": "Drink if your birth year is an odd number.",
-        "im": "",
+        "im": "csillag",
         "adult": ""
     },
     {
         "type": "inner_quality",
         "hu": "Ha a sz\u00fclet\u00e9si \u00e9ved p\u00e1ros sz\u00e1mra esik, igy\u00e1l egyet!",
         "en": "Drink if your birth year is an even number.",
-        "im": "",
+        "im": "csillag",
         "adult": ""
     },
     {
@@ -508,7 +508,7 @@
         "hu": "Igyon egyet, akinek van valamilyen szexu\u00e1lis seg\u00e9deszk\u00f6ze!",
         "en": "Drink if you have an adult toy.",
         "im": "",
-        "adult": ""
+        "adult": "x"
     },
     {
         "type": "habit",
@@ -1312,7 +1312,7 @@
         "type": "have_you_ever",
         "hu": "Az iszik, aki m\u00e1r sz\u00fclt \u00e9let\u00e9ben.",
         "en": "Drink if you have ever born a child.",
-        "im": "",
+        "im": "csillag",
         "adult": ""
     },
     {
@@ -3069,7 +3069,7 @@
         "type": "dare_or_drink",
         "hu": "%NAME%: Fek\u00fcdj a padl\u00f3n 10 m\u00e1sodpercig \u00fagy mint egy tengeri csillag, vagy igy\u00e1l egy r\u00f6videt!",
         "en": "%NAME%: Lay on the floor for 10 seconds or drink a shot.",
-        "im": "",
+        "im": "csillag",
         "adult": ""
     },
     {

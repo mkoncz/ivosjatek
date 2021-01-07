@@ -120,6 +120,11 @@ export default class Sponsors extends Component {
               <Col className="absolute-position">{t("sponsors.currentSponsors")}</Col>
             </Row>
             <Row className="sponsor-cards-row">
+              <a href="https://csillagkepunk.hu" target="_blank" rel="noopener noreferrer">
+                <div className="sponsor-card csillag">
+                  <img src="/img/card_backs/csillagok.png" alt="" />
+                </div>
+              </a>
               <a href="https://www.instagram.com/peakybarbersofficial" target="_blank" rel="noopener noreferrer">
                 <div className="sponsor-card peakybarbers">
                   <img src="/img/card_backs/peaky.png" alt="" />
