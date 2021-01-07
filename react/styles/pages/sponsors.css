@@ -116,7 +116,10 @@
 }
 
 .sponsor-card.cobbler,
-.back.cobbler {
+.back.cobbler,
+.sponsor-card.csillag,
+.back.csillag
+ {
     background-color: black;
     /* border and box-shadow is same as default */
 }
