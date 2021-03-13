@@ -36,7 +36,7 @@ export default class CardList extends React.Component<CardListProps>  {
 
   render() {
     let filteredList = questions['default'].filter((question) => {
-      return question.t === this.props.group;
+      return question.type === this.props.group;
     })
 
     return (
