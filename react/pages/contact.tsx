@@ -36,7 +36,7 @@ export default class Contact extends Component {
             </a>
           </div>
           <div className="facebook-box">
-            <a href="https://www.facebook.com/ivosjatek.hu" className="facebook-ref" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/fb.ivosjatek" className="facebook-ref" target="_blank" rel="noopener noreferrer">
               <img src="/img/contact_page/facebook.png" className="facebook-contact-icon" alt="facebook" />
               IVÓS JÁTÉK
             </a>
