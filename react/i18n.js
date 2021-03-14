@@ -20,8 +20,14 @@ export const t = (key) => {
 }
 
 export const reloadLanguage = (selectedLanguage) => {
-  cookies.set("lang", selectedLanguage, { path: "/", "secure": true });
-  window.location.reload();
+  if(selectedLanguage !== cookies.get("lang")) {
+    cookies.set("lang", selectedLanguage, { path: "/", "secure": true });
+    if(window.location.pathname === '/en/') {
+      window.location.replace("/");
+    } else {
+      window.location.reload();
+    }
+  }
 }
 
 export const initLanguageCookie = () => {
