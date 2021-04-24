@@ -38,7 +38,7 @@ export default class Sponsors extends Component {
         />
         <NavBar />
         <Container fluid className="sponsors-container">
-          <div>
+          <div className="animated bounceInUp">
             <Row className="sponsors-how-row">
               <img src="/img/sponsors_page/beers.jpg" className="background-layout-spacer" alt="" />
               <Col className="absolute-position">{t("sponsors.howToBeSponsor")}</Col>
