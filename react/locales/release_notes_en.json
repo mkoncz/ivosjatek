@@ -94,7 +94,7 @@
       ]
     },
     {
-      "title": "2020. november",
+      "title": "November 2020",
       "changes": [
         "Code ported to TypeScript.",
         "Light version of the game.",
@@ -103,6 +103,16 @@
         "Fixed typos.",
         "English content added..",
         "New cards."
+      ]
+    },
+    {
+      "title": "April 2021",
+      "changes": [
+        "New sponsor cards.",
+        "Update social media links.",
+        "Minor bugfixes.",
+        "URL for English language: https://ivosjatek.hu/en.",
+        "Fix typos and content."
       ]
     }
   ]
