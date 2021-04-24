@@ -103,6 +103,16 @@
         "Angol tartalom hozzáadása.",
         "Új kártyák."
       ]
+    },
+    {
+      "title": "2021. április",
+      "changes": [
+        "Új támogatói kártyák.",
+        "A közösségi oldalak linkjeinek frissítése.",
+        "Kisebb hibajavítások.",
+        "URL készítése az angol nyelvű játékhoz: https://ivosjatek.hu/en.",
+        "Elírtások és tartalmi javítások."
+      ]
     }
   ]
 }
