@@ -1,9 +1,6 @@
 // Import React modules.
 import React from "react";
 
-// Import Instagram Embed tool.
-import InstagramEmbed from "react-instagram-embed";
-
 // Import translate function.
 import { t } from "../../i18n";
 
@@ -58,22 +55,6 @@ const Post = (props: PostProps) => {
         return <a key={`a-${index}`} href={url}>{text}</a>
     }
 
-    const createIGPost = (postObject, index) => {
-        return <div key={`ig-${index}`} className="post-social-media centered" >
-            <InstagramEmbed
-                url={postObject.url}
-                hideCaption={true}
-                containerTagName="div"
-                protocol=""
-                injectScript
-                onLoading={() => { }}
-                onSuccess={() => { }}
-                onAfterRender={() => { }}
-                onFailure={() => { }}
-            />
-        </div>
-    }
-
     const createCards = (postObject, index) => {
         return (
             <div key={index}>
@@ -124,9 +105,6 @@ const Post = (props: PostProps) => {
                 }
                 else if (postObject.type === 'link') {
                     return createLink(postObject, index);
-                }
-                else if (postObject.type === 'ig') {
-                    return createIGPost(postObject, index);
                 }
                 else if (postObject.type === 'cards') {
                     return createCards(postObject, index);
