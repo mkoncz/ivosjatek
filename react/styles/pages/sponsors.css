@@ -115,6 +115,10 @@
     padding-bottom: 6em;
 }
 
+.sponsor-cards-row a {
+    width: auto !important;
+}
+
 .sponsor-card.cobbler,
 .back.cobbler,
 .sponsor-card.csillag,
