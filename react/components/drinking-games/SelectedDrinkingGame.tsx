@@ -1,9 +1,6 @@
 // Import React modules.
 import React from "react";
 
-// Import Instagram Embed tool.
-import InstagramEmbed from "react-instagram-embed";
-
 // Interface for props.
 interface SiteElementModel {
     slug?: string; 
@@ -60,22 +57,6 @@ const SelectedDrinkingGame = (props: DrinkingGameProps) => {
         return <a key={`a-${index}`} href={url}>{text}</a>
     }
 
-    const createIGPost = (siteObject, index) => {
-        return <div key={`ig-${index}`} className="post-social-media centered" >
-            <InstagramEmbed
-                url={siteObject.url}
-                hideCaption={true}
-                containerTagName="div"
-                protocol=""
-                injectScript
-                onLoading={() => { }}
-                onSuccess={() => { }}
-                onAfterRender={() => { }}
-                onFailure={() => { }}
-            />
-        </div>
-    }
-
     const createCards = (siteObject, index) => {
         return <div key={index} className="centered">
             {siteObject.cards.map((card, cardIndex) => {
@@ -125,9 +106,6 @@ const SelectedDrinkingGame = (props: DrinkingGameProps) => {
                 }
                 else if (siteObject.type === 'link') {
                     return createLink(siteObject, index);
-                }
-                else if (siteObject.type === 'ig') {
-                    return createIGPost(siteObject, index);
                 }
                 else if (siteObject.type === 'img') {
                     return createImage(siteObject, index);
