@@ -1,7 +1,5 @@
-.half-block {
-    height: 40vh;
-    border-radius: 15px;
-    margin: 5px;
+.menu-items {
+    min-height: 40px;
     text-align: center;
     color: rgba(255, 255, 255, 0.55);
     text-align: center;
@@ -9,51 +7,95 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid rgba(255, 255, 255, 0.55);
+    border: 5px solid rgba(255, 255, 255, 0.55);
     cursor: pointer;
-}
-
-.welcome a:hover
-{
-    text-decoration: none;
-}
-
-.welcome-text-block {
-    padding: 2em;
+    background-color: #bb48af;
+    width: 400px;
+    margin: 5px;
+    left: 10px;
     position: absolute;
 }
 
-.upper-block {
-    background: url("/img/sponsors_page/whiskey.jpg");
+.menu-item-1 {
+    animation: MoveUpDown1 1s linear infinite;
 }
 
-.lower-block {
-    background: url("/img/sponsors_page/bar_black.jpg");
+.menu-item-2 {
+    animation: MoveUpDown2 1s linear infinite;
 }
 
-h1.welcome {
-    font-size: 3em;
+.menu-item-3 {
+    animation: MoveUpDown3 1s linear infinite;
 }
 
-h2.welcome {
-    font-size: 1.5rem;
+.welcome {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-h3.welcome {
-    font-size: 3em;
+.welcome a:hover {
+    text-decoration: none;
 }
 
-h4.welcome {
-    font-size: 1.5rem;
+@keyframes bannermove {
+    0% {
+        transform: translate(300%, 0);
+    }
+    100% {
+        transform: translate(-200%, 0);
+    }
 }
 
-h5.welcome {
-    padding-top: 4em;
-    font-size: 0.8em;
+h1.welcome, h2.welcome, h3.welcome, h4.welcome {
+    font-size: 20px;
+    margin: 0;
+}
+
+.p-container {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 35px;
+    bottom: 0px;
 }
 
 p.welcome {
+    padding-top: 4em;
     font-size: 0.8em;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: bannermove 30s linear infinite;
+    background-color: black;
+}
+
+@keyframes MoveUpDown1 {
+    0%, 100% {
+        top: 80px;
+    }
+    50% {
+        top: 100px;
+    }
+}
+@keyframes MoveUpDown2 {
+    0%, 100% {
+        top: 140px;
+    }
+    50% {
+        top: 160px;
+    }
+}
+@keyframes MoveUpDown3 {
+    0%, 100% {
+        top: 200px;
+    }
+    50% {
+        top: 220px;
+    }
 }
 
 .mode-parent-block {
@@ -66,31 +108,40 @@ p.welcome {
     padding: 2em;
 }
 
-.mode-block img{
-    width: 25%;;
+.mode-block img {
+    width: 25%;
+    ;
 }
 
 .mode-parent-block a {
     color: rgba(255, 255, 255, 0.55);
 }
 
-
 @media only screen and (max-width: 501px) {
-    .half-block h1,
-    .half-block h3 {
+    .half-block h1, .half-block h3 {
         font-size: 2em;
-     }
-    .half-block h2,
-    .half-block h4 {
+    }
+    .half-block h2, .half-block h4 {
         padding: 0.3em;
         font-size: 1.1em;
-     }
-     .mode-block h1,
-     .mode-block h3
-     {
+    }
+    .mode-block h1, .mode-block h3 {
         font-size: 1.5rem;
     }
-     .mode-block img{
+    .mode-block img {
         width: 50%;
     }
 }
+
+@media only screen and (max-width: 1280px) {
+    .menu-items {
+        width: 50%;
+        left: 25%;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .menu-items {
+        width: 80%;
+        left: 10%;
+    }
+  }
