@@ -55,7 +55,7 @@ const Posts = () => {
         url={"https://ivosjatek.hu/posts"}
       />
       <NavBar />
-      <div className="page-frame">
+      <div className="page-frame black-background">
         <h1>{t("nav.posts")}</h1>
         {getAllThumbs()}
       </div>

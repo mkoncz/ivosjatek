@@ -1,9 +1,9 @@
-html,
-body {
+html, body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "ZIG";
+  background-image: url("/img/retro3.png");
+  background-size: cover;
 }
 
 a {
@@ -13,4 +13,20 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "ZIG";
+  src: url("/fonts/zig/zig.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@media only screen and (max-width: 1280px) {
+  html, body {
+    background-size: revert;
+    background-position-x: center; /* Center the image */
+    background-position-y: top; /* Center the image */
+  }
 }

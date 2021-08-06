@@ -40,7 +40,7 @@ export default class Releases extends Component {
           url={"https://ivosjatek.hu/releases"}
         />
         <NavBar />
-        <div className="page-frame">
+        <div className="page-frame black-background">
           {notes.reverse().map((release) => {
             return (
               <div key={release.title}>

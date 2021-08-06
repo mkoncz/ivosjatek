@@ -75,7 +75,7 @@ const SelectedPost = () => {
         url={"https://ivosjatek.hu/a-vilag-legdragabb-italai"}
       />
       <NavBar />
-      <div className="page-frame">
+      <div className="page-frame black-background">
         <AdultConsent/>
         {getCurrentPost()}
         <h1>{t("nav.posts")}</h1>
