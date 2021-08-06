@@ -28,16 +28,9 @@ export default class Sources extends Component {
           url={"https://ivosjatek.hu/sources"}
         />
         <NavBar />
-        <div className="page-frame">
+        <div className="page-frame black-background">
           <h4>{t("source.sources_title")}:</h4>
           <ul>
-            <SourceDetail
-              localizedName={t("source.source_cocktail")}
-              sourceURL="https://www.onlinewebfonts.com/icon/480147"
-              sourceName="Icon Fonts"
-              licenceURL="https://creativecommons.org/licenses/by/3.0/"
-              licenceType="CC BY 3.0"
-            />
             <SourceDetail
               localizedName={t("source.source_hu_flag")}
               sourceURL="https://www.flickr.com/photos/80497449@N04/7378164364"
@@ -53,13 +46,6 @@ export default class Sources extends Component {
               licenceType="CC BY 1.0"
             />
             <SourceDetail
-              localizedName={t("source.source_18")}
-              sourceURL="https://www.shareicon.net/cinema-adult-number-age-movies-shapes-711363"
-              sourceName="SHAREICON.NET"
-              licenceURL="https://www.shareicon.net/about"
-              licenceType="Flaticon Basic Licence"
-            />
-            <SourceDetail
               localizedName={"Animate.css " + t("source.library")}
               sourceURL="https://daneden.github.io/animate.css/"
               sourceName="Daniel Eden"
@@ -67,29 +53,8 @@ export default class Sources extends Component {
               licenceType="MIT Licence"
             />
             <SourceDetail
-              localizedName={t("source.source_king")}
-              sourceURL="https://www.peakpx.com/478241/king-on-robe-statue"
-              sourceName="PEAKPX"
-              licenceURL="https://creativecommons.org/publicdomain/zero/1.0/deed.en"
-              licenceType="CC0 1.0 Universal"
-            />
-            <SourceDetail
-              localizedName={t("source.source_bottles")}
-              sourceURL="https://www.peakpx.com/581703/2-brown-label-bottles"
-              sourceName="PEAKPX"
-              licenceURL="https://creativecommons.org/publicdomain/zero/1.0/deed.en"
-              licenceType="CC0 1.0 Universal"
-            />
-            <SourceDetail
               localizedName={t("source.source_bar_v1")}
               sourceURL="https://www.peakpx.com/478886/bar-desk"
-              sourceName="PEAKPX"
-              licenceURL="https://creativecommons.org/publicdomain/zero/1.0/deed.en"
-              licenceType="CC0 1.0 Universal"
-            />
-            <SourceDetail
-              localizedName={t("source.source_bar_v2")}
-              sourceURL="https://www.peakpx.com/562004/bar-store-set"
               sourceName="PEAKPX"
               licenceURL="https://creativecommons.org/publicdomain/zero/1.0/deed.en"
               licenceType="CC0 1.0 Universal"
@@ -114,6 +79,13 @@ export default class Sources extends Component {
               sourceName="Pause08"
               licenceURL="https://www.freepikcompany.com/legal#nav-flaticon"
               licenceType="Flaticon License"
+            />
+            <SourceDetail
+              localizedName={t("source.font")}
+              sourceURL="https://www.1001fonts.com/zig-font.html#license"
+              sourceName="1001fonts"
+              licenceURL="https://www.1001fonts.com/licenses/general-font-usage-terms.html"
+              licenceType="1001Fonts General Font Usage Terms"
             />
           </ul>
           <h5>{t("nav.games")}:</h5>
