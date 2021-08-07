@@ -752,7 +752,7 @@
         "type": "actual_18",
         "hu": "Igyon egyet, aki ert mar ma noi mellhez!",
         "en": "Drink if you have touched boobs today.",
-        "im": "naked.png",
+        "im": "boobs.png",
         "adult": "x"
     },
     {
@@ -1046,14 +1046,14 @@
         "type": "according_to_you",
         "hu": "%NAME%: Az iszik, aki szerinted hisz a horoszkopban.",
         "en": "%NAME%: According to you which player believes in astronomy? They have to drink.",
-        "im": "",
+        "im": "diamond.png",
         "adult": ""
     },
     {
         "type": "according_to_you",
         "hu": "%NAME%: Az iszik, aki szerinted a leglelkesebb.",
         "en": "%NAME%: The soulfullest player according to you has to drink.",
-        "im": "",
+        "im": "boobs.png",
         "adult": ""
     },
     {
@@ -1396,7 +1396,7 @@
         "type": "have_you_ever",
         "hu": "Aki vagta mar meg magat borotvaval, iszik.",
         "en": "Drink if you have ever cut yourself accidentaly while shaving.",
-        "im": "",
+        "im": "sword.png",
         "adult": ""
     },
     {
@@ -1424,14 +1424,14 @@
         "type": "have_you_ever",
         "hu": "Igyon egyet, aki tanult francia nyelvet!",
         "en": "Drink if you have ever learned French.",
-        "im": "",
+        "im": "wine.png",
         "adult": ""
     },
     {
         "type": "have_you_ever",
         "hu": "Igyon egyet, aki tanult nemetul!",
         "en": "Drink if you have ever learned German.",
-        "im": "",
+        "im": "ham.png",
         "adult": ""
     },
     {
@@ -1487,7 +1487,7 @@
         "type": "have_you_ever",
         "hu": "Igyon egyet, aki nyomott mar ki mason pattanast!",
         "en": "Drink if you have ever popped a pimple on someone else.",
-        "im": "",
+        "im": "kitty.png",
         "adult": ""
     },
     {
@@ -1711,7 +1711,7 @@
         "type": "have_you_ever_18",
         "hu": "Az iszik, aki kemkedett mar valamelyik exe utan.",
         "en": "Drink if you have ever spied after your ex.",
-        "im": "",
+        "im": "ghost.png",
         "adult": "x"
     },
     {
@@ -1725,7 +1725,7 @@
         "type": "have_you_ever_18",
         "hu": "Igyon egyet, aki hasznalt mar bilincset szex kozben!",
         "en": "Drink if you have ever used handcuffs for sex.",
-        "im": "",
+        "im": "nude.jpg",
         "adult": "x"
     },
     {
@@ -1746,14 +1746,14 @@
         "type": "have_you_ever_18",
         "hu": "Igyon egyet, aki fekudt mar le valakivel a megismerkedes utan max 1 oraval.",
         "en": "Drink if you have ever had sex with someone who you met in the last 1 hour.",
-        "im": "",
+        "im": "nude.jpg",
         "adult": "x"
     },
     {
         "type": "have_you_ever_18",
         "hu": "Igyon egyet, aki zuhanyozott mar egyutt a partnerevel.",
         "en": "Drink if you have ever had shower with your partner.",
-        "im": "",
+        "im": "cloud.png",
         "adult": "x"
     },
     {
@@ -1767,14 +1767,14 @@
         "type": "have_you_ever_18",
         "hu": "Igyon egyet, akit fojtogattak mar szex kozben.",
         "en": "Drink if you have ever been choked during sex.",
-        "im": "",
+        "im": "skull.png",
         "adult": "x"
     },
     {
         "type": "have_you_ever_18",
         "hu": "Igyon egyet, aki fojtogatott mar valakit szex kozben.",
         "en": "Drink if you have ever choked someone during sex.",
-        "im": "",
+        "im": "skull.png",
         "adult": "x"
     },
     {
@@ -1795,7 +1795,7 @@
         "type": "have_you_ever_18",
         "hu": "Igyon egyet, aki kepzelte mar el, hogy egy rokonaval szeretkezik!",
         "en": "Drink if you have ever imagined that you are having sex with a relative.",
-        "im": "",
+        "im": "eggplant.png",
         "adult": "x"
     },
     {
@@ -2117,84 +2117,84 @@
         "type": "boobs",
         "hu": "Az iszik, aki fogott mar legalabb D kosaras melleket.",
         "en": "Drink if you have ever touched larger than C cup boobs.",
-        "im": "",
+        "im": "boobs.png",
         "adult": "x"
     },
     {
         "type": "boobs",
         "hu": "Az iszik, aki fogott mar nagyobb, mint D kosaras melleket.",
         "en": "Drink if you have ever touched larger than D cup boobs.",
-        "im": "",
+        "im": "boobs.png",
         "adult": "x"
     },
     {
         "type": "boobs",
         "hu": "Az iszik, aki fogott mar szilikon melleket.",
         "en": "Drink if you have ever touched fake boobs.",
-        "im": "",
+        "im": "boobs.png",
         "adult": "x"
     },
     {
         "type": "boobs",
         "hu": "Igyon egyet, aki villantott mar ingyen italert.",
         "en": "Drink if you have ever flashed boobs for free drinks.",
-        "im": "",
+        "im": "boobs.png",
         "adult": "x"
     },
     {
         "type": "boobs",
         "hu": "Az iszik, aki latott mar legalabb D kosaras melleket.",
         "en": "Drink if you have ever seen larger than C cup boobs.",
-        "im": "",
+        "im": "boobs.png",
         "adult": "x"
     },
     {
         "type": "boobs",
         "hu": "Az iszik, aki latott mar nagyobb, mint D kosaras melleket.",
         "en": "Drink if you have ever seen larger than D cup boobs.",
-        "im": "",
+        "im": "boobs.png",
         "adult": "x"
     },
     {
         "type": "boobs",
         "hu": "Az iszik, aki latott mar szilikon melleket.",
         "en": "Drink if you have ever seen fake boobs.",
-        "im": "",
+        "im": "boobs.png",
         "adult": "x"
     },
     {
         "type": "boobs",
         "hu": "Az iszik, akinek legalabb C kosaras a melltartoja.",
         "en": "Drink if your boobs are larger than B cup.",
-        "im": "",
+        "im": "boobs.png",
         "adult": "x"
     },
     {
         "type": "boobs",
         "hu": "Az iszik, akinek legalabb D kosaras a melltartoja.",
         "en": "Drink if your boobs are larger than C cup.",
-        "im": "",
+        "im": "boobs.png",
         "adult": "x"
     },
     {
         "type": "boobs",
         "hu": "Az iszik, akinek nagyobb, mint D kosaras a melltartoja.",
         "en": "Drink if your boobs are larger than D cup.",
-        "im": "",
+        "im": "boobs.png",
         "adult": "x"
     },
     {
         "type": "boobs",
         "hu": "Az iszik, akinek a legnagyobb a melle.",
         "en": "The player with the biggest boobs drinks.",
-        "im": "",
+        "im": "boobs.png",
         "adult": "x"
     },
     {
         "type": "boobs",
         "hu": "Igyon egyet, aki villantott mar mellet idegeneknek!",
         "en": "Drink if you have ever flashed boobs for strangers.",
-        "im": "oface.png",
+        "im": "boobs.png",
         "adult": "x"
     },
     {
@@ -2572,14 +2572,14 @@
         "type": "tell_a",
         "hu": "Mindenki mond egy szinonimat a mellekre. %NAME% kezd, es addig mennek a korok, amig valaki mar nem tud mondani. O iszik.",
         "en": "For all players: Tell a synonym for the boobs one after another until one of you can't, they drink. %NAME% is the first.",
-        "im": "",
+        "im": "boobs.png",
         "adult": "x"
     },
     {
         "type": "tell_a",
         "hu": "Mindenki mond egy szinonimat a her\u00e9kre. %NAME% kezd, es addig mennek a korok, amig valaki mar nem tud mondani. O iszik. ",
         "en": "For all players: Tell a synonym for the testicles one after another until one of you can't, they drink. %NAME% is the first.",
-        "im": "",
+        "im": "eggplant.png",
         "adult": "x"
     },
     {
@@ -3202,7 +3202,7 @@
         "type": "dare_or_drink_18",
         "hu": "%NAME%: Hagyd valakinek, hogy megfogja a melled, vagy igyal harmat!",
         "en": "%NAME%: Let someone touch your boobs or drink 3.",
-        "im": "eggplant.png",
+        "im": "boobs.png",
         "adult": "x"
     },
     {
@@ -3223,14 +3223,14 @@
         "type": "dare_or_drink_18",
         "hu": "%NAME%: Ha szingli vagy, a jobbra ulo jatekos megfoghatja a melled. Vagy akar ihatsz is egyet helyette.",
         "en": "%NAME%: If you are single: let the left neighbour touch your boobs or drink a shot.",
-        "im": "hearts.png",
+        "im": "boobs.png",
         "adult": "x"
     },
     {
         "type": "dare_or_drink_18",
         "hu": "%NAME%: Ha szingli vagy, a balra ulo jatekos megfoghatja a melled. Vagy akar ihatsz is egyet helyette.",
         "en": "%NAME%: If you are single: let the left neighbour touch your boobs or drink a shot.",
-        "im": "hearts.png",
+        "im": "boobs.png",
         "adult": "x"
     },
     {
