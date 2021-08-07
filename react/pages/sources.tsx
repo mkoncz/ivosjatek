@@ -291,13 +291,6 @@ export default class Sources extends Component {
               licenceType="Simplified Pixabay License"
             />
             <SourceDetail
-              localizedName={t("source.pixabay_old_school")}
-              sourceURL="https://pixabay.com/vectors/old-school-retro-colorful-floppy-4525344/"
-              sourceName="PIXABAY"
-              licenceURL="https://pixabay.com/service/license/"
-              licenceType="Simplified Pixabay License"
-            />
-            <SourceDetail
               localizedName={t("source.pixabay_guitar")}
               sourceURL="https://pixabay.com/illustrations/pixel-mine-art-guitar-music-1562563/"
               sourceName="PIXABAY"
@@ -484,21 +477,21 @@ export default class Sources extends Component {
               sourceURL="https://www.pngkey.com/maxpic/u2q8o0t4u2o0q8e6/"
               sourceName="PNGKEY"
               licenceURL="https://www.vhv.rs/terms/"
-              licenceType="non-commerial use"
+              licenceType="Non-commerial use"
             />
             <SourceDetail
               localizedName={t("source.pngkey_beer")}
               sourceURL="https://www.pngkey.com/maxpic/u2q8o0t4u2o0q8e6/"
               sourceName="PNGKEY"
               licenceURL="https://www.pngkey.com/terms/"
-              licenceType="non-commerial use"
+              licenceType="Non-commerial use"
             />
             <SourceDetail
               localizedName={t("source.pngkey_phone")}
               sourceURL="https://www.pngkey.com/maxpic/u2y3q8q8o0w7i1y3/"
               sourceName="PNGKEY"
               licenceURL="https://www.pngkey.com/terms/"
-              licenceType="non-commerial use"
+              licenceType="Non-commerial use"
             />
             <SourceDetail
               localizedName={t("source.pikpng_icecream_cone")}
@@ -610,77 +603,84 @@ export default class Sources extends Component {
               sourceURL="https://www.pngkey.com/detail/u2e6y3o0a9r5r5y3_cloud-pixel-png/"
               sourceName="PNGKEY"
               licenceURL="https://www.pngkey.com/terms/"
-              licenceType="non-commerial use"
+              licenceType="Non-commerial use"
             />
             <SourceDetail
               localizedName={t("source.pngkey_house")}
               sourceURL="https://www.pngkey.com/detail/u2w7t4q8r5y3r5o0_pixel-art-house-house/"
               sourceName="PNGKEY"
               licenceURL="https://www.pngkey.com/terms/"
-              licenceType="non-commerial use"
+              licenceType="Non-commerial use"
             />
             <SourceDetail
               localizedName={t("source.pngkey_water_gun")}
               sourceURL="https://www.pngkey.com/detail/u2t4y3i1i1r5r5r5_water-gun-rainbow-heart-pixel-art/"
               sourceName="PNGKEY"
               licenceURL="https://www.pngkey.com/terms/"
-              licenceType="non-commerial use"
+              licenceType="Non-commerial use"
             />
             <SourceDetail
               localizedName={t("source.pngkey_eggplant")}
               sourceURL="https://www.pngkey.com/detail/u2e6y3i1i1i1u2u2_eggplant-eggplant-pixel-art/"
               sourceName="PNGKEY"
               licenceURL="https://www.pngkey.com/terms/"
-              licenceType="non-commerial use"
+              licenceType="Non-commerial use"
             />
             <SourceDetail
               localizedName={t("source.pngkey_potato")}
               sourceURL="https://www.pngkey.com/detail/u2e6q8r5q8q8o0u2_papas-fritas-pixel-art-cute-food/"
               sourceName="PNGKEY"
               licenceURL="https://www.pngkey.com/terms/"
-              licenceType="non-commerial use"
+              licenceType="Non-commerial use"
             />
             <SourceDetail
               localizedName={t("source.pngkey_hoe")}
               sourceURL="https://www.pngkey.com/detail/u2w7t4a9e6a9t4a9_hoe-pixel-art/"
               sourceName="PNGKEY"
               licenceURL="https://www.pngkey.com/terms/"
-              licenceType="non-commerial use"
+              licenceType="Non-commerial use"
             />
             <SourceDetail
               localizedName={t("source.pngkey_cupcake")}
               sourceURL="https://www.pngkey.com/detail/u2q8o0o0w7u2r5y3_fnaf-cupcake-cupcake-fnaf-pixel-art/"
               sourceName="PNGKEY"
               licenceURL="https://www.pngkey.com/terms/"
-              licenceType="non-commerial use"
+              licenceType="Non-commerial use"
             />
             <SourceDetail
               localizedName={t("source.pngkey_stpatrik")}
               sourceURL="https://www.pngkey.com/detail/u2q8r5i1w7e6q8u2_leprechaun-leprechaun-pixel-art/"
               sourceName="PNGKEY"
               licenceURL="https://www.pngkey.com/terms/"
-              licenceType="non-commerial use"
+              licenceType="Non-commerial use"
             />
             <SourceDetail
               localizedName={t("source.pngkey_autumn")}
               sourceURL="https://www.pngkey.com/detail/u2q8r5q8u2t4y3e6_autumn-autumn-leaf-pixel-art/"
               sourceName="PNGKEY"
               licenceURL="https://www.pngkey.com/terms/"
-              licenceType="non-commerial use"
+              licenceType="Non-commerial use"
             />
             <SourceDetail
               localizedName={t("source.pngkey_spaceship")}
               sourceURL="https://www.pngkey.com/download/u2q8a9t4i1o0w7y3_millennium-falcon-millennium-falcon-pixel-art/"
               sourceName="PNGKEY"
               licenceURL="https://www.pngkey.com/terms/"
-              licenceType="non-commerial use"
+              licenceType="Non-commerial use"
             />
             <SourceDetail
               localizedName={t("source.pngkey_glasses")}
               sourceURL="https://www.pngkey.com/detail/u2w7w7o0o0w7t4o0_pixel-glasses-glasses-pixel-art/"
               sourceName="PNGKEY"
               licenceURL="https://www.pngkey.com/terms/"
-              licenceType="non-commerial use"
+              licenceType="Non-commerial use"
+            />
+            <SourceDetail
+              localizedName={t("source.pngfind_smoke")}
+              sourceURL="https://www.pngfind.com/mpng/iRiRhJ_big-smoke-png-big-smoke-pixel-art-transparent/"
+              sourceName="PNGKEY"
+              licenceURL="https://www.pngkey.com/terms/"
+              licenceType="Personal Use Only"
             />
 
 
