@@ -1,11 +1,10 @@
-
-.flip-container,
-.small-flip-container {
+.flip-container, .small-flip-container {
     perspective: 1000px;
     margin-top: 0.9em;
 }
 
 /* flip the pane when hovered */
+
 .flip-container.active .flipper {
     transform: rotateY(180deg);
     -ms-transform: rotateY(180deg);
@@ -14,15 +13,14 @@
     -o-transform: rotateY(180deg);
 }
 
-.flip-container,
-.front,
-.back {
+.flip-container, .front, .back {
     width: 320px;
     height: 480px;
     margin: auto;
 }
 
 /* flip speed goes here */
+
 .flipper {
     transition: 0.5s;
     transform-style: preserve-3d;
@@ -31,8 +29,8 @@
 }
 
 /* hide back of pane during swap */
-.front,
-.back {
+
+.front, .back {
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
@@ -41,13 +39,12 @@
     position: absolute;
     top: 0;
     left: 0;
-    border-radius: 7px;
-    border: 1px solid black;
+    border: 2px solid black;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
-
 }
 
 /* front pane, placed above back */
+
 .back {
     transform: rotateY(0deg);
     -ms-transform: rotateY(0deg);
@@ -55,17 +52,18 @@
     -moz-transform: rotateY(0deg);
     -o-transform: rotateY(0deg);
     z-index: 2;
-    background-color: #d3f42f;
+    background-color: #ffda12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* front pane, placed above back */
 .back img {
-    width: 47%;
-    padding-top: 47%;
+    max-width: 50%;
 }
-
 
 /* back, initially hidden pane */
+
 .front {
     transform: rotateY(180deg);
     -ms-transform: rotateY(180deg);
@@ -77,16 +75,17 @@
 }
 
 .btn-card {
-    width: 120px;
+    width: 139px;
     position: absolute;
-    right: 100px;
+    right: 94px;
     bottom: 25px;
     background-color: #1a1a1a !important;
     color: white;
     border: none;
-    border-radius: .5rem;
+    border-radius: 0rem;
     box-shadow: 2px 3px rgba(0, 0, 0, 0.5);
     background-color: #1a1a1a;
+    font-size: 15px;
 }
 
 .btn-card:hover {
@@ -96,7 +95,7 @@
 .txt-question {
     color: black;
     margin-top: 30px;
-    font-size: 26px;
+    font-size: 19px;
     padding: 10px;
     position: relative;
     top: 30%;

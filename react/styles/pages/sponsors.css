@@ -84,8 +84,8 @@
 }
 
 .current-sponsors-row {
+    height: 20em;
     text-align: center;
-    background-size: 100%;
     display: flex;
     justify-content: center;
     align-items: center;

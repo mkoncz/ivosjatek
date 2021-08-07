@@ -27,7 +27,7 @@ export default class Rules extends Component {
           url={"https://ivosjatek.hu/rules"}
         />
         <NavBar/>
-        <div className="page-frame">
+        <div className="page-frame black-background">
         <h4>{t("rules.terms_title")}</h4>
         <ul>
           <li>{t("rules.term_1")}</li>

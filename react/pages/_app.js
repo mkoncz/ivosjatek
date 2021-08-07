@@ -2,7 +2,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/animate.css'
 import '../styles/globals.css'
 import '../styles/navbar.css'
-import '../styles/index.css'
 import '../styles/common.css'
 import '../styles/pages/404.css'
 import '../styles/pages/card.css'

@@ -6,26 +6,45 @@
 }
 
 /* override bootstrap dark theme*/
-.bg-dark,
-.nav-bg-dark {
-    background-color: #1a1a1a !important;
+
+.bg-dark, .nav-bg-dark {
+    background-color: rgba(0, 0, 0, 0) !important;
 }
 
 /* override bootstrap dark theme*/
+
 .nav-dropdown {
-    background-color: #1a1a1a !important;
-    color: rgba(255,255,255,.5);
-    border-color:  #1a1a1a !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: rgba(255, 255, 255, .5);
+    border: 0;
     padding-top: 7px;
 }
+
 /* override bootstrap dark theme*/
-.nav-dropdown-item, 
-.nav-dropdown-item:hover
-{
+
+.nav-dropdown-item, .nav-dropdown-item:hover {
     background-color: #1a1a1a !important;
-    color: rgba(255,255,255,.5);
+    color: rgba(255, 255, 255, .5);
 }
 
-.nav-dropdown-item:hover{
-    color: rgba(255,255,255,.8);
+.nav-dropdown-item:hover {
+    color: rgba(255, 255, 255, .8);
+}
+
+.navbar-brand{
+    font-size: 17px !important;
+    margin-left: 5px;
+}
+
+.navbar-collapse.show {
+    background-color: #212529 !important;
+    z-index: 2;
+}
+
+.navbar-toggler {
+    border-color: rgba(0,0,0,0) !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 !important;
 }

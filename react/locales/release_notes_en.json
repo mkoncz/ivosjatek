@@ -114,6 +114,12 @@
         "URL for English language: https://ivosjatek.hu/en.",
         "Fix typos and content."
       ]
+    },
+    {
+      "title": "August 2021",
+      "changes": [
+        "Pixel art font style"
+      ]
     }
   ]
 }

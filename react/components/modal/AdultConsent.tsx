@@ -35,8 +35,8 @@ const AdultConsent = () => {
           contentLabel="18 éves"
         >
           <div className="post-card-big">
+            <h1>18+</h1>
             <div className="pre-card">
-              <img className="adult_logo" src="/img/18.png" alt="18" />
               <div className="question_block">
                 <h5>{t("game.age_check_1")}</h5>
                 <p>{t("game.age_check_v2")}</p>

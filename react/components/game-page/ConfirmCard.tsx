@@ -20,7 +20,7 @@ export default class ConfirmCard extends Component<ConfirmCardProps> {
 
     return (
       <div className="pre-card">
-        <img className="adult_logo" src="/img/18.png" alt="18" />
+        <h1>18+</h1>
         <div className="question_block">
           <h5>{t("game.age_check_1")}</h5>
           <p>{t("game.age_check_2")}</p>

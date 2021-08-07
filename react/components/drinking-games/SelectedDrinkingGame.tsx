@@ -93,7 +93,7 @@ const SelectedDrinkingGame = (props: DrinkingGameProps) => {
     }
 
     return (
-        <div key={props.siteElements[0].slug} className="page-frame">
+        <div key={props.siteElements[0].slug} className="page-frame black-background">
             {props.siteElements.map((siteObject, index) => {
                 if (siteObject.type === 'header') {
                     return createHeader(siteObject, index);

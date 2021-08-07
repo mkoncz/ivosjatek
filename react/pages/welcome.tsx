@@ -43,39 +43,29 @@ export default class Welcome extends Component<{}, WelcomeState> {
         <NavBar />
         <div className="page-frame">
           <div className="welcome">
-            <div className={`half-block upper-block`}>
-              {this.state.activeFrame === "welcome" ?
-                <div className="welcome-text-block" onClick={this.selectMode}>
-                  <h1 className="welcome">{t("welcome.online_game")}</h1>
-                  <h2 className="welcome">{t("welcome.online_game_desc")}</h2>
-                </div> :
-                <div className="welcome-text-block mode-parent-block">
-                  <a href="/game">
-                    <div className="welcome mode-block">
-                      <h1 className="welcome">{t("welcome.all_cards")}</h1>
-                      <img src="/img/bra.png" />
-                    </div>
-                  </a>
-                  <a href="/game-light">
-                    <div className="welcome mode-block">
-                      <h1 className="welcome">{t("welcome.light_cards")}</h1>
-                      <img src="/img/no-bra.png" />
-                    </div>
-                  </a>
-                </div>
-              }
-            </div>
-            <a href="/games">
-              <div className="half-block lower-block">
-                <div className="welcome-text-block ">
-                  <h3 className="welcome">{t("welcome.other_games")}</h3>
-                  <h4 className="welcome">{t("welcome.other_games_desc")}</h4>
-                </div>
+            <a href="/game">
+              <div className="menu-items menu-item-1">
+                <h1 className="welcome">{t("welcome.online_game")}</h1>
               </div>
             </a>
           </div>
-          <h5 className="welcome">{t("welcome.creator_support")}</h5>
-          <p className="welcome">{t("welcome.help")}: <a href={t("welcome.help_url")}> {t("welcome.help_title")}</a> </p>
+          <div className="welcome">
+            <a href="/game-light">
+              <div className="menu-items menu-item-2">
+                <h2 className="welcome">{t("welcome.light_cards")}</h2>
+              </div>
+            </a>
+          </div>
+          <div className="welcome">
+            <a href="/games">
+              <div className="menu-items menu-item-3">
+                <h3 className="welcome">{t("welcome.other_games")}</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div className="p-container">
+          <p className="welcome">{t("welcome.creator_support")} {t("welcome.help")}: &nbsp; <a href={t("welcome.help_url")}> {t("welcome.help_title")}</a> </p>
         </div>
       </div>
     );
