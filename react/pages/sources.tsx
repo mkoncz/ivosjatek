@@ -682,8 +682,13 @@ export default class Sources extends Component {
               licenceURL="https://www.pngkey.com/terms/"
               licenceType="Personal Use Only"
             />
-
-
+            <SourceDetail
+              localizedName={t("source.pixelartmaker_boobs")}
+              sourceURL="http://pixelartmaker.com/art/e0cf72653cffa22"
+              sourceName="PIXELARTMAKER"
+              licenceURL=""
+              licenceType=""
+            />
           </ul>
           <h5>{t("nav.games")}:</h5>
           <ul>

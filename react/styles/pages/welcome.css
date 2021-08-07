@@ -1,4 +1,15 @@
-.menu-items {
+.menu-item-container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-item-container a:hover {
+    text-decoration: none;
+}
+
+.menu-item {
     min-height: 40px;
     text-align: center;
     color: rgba(255, 255, 255, 0.55);
@@ -16,6 +27,20 @@
     position: absolute;
 }
 
+@media only screen and (max-width: 1280px) {
+    .menu-item {
+        width: 50%;
+        left: 25%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .menu-item {
+        width: 80%;
+        left: 10%;
+    }
+}
+
 .menu-item-1 {
     animation: MoveUpDown1 1s linear infinite;
 }
@@ -28,49 +53,25 @@
     animation: MoveUpDown3 1s linear infinite;
 }
 
-.welcome {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.menu-item-4 {
+    animation: MoveUpDown4 1s linear infinite;
 }
 
-.welcome a:hover {
-    text-decoration: none;
+.menu-item-5 {
+    animation: MoveUpDown5 1s linear infinite;
 }
 
-@keyframes bannermove {
-    0% {
-        transform: translate(300%, 0);
-    }
-    100% {
-        transform: translate(-200%, 0);
-    }
+.menu-item-6 {
+    animation: MoveUpDown6 1s linear infinite;
 }
 
-h1.welcome, h2.welcome, h3.welcome, h4.welcome {
-    font-size: 20px;
+.menu-item-7 {
+    animation: MoveUpDown7 1s linear infinite;
+}
+
+.menu-item h1, .menu-item h2, .menu-item h3, .menu-item h4 {
+    font-size: 18px;
     margin: 0;
-}
-
-.p-container {
-    position: absolute;
-    overflow: hidden;
-    width: 100%;
-    height: 35px;
-    bottom: 0px;
-}
-
-p.welcome {
-    padding-top: 4em;
-    font-size: 0.8em;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    overflow: hidden;
-    white-space: nowrap;
-    animation: bannermove 30s linear infinite;
-    background-color: black;
 }
 
 @keyframes MoveUpDown1 {
@@ -78,70 +79,89 @@ p.welcome {
         top: 80px;
     }
     50% {
-        top: 100px;
+        top: 90px;
     }
 }
+
 @keyframes MoveUpDown2 {
     0%, 100% {
         top: 140px;
     }
     50% {
-        top: 160px;
+        top: 150px;
     }
 }
+
 @keyframes MoveUpDown3 {
     0%, 100% {
         top: 200px;
     }
     50% {
-        top: 220px;
+        top: 210px;
     }
 }
 
-.mode-parent-block {
+@keyframes MoveUpDown4 {
+    0%, 100% {
+        top: 260px;
+    }
+    50% {
+        top: 270px;
+    }
+}
+
+@keyframes MoveUpDown5 {
+    0%, 100% {
+        top: 320px;
+    }
+    50% {
+        top: 330px;
+    }
+}
+
+@keyframes MoveUpDown6 {
+    0%, 100% {
+        top: 380px;
+    }
+    50% {
+        top: 390px;
+    }
+}
+
+@keyframes MoveUpDown7 {
+    0%, 100% {
+        top: 440px;
+    }
+    50% {
+        top: 450px;
+    }
+}
+
+.footer-container {
+    position: absolute;
+    overflow: hidden;
     width: 100%;
+    height: 35px;
+    bottom: 0px;
 }
 
-.mode-block {
-    float: left;
-    width: 50%;
-    padding: 2em;
+p.footer {
+    padding-top: 4em;
+    font-size: 0.8em;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: FooterMove 30s linear infinite;
+    background-color: black;
 }
 
-.mode-block img {
-    width: 25%;
-    ;
-}
-
-.mode-parent-block a {
-    color: rgba(255, 255, 255, 0.55);
-}
-
-@media only screen and (max-width: 501px) {
-    .half-block h1, .half-block h3 {
-        font-size: 2em;
+@keyframes FooterMove {
+    0% {
+        transform: translate(300%, 0);
     }
-    .half-block h2, .half-block h4 {
-        padding: 0.3em;
-        font-size: 1.1em;
-    }
-    .mode-block h1, .mode-block h3 {
-        font-size: 1.5rem;
-    }
-    .mode-block img {
-        width: 50%;
+    100% {
+        transform: translate(-200%, 0);
     }
 }
-
-@media only screen and (max-width: 1280px) {
-    .menu-items {
-        width: 50%;
-        left: 25%;
-    }
-  }
-@media only screen and (max-width: 600px) {
-    .menu-items {
-        width: 80%;
-        left: 10%;
-    }
-  }

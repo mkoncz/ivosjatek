@@ -122,6 +122,7 @@
     "source.pixabay_orange_wine": "Orange wine icon",
     "source.pixabay_pink_wine": "Pink wine icon",
     "source.pixabay_pizza": "Pizza icon",
+    "source.pixelartmaker_boobs": "Boobs ikon",
     "source.pixlr_cocktail": "Cocktail icon",
     "source.pngegg_big_bunny": "Big rabbit icon",
     "source.pngegg_boytears": "Boytears icon",
@@ -182,30 +183,12 @@
     "source.sources_title": "Sources",
     "source.synthwave_wallpaper": "Synthwave wallpaper",
     "source.vhv_girl": "Naked girl icon",
-   
-    "sponsors.addAndRemoveQuestions": "We can add/remove questions based on common agreement.",
-    "sponsors.chooseBackside": "You can choose the backside logo of your cards.",
-    "sponsors.chooseNameAndLogo": "You can choose new name and logo for the game.",
-    "sponsors.chooseQuestion": "You can choose the question of your cards.",
-    "sponsors.chooseTheme": "You can choose a new theme for the page based on your brand colors.",
-    "sponsors.contactMe": "Contact me ;)",
-    "sponsors.instagram": "You can upload sponsored content to the Instagram page of ivosjatek.hu.",
+
     "sponsors.currentSponsors": "Current sponsors",
-    "sponsors.get5Cards": "You get 5 own cards in the deck.",
-    "sponsors.getListed": "You get listed among the sponsors.",
-    "sponsors.getPhoto": "You get a photo of me and my friends drinking 100 beers.",
-    "sponsors.howToBeOwner": "How to be the owner of the game?",
-    "sponsors.howToBeSponsor": "How to be a sponsor?",
-    "sponsors.loseCards": "If this drinking game is sold to a new owner, you can lose your sponsored cards. (You can keep the photo of us and the 100 beers.)",
-    "sponsors.ownerTitle": "Owner",
-    "sponsors.pay100Beers": "Pay 100 beers for me.",
-    "sponsors.sponsorTitle": "Sponsors",
-    "sponsors.technicalSupport": "You get 1 year of free technical support from me.",
-    "sponsors.whyToBeOwner": "Why to be the owner?",
-    "sponsors.whyToBeSponsor": "Why to be a sponsor?",
    
     "welcome.all_cards": "All cards",
     "welcome.creator_support": "The creator is against irresponsible alcohol consumption.",
+    "welcome.contact": "Contact",
     "welcome.help": "Help",
     "welcome.help_title": "Alcohol support",
     "welcome.help_url": "https://www.nhs.uk/live-well/alcohol-support/",
@@ -213,6 +196,10 @@
     "welcome.online_game": "Online drinking game",
     "welcome.online_game_desc": "Make the night unforgettable. This drinking game is a great tool to cheer up the party.",
     "welcome.other_games": "Other drinking games",
-    "welcome.other_games_desc": "The rules of the best offline drinking games with cards, jenga or just words."
+    "welcome.other_games_desc": "The rules of the best offline drinking games with cards, jenga or just words.",
+    "welcome.release_notes": "Release notes",
+    "welcome.rules": "Rules",
+    "welcome.sources": "Sources",
+    "welcome.sponsors": "Sponsors"
   }
 }
