@@ -53,23 +53,23 @@ export default class Welcome extends Component {
             </a>
           </div>
           <div className="menu-item-container">
-            <a href="/contact">
+            <a href="/sponsors">
               <div className="menu-item menu-item-4">
                 <h4>{t("welcome.sponsors")}</h4>
               </div>
             </a>
           </div>
           <div className="menu-item-container">
-            <a href="/contact">
+            <a href="/sources">
               <div className="menu-item menu-item-5">
                 <h4>{t("welcome.sources")}</h4>
               </div>
             </a>
           </div>
           <div className="menu-item-container">
-            <a href="/contact">
+            <a href="/rules">
               <div className="menu-item menu-item-6">
-                <h4>{t("welcome.release_notes")}</h4>
+                <h4>{t("welcome.rules")}</h4>
               </div>
             </a>
           </div>
