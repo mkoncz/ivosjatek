@@ -1,6 +1,10 @@
 // Import ReactJS modules.
-import React, {Component} from "react";
+import React, { Component } from "react";
 
+// Import Next modules.
+import Link from 'next/link';
+
+// Import cookie handling module.
 import Cookies from "universal-cookie";
 
 // Import components.
@@ -21,9 +25,9 @@ import AdultConsent from "../../../components/modal/AdultConsent";
 const SelectedPost = () => {
 
   initLanguageCookie();
-  
+
   const cookies = new Cookies();
-  
+
   const posts = posts_object.all_posts;
 
   const localized_posts = posts.filter(post => post[0].lang === cookies.get("lang"));
@@ -47,20 +51,22 @@ const SelectedPost = () => {
     return post;
   }
 
-  // Returns the thumbnail of all posts
+  // Returns the thumbnail of all posts.
   const getAllThumbs = () => {
     return localized_posts.map(element => {
       return (
         <div key={element[0].slug}>
-          <a href={`/posts/${element[0].slug}`}>
-            <img width="100%" src={element[0].img}
-              className="post-thumbnail" alt={t("nav.posts")} />
-            <div className="post-thumbnail-title-container" >
-              <h4>
-                {element[0].title}
-              </h4>
-            </div>
-          </a>
+          <Link href={`/posts/${element[0].slug}`}>
+            <a>
+              <img width="100%" src={element[0].img}
+                className="post-thumbnail" alt={t("nav.posts")} />
+              <div className="post-thumbnail-title-container" >
+                <h4>
+                  {element[0].title}
+                </h4>
+              </div>
+            </a>
+          </Link>
           <div className="post-separator"></div>
         </div>
       )
@@ -76,7 +82,7 @@ const SelectedPost = () => {
       />
       <NavBar />
       <div className="page-frame black-background">
-        <AdultConsent/>
+        <AdultConsent />
         {getCurrentPost()}
         <h1>{t("nav.posts")}</h1>
         {getAllThumbs()}

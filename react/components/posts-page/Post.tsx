@@ -1,6 +1,9 @@
 // Import React modules.
 import React from "react";
 
+// Import Next modules.
+import Link from 'next/link';
+
 // Import translate function.
 import { t } from "../../i18n";
 
@@ -52,7 +55,7 @@ const Post = (props: PostProps) => {
     const createLink = (postObject, index) => {
         let url = postObject.url;
         let text = postObject.text;
-        return <a key={`a-${index}`} href={url}>{text}</a>
+        return <Link key={`a-${index}`} href={url}>{text}</Link>
     }
 
     const createCards = (postObject, index) => {
@@ -66,7 +69,7 @@ const Post = (props: PostProps) => {
                     </div>
                 })}
                 <div>
-                    {t("posts.drinking_game")}: <a href="/">{t("posts.click_here")}</a>
+                    {t("posts.drinking_game")}: <Link href="/">{t("posts.click_here")}</Link>
                 </div>
             </div>)
     }
@@ -86,7 +89,7 @@ const Post = (props: PostProps) => {
     const createRedditCard = (postObject, index) => {
         return (
             <blockquote key={index} className="reddit-card">
-                <a href={postObject.url}>link</a>
+                <Link href={postObject.url}><a>link</a></Link>
             </blockquote>
         )
     }

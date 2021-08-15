@@ -1,7 +1,10 @@
 // Import ReactJS module.
 import React, { Component } from "react";
 
-// Import module for cookie handling.
+// Import Next modules.
+import Link from 'next/link';
+
+// Import cookie handling module.
 import Cookies from "universal-cookie";
 
 // Import i18n functions.
@@ -32,15 +35,17 @@ export default class AllDrinkingGameThumbnails extends Component {
     return this.localized_games.map(element => {
       return (
         <div key={element[0].slug} className="game-thumbnail-container">
-          <a href={`/games/${element[0].slug}`}>
-            <img src={`/img/games_page/${element[0].img}`}
-              className="game-thumbnail" alt={t("nav.games")} />
-            <div className="game-title" >
-              <h4>
-                {element[0].title}
-              </h4>
-            </div>
-          </a>
+          <Link href={`/games/${element[0].slug}`}>
+            <a>
+              <img src={`/img/games_page/${element[0].img}`}
+                className="game-thumbnail" alt={t("nav.games")} />
+              <div className="game-title" >
+                <h4>
+                  {element[0].title}
+                </h4>
+              </div>
+            </a>
+          </Link>
           <div className="post-separator"></div>
         </div>
       )

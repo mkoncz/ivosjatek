@@ -1,15 +1,18 @@
 // Import React modules.
 import React from "react";
 
+// Import Next modules.
+import Link from 'next/link';
+
 // Interface for props.
 interface SiteElementModel {
-    slug?: string; 
-    type?: string; 
-    url?: string; 
-    text?: string; 
-    img?: string; 
-    desc?: string; 
-    level?: number; 
+    slug?: string;
+    type?: string;
+    url?: string;
+    text?: string;
+    img?: string;
+    desc?: string;
+    level?: number;
 }
 
 interface DrinkingGameProps {
@@ -54,7 +57,7 @@ const SelectedDrinkingGame = (props: DrinkingGameProps) => {
     const createLink = (siteObject, index) => {
         let url = siteObject.url;
         let text = siteObject.text;
-        return <a key={`a-${index}`} href={url}>{text}</a>
+        return <Link href={url}><a key={`a-${index}`}>{text}</a></Link>
     }
 
     const createCards = (siteObject, index) => {
@@ -67,7 +70,7 @@ const SelectedDrinkingGame = (props: DrinkingGameProps) => {
                 </div>
             })}
             <div>
-                Ivósjáték: <a href="/">katt ide</a>
+                Ivósjáték: <Link href="/"><a>katt ide</a></Link>
             </div>
         </div>
     }
@@ -87,7 +90,7 @@ const SelectedDrinkingGame = (props: DrinkingGameProps) => {
     const createRedditCard = (siteObject, index) => {
         return (
             <blockquote key={index} className="reddit-card">
-                <a href={siteObject.url}>link</a>
+                <Link href={siteObject.url}><a>link</a></Link>
             </blockquote>
         )
     }

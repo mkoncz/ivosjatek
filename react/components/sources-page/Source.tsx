@@ -1,6 +1,9 @@
 // Import React module.
 import React from "react";
 
+// Import Next modules.
+import Link from 'next/link';
+
 // Import translate function.
 import { t } from "../../i18n";
 
@@ -22,14 +25,14 @@ interface SourceDetailProps {
  * @param {string} props.licenceType Usage rights of the resource.
  * @param {string} props.licenceURL URL of the licence type.
  */
-const SourceDetail = (props:SourceDetailProps) => {
+const SourceDetail = (props: SourceDetailProps) => {
   return (
     <li>
-      {`${props.localizedName} ${t("source.source")}: `} 
-      <a href={props.sourceURL}>{props.sourceName}</a> 
+      {`${props.localizedName} ${t("source.source")}: `}
+      <Link href={props.sourceURL}><a>{props.sourceName}</a></Link>
       {`. ${t("source.licence")}: `}
-      <a href={props.licenceURL}>{props.licenceType}</a>.
-    </li> 
+      <Link href={props.licenceURL}><a>{props.licenceType}</a></Link>.
+    </li>
   );
 }
 

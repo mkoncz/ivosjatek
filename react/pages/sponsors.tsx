@@ -1,6 +1,9 @@
 // Import React modules.
 import React, { Component } from "react";
 
+// Import Next modules.
+import Link from 'next/link';
+
 // Import React version of Bootstap library.
 import { Container, Row, Col } from "reactstrap";
 
@@ -43,36 +46,48 @@ export default class Sponsors extends Component {
               <Col className="absolute-position">{t("sponsors.currentSponsors")}</Col>
             </Row>
             <Row className="sponsor-cards-row">
-              <a href="https://csillagkepunk.hu" target="_blank" rel="noopener noreferrer">
-                <div className="sponsor-card csillag">
-                  <img src="/img/card_backs/csillagok.png" alt="" />
-                </div>
-              </a>
-              <a href="https://www.instagram.com/peakybarbersofficial" target="_blank" rel="noopener noreferrer">
-                <div className="sponsor-card peakybarbers">
-                  <img src="/img/card_backs/peaky.png" alt="" />
-                </div>
-              </a>
-              <a href="https://www.instagram.com/nagyerdeiviztorony" target="_blank" rel="noopener noreferrer">
-                <div className="sponsor-card viztorony">
-                  <img src="/img/card_backs/viztorony.jpg" alt="" />
-                </div>
-              </a>
-              <a href="https://www.instagram.com/georgecobbler" target="_blank" rel="noopener noreferrer">
-                <div className="sponsor-card cobbler">
-                  <img src="/img/card_backs/cobbler.png" alt="" />
-                </div>
-              </a>
-              <a href="https://www.facebook.com/dugulaselharitas.balkanybaneskornyeken" target="_blank" rel="noopener noreferrer">
-                <div className="sponsor-card dugulasklinika">
-                  <img src="/img/card_backs/dugulasklinika.png" alt="" />
-                </div>
-              </a>
-              <a href="https://hu.wikipedia.org/wiki/%C3%89p%C3%BClet" target="_blank" rel="noopener noreferrer">
-                <div className="sponsor-card anonim">
-                  <img src="/img/card_backs/anonim.png" alt="" />
-                </div>
-              </a>
+              <Link href="https://csillagkepunk.hu">
+                <a target="_blank" rel="noopener noreferrer">
+                  <div className="sponsor-card csillag">
+                    <img src="/img/card_backs/csillagok.png" alt="" />
+                  </div>
+                </a>
+              </Link>
+              <Link href="https://www.instagram.com/peakybarbersofficial">
+                <a target="_blank" rel="noopener noreferrer">
+                  <div className="sponsor-card peakybarbers">
+                    <img src="/img/card_backs/peaky.png" alt="" />
+                  </div>
+                </a>
+              </Link>
+              <Link href="https://www.instagram.com/nagyerdeiviztorony">
+                <a target="_blank" rel="noopener noreferrer">
+                  <div className="sponsor-card viztorony">
+                    <img src="/img/card_backs/viztorony.jpg" alt="" />
+                  </div>
+                </a>
+              </Link>
+              <Link href="https://www.instagram.com/georgecobbler">
+                <a target="_blank" rel="noopener noreferrer">
+                  <div className="sponsor-card cobbler">
+                    <img src="/img/card_backs/cobbler.png" alt="" />
+                  </div>
+                </a>
+              </Link>
+              <Link href="https://www.facebook.com/dugulaselharitas.balkanybaneskornyeken">
+                <a target="_blank" rel="noopener noreferrer">
+                  <div className="sponsor-card dugulasklinika">
+                    <img src="/img/card_backs/dugulasklinika.png" alt="" />
+                  </div>
+                </a>
+              </Link>
+              <Link href="https://hu.wikipedia.org/wiki/%C3%89p%C3%BClet">
+                <a target="_blank" rel="noopener noreferrer">
+                  <div className="sponsor-card anonim">
+                    <img src="/img/card_backs/anonim.png" alt="" />
+                  </div>
+                </a>
+              </Link>
             </Row>
           </div>
         </Container>
