@@ -8,7 +8,7 @@ import Cookies from "universal-cookie";
 import { t, initLanguageCookie } from "../../i18n";
 
 // Import game rules resource.
-import * as drinking_objects from "../../locales/drinking_games.json"
+import drinking_objects from "../../locales/drinking_games.json"
 
 
 /**

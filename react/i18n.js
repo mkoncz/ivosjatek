@@ -1,5 +1,5 @@
-import * as localized_entries_hu from "./locales/common_hu.json"
-import * as localized_entries_en from "./locales/common_en.json"
+import common_hu from "./locales/common_hu.json"
+import common_en from "./locales/common_en.json"
 
 // Import modules for cookie handling.
 import Cookies from "universal-cookie";
@@ -9,7 +9,7 @@ var cookies = new Cookies();
 var lang = null != cookies.get("lang") ? cookies.get("lang") : "hu";
 
 export const t = (key) => {
-  let entries = lang === "hu" ? localized_entries_hu.entries : localized_entries_en.entries;
+  let entries = lang === "hu" ? common_hu.localized_entries : common_en.localized_entries;
 
   for (const [entry_key, value] of Object.entries(entries)) {
     if (entry_key === key) {

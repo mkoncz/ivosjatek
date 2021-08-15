@@ -12,7 +12,7 @@ import CustomHead from "./../components/head/CustomHead";
 import { t, initLanguageCookie } from "./../i18n";
 
 // Import post content
-import * as posts_objects from "./../locales/posts.json"
+import posts_object from "./../locales/posts.json"
 
 /**
  * The page contains the list of posts.
@@ -21,7 +21,7 @@ const Posts = () => {
   
   initLanguageCookie();
   
-  const posts = posts_objects.all_posts;
+  const posts = posts_object.all_posts;
 
   const cookies = new Cookies();
 

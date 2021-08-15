@@ -9,7 +9,7 @@ import CustomHead from "../../../components/head/CustomHead";
 import Post from "../../../components/posts-page/Post"
 
 // Import post content
-import * as posts_objects from "../../../locales/posts.json";
+import posts_object from "../../../locales/posts.json";
 
 // Import translate function.
 import { t, initLanguageCookie } from "../../../i18n";
@@ -24,7 +24,7 @@ const SelectedPost = () => {
   
   const cookies = new Cookies();
   
-  const posts = posts_objects.all_posts;
+  const posts = posts_object.all_posts;
 
   const localized_posts = posts.filter(post => post[0].lang === cookies.get("lang"));
 

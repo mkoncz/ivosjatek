@@ -12,8 +12,8 @@ import CustomHead from "../components/head/CustomHead";
 import { t, initLanguageCookie } from "../i18n";
 
 // Import localized entries of releases.
-import * as hun_note_resource from "../locales/release_notes_hu.json"
-import * as en_note_resource from "../locales/release_notes_en.json"
+import hu_note_resource from "../locales/release_notes_hu.json"
+import en_note_resource from "../locales/release_notes_en.json"
 
 /**
  * Release notes of the application.
@@ -31,7 +31,7 @@ export default class Releases extends Component {
   // Iterates and prints release notes. 
   render() {
     let cookies = new Cookies();
-    let notes = cookies.get("lang") === "hu" ? [...hun_note_resource.notes] : [...en_note_resource.notes];
+    let notes = cookies.get("lang") === "hu" ? [...hu_note_resource.notes] : [...en_note_resource.notes];
     return (
       <div>
         <CustomHead
