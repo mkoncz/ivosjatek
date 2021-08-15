@@ -8,9 +8,9 @@ import '../styles/pages/card.css'
 import '../styles/pages/cards.css'
 import '../styles/pages/contact.css'
 import '../styles/pages/game.css'
+import '../styles/pages/menu.scss'
 import '../styles/pages/posts.css'
 import '../styles/pages/sponsors.css'
-import '../styles/pages/welcome.css'
 
 export default function App({ Component, pageProps }) {
     return <Component {...pageProps} />

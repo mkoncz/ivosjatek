@@ -1,6 +1,6 @@
 {
   "name": "next-ivosjatek",
-  "version": "0.1.0",
+  "version": "2.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -25,6 +25,7 @@
     "react-modal": "^3.14.3",
     "react-router-dom": "^5.2.0",
     "reactstrap": "^8.9.0",
+    "sass": "^1.37.5",
     "universal-cookie": "^4.0.4"
   },
   "devDependencies": {

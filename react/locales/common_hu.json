@@ -188,19 +188,19 @@
 
     "sponsors.currentSponsors": "Jelenlegi tamogatok",
     
-    "welcome.all_cards": "Minden kartya",
-    "welcome.creator_support": "A keszito nem tamogatja a felelotlen alkoholfogyaszast.",
-    "welcome.contact": "Kapcsolat",
-    "welcome.help": "Segitseg",
-    "welcome.help_title": "Anonim alkoholistak",
-    "welcome.help_url": "https://www.anonimalkoholistak.hu",
-    "welcome.light_cards": "Light kartyak",
-    "welcome.online_game": "Online ivos jatek",
-    "welcome.online_game_desc": "Porgesd fel a bulit egy izgalmas online kartyajatekkal",
-    "welcome.other_games": "Egyeb ivos jatekok",
-    "welcome.other_games_desc": "A legjobb ivos jatekok szabalyai magyar kartya, francia kartya, stb hasznalataval",
-    "welcome.rules": "Szabalyzat",
-    "welcome.sources": "Forrasok",
-    "welcome.sponsors": "Tamogatok"
+    "menu.all_cards": "Minden kartya",
+    "menu.creator_support": "A keszito nem tamogatja a felelotlen alkoholfogyaszast.",
+    "menu.contact": "Kapcsolat",
+    "menu.help": "Segitseg",
+    "menu.help_title": "Anonim alkoholistak",
+    "menu.help_url": "https://www.anonimalkoholistak.hu",
+    "menu.light_cards": "Light kartyak",
+    "menu.online_game": "Online ivos jatek",
+    "menu.online_game_desc": "Porgesd fel a bulit egy izgalmas online kartyajatekkal",
+    "menu.other_games": "Egyeb ivos jatekok",
+    "menu.other_games_desc": "A legjobb ivos jatekok szabalyai magyar kartya, francia kartya, stb hasznalataval",
+    "menu.rules": "Szabalyzat",
+    "menu.sources": "Forrasok",
+    "menu.sponsors": "Tamogatok"
   }
 }
