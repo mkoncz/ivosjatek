@@ -118,7 +118,11 @@
     {
       "title": "August 2021",
       "changes": [
-        "Pixel art font style"
+        "Pixel art font style.",
+        "Pixel art card backs.",
+        "Use SASS styles.",
+        "New menu page.",
+        "Minor bugfixes."
       ]
     }
   ]
