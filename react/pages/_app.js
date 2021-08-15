@@ -3,7 +3,7 @@ import "../styles/animate.css";
 import "../styles/globals.css";
 import "../styles/navbar.css";
 import "../styles/common.css";
-import "../styles/pages/404.css";
+import "../styles/pages/404.scss";
 import "../styles/pages/card.css";
 import "../styles/pages/cards.css";
 import "../styles/pages/contact.css";

@@ -30,12 +30,14 @@ export default class Page404 extends Component {
         />
         <NavBar />
         <div className="page-frame">
-          <h1 className="center-404">404</h1>
-          <h2 className="center-404">
-            <Link href="/">
-              <a>{t("404")}</a>
-            </Link>
-          </h2>
+          <div className="main-404-block">
+            <h1 className="main-404-block__centered-title">404</h1>
+            <h2 className="main-404-block__centered-link">
+              <Link href="/">
+                <a>{t("404")}</a>
+              </Link>
+            </h2>
+          </div>
         </div>
       </div>
     );

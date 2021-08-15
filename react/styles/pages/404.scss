@@ -1,0 +1,8 @@
+.main-404-block {
+  background-color: black;
+  padding: 40px;
+  &__centered-title,
+  &__centered-link {
+    text-align: center;
+  }
+}
