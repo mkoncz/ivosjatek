@@ -22,89 +22,90 @@ $footer-label-font-size: 13px;
 $footer-label-move-x-start-position: 160%;
 $footer-label-move-x-end-position: -200%;
 
-
 .menu-item-container {
-    text-align: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__menu-item {
+    position: absolute;
+    left: $menu-item-left-position;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    width: $menu-item-width;
+    height: $menu-item-height;
+    border: $menu-item-border;
+    color: $menu-item-color;
+    cursor: pointer;
 
+    h1,
+    h2,
+    h3,
+    h4 {
+      font-size: $menu-item-font-size;
+      margin: 0;
+    }
+  }
+
+  @for $i from 1 through 7 {
+    .menu-item-container__menu-item--#{$i} {
+      background-color: lighten($menu-item-bg-color, $i * 1%);
+      animation: MoveUpDown#{$i} 1s linear infinite;
+    }
+    @keyframes MoveUpDown#{$i} {
+      0%,
+      100% {
+        top: $i * $menu-item-position-spacer +
+          math.div($menu-item-position-spacer, 3);
+      }
+      50% {
+        top: $i * $menu-item-position-spacer +
+          math.div($menu-item-position-spacer, 2);
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1280px) {
     &__menu-item {
-        position: absolute;
-        left: $menu-item-left-position;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: $menu-item-width;
-        height: $menu-item-height;
-        border: $menu-item-border;
-        color: $menu-item-color;
-        cursor: pointer;
-
-        h1,
-        h2,
-        h3,
-        h4 {
-            font-size: $menu-item-font-size;
-            margin: 0;
-        }
+      width: $menu-item-width-tablet;
+      left: $menu-item-left-position-tablet;
     }
+  }
 
-    @for $i from 1 through 7 {
-        .menu-item-container__menu-item--#{$i} {
-            background-color: lighten($menu-item-bg-color, $i * 1%);
-            animation: MoveUpDown#{$i} 1s linear infinite;
-        }
-        @keyframes MoveUpDown#{$i} {
-            0%,
-            100% {
-                top: $i * $menu-item-position-spacer +  math.div($menu-item-position-spacer, 3);
-            }
-            50% {
-                top: $i * $menu-item-position-spacer +  math.div($menu-item-position-spacer, 2);
-            }
-        }
+  @media only screen and (max-width: 600px) {
+    &__menu-item {
+      width: $menu-item-width-mobile;
+      left: $menu-item-left-position-mobile;
     }
-
-    @media only screen and (max-width: 1280px) {
-        &__menu-item {
-            width: $menu-item-width-tablet;
-            left: $menu-item-left-position-tablet;
-        }
-    }
-
-    @media only screen and (max-width: 600px) {
-        &__menu-item {
-            width: $menu-item-width-mobile;
-            left: $menu-item-left-position-mobile;
-        }
-    }
+  }
 }
 
 .footer-container {
+  position: absolute;
+  bottom: $footer-bottom-position;
+  overflow: hidden;
+  width: $footer-container-width;
+  height: $footer-container-height;
+
+  &__floating-label {
     position: absolute;
-    bottom: $footer-bottom-position;
+    bottom: $footer-label-bottom-position;
+    left: $footer-label-left-position;
+    font-size: $footer-label-font-size;
     overflow: hidden;
-    width: $footer-container-width;
-    height: $footer-container-height;
+    white-space: nowrap;
+    background-color: black;
+    animation: FooterMove 30s linear infinite;
 
-    &__floating-label {
-        position: absolute;
-        bottom: $footer-label-bottom-position;
-        left: $footer-label-left-position;
-        font-size: $footer-label-font-size;
-        overflow: hidden;
-        white-space: nowrap;
-        background-color: black;
-        animation: FooterMove 30s linear infinite;
-
-        @keyframes FooterMove {
-            0% {
-                transform: translate($footer-label-move-x-start-position, 0);
-            }
-            100% {
-                transform: translate($footer-label-move-x-end-position, 0);
-            }
-        }
+    @keyframes FooterMove {
+      0% {
+        transform: translate($footer-label-move-x-start-position, 0);
+      }
+      100% {
+        transform: translate($footer-label-move-x-end-position, 0);
+      }
     }
+  }
 }

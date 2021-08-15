@@ -2,7 +2,7 @@
 import React from "react";
 
 // Import Next modules.
-import Link from 'next/link';
+import Link from "next/link";
 
 // Import translate function.
 import { t } from "../../i18n";
@@ -18,7 +18,7 @@ interface SourceDetailProps {
 
 /**
  * The page contains the contact e-mail address of the creator and the list of used sources.
- * 
+ *
  * @param {string} props.localizedName Name of used resource.
  * @param {string} props.sourceURL Source URL of the used resource.
  * @param {string} props.sourceName Name of the creator.
@@ -29,12 +29,17 @@ const SourceDetail = (props: SourceDetailProps) => {
   return (
     <li>
       {`${props.localizedName} ${t("source.source")}: `}
-      <Link href={props.sourceURL}><a>{props.sourceName}</a></Link>
+      <Link href={props.sourceURL}>
+        <a>{props.sourceName}</a>
+      </Link>
       {`. ${t("source.licence")}: `}
-      <Link href={props.licenceURL}><a>{props.licenceType}</a></Link>.
+      <Link href={props.licenceURL}>
+        <a>{props.licenceType}</a>
+      </Link>
+      .
     </li>
   );
-}
+};
 
 // Export module.
 export default SourceDetail;

@@ -43,7 +43,7 @@
     "desc.rules": "The rescrictions of the game are listed here. Also here can you read about the game rules.",
     "desc.sources": "The used images, logos and other resources are listed here. There is also a link for the GitHub project.",
     "desc.sponsors": "The sponsoring possibilities are shown on this page. You can also be the owner of the game.",
-   
+
     "game.age_check_1": "Can we see some ID please? ",
     "game.age_check_2": "It's part of our commitment to responsible drinking.",
     "game.age_check_3": "The page uses cookies.",
@@ -56,11 +56,11 @@
     "game.player": "Player",
     "game.player_names": "Give the player names",
     "game.please_add_player_name": "Please add at least one player name.",
-   
+
     "image_alt.card": "Card",
     "image_alt.english": "English",
     "image_alt.hungarian": "Hungarian",
-   
+
     "nav.cards": "Cards",
     "nav.contact": "Contact",
     "nav.game_nav": "Online Game",
@@ -74,10 +74,10 @@
     "nav.sources": "Sources",
     "nav.sponsors": "Sponsors",
     "nav.title": "Drinking Game",
-   
+
     "posts.click_here": "click here",
     "posts.drinking_game": "Drinking Game",
-   
+
     "rules.rule_1": "Click/knock on the card back.",
     "rules.rule_2": "Read out the question.",
     "rules.rule_3": "Fulfill the task.",
@@ -89,7 +89,7 @@
     "rules.term_4": "Ivosjatek.hu supports responsible drinking.",
     "rules.term_5": "Fulfilment of tasks is not mandatory.",
     "rules.terms_title": "Terms of use",
-   
+
     "source.drinking_game_images": "Thumbnails of drinking games",
     "source.font": "Zig font style",
     "source.jenga": "Jenga icon",
@@ -185,7 +185,7 @@
     "source.vhv_girl": "Naked girl icon",
 
     "sponsors.currentSponsors": "Current sponsors",
-   
+
     "menu.all_cards": "All cards",
     "menu.creator_support": "The creator is against irresponsible alcohol consumption.",
     "menu.contact": "Contact",

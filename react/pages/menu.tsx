@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 
 // Import Next modules.
-import Link from 'next/link';
+import Link from "next/link";
 
 // Import components.
 import NavBar from "../components/navbar/NavBar";
@@ -15,7 +15,6 @@ import { t, initLanguageCookie } from "../i18n";
  * Menu page.
  */
 export default class Menu extends Component {
-
   constructor(props) {
     super(props);
     initLanguageCookie();
@@ -70,7 +69,10 @@ export default class Menu extends Component {
           </div>
         </div>
         <div className="footer-container">
-          <p className="footer-container__floating-label">&nbsp; {t("menu.creator_support")} {t("menu.help")}: <Link href={t("menu.help_url")}>{t("menu.help_title")}</Link> &nbsp; </p>
+          <p className="footer-container__floating-label">
+            &nbsp; {t("menu.creator_support")} {t("menu.help")}:{" "}
+            <Link href={t("menu.help_url")}>{t("menu.help_title")}</Link> &nbsp;{" "}
+          </p>
         </div>
       </div>
     );

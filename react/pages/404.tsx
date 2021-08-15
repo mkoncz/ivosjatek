@@ -1,8 +1,8 @@
 // Import ReactJS module.
-import React, {Component} from "react";
+import React, { Component } from "react";
 
 // Import Next modules.
-import Link from 'next/link';
+import Link from "next/link";
 
 // Import components.
 import NavBar from "../components/navbar/NavBar";
@@ -15,12 +15,11 @@ import { t, initLanguageCookie } from "../i18n";
  * 404 page.
  */
 export default class Page404 extends Component {
-
   constructor(props) {
     super(props);
     initLanguageCookie();
   }
-  
+
   render() {
     return (
       <div>
@@ -32,7 +31,11 @@ export default class Page404 extends Component {
         <NavBar />
         <div className="page-frame">
           <h1 className="center-404">404</h1>
-          <h2 className="center-404"><Link href="/"><a>{t("404")}</a></Link></h2>
+          <h2 className="center-404">
+            <Link href="/">
+              <a>{t("404")}</a>
+            </Link>
+          </h2>
         </div>
       </div>
     );

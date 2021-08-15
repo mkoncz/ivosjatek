@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 
 // Import Next modules.
-import Link from 'next/link';
+import Link from "next/link";
 
 // Import components.
 import NavBar from "../components/navbar/NavBar";
@@ -16,7 +16,6 @@ import { t, initLanguageCookie } from "../i18n";
  * The page contains the list of used sources.
  */
 export default class Sources extends Component {
-
   constructor(props) {
     super(props);
     initLanguageCookie();
@@ -697,12 +696,16 @@ export default class Sources extends Component {
           <ul>
             <li>
               <Link href="https://www.glamour.hu/geletstilus/10-szorakoztato-ivos-jatek-amit-a-kovetkezo-hazibuliban-ki-kell-probalnod-36291">
-                <a>https://www.glamour.hu/geletstilus/10-szorakoztato-ivos-jatek-amit-a-kovetkezo-hazibuliban-ki-kell-probalnod-36291</a>
+                <a>
+                  https://www.glamour.hu/geletstilus/10-szorakoztato-ivos-jatek-amit-a-kovetkezo-hazibuliban-ki-kell-probalnod-36291
+                </a>
               </Link>
             </li>
             <li>
               <Link href="https://www.nyu.hu/cikk/par_ivos_jatek_ami_feldobhat_egy_lapos_bulit">
-                <a>https://www.nyu.hu/cikk/par_ivos_jatek_ami_feldobhat_egy_lapos_bulit</a>
+                <a>
+                  https://www.nyu.hu/cikk/par_ivos_jatek_ami_feldobhat_egy_lapos_bulit
+                </a>
               </Link>
             </li>
             <li>
@@ -720,5 +723,4 @@ export default class Sources extends Component {
       </div>
     );
   }
-
 }

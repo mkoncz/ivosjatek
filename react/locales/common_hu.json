@@ -44,7 +44,7 @@
     "desc.rules": "Az Ivós Játek használatát korlátozó megkötések, illetve a játék menetet leíró szabályzat.",
     "desc.sources": "Az Ivós Játék által felhasznált képek, ikonok és más források listája, illetve a GitHub projekt linkje.",
     "desc.sponsors": "A támogatasi es szponzorácios lehetősegek leirasa. A jelenlegi tamogatok felsorolása és kártyáik kinézete.",
-    
+
     "game.age_check_1": "Kerhetnek egy szemelyit?",
     "game.age_check_2": "Az Ivos Jatek egy 18 even felulieknek keszult jatek.",
     "game.age_check_3": "(Ez az online jatek sutiket is hasznal.)",
@@ -187,7 +187,7 @@
     "source.vhv_girl": "Meztelen holgy ikon",
 
     "sponsors.currentSponsors": "Jelenlegi tamogatok",
-    
+
     "menu.all_cards": "Minden kartya",
     "menu.creator_support": "A keszito nem tamogatja a felelotlen alkoholfogyaszast.",
     "menu.contact": "Kapcsolat",

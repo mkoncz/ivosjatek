@@ -1,12 +1,12 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document'
+import Document, { Html, Head, Main, NextScript } from "next/document";
 
 class MyDocument extends Document {
-    static async getInitialProps(ctx) {
-        const initialProps = await Document.getInitialProps(ctx);
-        const { pathname } = ctx;
-        const lang = pathname.startsWith("/en") ? "en" : "hu";
-        return { ...initialProps, lang };
-      }
+  static async getInitialProps(ctx) {
+    const initialProps = await Document.getInitialProps(ctx);
+    const { pathname } = ctx;
+    const lang = pathname.startsWith("/en") ? "en" : "hu";
+    return { ...initialProps, lang };
+  }
 
   render() {
     const { lang } = this.props;
@@ -18,8 +18,8 @@ class MyDocument extends Document {
           <NextScript />
         </body>
       </Html>
-    )
+    );
   }
 }
 
-export default MyDocument
+export default MyDocument;

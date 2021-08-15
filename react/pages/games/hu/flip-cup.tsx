@@ -12,7 +12,6 @@ import { initLanguageCookie } from "../../../i18n";
  * The page contains a selected drinking game.
  */
 export default class SelectedDrinkingGame extends Component {
-
   constructor(props) {
     super(props);
     initLanguageCookie();
@@ -26,10 +25,8 @@ export default class SelectedDrinkingGame extends Component {
           desc="A Flip Cup az egyik legjobb ivós játék kezdőknek. Két csapat versenyez egymással. A két csapat egymásnak ellentétes oldalon áll, és a poharakat az italokkal az asztal szélén tartja. Amelyik csapat előbb issza ki a poharak tartalmát és pöccinti fejtetőre a poharakat, az nyer."
           url="https://ivosjatek.hu/games/hu/flip-cup"
           imgPath="/img/games_page/pohar.jpg"
-       />
-        <DrinkingGameTemplate
-          game="flip-cup"
         />
+        <DrinkingGameTemplate game="flip-cup" />
       </div>
     );
   }
