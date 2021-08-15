@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 $menu-item-bg-color: #ac40a1;
 $menu-item-color: #ffffff8c;
 $menu-item-font-size: 18px;
@@ -37,6 +39,7 @@ $footer-label-move-x-end-position: -200%;
         height: $menu-item-height;
         border: $menu-item-border;
         color: $menu-item-color;
+        cursor: pointer;
 
         h1,
         h2,
@@ -55,10 +58,10 @@ $footer-label-move-x-end-position: -200%;
         @keyframes MoveUpDown#{$i} {
             0%,
             100% {
-                top: $i * $menu-item-position-spacer + $menu-item-position-spacer/3;
+                top: $i * $menu-item-position-spacer +  math.div($menu-item-position-spacer, 3);
             }
             50% {
-                top: $i * $menu-item-position-spacer + $menu-item-position-spacer/2;
+                top: $i * $menu-item-position-spacer +  math.div($menu-item-position-spacer, 2);
             }
         }
     }
