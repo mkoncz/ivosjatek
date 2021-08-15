@@ -47,7 +47,7 @@ export default class PlayerNameCard extends Component<PlayerNameCardProps> {
   generateForm = () => {
     return <form>
       {this.inputs.map((input, index) => {
-        return (<div>
+        return (<div key={index}>
           <label key={index} className="player-name-label">{t("game.player")} {index + 1}: &nbsp; </label>
           <input type="text" className="player-name-input" ref={input} ></input>
         </div>)
