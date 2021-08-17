@@ -27,7 +27,7 @@ export default class CardGroups extends Component {
           url={"https://ivosjatek.hu/cards"}
         />
         <NavBar />
-        <div className="page-frame">
+        <div className="page-frame cards-block">
           <CardGroupList />
         </div>
       </div>

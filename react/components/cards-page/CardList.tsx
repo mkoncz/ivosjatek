@@ -7,13 +7,13 @@ import Cookies from "universal-cookie";
 // Import components.
 import NavBar from "../navbar/NavBar";
 import CustomHead from "../head/CustomHead";
+import CardGroupList from "./CardGroupList";
 
 // Import translate function.
 import { t, initLanguageCookie } from "../../i18n";
 
 // Import question resources.
 import * as questions from "../../locales/questions.json";
-import CardGroupList from "./CardGroupList";
 
 // Interface for props.
 interface CardListProps {
@@ -46,14 +46,13 @@ export default class CardList extends React.Component<CardListProps> {
           url={`https://ivosjatek.hu/${this.props.group}`}
         />
         <NavBar />
-        <div className="page-frame">
+        <div className="page-frame cards-block">
           {this.props.title != null ? (
             <div>
-              {" "}
               <h2>{this.props.title}</h2>
               {filteredList.map((question, index) => {
                 return (
-                  <div key={index} className="sponsor-card white-card">
+                  <div key={index} className="cards-block__white-card">
                     <h4>
                       {question[
                         this.cookies.get("lang") === "hu" ? "hu" : "en"
@@ -61,7 +60,7 @@ export default class CardList extends React.Component<CardListProps> {
                     </h4>
                   </div>
                 );
-              })}{" "}
+              })}
             </div>
           ) : null}
           <CardGroupList />

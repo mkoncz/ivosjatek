@@ -1,0 +1,36 @@
+$cards-block-title-padding: 40px;
+$white-card-bg: #fff;
+$white-card-color: #000;
+$white-card-spacer: 8px;
+$white-card-width: 240px;
+$white-card-height: 320px;
+$white-card-title-font-size: 22px;
+
+.cards-block {
+  background-image: url("/img/retro_blue.png");
+  background-size: cover;
+  height: 100%;
+
+  &__title {
+    clear: "both";
+    padding-top: $cards-block-title-padding;
+  }
+
+  &__white-card {
+    float: left;
+    text-align: center;
+    background-color: $white-card-bg;
+    color: $white-card-color;
+    padding-top: $white-card-spacer * 4;
+    padding-left: $white-card-spacer;
+    padding-right: $white-card-spacer;
+    border-radius: $white-card-spacer;
+    margin: $white-card-spacer * 2;
+    width: $white-card-width;
+    height: $white-card-height;
+
+    h4 {
+      font-size: $white-card-title-font-size;
+    }
+  }
+}
