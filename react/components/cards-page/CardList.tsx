@@ -49,18 +49,20 @@ export default class CardList extends React.Component<CardListProps> {
         <div className="page-frame cards-block">
           {this.props.title != null ? (
             <div>
-              <h2>{this.props.title}</h2>
-              {filteredList.map((question, index) => {
-                return (
-                  <div key={index} className="cards-block__white-card">
-                    <h4>
-                      {question[
-                        this.cookies.get("lang") === "hu" ? "hu" : "en"
-                      ].replace("%NAME%", t("game.player").toUpperCase())}
-                    </h4>
-                  </div>
-                );
-              })}
+              <h2 className="cards-block__title">{this.props.title}</h2>
+              <div className="cards-block__cards-container">
+                {filteredList.map((question, index) => {
+                  return (
+                    <div key={index} className="white-card">
+                      <h4>
+                        {question[
+                          this.cookies.get("lang") === "hu" ? "hu" : "en"
+                        ].replace("%NAME%", t("game.player").toUpperCase())}
+                      </h4>
+                    </div>
+                  );
+                })}
+              </div>
             </div>
           ) : null}
           <CardGroupList />
