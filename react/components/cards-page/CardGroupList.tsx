@@ -25,15 +25,16 @@ export default class CardGroupList extends React.Component {
         </h2>
         <div>
           {this.cards.map(card => {
-            return <Link href={card.link}>
-              <a>
-                <div className="cards-block__white-card">
-                  <h4>
-                    &quot;{t(`cards.${card.name}`)}&quot; {t("cards.cards")}
-                  </h4>
-                </div>
-              </a>
-            </Link>
+            return (
+              <Link href={card.link}>
+                <a>
+                  <div className="cards-block__white-card">
+                    <h4>
+                      &quot;{t(`cards.${card.name}`)}&quot; {t("cards.cards")}
+                    </h4>
+                  </div>
+                </a>
+              </Link>)
           })}
         </div>
       </div>
