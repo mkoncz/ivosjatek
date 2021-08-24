@@ -1,0 +1,11 @@
+$page-404-spacer: 10px;
+
+.main-404-block {
+  background-color: black;
+  padding: $page-404-spacer * 4;
+  margin-top: $page-404-spacer * 3;
+  &__centered-title,
+  &__centered-link {
+    text-align: center;
+  }
+}

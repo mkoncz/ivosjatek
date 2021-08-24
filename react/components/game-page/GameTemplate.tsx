@@ -1,5 +1,5 @@
 // Import ReactJS module.
-import React, {Component} from "react";
+import React, { Component } from "react";
 
 // Import components.
 import Card from "../game-page/Card";
@@ -12,11 +12,11 @@ import * as questions from "../../locales/questions.json";
 
 // Interface for state.
 interface QuestionModel {
-  type: string, // category of question
-  hu: string, // Hungarian question
-  en: string, // English version of question
-  im: string, // image keyword (logo)
-  adult: string // is adult question
+  type: string; // category of question
+  hu: string; // Hungarian question
+  en: string; // English version of question
+  im: string; // image keyword (logo)
+  adult: string; // is adult question
 }
 
 interface GameState {
@@ -30,8 +30,7 @@ interface GameProps {
 /**
  * The online drinking game.
  */
-export default class GameTemplate extends Component<GameProps,GameState> {
-
+export default class GameTemplate extends Component<GameProps, GameState> {
   questions: QuestionModel[];
   filtered_questions: QuestionModel[];
 
@@ -39,12 +38,13 @@ export default class GameTemplate extends Component<GameProps,GameState> {
     super(props);
     initLanguageCookie();
 
-    this.questions = questions['default'];
-    this.filtered_questions = this.props.light ? this.questions.filter(question  => question.adult !== "x") : this.questions;
-
+    this.questions = questions["default"];
+    this.filtered_questions = this.props.light
+      ? this.questions.filter((question) => question.adult !== "x")
+      : this.questions;
 
     this.state = {
-      currentQuestion: this.getRandomQuestion()
+      currentQuestion: this.getRandomQuestion(),
     };
   }
 
@@ -54,45 +54,45 @@ export default class GameTemplate extends Component<GameProps,GameState> {
 
     return (
       <div>
-        <div className="page-frame game-view" >
+        <div className="page-frame game-view">
           <h1 className="left-card-label animated fadeIn">
             {t("game.card_left").replace("%NUMBER%", number_of_left_cards)}
           </h1>
           <Card
             setNewQuestion={this.setNewQuestion}
             currentQuestionModel={this.state.currentQuestion}
-          >
-          </Card>
+          ></Card>
         </div>
       </div>
-    )
+    );
   }
 
   /**
    * Sets the question text on the new card.
    */
   setNewQuestion = () => {
-
     // Sets the text of the new card.
     if (this.questions.length !== 0) {
-
       setTimeout(() => {
         let randomQuestion = this.getRandomQuestion();
         // Sets the current question.
         this.setState({
-          currentQuestion: randomQuestion
+          currentQuestion: randomQuestion,
         });
       }, 500);
     } else {
       // Notifies the user if the card pack is empty.
       this.setState({
-        currentQuestion: this.getNoQuestionObject()
+        currentQuestion: this.getNoQuestionObject(),
       });
     }
-  }
+  };
 
   getRandomQuestion = () => {
-    const randomQuestion = this.filtered_questions[Math.floor(Math.random() * this.filtered_questions.length)];
+    const randomQuestion =
+      this.filtered_questions[
+        Math.floor(Math.random() * this.filtered_questions.length)
+      ];
     // Removes used question from the question pack.
     for (var i = this.filtered_questions.length - 1; i >= 0; i--) {
       if (this.filtered_questions[i] === randomQuestion) {
@@ -106,7 +106,7 @@ export default class GameTemplate extends Component<GameProps,GameState> {
       }
     }
     return randomQuestion;
-  }
+  };
 
   getNoQuestionObject = () => {
     return {
@@ -114,8 +114,7 @@ export default class GameTemplate extends Component<GameProps,GameState> {
       en: t("game.no_more_question"),
       im: null,
       type: null,
-      adult: null
+      adult: null,
     };
-  }
-
+  };
 }

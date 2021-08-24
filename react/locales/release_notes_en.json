@@ -9,15 +9,11 @@
     },
     {
       "title": "January 2020",
-      "changes": [
-        "jQuery libraries replaced with React JS."
-      ]
+      "changes": ["jQuery libraries replaced with React JS."]
     },
     {
       "title": "February 2020",
-      "changes": [
-        "Code published on GitHub."
-      ]
+      "changes": ["Code published on GitHub."]
     },
     {
       "title": "March 2020",
@@ -118,7 +114,11 @@
     {
       "title": "August 2021",
       "changes": [
-        "Pixel art font style"
+        "Pixel art font style.",
+        "Pixel art card backs.",
+        "Use SASS styles.",
+        "New menu page.",
+        "Minor bugfixes."
       ]
     }
   ]

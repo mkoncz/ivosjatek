@@ -1,6 +1,9 @@
 // Import ReactJS module.
 import React, { Component } from "react";
 
+// Import Next modules.
+import Link from "next/link";
+
 // Import components.
 import NavBar from "../components/navbar/NavBar";
 import CustomHead from "../components/head/CustomHead";
@@ -13,7 +16,6 @@ import { t, initLanguageCookie } from "../i18n";
  * The page contains the list of used sources.
  */
 export default class Sources extends Component {
-
   constructor(props) {
     super(props);
     initLanguageCookie();
@@ -693,21 +695,32 @@ export default class Sources extends Component {
           <h5>{t("nav.games")}:</h5>
           <ul>
             <li>
-              <a href="https://www.glamour.hu/geletstilus/10-szorakoztato-ivos-jatek-amit-a-kovetkezo-hazibuliban-ki-kell-probalnod-36291">https://www.glamour.hu/geletstilus/10-szorakoztato-ivos-jatek-amit-a-kovetkezo-hazibuliban-ki-kell-probalnod-36291</a>
+              <Link href="https://www.glamour.hu/geletstilus/10-szorakoztato-ivos-jatek-amit-a-kovetkezo-hazibuliban-ki-kell-probalnod-36291">
+                <a>
+                  https://www.glamour.hu/geletstilus/10-szorakoztato-ivos-jatek-amit-a-kovetkezo-hazibuliban-ki-kell-probalnod-36291
+                </a>
+              </Link>
             </li>
             <li>
-              <a href="https://www.nyu.hu/cikk/par_ivos_jatek_ami_feldobhat_egy_lapos_bulit">https://www.nyu.hu/cikk/par_ivos_jatek_ami_feldobhat_egy_lapos_bulit</a>
+              <Link href="https://www.nyu.hu/cikk/par_ivos_jatek_ami_feldobhat_egy_lapos_bulit">
+                <a>
+                  https://www.nyu.hu/cikk/par_ivos_jatek_ami_feldobhat_egy_lapos_bulit
+                </a>
+              </Link>
             </li>
             <li>
-              <a href="https://player.hu/eletmod/gasztro/ivos-jatekok">https://player.hu/eletmod/gasztro/ivos-jatekok</a>
+              <Link href="https://player.hu/eletmod/gasztro/ivos-jatekok">
+                <a>https://player.hu/eletmod/gasztro/ivos-jatekok</a>
+              </Link>
             </li>
             <li>
-              <a href="https://www.scoopwhoop.com/inothernews/fun-drinking-games">https://www.scoopwhoop.com/inothernews/fun-drinking-games</a>
+              <Link href="https://www.scoopwhoop.com/inothernews/fun-drinking-games">
+                <a>https://www.scoopwhoop.com/inothernews/fun-drinking-games</a>
+              </Link>
             </li>
           </ul>
         </div>
       </div>
     );
   }
-
 }

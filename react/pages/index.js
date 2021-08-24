@@ -1,9 +1,9 @@
-import Welcome from './welcome.tsx';
+import Menu from "./menu.tsx";
 
 const Homepage = () => (
   <>
-    <Welcome/>
+    <Menu />
   </>
-)
+);
 
 export default Homepage;

@@ -11,13 +11,11 @@ interface ConfirmCardProps {
 
 /**
  * The page contains the actual Card.
- * 
+ *
  * @param {function} props.replaceCard Replaces the current card.
  */
 export default class ConfirmCard extends Component<ConfirmCardProps> {
-
   render() {
-
     return (
       <div className="pre-card">
         <h1>18+</h1>
@@ -26,13 +24,11 @@ export default class ConfirmCard extends Component<ConfirmCardProps> {
           <p>{t("game.age_check_2")}</p>
           <p>{t("game.age_check_3")}</p>
         </div>
-        <button
-          className="btn btn-warning btn-lg"
-          onClick={this.confirmAdult}>
+        <button className="btn btn-warning btn-lg" onClick={this.confirmAdult}>
           {t("game.age_check_button")}
         </button>
       </div>
-    )
+    );
   }
 
   /**
@@ -45,5 +41,5 @@ export default class ConfirmCard extends Component<ConfirmCardProps> {
     setTimeout(() => {
       sessionStorage.setItem("isAdult", "true");
     }, 450);
-  }
+  };
 }
