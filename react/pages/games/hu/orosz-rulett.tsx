@@ -12,6 +12,7 @@ import { initLanguageCookie } from "../../../i18n";
  * The page contains a selected drinking game.
  */
 export default class SelectedDrinkingGame extends Component {
+
   constructor(props) {
     super(props);
     initLanguageCookie();
@@ -26,7 +27,9 @@ export default class SelectedDrinkingGame extends Component {
           url="https://ivosjatek.hu/games/hu/orosz-rulett"
           imgPath="/img/games_page/rulett.jpg"
         />
-        <DrinkingGameTemplate game="orosz-rulett" />
+        <DrinkingGameTemplate
+          game="orosz-rulett"
+        />
       </div>
     );
   }

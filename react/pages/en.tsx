@@ -1,21 +1,22 @@
 // Import React modules.
 import React, { Component } from "react";
-import Menu from "./menu";
+import Welcome from "./welcome";
 import { reloadLanguage } from "../i18n";
 
+
 /**
- * Menu page with English language.
+ * Welcome page with English language.
  */
-export default class EnMenu extends Component {
+export default class EnWelcome extends Component {
   constructor(props) {
     super(props);
   }
-
+  
   componentDidMount() {
     reloadLanguage("en");
   }
 
   render() {
-    return <Menu />;
+    return <Welcome/>
   }
 }

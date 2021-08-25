@@ -1,5 +1,5 @@
 // Import ReactJS module.
-import React, { Component } from "react";
+import React, {Component} from "react";
 
 // Import components.
 import NavBar from "../components/navbar/NavBar";
@@ -13,6 +13,7 @@ import { t, initLanguageCookie } from "../i18n";
  * The card categories listed.
  */
 export default class CardGroups extends Component {
+  
   constructor(props) {
     super(props);
     initLanguageCookie();
@@ -27,8 +28,8 @@ export default class CardGroups extends Component {
           url={"https://ivosjatek.hu/cards"}
         />
         <NavBar />
-        <div className="page-frame cards-block">
-          <CardGroupList />
+        <div className="page-frame">
+          <CardGroupList/>
         </div>
       </div>
     );

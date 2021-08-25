@@ -1,12 +1,13 @@
 // Import React and Next.js modules.
 import React from "react";
-import Head from "next/head";
+import Head from 'next/head';
 
-// Import cookie handling module.
+// Import module for cookie handling.
 import Cookies from "universal-cookie";
 
 // Import translate function.
 import { t } from "../../i18n";
+
 
 // Interface for props.
 interface CustomHeadProps {
@@ -22,13 +23,11 @@ interface CustomHeadProps {
  * Component for custom head element.
  */
 const CustomHead = (props: CustomHeadProps) => {
+
   let cookies = new Cookies();
   let lang = cookies.get("lang") === "en" ? "en_US" : "hu_HU";
 
-  let imgPath =
-    props.imgPath != null && props.imgPath.startsWith("/")
-      ? "https://ivosjatek.hu" + props.imgPath
-      : props.imgPath;
+  let imgPath = props.imgPath != null && props.imgPath.startsWith("/") ? "https://ivosjatek.hu" + props.imgPath : props.imgPath;
 
   let title = props.title + " | " + t("nav.title");
 
@@ -52,46 +51,20 @@ const CustomHead = (props: CustomHeadProps) => {
       <meta name="twitter:description" content={props.desc} />
       <meta name="twitter:card" content="summary"></meta>
       <meta name="twitter:site" content="@ivosjatek" />
-      <meta
-        name="twitter:image"
-        content={
-          props.imgPath == null
-            ? "https://ivosjatek.hu/img/yellow_logo.png"
-            : imgPath
-        }
-      />
+      <meta name="twitter:image" content={props.imgPath == null ? "https://ivosjatek.hu/img/yellow_logo.png" : imgPath} />
 
       <meta property="og:type" content="website" />
       <meta property="og:url" content={props.url} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={props.desc} />
       <meta property="og:locale" content={lang} />
-      <meta
-        property="og:image"
-        content={
-          props.imgPath == null
-            ? "https://ivosjatek.hu/img/yellow_logo.png"
-            : imgPath
-        }
-      />
+      <meta property="og:image" content={props.imgPath == null ? "https://ivosjatek.hu/img/yellow_logo.png" : imgPath} />
 
-      {props.hasInstagram ? (
-        <script
-          async
-          src="//embed.redditmedia.com/widgets/platform.js"
-          charSet="UTF-8"
-        ></script>
-      ) : null}
-      {props.hasReddit ? (
-        <script async src="//www.instagram.com/embed.js"></script>
-      ) : null}
+      {props.hasInstagram ? <script async src="//embed.redditmedia.com/widgets/platform.js" charSet="UTF-8"></script> : null}
+      {props.hasReddit ? <script async src="//www.instagram.com/embed.js"></script> : null}
 
-      <script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=UA-168599391-1"
-      ></script>
-      <script
-        type="application/ld+json"
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168599391-1"></script>
+      <script type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: `
                 {
@@ -121,7 +94,7 @@ const CustomHead = (props: CustomHeadProps) => {
       />
     </Head>
   );
-};
+}
 
 // Export component.
 export default CustomHead;

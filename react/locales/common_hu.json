@@ -1,13 +1,11 @@
 {
-  "localized_entries": {
+  "entries": {
     "404": "Nem letezo webcim. Probalkozz a fooldallal.",
 
     "contact.contact": "Kapcsolat:",
 
     "cards.according_to_you": "Szerinted",
-    "cards.according_to_you_18": "Szerinted 18+",
     "cards.actual": "Aktualis",
-    "cards.actual_18": "Aktualis 18+",
     "cards.cards": "Kartyak",
     "cards.boobs": "Mell",
     "cards.categories": "Kartya kategoriak",
@@ -26,7 +24,6 @@
     "cards.nudes": "Meztelen kepek",
     "cards.opinion": "Velemeny",
     "cards.outer_quality": "Kulso tulajdonsag",
-    "cards.outer_quality_18": "Kulso tulajdonsag 18+",
     "cards.outfit": "Mi van rajtad?",
     "cards.ownership": "Mid van?",
     "cards.porn": "Porno",
@@ -47,7 +44,7 @@
     "desc.rules": "Az Ivós Játek használatát korlátozó megkötések, illetve a játék menetet leíró szabályzat.",
     "desc.sources": "Az Ivós Játék által felhasznált képek, ikonok és más források listája, illetve a GitHub projekt linkje.",
     "desc.sponsors": "A támogatasi es szponzorácios lehetősegek leirasa. A jelenlegi tamogatok felsorolása és kártyáik kinézete.",
-
+    
     "game.age_check_1": "Kerhetnek egy szemelyit?",
     "game.age_check_2": "Az Ivos Jatek egy 18 even felulieknek keszult jatek.",
     "game.age_check_3": "(Ez az online jatek sutiket is hasznal.)",
@@ -190,20 +187,20 @@
     "source.vhv_girl": "Meztelen holgy ikon",
 
     "sponsors.currentSponsors": "Jelenlegi tamogatok",
-
-    "menu.all_cards": "Minden kartya",
-    "menu.creator_support": "A keszito nem tamogatja a felelotlen alkoholfogyaszast.",
-    "menu.contact": "Kapcsolat",
-    "menu.help": "Segitseg",
-    "menu.help_title": "Anonim alkoholistak",
-    "menu.help_url": "https://www.anonimalkoholistak.hu",
-    "menu.light_cards": "Light kartyak",
-    "menu.online_game": "Online ivos jatek",
-    "menu.online_game_desc": "Porgesd fel a bulit egy izgalmas online kartyajatekkal",
-    "menu.other_games": "Egyeb ivos jatekok",
-    "menu.other_games_desc": "A legjobb ivos jatekok szabalyai magyar kartya, francia kartya, stb hasznalataval",
-    "menu.rules": "Szabalyzat",
-    "menu.sources": "Forrasok",
-    "menu.sponsors": "Tamogatok"
+    
+    "welcome.all_cards": "Minden kartya",
+    "welcome.creator_support": "A keszito nem tamogatja a felelotlen alkoholfogyaszast.",
+    "welcome.contact": "Kapcsolat",
+    "welcome.help": "Segitseg",
+    "welcome.help_title": "Anonim alkoholistak",
+    "welcome.help_url": "https://www.anonimalkoholistak.hu",
+    "welcome.light_cards": "Light kartyak",
+    "welcome.online_game": "Online ivos jatek",
+    "welcome.online_game_desc": "Porgesd fel a bulit egy izgalmas online kartyajatekkal",
+    "welcome.other_games": "Egyeb ivos jatekok",
+    "welcome.other_games_desc": "A legjobb ivos jatekok szabalyai magyar kartya, francia kartya, stb hasznalataval",
+    "welcome.rules": "Szabalyzat",
+    "welcome.sources": "Forrasok",
+    "welcome.sponsors": "Tamogatok"
   }
 }

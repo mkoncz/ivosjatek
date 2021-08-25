@@ -1,52 +1,50 @@
 .lang-logo {
-  height: 1.2rem;
-  margin-left: 8px;
-  margin-right: 8px;
-  cursor: pointer;
+    height: 1.2rem;
+    margin-left: 8px;
+    margin-right: 8px;
+    cursor: pointer;
 }
 
 /* override bootstrap dark theme*/
 
-.bg-dark,
-.nav-bg-dark {
-  background-color: rgba(0, 0, 0, 0) !important;
+.bg-dark, .nav-bg-dark {
+    background-color: rgba(0, 0, 0, 0) !important;
 }
 
 /* override bootstrap dark theme*/
 
 .nav-dropdown {
-  background-color: rgba(0, 0, 0, 0) !important;
-  color: rgba(255, 255, 255, 0.5);
-  border: 0;
-  padding-top: 7px;
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: rgba(255, 255, 255, .5);
+    border: 0;
+    padding-top: 7px;
 }
 
 /* override bootstrap dark theme*/
 
-.nav-dropdown-item,
-.nav-dropdown-item:hover {
-  background-color: #1a1a1a !important;
-  color: rgba(255, 255, 255, 0.5);
+.nav-dropdown-item, .nav-dropdown-item:hover {
+    background-color: #1a1a1a !important;
+    color: rgba(255, 255, 255, .5);
 }
 
 .nav-dropdown-item:hover {
-  color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, .8);
 }
 
-.navbar-brand {
-  font-size: 17px !important;
-  margin-left: 5px;
+.navbar-brand{
+    font-size: 17px !important;
+    margin-left: 5px;
 }
 
 .navbar-collapse.show {
-  background-color: #212529 !important;
-  z-index: 2;
+    background-color: #212529 !important;
+    z-index: 2;
 }
 
 .navbar-toggler {
-  border-color: rgba(0, 0, 0, 0) !important;
+    border-color: rgba(0,0,0,0) !important;
 }
 
 .navbar-toggler:focus {
-  box-shadow: 0 0 !important;
+    box-shadow: 0 0 !important;
 }

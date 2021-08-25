@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
   padding: 0;
   margin: 0;
   font-family: "ZIG";
@@ -25,8 +24,7 @@ a {
 }
 
 @media only screen and (max-width: 1280px) {
-  html,
-  body {
+  html, body {
     background-size: revert;
     background-position-x: center; /* Center the image */
     background-position-y: top; /* Center the image */

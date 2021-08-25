@@ -9,10 +9,12 @@ import AllDrinkingGameThumbnails from "../components/drinking-games/AllDrinkingG
 // Import i18n functions.
 import { t, initLanguageCookie } from "../i18n";
 
+
 /**
  * The page contains the list of drinking games.
  */
 export default class DrinkingGames extends React.Component {
+
   constructor(props) {
     super(props);
     initLanguageCookie();
@@ -29,7 +31,7 @@ export default class DrinkingGames extends React.Component {
         <NavBar />
         <div className="page-frame">
           <h1>{t("nav.games")}</h1>
-          <AllDrinkingGameThumbnails />
+          <AllDrinkingGameThumbnails/>
         </div>
       </div>
     );

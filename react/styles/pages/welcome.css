@@ -1,0 +1,167 @@
+.menu-item-container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-item-container a:hover {
+    text-decoration: none;
+}
+
+.menu-item {
+    min-height: 40px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.55);
+    text-align: center;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgba(255, 255, 255, 0.55);
+    cursor: pointer;
+    background-color: #bb48af;
+    width: 400px;
+    margin: 5px;
+    left: 10px;
+    position: absolute;
+}
+
+@media only screen and (max-width: 1280px) {
+    .menu-item {
+        width: 50%;
+        left: 25%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .menu-item {
+        width: 80%;
+        left: 10%;
+    }
+}
+
+.menu-item-1 {
+    animation: MoveUpDown1 1s linear infinite;
+}
+
+.menu-item-2 {
+    animation: MoveUpDown2 1s linear infinite;
+}
+
+.menu-item-3 {
+    animation: MoveUpDown3 1s linear infinite;
+}
+
+.menu-item-4 {
+    animation: MoveUpDown4 1s linear infinite;
+}
+
+.menu-item-5 {
+    animation: MoveUpDown5 1s linear infinite;
+}
+
+.menu-item-6 {
+    animation: MoveUpDown6 1s linear infinite;
+}
+
+.menu-item-7 {
+    animation: MoveUpDown7 1s linear infinite;
+}
+
+.menu-item h1, .menu-item h2, .menu-item h3, .menu-item h4 {
+    font-size: 18px;
+    margin: 0;
+}
+
+@keyframes MoveUpDown1 {
+    0%, 100% {
+        top: 80px;
+    }
+    50% {
+        top: 90px;
+    }
+}
+
+@keyframes MoveUpDown2 {
+    0%, 100% {
+        top: 140px;
+    }
+    50% {
+        top: 150px;
+    }
+}
+
+@keyframes MoveUpDown3 {
+    0%, 100% {
+        top: 200px;
+    }
+    50% {
+        top: 210px;
+    }
+}
+
+@keyframes MoveUpDown4 {
+    0%, 100% {
+        top: 260px;
+    }
+    50% {
+        top: 270px;
+    }
+}
+
+@keyframes MoveUpDown5 {
+    0%, 100% {
+        top: 320px;
+    }
+    50% {
+        top: 330px;
+    }
+}
+
+@keyframes MoveUpDown6 {
+    0%, 100% {
+        top: 380px;
+    }
+    50% {
+        top: 390px;
+    }
+}
+
+@keyframes MoveUpDown7 {
+    0%, 100% {
+        top: 440px;
+    }
+    50% {
+        top: 450px;
+    }
+}
+
+.footer-container {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 35px;
+    bottom: 0px;
+}
+
+p.footer {
+    padding-top: 4em;
+    font-size: 0.8em;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: FooterMove 30s linear infinite;
+    background-color: black;
+}
+
+@keyframes FooterMove {
+    0% {
+        transform: translate(300%, 0);
+    }
+    100% {
+        transform: translate(-200%, 0);
+    }
+}
