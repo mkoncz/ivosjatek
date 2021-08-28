@@ -14,7 +14,7 @@ import AdultConsent from "../../components/modal/AdultConsent";
 import { t, initLanguageCookie } from "../../i18n";
 
 // Import game rules resource.
-import * as drinking_objects from "../../locales/drinking_games.json";
+import game_objects from "../../locales/drinking_games.json";
 
 // Interface for props.
 interface SiteElementModel {
@@ -36,9 +36,7 @@ interface DrinkingGameTemplateProps {
  * The page contains a selected drinking game.
  */
 export default class DrinkingGameTemplate extends Component<
-  DrinkingGameTemplateProps,
-  {}
-> {
+  DrinkingGameTemplateProps, {}> {
   games: any[][];
   localized_games: any[][];
   cookies = new Cookies();
@@ -46,7 +44,7 @@ export default class DrinkingGameTemplate extends Component<
   constructor(props) {
     super(props);
     initLanguageCookie();
-    this.games = drinking_objects.all_games;
+    this.games = game_objects.all_games;
     this.localized_games = this.games.filter(
       (game) => game[0].lang === this.cookies.get("lang")
     );

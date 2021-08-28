@@ -23,7 +23,7 @@ export default class CardGroupList extends React.Component {
         <div className="cards-block__cards-container">
           {this.cards.map((card) => {
             return (
-              <Link href={card.link}>
+              <Link href={card.link} key={card.link}>
                 <a>
                   <div className="white-card">
                     <h4>
