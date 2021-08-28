@@ -49,7 +49,7 @@ export default class GameTemplate extends Component<GameProps, GameState> {
   }
 
   render() {
-    // Count the left cards.
+    // Counts the left cards.
     let number_of_left_cards: string = this.filtered_questions.length + "";
 
     return (

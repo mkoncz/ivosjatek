@@ -56,7 +56,7 @@ export default class Card extends Component<CardProps, CardState> {
   componentDidMount() {
     // Bounces out the current card.
     this.setState({
-      flipClasses: "active animated bounceInLeft",
+      flipClasses: "game-card--active animated bounceInLeft",
     });
 
     // Bounces out the current card.
@@ -111,13 +111,13 @@ export default class Card extends Component<CardProps, CardState> {
 
     return (
       <div
-        className={`flip-container ${this.state.flipClasses}`}
+        className={`game-card ${this.state.flipClasses}`}
         onClick={this.cardClickHandler}
       >
-        <div className="flipper">
+        <div className="game-card__flipper">
           <CardBack logo={logo} />
-          <div className="front">
-            <div className={!specialCard ? "txt-question" : "special-card"}>
+          <div className="game-card__front">
+            <div className={!specialCard ? "game-card__normal-content" : "game-card__special-content"}>
               {" "}
               {content}{" "}
             </div>
@@ -147,7 +147,7 @@ export default class Card extends Component<CardProps, CardState> {
     // Bounces out the current card.
     setTimeout(() => {
       this.setState({
-        flipClasses: "active animated bounceOutRight",
+        flipClasses: "game-card--active animated bounceOutRight",
       });
     }, 25);
 
@@ -165,7 +165,7 @@ export default class Card extends Component<CardProps, CardState> {
    */
   cardClickHandler = () => {
     this.setState({
-      flipClasses: "active",
+      flipClasses: "game-card--active",
     });
   };
 
