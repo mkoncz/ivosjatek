@@ -1,7 +1,7 @@
 // Import React modules.
 import React, { Component } from "react";
 
-// Import module for cookie handling.
+// Import cookie handling module.
 import Cookies from "universal-cookie";
 
 // Import CardBack component.
@@ -14,11 +14,11 @@ import { t } from "../../i18n";
 
 // Interfaces for props and state.
 interface QuestionModel {
-  type: string, // category of question
-  hu: string, // Hungarian question
-  en: string, // English version of question
-  im: string, // image keyword (logo)
-  adult: string // is adult question
+  type: string; // category of question
+  hu: string; // Hungarian question
+  en: string; // English version of question
+  im: string; // image keyword (logo)
+  adult: string; // is adult question
 }
 
 interface CardProps {
@@ -33,13 +33,12 @@ interface CardState {
 
 /**
  * The component describes the actual Card.
- * 
+ *
  * @param {string} props.setNewQuestion Replaces the read question with a new question.
  * @param {string} props.currentQuestionModel.logo Logo of the current card.
  * @param {string} props.currentQuestionModel.color Background color of the current card.
  */
 export default class Card extends Component<CardProps, CardState> {
-
   mounted: boolean;
   cookies = new Cookies();
 
@@ -48,40 +47,37 @@ export default class Card extends Component<CardProps, CardState> {
 
     this.state = {
       flipClasses: "animated bounceInLeft",
-      name: ""
+      name: "",
     };
 
     this.mounted = false;
   }
 
   componentDidMount() {
-
     // Bounces out the current card.
     this.setState({
-      flipClasses: "active animated bounceInLeft"
+      flipClasses: "active animated bounceInLeft",
     });
 
     // Bounces out the current card.
     setTimeout(() => {
       this.setState({
-        flipClasses: "animated bounceInLeft"
+        flipClasses: "animated bounceInLeft",
       });
     }, 2);
 
     this.mounted = true;
-
   }
 
   render() {
-
     // The first render should be avoided.
     // The session storage are loaded only after the componentDidMound.
     if (!this.mounted) {
-      return <div></div>
+      return <div></div>;
     }
 
     // Set default value of specialCard to false.
-    // Special cards are the "age check card" and the "players names card". 
+    // Special cards are the "age check card" and the "players names card".
     let specialCard = false;
     let content;
 
@@ -93,13 +89,20 @@ export default class Card extends Component<CardProps, CardState> {
       content = this.createAgeCheckCard();
       specialCard = true;
       // If the game does not asked about player names, it creates an "player names card".
-    } else if (null == sessionStorage.getItem("players") || sessionStorage.getItem("players").length === 0) {
+    } else if (
+      null == sessionStorage.getItem("players") ||
+      sessionStorage.getItem("players").length === 0
+    ) {
       content = this.createPlayerSelectorCard();
       specialCard = true;
-    }
-    else {
+    } else {
       // The %NAME% wildcard is replaced with a random user's name.
-      content = this.props.currentQuestionModel[this.cookies.get("lang")].replace("%NAME%", this.state.name === "" ? this.getRandomName() : this.state.name);
+      content = this.props.currentQuestionModel[
+        this.cookies.get("lang")
+      ].replace(
+        "%NAME%",
+        this.state.name === "" ? this.getRandomName() : this.state.name
+      );
       // If the current question has a sporsor, the logo is overridden.
       if (this.props.currentQuestionModel.im !== "") {
         logo = this.props.currentQuestionModel.im;
@@ -107,22 +110,29 @@ export default class Card extends Component<CardProps, CardState> {
     }
 
     return (
-      <div className={`flip-container ${this.state.flipClasses}`} onClick={this.cardClickHandler}>
-        <div className="flipper" >
-          <CardBack
-            logo={logo}
-          />
+      <div
+        className={`flip-container ${this.state.flipClasses}`}
+        onClick={this.cardClickHandler}
+      >
+        <div className="flipper">
+          <CardBack logo={logo} />
           <div className="front">
-            <div className={!specialCard ? "txt-question" : "special-card"}> {content} </div>
+            <div className={!specialCard ? "txt-question" : "special-card"}>
+              {" "}
+              {content}{" "}
+            </div>
             <button
-              className={`btn btn-warning btn-lg btn-card ${specialCard ? "hidden" : ""}`}
-              onClick={this.replaceCard}>
+              className={`btn btn-warning btn-lg btn-card ${
+                specialCard ? "hidden" : ""
+              }`}
+              onClick={this.replaceCard}
+            >
               {t("game.next")}
             </button>
           </div>
         </div>
       </div>
-    )
+    );
   }
 
   /**
@@ -131,14 +141,13 @@ export default class Card extends Component<CardProps, CardState> {
    * Uses the animations of the animate.css.
    */
   replaceCard = (newQuestion) => {
-
     if (newQuestion || newQuestion == null) {
       this.props.setNewQuestion();
     }
     // Bounces out the current card.
     setTimeout(() => {
       this.setState({
-        flipClasses: "active animated bounceOutRight"
+        flipClasses: "active animated bounceOutRight",
       });
     }, 25);
 
@@ -146,7 +155,7 @@ export default class Card extends Component<CardProps, CardState> {
     setTimeout(() => {
       this.setState({
         flipClasses: "animated bounceInLeft",
-        name: this.getRandomName()
+        name: this.getRandomName(),
       });
     }, 450);
   };
@@ -158,35 +167,25 @@ export default class Card extends Component<CardProps, CardState> {
     this.setState({
       flipClasses: "active",
     });
-  }
+  };
 
   /**
    * Creates card with age check question and next button.
    */
   createAgeCheckCard = () => {
-
-    return (
-      <ConfirmCard
-        replaceCard={this.replaceCard}
-      />
-    )
-  }
+    return <ConfirmCard replaceCard={this.replaceCard} />;
+  };
 
   /**
    * Creates card with age check question and next button.
    */
   createPlayerSelectorCard = () => {
-
-    return (
-      <PlayerNameCard
-        replaceCard={this.replaceCard}
-      />
-    )
-  }
+    return <PlayerNameCard replaceCard={this.replaceCard} />;
+  };
 
   /**
-  * Gets a random name from the sessionStorage.
-  */
+   * Gets a random name from the sessionStorage.
+   */
   getRandomName = () => {
     // If the component is not mounted, the sessionStorage is not defined yet.
     if (!this.mounted) {
@@ -198,5 +197,5 @@ export default class Card extends Component<CardProps, CardState> {
     } else {
       return "";
     }
-  }
+  };
 }
