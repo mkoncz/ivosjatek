@@ -2,6 +2,7 @@
 
 $menu-item-bg-color: #ac40a1;
 $menu-item-color: #ffffff8c;
+$menu-item-hovered-color: #ffffffb9;
 $menu-item-font-size: 18px;
 $menu-item-width: 400px;
 $menu-item-width-tablet: 50%;
@@ -40,6 +41,10 @@ $footer-label-move-x-end-position: -200%;
     color: $menu-item-color;
     cursor: pointer;
 
+    &:hover {
+      color: $menu-item-hovered-color;
+    }
+
     h1,
     h2,
     h3,
@@ -57,12 +62,10 @@ $footer-label-move-x-end-position: -200%;
     @keyframes MoveUpDown#{$i} {
       0%,
       100% {
-        top: $i * $menu-item-position-spacer +
-          math.div($menu-item-position-spacer, 3);
+        top: $i * $menu-item-position-spacer + math.div($menu-item-position-spacer, 3);
       }
       50% {
-        top: $i * $menu-item-position-spacer +
-          math.div($menu-item-position-spacer, 2);
+        top: $i * $menu-item-position-spacer + math.div($menu-item-position-spacer, 2);
       }
     }
   }
