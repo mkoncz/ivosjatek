@@ -79,7 +79,7 @@ export default class GameTemplate extends Component<GameProps, GameState> {
         this.setState({
           currentQuestion: randomQuestion,
         });
-      }, 500);
+      }, 600);
     } else {
       // Notifies the user if the card pack is empty.
       this.setState({

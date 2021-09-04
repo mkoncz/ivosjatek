@@ -42,11 +42,40 @@ export default class Card extends Component<CardProps, CardState> {
   mounted: boolean;
   cookies = new Cookies();
 
+  outAnimationArray = [
+    "backOutDown",
+    "backOutRight",
+    "fadeOutDown",
+    "fadeOut",
+    "fadeOutDown",
+    "fadeOutDownBig",
+    "fadeOutRight",
+    "fadeOutRightBig",
+    "rotateOutUpRight",
+    "zoomOutDown",
+    "zoomOutRight",
+    "slideOutDown",
+    "slideOutRight",
+    "rollOut",
+  ];
+
+  inAnimationArray = [
+    "backInLeft",
+    "backInDown",
+    "fadeInLeftBig",
+    "fadeInDown",
+    "fadeInDownBig",
+    "flipInY",
+    "zoomInLeft",
+    "zoomInUp",
+    "slideInDown",
+  ];
+
   constructor(props: CardProps) {
     super(props);
 
     this.state = {
-      flipClasses: "animated bounceInLeft",
+      flipClasses: "animate__animated animate__bounceIn",
       name: "",
     };
 
@@ -54,15 +83,20 @@ export default class Card extends Component<CardProps, CardState> {
   }
 
   componentDidMount() {
-    // Bounces out the current card.
+    const inAnimation =
+      this.inAnimationArray[
+        Math.floor(Math.random() * this.inAnimationArray.length)
+      ];
+
+    // Animates in the current card.
     this.setState({
-      flipClasses: "c-game-card--active animated bounceInLeft",
+      flipClasses: `c-game-card--active animate__animated animate__${inAnimation}`,
     });
 
-    // Bounces out the current card.
+    // Animates out the current card.
     setTimeout(() => {
       this.setState({
-        flipClasses: "animated bounceInLeft",
+        flipClasses: `animate__animated animate__${inAnimation}`,
       });
     }, 2);
 
@@ -117,7 +151,13 @@ export default class Card extends Component<CardProps, CardState> {
         <div className="c-game-card__flipper">
           <CardBack logo={logo} />
           <div className="c-game-card__front">
-            <div className={!specialCard ? "c-game-card__normal-content" : "c-game-card__special-content"}>
+            <div
+              className={
+                !specialCard
+                  ? "c-game-card__normal-content"
+                  : "c-game-card__special-content"
+              }
+            >
               {" "}
               {content}{" "}
             </div>
@@ -137,27 +177,39 @@ export default class Card extends Component<CardProps, CardState> {
 
   /**
    * Replaces the read card.
-   * Bounces out the read card and bounces in the new card.
+   * Moves out the read card and bounces in the new card.
    * Uses the animations of the animate.css.
    */
   replaceCard = (newQuestion) => {
     if (newQuestion || newQuestion == null) {
       this.props.setNewQuestion();
     }
-    // Bounces out the current card.
+
+    const outAnimation =
+      this.outAnimationArray[
+        Math.floor(Math.random() * this.outAnimationArray.length)
+      ];
+
+    // Animates out the current card.
     setTimeout(() => {
       this.setState({
-        flipClasses: "c-game-card--active animated bounceOutRight",
+        flipClasses: `c-game-card--active animate__animated animate__${outAnimation}`,
       });
     }, 25);
+    console.log(outAnimation);
+    const inAnimation =
+      this.inAnimationArray[
+        Math.floor(Math.random() * this.inAnimationArray.length)
+      ];
+    console.log(inAnimation);
 
-    // Bounces in the new card.
+    // Animates in the new card.
     setTimeout(() => {
       this.setState({
-        flipClasses: "animated bounceInLeft",
+        flipClasses: `animate__animated animate__${inAnimation}`,
         name: this.getRandomName(),
       });
-    }, 450);
+    }, 550);
   };
 
   /**

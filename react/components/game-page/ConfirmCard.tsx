@@ -41,7 +41,7 @@ export default class ConfirmCard extends Component<ConfirmCardProps> {
    */
   confirmAdult = () => {
     this.props.replaceCard(false);
-    // Timeout needed because render() immediately replaces content and the bouncing out did not finish yet.
+    // Timeout needed because render() immediately replaces content and the animation did not finish yet.
     setTimeout(() => {
       sessionStorage.setItem("isAdult", "true");
     }, 450);
