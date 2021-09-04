@@ -56,7 +56,7 @@ export default class Card extends Component<CardProps, CardState> {
   componentDidMount() {
     // Bounces out the current card.
     this.setState({
-      flipClasses: "game-card--active animated bounceInLeft",
+      flipClasses: "c-game-card--active animated bounceInLeft",
     });
 
     // Bounces out the current card.
@@ -111,18 +111,18 @@ export default class Card extends Component<CardProps, CardState> {
 
     return (
       <div
-        className={`game-card ${this.state.flipClasses}`}
+        className={`c-game-card ${this.state.flipClasses}`}
         onClick={this.cardClickHandler}
       >
-        <div className="game-card__flipper">
+        <div className="c-game-card__flipper">
           <CardBack logo={logo} />
-          <div className="game-card__front">
-            <div className={!specialCard ? "game-card__normal-content" : "game-card__special-content"}>
+          <div className="c-game-card__front">
+            <div className={!specialCard ? "c-game-card__normal-content" : "c-game-card__special-content"}>
               {" "}
               {content}{" "}
             </div>
             <button
-              className={`btn btn-warning btn-lg btn-card ${
+              className={`c-game-card__button btn btn-lg ${
                 specialCard ? "hidden" : ""
               }`}
               onClick={this.replaceCard}
@@ -147,7 +147,7 @@ export default class Card extends Component<CardProps, CardState> {
     // Bounces out the current card.
     setTimeout(() => {
       this.setState({
-        flipClasses: "game-card--active animated bounceOutRight",
+        flipClasses: "c-game-card--active animated bounceOutRight",
       });
     }, 25);
 
@@ -165,7 +165,7 @@ export default class Card extends Component<CardProps, CardState> {
    */
   cardClickHandler = () => {
     this.setState({
-      flipClasses: "game-card--active",
+      flipClasses: "c-game-card--active",
     });
   };
 

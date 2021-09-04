@@ -55,7 +55,7 @@ export default class GameTemplate extends Component<GameProps, GameState> {
     return (
       <div>
         <div className="page-frame game-view">
-          <h1 className="left-card-label animated fadeIn">
+          <h1 className="game-view__cards-left-header animated fadeIn">
             {t("game.card_left").replace("%NUMBER%", number_of_left_cards)}
           </h1>
           <Card

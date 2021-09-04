@@ -21,21 +21,7 @@ const CardBack = (props: CardBackProps) => {
    * @param {string} keyword Logo field of the question JSON element.
    */
   const getImageResource = (keyword) => {
-    /*if (keyword === "cobbler") {
-      return "/img/card_backs/cobbler.png";
-    } else if (keyword === "peakybarbers") {
-      return "/img/card_backs/peaky.png";
-    } else if (keyword === "viztorony") {
-      return "/img/card_backs/viztorony.jpg";
-    } else if (keyword === "dugulasklinika") {
-      return "/img/card_backs/dugulasklinika.png";
-    } else if (keyword === "anonim") {
-      return "/img/card_backs/anonim.png";
-    } else if (keyword === "csillag") {
-      return "/img/card_backs/csillagok.png";
-    }*/
     return `/img/card_backs/${keyword}`;
-    //return "/img/card_backs/new_logo.png";
   };
 
   const getRandomNeonColor = (logo) => {
@@ -54,24 +40,24 @@ const CardBack = (props: CardBackProps) => {
       "#55ffff",
       "#ff0055",
     ];
-    var hash = 0,
-      i,
-      chr;
+    // Get random color based on the logo name.
+    let hash = 0;
+    let i: number;
+    let chr: number;
     for (i = 0; i < logo.length; i++) {
       chr = logo.charCodeAt(i);
       hash = (hash << 5) - hash + chr;
-      hash |= 0; // Convert to 32bit integer
+      hash |= 0; // Convert to 32bit integer.
     }
-    console.log(hash % colors.length);
-    return colors[hash % colors.length];
+    return colors[Math.abs(hash) % colors.length];
   };
 
   return (
     <div
-      className={`back`}
+      className="c-game-card__back"
       style={{ backgroundColor: getRandomNeonColor(props.logo) }}
     >
-      <img src={getImageResource(props.logo)} alt={t("image_alt.hungarian")} />
+      <img src={getImageResource(props.logo)} alt={t("image_alt.hungarian")} className="c-game-card__logo" />
     </div>
   );
 };
