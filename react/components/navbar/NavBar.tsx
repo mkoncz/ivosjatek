@@ -35,7 +35,7 @@ const NavBar = () => {
   const closeHamburger = () => setNavbarOpen(false);
 
   return (
-    <Navbar color="dark" dark expand="md">
+    <Navbar id="bootstrap-navbar" color="dark" dark expand="md">
       <NavbarBrand href="/">{t("nav.title")}</NavbarBrand>
       <NavbarToggler onClick={toggleHamburger} />
       <Collapse isOpen={isNavbarOpen} navbar>
