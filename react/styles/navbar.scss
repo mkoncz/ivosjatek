@@ -1,0 +1,49 @@
+/* override some bootstrap dark theme styles*/
+#bootstrap-navbar {
+  .lang-logo {
+    height: 1.2rem;
+    margin-left: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+
+  .bg-dark,
+  .nav-bg-dark {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .nav-dropdown {
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: rgba(255, 255, 255, 0.5);
+    border: 0;
+    padding-top: 7px;
+  }
+
+  .nav-dropdown-item,
+  .nav-dropdown-item:hover {
+    background-color: #1a1a1a;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .nav-dropdown-item:hover {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .navbar-brand {
+    font-size: 17px;
+    margin-left: 5px;
+  }
+
+  .navbar-collapse.show {
+    background-color: #212529;
+    z-index: 2;
+  }
+
+  .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0);
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: 0 0;
+  }
+}
