@@ -1,11 +1,12 @@
 $sponsors-spacing-unit: 5px;
+$page-background: #1a1a1a;
 $green-background: #415854;
 $green-shadow: #415854;
 $dark-background: #060604;
 $dark-shadow: #060604;
 
 .sponsors {
-  background-color: #1a1a1a;
+  background-color: $page-background;
 
   &__header {
     height: $sponsors-spacing-unit * 64;
