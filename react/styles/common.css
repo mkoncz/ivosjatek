@@ -27,57 +27,6 @@ a:hover {
   background-color: black;
 }
 
-.pre-card {
-  font-size: 10px;
-}
-
-.pre-card img {
-  margin: 30px 0 30px 0;
-}
-
-.pre-card p {
-  padding: 0px;
-  margin: 0px 40px;
-}
-
-.pre-card .question_block {
-  margin: 10px 0 60px 0;
-}
-
-.pre-card button {
-  margin: 0px;
-  background-color: #1a1a1a !important;
-  color: white;
-  border: none;
-  border-radius: 0;
-  box-shadow: 2px 3px rgba(0, 0, 0, 0.5);
-  background-color: #1a1a1a;
-}
-
-.pre-card button:hover {
-  color: #ddd !important;
-}
-
-.pre-card .fa-icon {
-  font-size: 2.3em;
-  float: left;
-  margin-right: 0.4em;
-  margin-top: 0.1em;
-}
-
-.pre-card form label {
-  margin-bottom: 1px;
-}
-
-.pre-card .players-header {
-  margin-top: 10px;
-  margin-bottom: 15px;
-}
-
-.pre-card .add-button {
-  margin-top: 10px;
-}
-
 @media only screen and (max-width: 321px) {
   .page-frame {
     padding: 0em;

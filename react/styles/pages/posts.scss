@@ -1,0 +1,29 @@
+$page-background: #1a1a1a;
+
+.posts {
+  background-color: $page-background;
+
+  &__header {
+    font-size: 40px;
+  }
+
+  &__thumbnail {
+    width: 50%;
+    max-width: 200px;
+    float: left;
+  }
+
+  &__title-container {
+    width: 46%;
+    margin-left: 4%;
+    float: left;
+    .posts__title {
+      font-size: 19px;
+    }
+  }
+
+  &__separator {
+    clear: left;
+    padding: 5px;
+  }
+}

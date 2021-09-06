@@ -75,7 +75,7 @@ export default class Card extends Component<CardProps, CardState> {
     super(props);
 
     this.state = {
-      flipClasses: "animate__animated animate__bounceIn",
+      flipClasses: "",
       name: "",
     };
 
