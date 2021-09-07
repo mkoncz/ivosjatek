@@ -34,26 +34,28 @@ export default class AllDrinkingGameThumbnails extends Component {
   getAllThumbs = () => {
     return this.localized_games.map((element) => {
       return (
-        <div key={element[0].slug} className="game-thumbnail-container">
+        <div key={element[0].slug} className="thumbnails__item">
           <Link href={`/games/${element[0].slug}`}>
             <a>
               <img
                 src={`/img/games_page/${element[0].img}`}
-                className="game-thumbnail"
+                className="thumbnails__image"
                 alt={t("nav.games")}
               />
-              <div className="game-title">
-                <h4>{element[0].title}</h4>
-              </div>
+              <h4 className="thumbnails__title">{element[0].title}</h4>
             </a>
           </Link>
-          <div className="post-separator"></div>
         </div>
       );
     });
   };
 
   render() {
-    return <div>{this.getAllThumbs()}</div>;
+    return (
+      <div>
+        <h1 className="drinking-games__title">{t("nav.games")}</h1>
+        <div className="thumbnails">{this.getAllThumbs()}</div>
+      </div>
+    );
   }
 }

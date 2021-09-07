@@ -1,4 +1,4 @@
-// Import ReactJS module.
+// Import React module.
 import React from "react";
 
 // Import components.
@@ -27,8 +27,7 @@ export default class DrinkingGames extends React.Component {
           url={"https://ivosjatek.hu/games"}
         />
         <NavBar />
-        <div className="page-frame">
-          <h1>{t("nav.games")}</h1>
+        <div className="page-frame drinking-games">
           <AllDrinkingGameThumbnails />
         </div>
       </div>
