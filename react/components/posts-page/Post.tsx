@@ -38,6 +38,9 @@ const Post = (props: PostProps) => {
     (post) => post[0].lang === cookies.get("lang")
   );
 
+  /**
+   * Creates a header element.
+   */
   const createHeader = (postObject, index) => {
     let level = postObject.level;
     let text = postObject.text;
@@ -74,6 +77,9 @@ const Post = (props: PostProps) => {
     }
   };
 
+  /**
+   * Creates a paragraph element.
+   */
   const createParagraph = (postObject, index) => {
     let text = postObject.text;
     return (
@@ -83,16 +89,22 @@ const Post = (props: PostProps) => {
     );
   };
 
+  /**
+   * Creates a source link element.
+   */
   const createSource = (postObject, index) => {
     let text = postObject.text;
 
     return (
-      <p className="post__source" key={`p-${index}`}>
+      <p key={`p-${index}`} className="post__source">
         {text}
       </p>
     );
   };
 
+  /**
+   * Creates card elements.
+   */
   const createCards = (postObject, index) => {
     return (
       <div key={index}>
@@ -111,6 +123,9 @@ const Post = (props: PostProps) => {
     );
   };
 
+  /**
+   * Creates an image element.
+   */
   const createImage = (postObject, index) => {
     return (
       <img
@@ -123,6 +138,9 @@ const Post = (props: PostProps) => {
     );
   };
 
+  /**
+   * Creates a link element.
+   */
   const createLink = (postObject, index) => {
     let url = postObject.url;
     let text = postObject.text;
@@ -133,6 +151,9 @@ const Post = (props: PostProps) => {
     );
   };
 
+  /**
+   * Creates a reddit element.
+   */
   const createRedditCard = (postObject, index) => {
     return (
       <blockquote key={index} className="reddit-card">
@@ -143,7 +164,7 @@ const Post = (props: PostProps) => {
     );
   };
 
-  // Returns the thumbnail of all posts.
+  // Returns the thumbnails of posts.
   const getAllBlocks = () => {
     return localized_posts.map((element) => {
       return (
