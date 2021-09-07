@@ -5,23 +5,56 @@ body {
   font-family: "ZIG";
   background-image: url("/img/retro.png");
   background-size: cover;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 a {
-  color: inherit;
   text-decoration: none;
+  color: #d3f42f;
+}
+
+a:hover {
+  color: #b2cf22;
 }
 
 * {
   box-sizing: border-box;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
+.centered {
+  text-align: center;
+}
+
+.page-frame {
+  padding: 2em;
+}
+
+.page-frame.black-background {
+  background-color: black;
+}
+
 @font-face {
   font-family: "ZIG";
-  src: url("/fonts/zig/zig.ttf");
+  src: url("/fonts/zig/zig_hu.ttf");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
+}
+
+@media only screen and (max-width: 321px) {
+  .page-frame {
+    padding: 0em;
+  }
+}
+
+@media only screen and (max-width: 361px) {
+  .page-frame {
+    padding: 0.3em;
+  }
 }
 
 @media only screen and (max-width: 1280px) {

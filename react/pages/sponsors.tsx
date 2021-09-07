@@ -7,22 +7,6 @@ import Link from "next/link";
 // Import React version of Bootstap library.
 import { Container, Row, Col } from "reactstrap";
 
-// Import FA modules.
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faCameraRetro,
-  faPiggyBank,
-  faCommentDots,
-  faCopy,
-  faBeer,
-  faShoppingCart,
-  faFileSignature,
-  faPalette,
-  faTrashAlt,
-  faWrench,
-  faHashtag,
-} from "@fortawesome/free-solid-svg-icons";
-
 // Import components.
 import NavBar from "../components/navbar/NavBar";
 import CustomHead from "../components/head/CustomHead";
@@ -48,53 +32,99 @@ export default class Sponsors extends Component {
           url={"https://ivosjatek.hu/sponsors"}
         />
         <NavBar />
-        <Container fluid className="sponsors-container">
+        <Container fluid className="sponsors">
           <div className="animated bounceInUp">
-            <Row className="current-sponsors-row">
-              <Col className="absolute-position">
-                {t("sponsors.currentSponsors")}
-              </Col>
+            <Row className="sponsors__header">
+              {t("sponsors.currentSponsors")}
             </Row>
-            <Row className="sponsor-cards-row">
+            <Row className="sponsors__cards">
               <Link href="https://csillagkepunk.hu">
-                <a target="_blank" rel="noopener noreferrer">
-                  <div className="sponsor-card csillag">
-                    <img src="/img/card_backs/csillagok.png" alt="" />
+                <a
+                  className="sponsors__card_container"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="sponsors__card sponsors__card--csillag">
+                    <img
+                      className="sponsors__card_image"
+                      src="/img/card_backs/csillagok.png"
+                      alt=""
+                    />
                   </div>
                 </a>
               </Link>
               <Link href="https://www.instagram.com/peakybarbersofficial">
-                <a target="_blank" rel="noopener noreferrer">
-                  <div className="sponsor-card peakybarbers">
-                    <img src="/img/card_backs/peaky.png" alt="" />
+                <a
+                  className="sponsors__card_container"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="sponsors__card sponsors__card--peakybarbers">
+                    <img
+                      className="sponsors__card_image"
+                      src="/img/card_backs/peaky.png"
+                      alt=""
+                    />
                   </div>
                 </a>
               </Link>
               <Link href="https://www.instagram.com/nagyerdeiviztorony">
-                <a target="_blank" rel="noopener noreferrer">
-                  <div className="sponsor-card viztorony">
-                    <img src="/img/card_backs/viztorony.jpg" alt="" />
+                <a
+                  className="sponsors__card_container"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="sponsors__card sponsors__card--viztorony">
+                    <img
+                      className="sponsors__card_image"
+                      src="/img/card_backs/viztorony.jpg"
+                      alt=""
+                    />
                   </div>
                 </a>
               </Link>
               <Link href="https://www.instagram.com/georgecobbler">
-                <a target="_blank" rel="noopener noreferrer">
-                  <div className="sponsor-card cobbler">
-                    <img src="/img/card_backs/cobbler.png" alt="" />
+                <a
+                  className="sponsors__card_container"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="sponsors__card sponsors__card--cobbler">
+                    <img
+                      className="sponsors__card_image"
+                      src="/img/card_backs/cobbler.png"
+                      alt=""
+                    />
                   </div>
                 </a>
               </Link>
               <Link href="https://www.facebook.com/dugulaselharitas.balkanybaneskornyeken">
-                <a target="_blank" rel="noopener noreferrer">
-                  <div className="sponsor-card dugulasklinika">
-                    <img src="/img/card_backs/dugulasklinika.png" alt="" />
+                <a
+                  className="sponsors__card_container"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="sponsors__card sponsors__card--dugulasklinika">
+                    <img
+                      className="sponsors__card_image"
+                      src="/img/card_backs/dugulasklinika.png"
+                      alt=""
+                    />
                   </div>
                 </a>
               </Link>
               <Link href="https://hu.wikipedia.org/wiki/%C3%89p%C3%BClet">
-                <a target="_blank" rel="noopener noreferrer">
-                  <div className="sponsor-card anonim">
-                    <img src="/img/card_backs/anonim.png" alt="" />
+                <a
+                  className="sponsors__card_container"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="sponsors__card sponsors__card--anonim">
+                    <img
+                      className="sponsors__card_image"
+                      src="/img/card_backs/anonim.png"
+                      alt=""
+                    />
                   </div>
                 </a>
               </Link>

@@ -64,6 +64,22 @@
     "image_alt.english": "English",
     "image_alt.hungarian": "Hungarian",
 
+    "menu.all_cards": "All cards",
+    "menu.creator_support": "The creator is against irresponsible alcohol consumption.",
+    "menu.contact": "Contact",
+    "menu.help": "Help",
+    "menu.help_title": "Alcohol support",
+    "menu.help_url": "https://www.nhs.uk/live-well/alcohol-support/",
+    "menu.light_cards": "Light cards",
+    "menu.online_game": "Online drinking game",
+    "menu.online_game_desc": "Make the night unforgettable. This drinking game is a great tool to cheer up the party.",
+    "menu.other_games": "Other drinking games",
+    "menu.other_games_desc": "The rules of the best offline drinking games with cards, jenga or just words.",
+    "menu.release_notes": "Release notes",
+    "menu.rules": "Rules",
+    "menu.sources": "Sources",
+    "menu.sponsors": "Sponsors",
+
     "nav.cards": "Cards",
     "nav.contact": "Contact",
     "nav.game_nav": "Online Game",
@@ -187,21 +203,6 @@
     "source.synthwave_wallpaper": "Synthwave wallpaper",
     "source.vhv_girl": "Naked girl icon",
 
-    "sponsors.currentSponsors": "Current sponsors",
-
-    "menu.all_cards": "All cards",
-    "menu.creator_support": "The creator is against irresponsible alcohol consumption.",
-    "menu.contact": "Contact",
-    "menu.help": "Help",
-    "menu.help_title": "Alcohol support",
-    "menu.help_url": "https://www.nhs.uk/live-well/alcohol-support/",
-    "menu.light_cards": "Light cards",
-    "menu.online_game": "Online drinking game",
-    "menu.online_game_desc": "Make the night unforgettable. This drinking game is a great tool to cheer up the party.",
-    "menu.other_games": "Other drinking games",
-    "menu.other_games_desc": "The rules of the best offline drinking games with cards, jenga or just words.",
-    "menu.release_notes": "Release notes",
-    "menu.sources": "Sources",
-    "menu.sponsors": "Sponsors"
+    "sponsors.currentSponsors": "Current sponsors"
   }
 }

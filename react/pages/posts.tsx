@@ -32,7 +32,7 @@ const Posts = () => {
   );
 
   // Returns the thumbnail of all posts.
-  const getAllThumbs = () => {
+  const getAllBlocks = () => {
     return localized_posts.map((element) => {
       return (
         <div key={element[0].slug}>
@@ -41,15 +41,15 @@ const Posts = () => {
               <img
                 width="100%"
                 src={element[0].img}
-                className="post-thumbnail"
+                className="posts__thumbnail"
                 alt={t("nav.posts")}
               />
-              <div className="post-thumbnail-title-container">
-                <h4>{element[0].title}</h4>
+              <div className="posts__title-container">
+                <h4 className="posts__title">{element[0].title}</h4>
               </div>
             </a>
           </Link>
-          <div className="post-separator"></div>
+          <div className="posts__separator"></div>
         </div>
       );
     });
@@ -60,12 +60,12 @@ const Posts = () => {
       <CustomHead
         title={t("nav.posts")}
         desc={t("desc.posts")}
-        url={"https://ivosjatek.hu/posts"}
+        url="https://ivosjatek.hu/posts"
       />
       <NavBar />
-      <div className="page-frame black-background">
-        <h1>{t("nav.posts")}</h1>
-        {getAllThumbs()}
+      <div className="posts page-frame">
+        <h1 className="posts__header">{t("nav.posts")}</h1>
+        {getAllBlocks()}
       </div>
     </div>
   );

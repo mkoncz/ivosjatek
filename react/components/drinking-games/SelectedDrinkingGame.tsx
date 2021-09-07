@@ -15,6 +15,7 @@ interface SiteElementModel {
   level?: number;
 }
 
+// Interface for props.
 interface DrinkingGameProps {
   siteElements: SiteElementModel[];
 }
@@ -23,60 +24,87 @@ interface DrinkingGameProps {
  * The component describes a drinking game.
  */
 const SelectedDrinkingGame = (props: DrinkingGameProps) => {
+  /**
+   * Creates a header element.
+   */
   const createHeader = (siteObject, index) => {
     let level = siteObject.level;
     let text = siteObject.text;
     if (level === 1) {
       return (
-        <h1 key={`h1-${index}`} className="post-h">
+        <h1 key={`h1-${index}`} className="drinking-game__header">
           {text}
         </h1>
       );
     } else if (level === 2) {
       return (
-        <h2 key={`h2-${index}`} className="post-h">
+        <h2 key={`h2-${index}`} className="drinking-game__header">
           {text}
         </h2>
       );
     } else if (level === 3) {
       return (
-        <h3 key={`h3-${index}`} className="post-h">
+        <h3 key={`h3-${index}`} className="drinking-game__header">
           {text}
         </h3>
       );
     } else if (level === 4) {
       return (
-        <h4 key={`h4-${index}`} className="post-h">
+        <h4 key={`h4-${index}`} className="drinking-game__header">
           {text}
         </h4>
       );
     } else if (level === 5) {
       return (
-        <h5 key={`h5-${index}`} className="post-h">
+        <h5 key={`h5-${index}`} className="drinking-game__header">
           {text}
         </h5>
       );
     }
   };
 
+  /**
+   * Creates a paragraph element.
+   */
   const createParagraph = (siteObject, index) => {
     let text = siteObject.text;
     return (
-      <p key={`p-${index}`} className="post-p">
+      <p key={`p-${index}`} className="drinking-game__paragraph">
         {text}
       </p>
     );
   };
 
+  /**
+   * Creates a source link element.
+   */
   const createSource = (siteObject, index) => {
     let text = siteObject.text;
     return (
-      <p key={`p-${index}`} className="post-source-p">
+      <p key={`p-${index}`} className="drinking-game__source">
         {text}
       </p>
     );
   };
 
+  /**
+   * Creates an image element.
+   */
+  const createImage = (siteObject, index) => {
+    return (
+      <img
+        key={`img-${index}`}
+        width="50%"
+        className="drinking-game__image"
+        alt="drink"
+        src={siteObject.url}
+      ></img>
+    );
+  };
+
+  /**
+   * Creates a link element.
+   */
   const createLink = (siteObject, index) => {
     let url = siteObject.url;
     let text = siteObject.text;
@@ -87,39 +115,9 @@ const SelectedDrinkingGame = (props: DrinkingGameProps) => {
     );
   };
 
-  const createCards = (siteObject, index) => {
-    return (
-      <div key={index} className="centered">
-        {siteObject.cards.map((card, cardIndex) => {
-          return (
-            <div key={cardIndex} className="post-card">
-              <div className="post-card-text">{card}</div>
-            </div>
-          );
-        })}
-        <div>
-          Ivósjáték:{" "}
-          <Link href="/">
-            <a>katt ide</a>
-          </Link>
-        </div>
-      </div>
-    );
-  };
-
-  const createImage = (siteObject, index) => {
-    return (
-      <div key={index} className="centered">
-        <img
-          width="100%"
-          className="post-image"
-          alt="drink"
-          src={siteObject.url}
-        ></img>
-      </div>
-    );
-  };
-
+  /**
+   * Creates a reddit element.
+   */
   const createRedditCard = (siteObject, index) => {
     return (
       <blockquote key={index} className="reddit-card">
@@ -131,10 +129,7 @@ const SelectedDrinkingGame = (props: DrinkingGameProps) => {
   };
 
   return (
-    <div
-      key={props.siteElements[0].slug}
-      className="page-frame black-background"
-    >
+    <div key={props.siteElements[0].slug}>
       {props.siteElements.map((siteObject, index) => {
         if (siteObject.type === "header") {
           return createHeader(siteObject, index);

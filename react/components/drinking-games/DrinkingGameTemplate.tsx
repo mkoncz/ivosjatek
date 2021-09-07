@@ -1,4 +1,4 @@
-// Import ReactJS module.
+// Import React module.
 import React, { Component } from "react";
 
 // Import cookie handling module.
@@ -36,7 +36,9 @@ interface DrinkingGameTemplateProps {
  * The page contains a selected drinking game.
  */
 export default class DrinkingGameTemplate extends Component<
-  DrinkingGameTemplateProps, {}> {
+  DrinkingGameTemplateProps,
+  {}
+> {
   games: any[][];
   localized_games: any[][];
   cookies = new Cookies();
@@ -76,10 +78,9 @@ export default class DrinkingGameTemplate extends Component<
     return (
       <div>
         <NavBar />
-        <div className="page-frame">
+        <div className="drinking-game page-frame">
           <AdultConsent />
           {this.getCurrentGame()}
-          <h1>{t("nav.games")}</h1>
           <AllDrinkingGameThumbnails />
         </div>
       </div>
