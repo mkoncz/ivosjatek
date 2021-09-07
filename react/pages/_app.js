@@ -16,5 +16,6 @@ import "../styles/pages/sponsors.scss";
 import "animate.css";
 
 export default function App({ Component, pageProps }) {
+  console.log("");
   return <Component {...pageProps} />;
 }

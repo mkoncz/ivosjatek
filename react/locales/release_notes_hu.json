@@ -1,113 +1,113 @@
 {
   "notes": [
     {
-      "title": "2017. februar",
+      "title": "2017. február",
       "changes": [
-        "Elkeszult az IvosJatek elso verzioja es elerhetove valt az ivosjatek.hu-n."
+        "Elkészült az IvósJáték első verziója és elérhetővé vált az ivosjatek.hu-n."
       ]
     },
     {
-      "title": "2020. januar",
-      "changes": ["Elkeszult az IvosJatek React verzioja."]
+      "title": "2020. január",
+      "changes": ["Elkészült az IvósJáték React verziója."]
     },
     {
-      "title": "2020. februar",
-      "changes": ["Az ivosjatek forraskodja elerheto a GitHub-on."]
+      "title": "2020. február",
+      "changes": ["Az ivósjáték forráskódja elérhető a GitHub-on."]
     },
     {
-      "title": "2020. marcius",
+      "title": "2020. március",
       "changes": [
-        "Az alkamazas angol nyelven is elerheto.",
-        "Angol kerdespakli letrehozasa.",
-        "Nyelvvalasztas nemzeti zaszlokkal.",
-        "A fennmarado kartyak szama jelezve a felhasznalonak.",
-        "uj aloldal a verziofrissitesek leirasahoz."
+        "Az alkamazás angol nyelven is elérhető.",
+        "Angol kérdéspakli létrehozása.",
+        "Nyelvválasztás nemzeti zászlókkal.",
+        "A fennmaradó kártyák száma jelezve a felhasználónak.",
+        "Új aloldal a verziófrissítések leírásához."
       ]
     },
     {
-      "title": "2020. aprilis",
+      "title": "2020. április",
       "changes": [
-        "uj aloldal a forrasok leirasahoz.",
-        "uj aloldal a felhasznalasi felteteleknek es szabalyoknak.",
-        "uj kartyaanimacio.",
-        "A valasztott nyelv sutikben tarolva.",
-        "Kisebb hibajavitasok."
+        "Új aloldal a források leírásához.",
+        "Új aloldal a felhasználási feltételeknek és szabályoknak.",
+        "Új kártyaanimáció.",
+        "A választott nyelv sütikben tárolva.",
+        "Kisebb hibajavítások."
       ]
     },
     {
-      "title": "2020. majus",
+      "title": "2020. május",
       "changes": [
-        "Tamogatok aloldal.",
-        "uj dizajn.",
-        "uj kerdesek.",
+        "Támogatók aloldal.",
+        "Új dizájn.",
+        "Új kérdések.",
         "Instagram link a Kapcsolat aloldalon.",
-        "Mobil nezet hibajavitasok."
+        "Mobil nézet hibajavítások."
       ]
     },
     {
-      "title": "2020. junius",
+      "title": "2020. június",
       "changes": [
-        "Az oldal atkoltozott a felhobe.",
-        "100 uj kartya.",
-        "Animacios hibak javitasa.",
+        "Az oldal átköltözött a felhőbe.",
+        "100 új kártya.",
+        "Animációs hibák javítása.",
         "LinkedIn link a Kapcsolat aloldalon."
       ]
     },
     {
-      "title": "2020. julius",
+      "title": "2020. július",
       "changes": [
-        "Google Analytics es Google Search Console bekotese.",
-        "Az ivosjatek.hu a Google talalatok elso oldalan szerepel.",
-        "Biztonsagi hibak javitasa."
+        "Google Analytics és Google Search Console bekötése.",
+        "Az ivosjatek.hu a Google találatok első oldalán szerepel.",
+        "Biztonsági hibák javítása."
       ]
     },
     {
       "title": "2020. augusztus",
       "changes": [
-        "Kisebb hibak javitasa.",
-        "Instagram, LinkedIn, Twitter profil bekotese.",
-        "Jatekos nev valaszto kartya.",
-        "Sutik biztonsagossa tetele."
+        "Kisebb hibák javítása.",
+        "Instagram, LinkedIn, Twitter profil bekötése.",
+        "Játékos név választó kártya.",
+        "Sütik biztonságossá tétele."
       ]
     },
     {
       "title": "2020. szeptember",
       "changes": [
-        "Blogposztok feltoltese keresooptimalizalas celjabol.",
-        "Lenyilo menu a felso menuben.",
-        "Aloldal minden kartya megjelenitesere.",
-        "Kodminoseg javitasa.",
-        "Aloldal mas ivosjatekoknak."
+        "Blogposztok feltöltése keresőoptimalizálás céljából.",
+        "Lenyíló menü a felső menüben.",
+        "Aloldal minden kártya megjelenítésére.",
+        "Kódminőség javítása.",
+        "Aloldal más ivósjátékoknak."
       ]
     },
     {
-      "title": "2020. oktober",
+      "title": "2020. október",
       "changes": [
-        "Kepmeretek optimalizalasa.",
-        "uj nyitooldal.",
-        "A kod atirasa Next.js keretrendszerre."
+        "Képméretek optimalizálása.",
+        "Új nyitóoldal.",
+        "A kód átírása Next.js keretrendszerre."
       ]
     },
     {
       "title": "2020. november",
       "changes": [
-        "A kod atirasa TypeScript nyelvre.",
-        "Light jatek valtozat.",
-        "Dokumentacio frissitese.",
-        "Hibajavitasok.",
-        "Elirasok javitasa.",
-        "Angol tartalom hozzaadasa.",
-        "uj kartyak."
+        "A kód átírása TypeScript nyelvre.",
+        "Light játék változat.",
+        "Dokumentáció frissítése.",
+        "Hibajavítások.",
+        "Elírások javítása.",
+        "Angol tartalom hozzáadása.",
+        "Új kártyák."
       ]
     },
     {
-      "title": "2021. aprilis",
+      "title": "2021. április",
       "changes": [
-        "uj tamogatoi kartyak.",
-        "A kozossegi oldalak linkjeinek frissitese.",
-        "Kisebb hibajavitasok.",
-        "URL keszitese az angol nyelvu jatekhoz: https://ivosjatek.hu/en.",
-        "Elirtasok es tartalmi javitasok."
+        "Új támogatói kártyák.",
+        "A közösségi oldalak linkjeinek frissítése.",
+        "Kisebb hibajavítások.",
+        "URL készítése az angol nyelvű játékhoz: https://ivosjatek.hu/en.",
+        "Elírtások és tartalmi javítások."
       ]
     },
     {
