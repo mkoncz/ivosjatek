@@ -1,21 +1,20 @@
 {
   "notes": [
     {
-      "title": "2017. február",
+      "title": "v1.0.0 2017.02",
       "changes": [
         "Elkészült az IvósJáték első verziója és elérhetővé vált az ivosjatek.hu-n."
       ]
     },
     {
-      "title": "2020. január",
-      "changes": ["Elkészült az IvósJáték React verziója."]
+      "title": "v2.0.0 2020.02",
+      "changes": [
+        "Elkészült az IvósJáték React verziója.",
+        "Az ivósjáték forráskódja elérhető a GitHub-on."
+      ]
     },
     {
-      "title": "2020. február",
-      "changes": ["Az ivósjáték forráskódja elérhető a GitHub-on."]
-    },
-    {
-      "title": "2020. március",
+      "title": "v2.1.0 2020.03",
       "changes": [
         "Az alkamazás angol nyelven is elérhető.",
         "Angol kérdéspakli létrehozása.",
@@ -25,7 +24,7 @@
       ]
     },
     {
-      "title": "2020. április",
+      "title": "v2.2.0 2020.04",
       "changes": [
         "Új aloldal a források leírásához.",
         "Új aloldal a felhasználási feltételeknek és szabályoknak.",
@@ -35,7 +34,7 @@
       ]
     },
     {
-      "title": "2020. május",
+      "title": "v2.3.0 2020.05",
       "changes": [
         "Támogatók aloldal.",
         "Új dizájn.",
@@ -45,7 +44,7 @@
       ]
     },
     {
-      "title": "2020. június",
+      "title": "v2.4.0 2020.06",
       "changes": [
         "Az oldal átköltözött a felhőbe.",
         "100 új kártya.",
@@ -54,7 +53,7 @@
       ]
     },
     {
-      "title": "2020. július",
+      "title": "v2.4.1 2020.07",
       "changes": [
         "Google Analytics és Google Search Console bekötése.",
         "Az ivosjatek.hu a Google találatok első oldalán szerepel.",
@@ -62,7 +61,7 @@
       ]
     },
     {
-      "title": "2020. augusztus",
+      "title": "v2.5.0 2020.08",
       "changes": [
         "Kisebb hibák javítása.",
         "Instagram, LinkedIn, Twitter profil bekötése.",
@@ -71,7 +70,7 @@
       ]
     },
     {
-      "title": "2020. szeptember",
+      "title": "v2.6.0 2020.09",
       "changes": [
         "Blogposztok feltöltése keresőoptimalizálás céljából.",
         "Lenyíló menü a felső menüben.",
@@ -81,7 +80,7 @@
       ]
     },
     {
-      "title": "2020. október",
+      "title": "v2.7.0 2020.10",
       "changes": [
         "Képméretek optimalizálása.",
         "Új nyitóoldal.",
@@ -89,7 +88,7 @@
       ]
     },
     {
-      "title": "2020. november",
+      "title": "v2.8.0 2020.11",
       "changes": [
         "A kód átírása TypeScript nyelvre.",
         "Light játék változat.",
@@ -101,7 +100,7 @@
       ]
     },
     {
-      "title": "2021. április",
+      "title": "v2.9.0 2021.04",
       "changes": [
         "Új támogatói kártyák.",
         "A közösségi oldalak linkjeinek frissítése.",
@@ -111,11 +110,20 @@
       ]
     },
     {
-      "title": "2021. augusztus",
+      "title": "v3.0.0 2021.08",
       "changes": [
-        "Pixel art betutipus.",
-        "Pixel art kartya hatlapok.",
+        "Pixel art betűtípus.",
+        "Pixel art kártya hátlapok.",
         "SASS stíluslapok.",
+        "Kisebb hibajavitasok."
+      ]
+    },
+    {
+      "title": "v3.1.0 2021.09",
+      "changes": [
+        "Új design a játékosnév kártyán",
+        "A használt könyvtárak frissítése.",
+        "Biztonsági rések javítása.",
         "Kisebb hibajavitasok."
       ]
     }
