@@ -1,6 +1,6 @@
 /* override some bootstrap dark theme styles*/
 #bootstrap-navbar {
-  background-color: transparent;
+  background-color: transparent !important;
   .lang-logo {
     height: 1.2rem;
     margin-left: 8px;
@@ -8,13 +8,7 @@
     cursor: pointer;
   }
 
-  .bg-dark,
-  .nav-bg-dark {
-    background-color: transparent;
-  }
-
   .nav-dropdown {
-    background-color: transparent;
     color: rgba(255, 255, 255, 0.5);
     border: 0;
     padding-top: 7px;
