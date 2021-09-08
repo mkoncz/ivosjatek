@@ -8,7 +8,7 @@ import Card from "../game-page/Card";
 import { t, initLanguageCookie } from "../../i18n";
 
 // Import question resources.
-import * as questions from "../../locales/questions.json";
+import * as questions from "../../resources/questions.json";
 
 // Interface for state.
 interface QuestionModel {

@@ -10,7 +10,7 @@ import NavBar from "../../components/navbar/NavBar";
 import CustomHead from "../../components/head/CustomHead";
 
 // Import post content.
-import posts_object from "../../locales/posts.json";
+import posts_object from "../../resources/posts.json";
 
 // Import cookie handling module.
 import Cookies from "universal-cookie";
