@@ -45,6 +45,7 @@
     "desc.sources": "Az Ivós Játék által felhasznált képek, ikonok és más források listája, illetve a GitHub projekt linkje.",
     "desc.sponsors": "A támogatasi es szponzorácios lehetősegek leirasa. A jelenlegi tamogatok felsorolása és kártyáik kinézete.",
 
+    "game.add": "Hozzáad",
     "game.age_check_1": "Kérhetnék egy személyit?",
     "game.age_check_2": "Az Ivós Játék egy 18 éven felülieknek készült játék.",
     "game.age_check_3": "(Ez az online játék sütiket is használ.)",
@@ -55,6 +56,7 @@
     "game.next": "Következő",
     "game.no_more_question": "Elfogytak a kérdések :(",
     "game.player": "Játékos",
+    "game.player_1": "Játékos 1",
     "game.player_names": "Játékos nevek megadása",
     "game.please_add_player_name": "Kérlek adj meg legalább egy játékos nevet.",
 

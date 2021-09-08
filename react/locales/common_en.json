@@ -47,6 +47,7 @@
     "desc.sources": "The used images, logos and other resources are listed here. There is also a link for the GitHub project.",
     "desc.sponsors": "The sponsoring possibilities are shown on this page. You can also be the owner of the game.",
 
+    "game.add": "Add",
     "game.age_check_1": "Can we see some ID please? ",
     "game.age_check_2": "It's part of our commitment to responsible drinking.",
     "game.age_check_3": "The page uses cookies.",
@@ -57,6 +58,7 @@
     "game.next": "Next",
     "game.no_more_question": "No more questions :(",
     "game.player": "Player",
+    "game.player_1": "Player #1",
     "game.player_names": "Give the player names",
     "game.please_add_player_name": "Please add at least one player name.",
 

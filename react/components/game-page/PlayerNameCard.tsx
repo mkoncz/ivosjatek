@@ -65,7 +65,7 @@ export default class PlayerNameCard extends Component<
             this.addPlayer();
           }}
         >
-          {"Add"}
+          {t("game.add")}
         </button>
         {this.state.players.map((name) => {
           return (
@@ -86,7 +86,7 @@ export default class PlayerNameCard extends Component<
             this.addPlayersToSessionStorage();
           }}
         >
-          Start
+          {t("game.done")}
         </button>
       </div>
     );
@@ -112,10 +112,13 @@ export default class PlayerNameCard extends Component<
    * Stores player names in SessionStorage.
    */
   addPlayersToSessionStorage = () => {
+    let players = this.state.players.length
+      ? this.state.players
+      : [t("game.player_1")];
     this.props.replaceCard(true);
     setTimeout(() => {
       // If the user does not give any player names, we add some default ones.
-      sessionStorage.setItem("players", JSON.stringify(this.state.players));
+      sessionStorage.setItem("players", JSON.stringify(players));
     }, 450);
   };
 }
