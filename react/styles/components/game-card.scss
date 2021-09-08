@@ -90,8 +90,8 @@ $card-spacer-unit: 4px;
     }
     &-button {
       position: absolute;
-      width: $card-width / 4;
-      right: 5%;
+      width: $card-width / 3;
+      right: 20px;
       top: 25%;
       background-color: $card-button;
       color: white;
