@@ -11,7 +11,7 @@ import Cookies from "universal-cookie";
 import { t, initLanguageCookie } from "../../i18n";
 
 // Import game rules resource.
-import drinking_objects from "../../locales/drinking_games.json";
+import drinking_objects from "../../resources/drinking_games.json";
 
 /**
  * The page contains a selected drinking game.

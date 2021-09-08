@@ -8,7 +8,7 @@ import Link from "next/link";
 import { t } from "../../i18n";
 
 // Import card categories
-import card_categories from "./../../locales/card_categories.json";
+import card_categories from "./../../resources/card_categories.json";
 
 /**
  * The list of card groups.
