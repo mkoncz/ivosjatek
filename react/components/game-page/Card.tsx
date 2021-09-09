@@ -43,18 +43,13 @@ export default class Card extends Component<CardProps, CardState> {
   cookies = new Cookies();
 
   outAnimationArray = [
-    "backOutDown",
     "backOutRight",
-    "fadeOutDown",
     "fadeOut",
-    "fadeOutDown",
-    "fadeOutDownBig",
     "fadeOutRight",
     "fadeOutRightBig",
     "rotateOutUpRight",
     "zoomOutDown",
     "zoomOutRight",
-    "slideOutDown",
     "slideOutRight",
     "rollOut",
   ];
@@ -83,17 +78,16 @@ export default class Card extends Component<CardProps, CardState> {
   }
 
   componentDidMount() {
+    // Animates in the current card.
     const inAnimation =
       this.inAnimationArray[
         Math.floor(Math.random() * this.inAnimationArray.length)
       ];
 
-    // Animates in the current card.
     this.setState({
       flipClasses: `c-game-card--active animate__animated animate__${inAnimation}`,
     });
 
-    // Animates out the current card.
     setTimeout(() => {
       this.setState({
         flipClasses: `animate__animated animate__${inAnimation}`,
@@ -196,12 +190,10 @@ export default class Card extends Component<CardProps, CardState> {
         flipClasses: `c-game-card--active animate__animated animate__${outAnimation}`,
       });
     }, 25);
-    console.log(outAnimation);
     const inAnimation =
       this.inAnimationArray[
         Math.floor(Math.random() * this.inAnimationArray.length)
       ];
-    console.log(inAnimation);
 
     // Animates in the new card.
     setTimeout(() => {

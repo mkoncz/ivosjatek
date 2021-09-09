@@ -13,7 +13,7 @@ import CardGroupList from "./CardGroupList";
 import { t, initLanguageCookie } from "../../i18n";
 
 // Import question resources.
-import * as questions from "../../locales/questions.json";
+import * as questions from "../../resources/questions.json";
 
 // Interface for props.
 interface CardListProps {
