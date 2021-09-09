@@ -14,7 +14,7 @@ import AdultConsent from "../../components/modal/AdultConsent";
 import { t, initLanguageCookie } from "../../i18n";
 
 // Import game rules resource.
-import game_objects from "../../locales/drinking_games.json";
+import game_objects from "../../resources/drinking_games.json";
 
 // Interface for props.
 interface SiteElementModel {
