@@ -14,7 +14,7 @@ import AdultConsent from "../../components/modal/AdultConsent";
 import { t, initLanguageCookie } from "../../i18n";
 
 // Import game rules resource.
-import game_objects from "../../locales/drinking_games.json";
+import game_objects from "../../resources/drinking_games.json";
 
 // Interface for props.
 interface SiteElementModel {
@@ -64,7 +64,7 @@ export default class DrinkingGameTemplate extends Component<
       if (element[0].type === "meta") {
         if (element[0].slug.includes(this.props.game)) {
           post = (
-            <div key={element[0].slug}>
+            <div key={element[0].slug} className="drinking-game__selected">
               <SelectedDrinkingGame siteElements={element} />
             </div>
           );

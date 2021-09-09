@@ -15,7 +15,7 @@ import CustomHead from "./../components/head/CustomHead";
 import { t, initLanguageCookie } from "./../i18n";
 
 // Import post content
-import posts_object from "./../locales/posts.json";
+import posts_object from "./../resources/posts.json";
 
 /**
  * The page contains the list of posts.

@@ -2,6 +2,11 @@ $page-background: #1a1a1a;
 
 .drinking-game {
   background-color: $page-background;
+
+  &__selected {
+    margin-bottom: 75px;
+  }
+
   &__header {
     margin-top: 50px;
     margin-bottom: 25px;
