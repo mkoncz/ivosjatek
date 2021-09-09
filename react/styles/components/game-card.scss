@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 //sizes
 $card-width: 320px;
 $card-height: 480px;
@@ -90,7 +92,7 @@ $card-spacer-unit: 4px;
     }
     &-button {
       position: absolute;
-      width: $card-width / 3;
+      width: math.div($card-width, 3);
       right: 20px;
       top: 25%;
       background-color: $card-button;
@@ -114,7 +116,7 @@ $card-spacer-unit: 4px;
 
   &__button {
     position: absolute;
-    width: $card-width / 2;
+    width: math.div($card-width, 2);
     right: 25%;
     bottom: 5%;
     background-color: $card-button;

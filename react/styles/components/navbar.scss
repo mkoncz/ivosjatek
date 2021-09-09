@@ -17,7 +17,7 @@
 
   .nav-dropdown-item,
   .nav-dropdown-item:hover {
-    background-color: #1a1a1a;
+    background-color: transparent !important;
     color: rgba(255, 255, 255, 0.5);
   }
 
@@ -31,7 +31,7 @@
   }
 
   .navbar-collapse.show {
-    background-color: #212529;
+    background-color: transparent !important;
     z-index: 2;
   }
 
