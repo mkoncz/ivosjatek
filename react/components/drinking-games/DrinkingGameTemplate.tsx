@@ -64,7 +64,7 @@ export default class DrinkingGameTemplate extends Component<
       if (element[0].type === "meta") {
         if (element[0].slug.includes(this.props.game)) {
           post = (
-            <div key={element[0].slug}>
+            <div key={element[0].slug} className="drinking-game__selected">
               <SelectedDrinkingGame siteElements={element} />
             </div>
           );
