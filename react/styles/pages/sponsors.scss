@@ -1,5 +1,6 @@
 $sponsors-spacing-unit: 5px;
-$page-background: #1a1a1a;
+$page-background: #262046;
+$page-background-mobile: transparent;
 $green-background: #415854;
 $green-shadow: #415854;
 $dark-background: #060604;
@@ -8,13 +9,17 @@ $dark-shadow: #060604;
 .sponsors {
   background-color: $page-background;
 
+  @media only screen and (max-width: 1280px) {
+    background-color: $page-background-mobile;
+  }
+
   &__header {
     height: $sponsors-spacing-unit * 64;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: $sponsors-spacing-unit * 10;
+    font-size: $sponsors-spacing-unit * 9;
   }
 
   &__cards {
@@ -36,9 +41,11 @@ $dark-shadow: #060604;
         border-radius: $sponsors-spacing-unit * 1.5;
         margin: $sponsors-spacing-unit * 3;
 
-        &--cobbler,
-        &--csillag {
+        &--cobbler {
           background-color: $dark-background;
+        }
+        &--csillag {
+          background-color: black;
         }
 
         &--viztorony {

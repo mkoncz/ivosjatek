@@ -96,6 +96,9 @@ export default class PlayerNameCard extends Component<
    * Adds player to the players state and resets the input field.
    */
   addPlayer = () => {
+    if (this.state.inputValue.length === 0) {
+      return;
+    }
     if (this.state.players.length > 9) {
       return;
     }
