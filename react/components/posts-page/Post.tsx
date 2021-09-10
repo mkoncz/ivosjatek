@@ -12,11 +12,8 @@ import CustomHead from "../../components/head/CustomHead";
 // Import post content.
 import posts_object from "../../resources/posts.json";
 
-// Import cookie handling module.
-import Cookies from "universal-cookie";
-
 // Import translate function.
-import { t, initLanguageCookie } from "../../i18n";
+import { t, initLanguageCookie, cookies } from "../../i18n";
 
 // Interfaces for props.
 interface PostProps {
@@ -29,8 +26,6 @@ interface PostProps {
  */
 const Post = (props: PostProps) => {
   initLanguageCookie();
-
-  const cookies = new Cookies();
 
   const posts = posts_object.all_posts;
 

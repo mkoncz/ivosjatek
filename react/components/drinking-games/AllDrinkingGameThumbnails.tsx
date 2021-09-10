@@ -4,11 +4,8 @@ import React, { Component } from "react";
 // Import Next modules.
 import Link from "next/link";
 
-// Import cookie handling module.
-import Cookies from "universal-cookie";
-
 // Import i18n functions.
-import { t, initLanguageCookie } from "../../i18n";
+import { t, initLanguageCookie, cookies } from "../../i18n";
 
 // Import game rules resource.
 import drinking_objects from "../../resources/drinking_games.json";
@@ -19,14 +16,13 @@ import drinking_objects from "../../resources/drinking_games.json";
 export default class AllDrinkingGameThumbnails extends Component {
   games: any[][];
   localized_games: any[][];
-  cookies = new Cookies();
 
   constructor(props) {
     super(props);
     initLanguageCookie();
     this.games = drinking_objects.all_games;
     this.localized_games = this.games.filter(
-      (game) => game[0].lang === this.cookies.get("lang")
+      (game) => game[0].lang === cookies.get("lang")
     );
   }
 

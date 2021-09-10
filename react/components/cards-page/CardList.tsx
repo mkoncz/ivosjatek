@@ -1,16 +1,13 @@
 // Import React module.
 import React from "react";
 
-// Import cookie handling module.
-import Cookies from "universal-cookie";
-
 // Import components.
 import NavBar from "../navbar/NavBar";
 import CustomHead from "../head/CustomHead";
 import CardGroupList from "./CardGroupList";
 
 // Import translate function.
-import { t, initLanguageCookie } from "../../i18n";
+import { t, initLanguageCookie, cookies } from "../../i18n";
 
 // Import question resources.
 import * as questions from "../../resources/questions.json";
@@ -26,8 +23,6 @@ interface CardListProps {
  * The cards of the selected category listed.
  */
 export default class CardList extends React.Component<CardListProps> {
-  cookies = new Cookies();
-
   constructor(props: CardListProps) {
     super(props);
     initLanguageCookie();
@@ -56,7 +51,7 @@ export default class CardList extends React.Component<CardListProps> {
                     <div key={index} className="white-card">
                       <h4>
                         {question[
-                          this.cookies.get("lang") === "hu" ? "hu" : "en"
+                          cookies.get("lang") === "hu" ? "hu" : "en"
                         ].replace("%NAME%", t("game.player").toUpperCase())}
                       </h4>
                     </div>

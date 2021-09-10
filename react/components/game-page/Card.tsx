@@ -1,16 +1,13 @@
 // Import React modules.
 import React, { Component } from "react";
 
-// Import cookie handling module.
-import Cookies from "universal-cookie";
-
 // Import CardBack component.
 import CardBack from "./CardBack";
 import PlayerNameCard from "./PlayerNameCard";
 import ConfirmCard from "./ConfirmCard";
 
 // Import translate function.
-import { t } from "../../i18n";
+import { t, cookies } from "../../i18n";
 
 // Interfaces for props and state.
 interface QuestionModel {
@@ -40,7 +37,6 @@ interface CardState {
  */
 export default class Card extends Component<CardProps, CardState> {
   mounted: boolean;
-  cookies = new Cookies();
 
   outAnimationArray = [
     "backOutRight",
@@ -125,9 +121,7 @@ export default class Card extends Component<CardProps, CardState> {
       specialCard = true;
     } else {
       // The %NAME% wildcard is replaced with a random user's name.
-      content = this.props.currentQuestionModel[
-        this.cookies.get("lang")
-      ].replace(
+      content = this.props.currentQuestionModel[cookies.get("lang")].replace(
         "%NAME%",
         this.state.name === "" ? this.getRandomName() : this.state.name
       );
