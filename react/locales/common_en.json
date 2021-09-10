@@ -38,8 +38,16 @@
     "cards.you_drink": "You drink",
     "cards.vote": "Vote",
 
+    "cookies.allow": "Cookies allowed:",
+    "cookies.delete": "Delete cookies:",
+    "cookies.lang": "Language:",
+    "cookies.no": "no",
+    "cookies.title": "Cookies",
+    "cookies.yes": "yes",
+
     "desc.cards": "All cards listed here with their localized question. The name of the player is shown as PLAYER.",
     "desc.contact": "Contains the contact details. The main communication platform is Instagram.",
+    "desc.cookies": "Contains the cookie settings. The current values are listed and they can also be deleted.",
     "desc.game": "Make the night unforgettable. This drinking game is a great tool to cheer up the party.",
     "desc.posts": "Various posts from the internet that inspired cards for this game. They are not always relevant to the drinking.",
     "desc.release_notes": "The release notes of the game come every month on this page. They are mostly new features and bugfixes.",
@@ -90,6 +98,7 @@
 
     "nav.cards": "Cards",
     "nav.contact": "Contact",
+    "nav.cookies": "Cookies",
     "nav.game_nav": "Game",
     "nav.game_title": "Online Game",
     "nav.games": "Other Games",

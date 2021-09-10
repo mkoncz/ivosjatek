@@ -9,6 +9,7 @@ import "../styles/components/post.scss";
 import "../styles/pages/404.scss";
 import "../styles/pages/cards.scss";
 import "../styles/pages/contact.scss";
+import "../styles/pages/cookies.scss";
 import "../styles/pages/game.scss";
 import "../styles/pages/games.scss";
 import "../styles/pages/menu.scss";
