@@ -25,6 +25,24 @@ a:hover {
   visibility: hidden;
 }
 
+.show-only-mobile {
+  display: none;
+}
+
+.show-only-desktop {
+  display: block;
+}
+
+@media only screen and (max-width: 1280px) {
+  .show-only-mobile {
+    display: block;
+  }
+
+  .show-only-desktop {
+    display: none;
+  }
+}
+
 .centered {
   text-align: center;
 }

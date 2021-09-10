@@ -23,14 +23,6 @@ $footer-label-font-size: 13px;
 $footer-label-move-x-start-position: 160%;
 $footer-label-move-x-end-position: -200%;
 
-.show-only-mobile {
-  display: none;
-}
-
-.show-only-desktop {
-  display: block;
-}
-
 .menu-item-container {
   text-align: center;
   display: flex;
@@ -87,14 +79,6 @@ $footer-label-move-x-end-position: -200%;
     $menu-item-color: #ffffffe1;
     $menu-item-hovered-color: #ffffffbe;
     $menu-item-border: 4px solid $menu-item-color;
-
-    .show-only-mobile {
-      display: block;
-    }
-
-    .show-only-desktop {
-      display: none;
-    }
 
     .menu-item-container__mobile-header {
       h1 {
