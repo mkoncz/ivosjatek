@@ -1767,14 +1767,14 @@
         "type": "have_you_ever_18",
         "hu": "Igyon egyet, akit fojtogattak m\u00e1r szex k\u00f6zben.",
         "en": "Drink if you have ever been choked during sex.",
-        "im": "skull.png",
+        "im": "dead.png",
         "adult": "x"
     },
     {
         "type": "have_you_ever_18",
         "hu": "Igyon egyet, aki fojtogatott m\u00e1r valakit szex k\u00f6zben.",
         "en": "Drink if you have ever choked someone during sex.",
-        "im": "skull.png",
+        "im": "dead.png",
         "adult": "x"
     },
     {
@@ -3614,7 +3614,7 @@
     {
         "type": "vote",
         "hu": "A t\u00f6bbiek pr\u00f3b\u00e1lj\u00e1k kital\u00e1lni! %NAME%: Szerinted a porn\u00f3sok ink\u00e1bb sz\u00edn\u00e9szek vagy prostitu\u00e1ltak? Aki rosszul tippel, az iszik.",
-        "en": "%NAME%: Do you think that pornstars are actors or prostitutes? The other players guess. Who is wrong, has to drink.",
+        "en": "%NAME%: If you had to choose: would you be rather bald or eat a living bug? The other players guess. Who is wrong, has to drink.",
         "im": "nude.jpg",
         "adult": "x"
     },

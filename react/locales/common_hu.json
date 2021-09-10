@@ -36,8 +36,16 @@
     "cards.you_drink": "Te iszol",
     "cards.vote": "Szavazás",
 
+    "cookies.allow": "Sütik engedélyezve:",
+    "cookies.delete": "Sütik törlése:",
+    "cookies.lang": "Nyelv:",
+    "cookies.no": "nem",
+    "cookies.title": "Sütik",
+    "cookies.yes": "igen",
+
     "desc.cards": "Minden kártya kilistázva. A kártyák fel vannak forditva és a választott nyelven megjelennek a kérdések.",
     "desc.contact": "Az oldal elérhetősegeit tartalmazza. Az Instagram a keszitő fő kommunikacios csatornája.",
+    "desc.cookies": "Az oldal süti beállításait tartalmazza. Láthatóak a lézető sütik és akár törölhetjük is őket.",
     "desc.game": "Alapozd meg az estét vagy pörgesd fel a bulit a legjobb 18+ felnőtt ivós játekokkal. Az online app garantáltan szuper lehetőseg a közös szórakozasra. Elég, ha felnőtt vagy es van nálad egy telefon, magyar kartya, francia kartya, jenga.",
     "desc.posts": "Cikkek az internet világábol, amelyek bizonyos kártyákat inspiráltak a játékhoz.",
     "desc.release_notes": "Az Ivós Játek újitasai és javításai kerülnek listázásra havi felbontasban.",
@@ -87,6 +95,7 @@
 
     "nav.cards": "Játék Kártyák",
     "nav.contact": "Kapcsolat",
+    "nav.cookies": "Sütik",
     "nav.game_nav": "Játék",
     "nav.game_title": "Kártyajáték App",
     "nav.games": "Más Ivós Játékok",

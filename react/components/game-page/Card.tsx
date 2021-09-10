@@ -174,7 +174,7 @@ export default class Card extends Component<CardProps, CardState> {
    * Moves out the read card and bounces in the new card.
    * Uses the animations of the animate.css.
    */
-  replaceCard = (newQuestion) => {
+  replaceCard = (newQuestion: boolean) => {
     if (newQuestion || newQuestion == null) {
       this.props.setNewQuestion();
     }
