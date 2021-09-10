@@ -1,7 +1,8 @@
-$page-background: #1a1a1a;
+$page-background: transparent;
 
 .post {
   background-color: $page-background;
+  color: white;
   &__header {
     margin-top: 50px;
     margin-bottom: 25px;
@@ -30,7 +31,8 @@ $page-background: #1a1a1a;
   }
 
   &__image {
-    max-width: 500px;
+    width: 50%;
+    min-width: 300px;
     display: block;
     margin: auto;
   }

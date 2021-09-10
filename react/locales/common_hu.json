@@ -52,6 +52,8 @@
     "game.age_check_v2": "Az ivosjatek.hu 18 éven felülieknek készült.",
     "game.age_check_button": "Felnőtt vagyok",
     "game.card_left": "Még %NUMBER% kártya",
+    "game.cookie_content": "A sütiket a választott nyelv elmentésére használjuk",
+    "game.cookie_ok": "Jó",
     "game.done": "Kész",
     "game.next": "Következő",
     "game.no_more_question": "Elfogytak a kérdések :(",

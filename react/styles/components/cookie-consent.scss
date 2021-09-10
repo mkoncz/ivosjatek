@@ -1,0 +1,49 @@
+//colors
+$card-button: #1a1a1a;
+$card-button-text-hover: #ebebeb;
+$light-shadow: #0000004d;
+
+//fonts
+$special-card-font: 26px;
+$button-font: 14px;
+
+//spacer
+$card-spacer-unit: 4px;
+$card-width: 320px;
+
+.cookie-consent {
+  height: 100%;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+
+  &__header {
+    margin: $card-spacer-unit * 10 0 $card-spacer-unit * 6 0;
+    font-size: $special-card-font;
+  }
+  &__subheader {
+    margin: $card-spacer-unit * 2 $card-spacer-unit * 7 $card-spacer-unit * 3;
+    font-size: $special-card-font * 0.8;
+  }
+  &__paragraph {
+    margin: $card-spacer-unit * 10 $card-spacer-unit * 10;
+    font-size: $special-card-font * 0.6;
+  }
+
+  &__button {
+    position: absolute;
+    width: $card-width / 2;
+    right: 25%;
+    bottom: 5%;
+    background-color: $card-button;
+    color: white;
+    border-radius: 0;
+    box-shadow: 2px 3px $light-shadow;
+    font-size: $button-font;
+  }
+
+  &__button:hover,
+  &__button:focus {
+    color: $card-button-text-hover;
+  }
+}

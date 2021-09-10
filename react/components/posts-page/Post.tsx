@@ -229,7 +229,7 @@ const Post = (props: PostProps) => {
       <div className="post page-frame">
         <AdultConsent />
         {getCurrentPost()}
-        <h2>{t("nav.posts")}</h2>
+        <h2 className="post__header">{t("nav.posts")}</h2>
         {getAllBlocks()}
       </div>
     </div>
