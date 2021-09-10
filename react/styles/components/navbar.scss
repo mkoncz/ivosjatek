@@ -8,6 +8,12 @@
     cursor: pointer;
   }
 
+  .navbar-brand {
+    @media only screen and (max-width: 1280px) {
+      display: none;
+    }
+  }
+
   .nav-dropdown {
     color: rgba(255, 255, 255, 0.5);
     border: 0;

@@ -24,7 +24,7 @@ export default class Menu extends Component {
     return (
       <div>
         <CustomHead
-          title={t("nav.home")}
+          title={t("nav.long_title")}
           desc={t("desc.game")}
           url={"https://ivosjatek.hu"}
         />
