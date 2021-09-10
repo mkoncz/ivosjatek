@@ -153,7 +153,7 @@ export default class Card extends Component<CardProps, CardState> {
               className={`c-game-card__button btn btn-lg ${
                 specialCard ? "hidden" : ""
               }`}
-              onClick={this.replaceCard}
+              onClick={() => this.replaceCard(true)}
             >
               {t("game.next")}
             </button>
