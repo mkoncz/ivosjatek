@@ -26,19 +26,19 @@ const CardBack = (props: CardBackProps) => {
 
   const getRandomNeonColor = (logo) => {
     const colors = [
-      "#7DFDFE",
-      "#FFF",
-      "#dfff11",
-      "#66ff00",
-      "#ff08e8",
-      "#fe01b1",
-      "#be03fd",
-      "#ffcf09",
       "#0ff0fc",
       "#6600ff",
       "#ccff00",
       "#55ffff",
+      "#ff08e8",
       "#ff0055",
+      "#7DFDFE",
+      "#FFF",
+      "#dfff11",
+      "#66ff00",
+      "#fe01b1",
+      "#be03fd",
+      "#ffcf09",
     ];
     // Get random color based on the logo name.
     let hash = 0;
@@ -57,7 +57,11 @@ const CardBack = (props: CardBackProps) => {
       className="c-game-card__back"
       style={{ backgroundColor: getRandomNeonColor(props.logo) }}
     >
-      <img src={getImageResource(props.logo)} alt={t("image_alt.hungarian")} className="c-game-card__logo" />
+      <img
+        src={getImageResource(props.logo)}
+        alt={t("image_alt.hungarian")}
+        className="c-game-card__logo"
+      />
     </div>
   );
 };

@@ -1,6 +1,7 @@
 /* override some bootstrap dark theme styles*/
 #bootstrap-navbar {
   background-color: transparent !important;
+
   .lang-logo {
     height: 1.2rem;
     margin-left: 8px;
@@ -14,21 +15,33 @@
     }
   }
 
+  .nav-link {
+    color: #ffffffd6;
+  }
+
+  .nav-link:hover {
+    color: #ffffff9a;
+  }
+
   .nav-dropdown {
-    color: rgba(255, 255, 255, 0.5);
+    color: #ffffffd6;
     border: 0;
     padding-top: 7px;
     background-color: transparent !important;
   }
 
+  .nav-dropdown:hover {
+    color: #ffffff9a;
+  }
+
   .nav-dropdown-item,
   .nav-dropdown-item:hover {
     background-color: transparent !important;
-    color: rgba(255, 255, 255, 0.5);
+    color: #ffffffd6;
   }
 
   .nav-dropdown-item:hover {
-    color: rgba(255, 255, 255, 0.8);
+    color: #ffffff9a;
   }
 
   .navbar-brand {
@@ -42,7 +55,8 @@
   }
 
   .navbar-toggler {
-    border-color: rgba(0, 0, 0, 0);
+    border-color: transparent;
+    color: #ffffffd6 !important;
   }
 
   .navbar-toggler:focus {
