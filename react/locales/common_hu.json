@@ -54,6 +54,7 @@
     "game.card_left": "Még %NUMBER% kártya",
     "game.cookie_content": "A sütiket a választott nyelv elmentésére használjuk",
     "game.cookie_ok": "Jó",
+    "game.cookie_title": "Engedélyezed a sütiket?",
     "game.done": "Kész",
     "game.next": "Következő",
     "game.no_more_question": "Elfogytak a kérdések :(",
