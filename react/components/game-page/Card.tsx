@@ -110,7 +110,7 @@ export default class Card extends Component<CardProps, CardState> {
     let content;
 
     // Set default logo.
-    var logo = "new_logo.png";
+    var logo = "wine.png";
 
     // If the game does not asked about age, it creates an "age check card".
     if (null == sessionStorage.getItem("isAdult")) {

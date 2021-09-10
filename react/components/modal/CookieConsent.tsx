@@ -81,7 +81,7 @@ export class CookieConsent extends Component<{}, ConsentState> {
   handleButtonClick = () => {
     this.setModalAnimation("animate__backOutRight");
     setTimeout(() => {
-      this.cookies.set("allowCookies", "true");
+      this.cookies.set("allowCookies", "true", { path: "/", secure: true });
       this.setIsOpen(false);
     }, 500);
   };
@@ -99,7 +99,7 @@ export class CookieConsent extends Component<{}, ConsentState> {
         <div
           className={`cookie-consent animate__animated ${this.state.modalAnimation}`}
         >
-          <h1 className="cookie-consent__header">Engedélyezed a sütiket?</h1>
+          <h1 className="cookie-consent__header">{t("game.cookie_title")}</h1>
           <img src="/img/card_backs/cupcake.png" height="100" alt="cookie" />
           <p className="cookie-consent__paragraph">
             {t("game.cookie_content")}
@@ -108,7 +108,7 @@ export class CookieConsent extends Component<{}, ConsentState> {
             className="cookie-consent__button btn btn-lg"
             onClick={this.handleButtonClick}
           >
-            Jó
+            {t("game.cookie_ok")}
           </button>
         </div>
       </Modal>
