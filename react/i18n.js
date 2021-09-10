@@ -4,7 +4,7 @@ import common_en from "./locales/common_en.json";
 // Import cookie handling module.
 import Cookies from "universal-cookie";
 
-var cookies = new Cookies();
+export const cookies = new Cookies();
 
 var lang = null != cookies.get("lang") ? cookies.get("lang") : "hu";
 

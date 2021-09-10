@@ -1,9 +1,6 @@
 // Import React module.
 import React, { Component } from "react";
 
-// Import cookie handling module.
-import Cookies from "universal-cookie";
-
 // Import components.
 import NavBar from "../navbar/NavBar";
 import SelectedDrinkingGame from "./SelectedDrinkingGame";
@@ -11,7 +8,7 @@ import AllDrinkingGameThumbnails from "./AllDrinkingGameThumbnails";
 import AdultConsent from "../../components/modal/AdultConsent";
 
 // Import i18n functions.
-import { t, initLanguageCookie } from "../../i18n";
+import { cookies, initLanguageCookie } from "../../i18n";
 
 // Import game rules resource.
 import game_objects from "../../resources/drinking_games.json";
@@ -41,14 +38,13 @@ export default class DrinkingGameTemplate extends Component<
 > {
   games: any[][];
   localized_games: any[][];
-  cookies = new Cookies();
 
   constructor(props) {
     super(props);
     initLanguageCookie();
     this.games = game_objects.all_games;
     this.localized_games = this.games.filter(
-      (game) => game[0].lang === this.cookies.get("lang")
+      (game) => game[0].lang === cookies.get("lang")
     );
   }
 
@@ -57,7 +53,7 @@ export default class DrinkingGameTemplate extends Component<
     let post = null;
     this.games.forEach((element: SiteElementModel[]) => {
       // Do not render game if an other language is selected.
-      if (this.cookies.get("lang") !== element[0].lang) {
+      if (cookies.get("lang") !== element[0].lang) {
         return "";
       }
       // Create component for the current game.

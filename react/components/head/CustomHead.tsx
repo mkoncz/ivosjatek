@@ -2,11 +2,8 @@
 import React from "react";
 import Head from "next/head";
 
-// Import cookie handling module.
-import Cookies from "universal-cookie";
-
 // Import translate function.
-import { t } from "../../i18n";
+import { t, cookies } from "../../i18n";
 
 // Interface for props.
 interface CustomHeadProps {
@@ -22,7 +19,6 @@ interface CustomHeadProps {
  * Component for custom head element.
  */
 const CustomHead = (props: CustomHeadProps) => {
-  let cookies = new Cookies();
   let lang = cookies.get("lang") === "en" ? "en_US" : "hu_HU";
 
   let imgPath =

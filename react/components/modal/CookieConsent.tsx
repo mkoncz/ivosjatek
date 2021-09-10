@@ -2,11 +2,8 @@
 import React, { Component } from "react";
 import Modal from "react-modal";
 
-// Import cookie handling module.
-import Cookies from "universal-cookie";
-
 // Import translate function.
-import { t } from "../../i18n";
+import { t, cookies } from "../../i18n";
 
 // Interfaces for props.
 interface ConsentState {
@@ -18,8 +15,6 @@ interface ConsentState {
  * Popup component for cookie consent.
  */
 export class CookieConsent extends Component<{}, ConsentState> {
-  cookies = new Cookies();
-
   constructor(props) {
     super(props);
     this.state = {
@@ -29,7 +24,7 @@ export class CookieConsent extends Component<{}, ConsentState> {
   }
 
   componentDidMount() {
-    const alreadyAccepted = this.cookies.get("allowCookies") === "true";
+    const alreadyAccepted = cookies.get("allowCookies") === "true";
     this.setState({
       modalIsOpen: !alreadyAccepted,
     });
@@ -81,7 +76,7 @@ export class CookieConsent extends Component<{}, ConsentState> {
   handleButtonClick = () => {
     this.setModalAnimation("animate__backOutRight");
     setTimeout(() => {
-      this.cookies.set("allowCookies", "true", { path: "/", secure: true });
+      cookies.set("allowCookies", "true", { path: "/", secure: true });
       this.setIsOpen(false);
     }, 500);
   };
