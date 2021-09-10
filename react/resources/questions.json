@@ -2621,7 +2621,7 @@
         "type": "tell_a",
         "hu": "Mindenki mond egy szerepl\u0151t a Star Warsb\u00f3l. %NAME% kezd, \u00e9s addig mennek a k\u00f6r\u00f6k, am\u00edg valaki m\u00e1r nem tud mondani. \u0150 iszik.",
         "en": "For all players: Tell a character from the Star Wars one after another until one of you can't, they drink. %NAME% is the first.",
-        "im": "star_wars.png",
+        "im": "spaceship.png",
         "adult": ""
     },
     {
