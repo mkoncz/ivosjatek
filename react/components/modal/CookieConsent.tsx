@@ -2,8 +2,11 @@
 import React, { Component } from "react";
 import Modal from "react-modal";
 
+// Import cookie handling module.
+import Cookies from "universal-cookie";
+
 // Import translate function.
-import { t, initLanguageCookie } from "../../i18n";
+import { t } from "../../i18n";
 
 // Interfaces for props.
 interface ConsentState {
@@ -12,12 +15,13 @@ interface ConsentState {
 }
 
 /**
- * Popup component for adult consent.
+ * Popup component for cookie consent.
  */
-export class AdultConsent extends Component<{}, ConsentState> {
+export class CookieConsent extends Component<{}, ConsentState> {
+  cookies = new Cookies();
+
   constructor(props) {
     super(props);
-    initLanguageCookie();
     this.state = {
       modalIsOpen: true,
       modalAnimation: "animate__backInLeft",
@@ -25,7 +29,7 @@ export class AdultConsent extends Component<{}, ConsentState> {
   }
 
   componentDidMount() {
-    const alreadyAccepted = sessionStorage.getItem("isAdult") === "true";
+    const alreadyAccepted = this.cookies.get("allowCookies") === true;
     this.setState({
       modalIsOpen: !alreadyAccepted,
     });
@@ -90,19 +94,21 @@ export class AdultConsent extends Component<{}, ConsentState> {
           this.setIsOpen(false);
         }}
         style={this.getModalConfig()}
-        contentLabel="18 éves"
+        contentLabel="Sütik"
       >
         <div
-          className={`adult-consent animate__animated ${this.state.modalAnimation}`}
+          className={`cookie-consent animate__animated ${this.state.modalAnimation}`}
         >
-          <h1 className="adult-consent__header">18+</h1>
-          <h5 className="adult-consent__subheader">{t("game.age_check_1")}</h5>
-          <p className="adult-consent__paragraph">{t("game.age_check_2")}</p>
+          <h1 className="cookie-consent__header">Engedélyezed a sütiket?</h1>
+          <img src="img/card_backs/cupcake.png" height="100" alt="cookie" />
+          <p className="cookie-consent__paragraph">
+            {t("game.cookie_content")}
+          </p>
           <button
-            className="adult-consent__button btn btn-lg"
+            className="cookie-consent__button btn btn-lg"
             onClick={this.handleButtonClick}
           >
-            {t("game.age_check_button")}
+            Jó
           </button>
         </div>
       </Modal>
@@ -111,4 +117,4 @@ export class AdultConsent extends Component<{}, ConsentState> {
 }
 
 // Export component.
-export default AdultConsent;
+export default CookieConsent;

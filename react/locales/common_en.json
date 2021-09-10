@@ -54,6 +54,8 @@
     "game.age_check_v2": "The page is made for adults.",
     "game.age_check_button": "I'm an adult",
     "game.card_left": "%NUMBER% cards left",
+    "game.cookie_content": "We use cookies to store the selected language.",
+    "game.cookie_ok": "Accept",
     "game.done": "Done",
     "game.next": "Next",
     "game.no_more_question": "No more questions :(",
@@ -87,7 +89,7 @@
 
     "nav.cards": "Cards",
     "nav.contact": "Contact",
-    "nav.game_nav": "Online Game",
+    "nav.game_nav": "Game",
     "nav.game_title": "Online Game",
     "nav.games": "Other Games",
     "nav.home": "Home",

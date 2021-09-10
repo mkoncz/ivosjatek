@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/globals.scss";
 import "../styles/components/adult-consent.scss";
+import "../styles/components/cookie-consent.scss";
 import "../styles/components/drinking-game.scss";
 import "../styles/components/game-card.scss";
 import "../styles/components/navbar.scss";

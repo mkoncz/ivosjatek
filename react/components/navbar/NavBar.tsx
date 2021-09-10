@@ -21,6 +21,7 @@ import LanguageBox from "./LanguageBox";
 
 // Import translate function.
 import { t } from "../../i18n";
+import CookieConsent from "../modal/CookieConsent";
 
 /**
  * Navition bar.
@@ -36,6 +37,7 @@ const NavBar = () => {
 
   return (
     <Navbar id="bootstrap-navbar" color="dark" dark expand="md">
+      <CookieConsent />
       <NavbarBrand href="/">{t("nav.title")}</NavbarBrand>
       <NavbarToggler onClick={toggleHamburger} />
       <Collapse isOpen={isNavbarOpen} navbar>
