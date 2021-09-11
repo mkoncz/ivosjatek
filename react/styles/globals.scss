@@ -3,7 +3,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "ZIG";
-  background-image: url("/img/retro.png");
+  background-image: url("/img/menu_page/retro.png");
   background-size: cover;
   color: #ffffffd6;
 }
@@ -78,6 +78,6 @@ a:hover {
 @media only screen and (max-width: 1280px) {
   html,
   body {
-    background-image: url("/img/snow.png");
+    background-image: url("/img/menu_page/snow.png");
   }
 }
