@@ -118,7 +118,7 @@ const NavBar = () => {
               </DropdownItem>
               <DropdownItem className="nav-dropdown-item">
                 <NavItem>
-                  <NavLink href="/cookies" onClick={closeHamburger}>
+                  <NavLink href="/cookies/" onClick={closeHamburger}>
                     {t("nav.cookies")}
                   </NavLink>
                 </NavItem>
