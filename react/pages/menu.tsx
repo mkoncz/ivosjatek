@@ -29,21 +29,71 @@ export default class Menu extends Component {
           url={"https://ivosjatek.hu"}
         />
         <div className="snowflakes" aria-hidden="true">
-          <img src="/img/menu_page/snowflake1.png" className="snowflake" />
-          <img src="/img/menu_page/snowflake1.png" className="snowflake" />
-          <img src="/img/menu_page/snowflake1.png" className="snowflake" />
-          <img src="/img/menu_page/snowflake1.png" className="snowflake" />
-          <img src="/img/menu_page/snowflake1.png" className="snowflake" />
-          <img src="/img/menu_page/snowflake1.png" className="snowflake" />
-          <img src="/img/menu_page/snowflake1.png" className="snowflake" />
-          <img src="/img/menu_page/snowflake2.png" className="snowflake" />
-          <img src="/img/menu_page/snowflake2.png" className="snowflake" />
-          <img src="/img/menu_page/snowflake2.png" className="snowflake" />
-          <img src="/img/menu_page/snowflake2.png" className="snowflake" />
-          <img src="/img/menu_page/snowflake2.png" className="snowflake" />
-          <img src="/img/menu_page/snowflake2.png" className="snowflake" />
-          <img src="/img/menu_page/snowflake2.png" className="snowflake" />
-          <img src="/img/menu_page/snowflake2.png" className="snowflake" />
+          <img
+            src="/img/menu_page/snowflake1.png"
+            className="snowflake"
+            alt="snowflake"
+          />
+          <img
+            src="/img/menu_page/snowflake1.png"
+            className="snowflake"
+            alt="snowflake"
+          />
+          <img
+            src="/img/menu_page/snowflake1.png"
+            className="snowflake"
+            alt="snowflake"
+          />
+          <img
+            src="/img/menu_page/snowflake1.png"
+            className="snowflake"
+            alt="snowflake"
+          />
+          <img
+            src="/img/menu_page/snowflake1.png"
+            className="snowflake"
+            alt="snowflake"
+          />
+          <img
+            src="/img/menu_page/snowflake2.png"
+            className="snowflake"
+            alt="snowflake"
+          />
+          <img
+            src="/img/menu_page/snowflake2.png"
+            className="snowflake"
+            alt="snowflake"
+          />
+          <img
+            src="/img/menu_page/snowflake2.png"
+            className="snowflake"
+            alt="snowflake"
+          />
+          <img
+            src="/img/menu_page/snowflake2.png"
+            className="snowflake"
+            alt="snowflake"
+          />
+          <img
+            src="/img/menu_page/snowflake2.png"
+            className="snowflake"
+            alt="snowflake"
+          />
+          <img
+            src="/img/menu_page/snowflake2.png"
+            className="snowflake"
+            alt="snowflake"
+          />
+          <img
+            src="/img/menu_page/snowflake2.png"
+            className="snowflake"
+            alt="snowflake"
+          />
+          <img
+            src="/img/menu_page/snowflake2.png"
+            className="snowflake"
+            alt="snowflake"
+          />
         </div>
         <NavBar />
         <div className="page-frame">

@@ -90,6 +90,7 @@ export class CookieConsent extends Component<{}, ConsentState> {
         }}
         style={this.getModalConfig()}
         contentLabel="Sütik"
+        ariaHideApp={false}
       >
         <div
           className={`cookie-consent animate__animated ${this.state.modalAnimation}`}
