@@ -91,6 +91,7 @@ export class AdultConsent extends Component<{}, ConsentState> {
         }}
         style={this.getModalConfig()}
         contentLabel="18 éves"
+        ariaHideApp={false}
       >
         <div
           className={`adult-consent animate__animated ${this.state.modalAnimation}`}
