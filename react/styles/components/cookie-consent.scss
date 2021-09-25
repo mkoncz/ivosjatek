@@ -1,3 +1,5 @@
+@use "sass:math";
+
 //colors
 $card-button: #1a1a1a;
 $card-button-text-hover: #ebebeb;
@@ -32,7 +34,7 @@ $card-width: 320px;
 
   &__button {
     position: absolute;
-    width: $card-width / 2;
+    width: math.div($card-width, 2);
     right: 25%;
     bottom: 5%;
     background-color: $card-button;
