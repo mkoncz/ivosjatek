@@ -25,8 +25,8 @@ export default class CardGroupList extends React.Component {
             return (
               <Link href={card.link} key={card.link}>
                 <a>
-                  <div className="white-card">
-                    <h4>
+                  <div className="cards-block__white-card ">
+                    <h4 className="cards-block__white-card-header">
                       &quot;{t(`cards.${card.name}`)}&quot; {t("cards.cards")}
                     </h4>
                   </div>

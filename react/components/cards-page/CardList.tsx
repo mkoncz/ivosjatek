@@ -48,8 +48,8 @@ export default class CardList extends React.Component<CardListProps> {
               <div className="cards-block__cards-container">
                 {filteredList.map((question, index) => {
                   return (
-                    <div key={index} className="white-card">
-                      <h4>
+                    <div key={index} className="cards-block__white-card ">
+                      <h4 className="cards-block__white-card-header">
                         {question[
                           cookies.get("lang") === "hu" ? "hu" : "en"
                         ].replace("%NAME%", t("game.player").toUpperCase())}

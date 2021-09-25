@@ -18,7 +18,7 @@ $white-card-title-font-size: 22px;
     display: flex;
     flex-wrap: wrap;
 
-    .white-card {
+    .cards-block__white-card {
       text-align: center;
       background-color: $white-card-bg;
       color: $white-card-color;
@@ -30,7 +30,7 @@ $white-card-title-font-size: 22px;
       width: $white-card-width;
       height: $white-card-height;
 
-      h4 {
+      &-header {
         font-size: $white-card-title-font-size;
       }
     }
