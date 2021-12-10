@@ -41,7 +41,8 @@ $dark-shadow: #060604;
         border-radius: $sponsors-spacing-unit * 1.5;
         margin: $sponsors-spacing-unit * 3;
 
-        &--cobbler {
+        &--cobbler,
+        &--poloid {
           background-color: $dark-background;
         }
         &--csillag {

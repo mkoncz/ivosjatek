@@ -128,6 +128,21 @@ export default class Sponsors extends Component {
                   </div>
                 </a>
               </Link>
+              <Link href="https:/poloid.hu">
+                <a
+                  className="sponsors__card_container"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="sponsors__card sponsors__card--cobbler">
+                    <img
+                      className="sponsors__card_image"
+                      src="/img/card_backs/poloid.png"
+                      alt=""
+                    />
+                  </div>
+                </a>
+              </Link>
             </Row>
           </div>
         </Container>
