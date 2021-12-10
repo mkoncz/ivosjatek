@@ -128,7 +128,7 @@ export default class Sponsors extends Component {
                   </div>
                 </a>
               </Link>
-              <Link href="https:/poloid.hu">
+              <Link href="https://poloid.hu">
                 <a
                   className="sponsors__card_container"
                   target="_blank"
