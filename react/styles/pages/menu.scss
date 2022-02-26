@@ -1,16 +1,15 @@
 @use 'sass:math';
 
-$menu-item-bg-color: #ac40a1;
-$menu-item-color: #ffffff8c;
-$menu-item-hovered-color: #ffffffb9;
+$menu-item-bg-color: #ff0077;
+$menu-item-color: #ffffffe1;
+$menu-item-hovered-color: #ffffffbe;
 $menu-item-font-size: 18px;
-$menu-item-width: 400px;
+$menu-item-width: 40%;
 $menu-item-width-tablet: 50%;
 $menu-item-width-mobile: 80%;
-$menu-item-width: 400px;
 $menu-item-height: 40px;
 $menu-item-border: 5px solid $menu-item-color;
-$menu-item-left-position: 10px;
+$menu-item-left-position: 30%;
 $menu-item-left-position-tablet: 25%;
 $menu-item-left-position-mobile: 10%;
 $menu-item-position-spacer: 60px;
@@ -29,6 +28,13 @@ $footer-label-move-x-end-position: -200%;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+  &__wine {
+    height: 200px;
+    height: calc(65vh - 250px);
+    padding-top: calc(3vh - 10px);
+    padding-bottom: calc(6vh - 10px);
+  }
 
   &__menu-item {
     position: absolute;
@@ -75,9 +81,6 @@ $footer-label-move-x-end-position: -200%;
 
   @media only screen and (max-width: 1280px) {
     $header-color: #ff0077;
-    $menu-item-bg-color: #ff0077;
-    $menu-item-color: #ffffffe1;
-    $menu-item-hovered-color: #ffffffbe;
     $menu-item-border: 4px solid $menu-item-color;
 
     .menu-item-container__mobile-header {

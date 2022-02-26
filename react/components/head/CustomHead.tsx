@@ -1,6 +1,7 @@
 // Import React and Next.js modules.
 import React from "react";
 import Head from "next/head";
+import Script from 'next/script'
 
 // Import translate function.
 import { t, cookies } from "../../i18n";
@@ -72,11 +73,11 @@ const CustomHead = (props: CustomHeadProps) => {
       />
 
       {props.hasInstagram ? (
-        <script
+        <Script
           async
           src="//embed.redditmedia.com/widgets/platform.js"
           charSet="UTF-8"
-        ></script>
+        ></Script>
       ) : null}
       {props.hasReddit ? (
         <script async src="//www.instagram.com/embed.js"></script>

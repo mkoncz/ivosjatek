@@ -104,7 +104,7 @@ export default class Menu extends Component {
               <h3>{t("menu.header_3")}</h3>
             </div>
             <div className="show-only-mobile">
-              <img src="/img/card_backs/wine.png" height="200" alt="bor" />
+              <img src="/img/card_backs/wine.png" className="menu-item-container__wine" height="200" alt="bor" />
             </div>
             <Link href="/game">
               <a className="menu-item-container__menu-item menu-item-container__menu-item--1">
